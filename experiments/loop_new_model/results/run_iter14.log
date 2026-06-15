@@ -1,0 +1,28 @@
+Loading CRC cohorts ...
+  X=(1644, 935)  classes=['CRC', 'adenoma', 'carcinoma_surgery_history', 'control']  studies=11
+
+== capda-vae-multiview ==
+  FengQ_2015         bacc=0.4957 f1=0.4283
+/home/rvalenciaaz/.local/share/mamba/envs/biomevae/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  VogtmannE_2016     bacc=0.6538 f1=0.4444
+  ZellerG_2014       bacc=0.4999 f1=0.4224
+  YuJ_2015           bacc=0.7833 f1=0.7786
+/home/rvalenciaaz/.local/share/mamba/envs/biomevae/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  WirbelJ_2018       bacc=0.7551 f1=0.5150
+  YachidaS_2019      bacc=0.3495 f1=0.3148
+  ThomasAM_2018a     bacc=0.4890 f1=0.3894
+/home/rvalenciaaz/.local/share/mamba/envs/biomevae/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  ThomasAM_2018b     bacc=0.6607 f1=0.4340
+  ThomasAM_2019_c    bacc=1.0000 f1=1.0000
+  HanniganGD_2017    bacc=0.3466 f1=0.2292
+  GuptaA_2019        bacc=0.8333 f1=0.8333
+  capda-vae-multiview MEAN bacc=0.6243 f1=0.5263
+
+==== SUMMARY ====
+                    balanced_accuracy                      f1_macro                    
+                                 mean    median       std      mean    median       std
+model                                                                                  
+capda-vae-multiview          0.624269  0.653846  0.207945  0.526321  0.433984  0.238705

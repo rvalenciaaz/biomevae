@@ -1,0 +1,59 @@
+sample_id	study_name	subject_id	body_site	disease	age	age_category	sex	country	non_westernized	sequencing_platform	dna_extraction_kit	pmid	number_reads	number_bases	minimum_read_length	median_read_length	NCBI_accession	curator	bmi	location
+HCO02	Obregon-TitoAJ_2015	HCO02	stool	control	9	child	female	PER	yes	IlluminaHiSeq	MoBio	25807110	6433868	825648476	18	151	SRR1761722;SRR1761664	Paolo_Manghi	14.05	Tunapuco
+HCO07	Obregon-TitoAJ_2015	HCO07	stool	control	3	child	female	PER	yes	IlluminaHiSeq	MoBio	25807110	11636403	1445862567	18	151	SRR1761723;SRR1761665	Paolo_Manghi	19.67	Tunapuco
+HCO09	Obregon-TitoAJ_2015	HCO09	stool	control	13	schoolage		PER	yes	IlluminaHiSeq	MoBio	25807110	10896763	1435283725	17	151	SRR1761666;SRR1761724	Paolo_Manghi	18.77	Tunapuco
+HCO11	Obregon-TitoAJ_2015	HCO11	stool	control	36	adult	male	PER	yes	IlluminaHiSeq	MoBio	25807110	10624426	1344126902	19	151	SRR1761667;SRR1761725	Paolo_Manghi	23.05	Tunapuco
+HCO12	Obregon-TitoAJ_2015	HCO12	stool	control	35	adult	female	PER	yes	IlluminaHiSeq	MoBio	25807110	10022998	1233129724	19	151	SRR1761668;SRR1761726	Paolo_Manghi	27.01	Tunapuco
+HCO53	Obregon-TitoAJ_2015	HCO53	stool	control	44	adult	female	PER	yes	IlluminaHiSeq	MoBio	25807110	8800389	1081842592	18	151	SRR1761669;SRR1761727	Paolo_Manghi	29.52	Tunapuco
+HCO61	Obregon-TitoAJ_2015	HCO61	stool	control	20	adult	female	PER	yes	IlluminaHiSeq	MoBio	25807110	12979000	1588810371	17	151	SRR1761670;SRR1761728	Paolo_Manghi		Tunapuco
+HCO64	Obregon-TitoAJ_2015	HCO64	stool	control		adult	female	PER	yes	IlluminaHiSeq	MoBio	25807110	14039987	1821700162	18	151	SRR1761729;SRR1761671	Paolo_Manghi		Tunapuco
+HCO67	Obregon-TitoAJ_2015	HCO67	stool	control	26	adult	female	PER	yes	IlluminaHiSeq	MoBio	25807110	12032442	1508164591	16	151	SRR1761730;SRR1761672	Paolo_Manghi	19.53	Tunapuco
+HCO70	Obregon-TitoAJ_2015	HCO70	stool	control	40	adult	female	PER	yes	IlluminaHiSeq	MoBio	25807110	14155690	1825823931	17	151	SRR1761731;SRR1761673	Paolo_Manghi		Tunapuco
+HCO72	Obregon-TitoAJ_2015	HCO72	stool	control	5	child	female	PER	yes	IlluminaHiSeq	MoBio	25807110	10208875	1312087253	18	151	SRR1761732;SRR1761674	Paolo_Manghi	20.36	Tunapuco
+HCO74	Obregon-TitoAJ_2015	HCO74	stool	control	36	adult	female	PER	yes	IlluminaHiSeq	MoBio	25807110	12611456	1619327994	18	151	SRR1761733;SRR1761675	Paolo_Manghi	31.53	Tunapuco
+NO01	Obregon-TitoAJ_2015	NO01	stool	control	23	adult	male	USA	no	IlluminaHiSeq	MoBio	25807110	43208797	3908265233	19	100	SRR1761734;SRR1761676	Paolo_Manghi	21.69	Norman
+NO02	Obregon-TitoAJ_2015	NO02	stool	control	37	adult	female	USA	no	IlluminaHiSeq	MoBio	25807110	54064844	4921570819	19	100	SRR1761735;SRR1761677	Paolo_Manghi	20.52	Norman
+NO03	Obregon-TitoAJ_2015	NO03	stool	control	40	adult	male	USA	no	IlluminaHiSeq	MoBio	25807110	55922593	5067892764	17	100	SRR1761736;SRR1761678	Paolo_Manghi	23.37	Norman
+NO04	Obregon-TitoAJ_2015	NO04	stool	control	26	adult	male	USA	no	IlluminaHiSeq	MoBio	25807110	49777115	4482204496	17	100	SRR1761737;SRR1761679	Paolo_Manghi	24.16	Norman
+NO05	Obregon-TitoAJ_2015	NO05	stool	control	28	adult	male	USA	no	IlluminaHiSeq	MoBio	25807110	50457217	4574276294	19	100	SRR1761738;SRR1761680	Paolo_Manghi	22.19	Norman
+NO06	Obregon-TitoAJ_2015	NO06	stool	control	28	adult	male	USA	no	IlluminaHiSeq	MoBio	25807110	41109496	3724573398	16	100	SRR1761739;SRR1761681	Paolo_Manghi	23.49	Norman
+NO08	Obregon-TitoAJ_2015	NO08	stool	control	32	adult	female	USA	no	IlluminaHiSeq	MoBio	25807110	44245994	4083515094	16	100	SRR1761740;SRR1761682	Paolo_Manghi	20.01	Norman
+NO09	Obregon-TitoAJ_2015	NO09	stool	control	34	adult	female	USA	no	IlluminaHiSeq	MoBio	25807110	38878150	3574392795	18	100	SRR1761741;SRR1761683	Paolo_Manghi	23.77	Norman
+NO10	Obregon-TitoAJ_2015	NO10	stool	control	41	adult	male	USA	no	IlluminaHiSeq	MoBio	25807110	48465510	4522083359	19	100	SRR1761742;SRR1761684	Paolo_Manghi	26.58	Norman
+NO11	Obregon-TitoAJ_2015	NO11	stool	control	26	adult	male	USA	no	IlluminaHiSeq	MoBio	25807110	51692458	4778704879	17	100	SRR1761743;SRR1761685	Paolo_Manghi	23.93	Norman
+NO12	Obregon-TitoAJ_2015	NO12	stool	control	27	adult	female	USA	no	IlluminaHiSeq	MoBio	25807110	50227332	4667112256	18	100	SRR1761744;SRR1761686	Paolo_Manghi	28.62	Norman
+NO13	Obregon-TitoAJ_2015	NO13	stool	control	35	adult	male	USA	no	IlluminaHiSeq	MoBio	25807110	45863690	4267372613	21	100	SRR1761745;SRR1761687	Paolo_Manghi	20.34	Norman
+NO14	Obregon-TitoAJ_2015	NO14	stool	control	10	child	female	USA	no	IlluminaHiSeq	MoBio	25807110	48048030	4384252144	17	100	SRR1761746;SRR1761688	Paolo_Manghi	14.97	Norman
+NO15	Obregon-TitoAJ_2015	NO15	stool	control	50	adult	female	USA	no	IlluminaHiSeq	MoBio	25807110	42684316	3834840480	17	100	SRR1761747;SRR1761689	Paolo_Manghi	25.92	Norman
+NO16	Obregon-TitoAJ_2015	NO16	stool	control	47	adult	male	USA	no	IlluminaHiSeq	MoBio	25807110	58836275	5356075030	19	100	SRR1761748;SRR1761690	Paolo_Manghi	30.86	Norman
+NO17	Obregon-TitoAJ_2015	NO17	stool	control	10	child	male	USA	no	IlluminaHiSeq	MoBio	25807110	44414500	4097128307	20	100	SRR1761749;SRR1761691	Paolo_Manghi	21.53	Norman
+NO18	Obregon-TitoAJ_2015	NO18	stool	control	7	child	male	USA	no	IlluminaHiSeq	MoBio	25807110	50877271	4645192527	17	100	SRR1761750;SRR1761692	Paolo_Manghi	17.31	Norman
+NO19	Obregon-TitoAJ_2015	NO19	stool	control	32	adult	female	USA	no	IlluminaHiSeq	MoBio	25807110	47895942	4353398258	16	100	SRR1761751;SRR1761693	Paolo_Manghi	19.3	Norman
+NO20	Obregon-TitoAJ_2015	NO20	stool	control	26	adult	male	USA	no	IlluminaHiSeq	MoBio	25807110	47178143	4358114484	19	100	SRR1761752;SRR1761694	Paolo_Manghi	27.86	Norman
+NO21	Obregon-TitoAJ_2015	NO21	stool	control	23	adult	male	USA	no	IlluminaHiSeq	MoBio	25807110	45653832	4172941165	19	100	SRR1761753;SRR1761695	Paolo_Manghi	24.78	Norman
+NO22	Obregon-TitoAJ_2015	NO22	stool	control	26	adult	male	USA	no	IlluminaHiSeq	MoBio	25807110	50921293	4655904224	18	100	SRR1761754;SRR1761696	Paolo_Manghi	30.22	Norman
+NO23	Obregon-TitoAJ_2015	NO23	stool	control	26	adult	female	USA	no	IlluminaHiSeq	MoBio	25807110	55445472	5027390738	18	100	SRR1761755;SRR1761697	Paolo_Manghi	26.53	Norman
+SM01	Obregon-TitoAJ_2015	SM01	stool	control	30	adult	male	PER	yes	IlluminaHiSeq	MoBio	25807110	75086391	5256360067	18	76	SRR1761756;SRR1761698	Paolo_Manghi		Matses
+SM02	Obregon-TitoAJ_2015	SM02	stool	control	25	adult	female	PER	yes	IlluminaHiSeq	MoBio	25807110	94769160	6740178476	18	76	SRR1761757;SRR1761699	Paolo_Manghi	23.95	Matses
+SM03	Obregon-TitoAJ_2015	SM03	stool	control	10	child	male	PER	yes	IlluminaHiSeq	MoBio	25807110	46931044	3305000107	19	76	SRR1761758;SRR1761700	Paolo_Manghi	15.77	Matses
+SM05	Obregon-TitoAJ_2015	SM05	stool	control	1	child	male	PER	yes	IlluminaHiSeq	MoBio	25807110	48969517	3429594437	17	76	SRR1761759;SRR1761701	Paolo_Manghi		Matses
+SM11	Obregon-TitoAJ_2015	SM11	stool	control	4	child	female	PER	yes	IlluminaHiSeq	MoBio	25807110	68119911	4791821486	19	76	SRR1761760;SRR1761702	Paolo_Manghi	15.78	Matses
+SM18	Obregon-TitoAJ_2015	SM18	stool	control	36	adult	female	PER	yes	IlluminaHiSeq	MoBio	25807110	65699743	4631522953	20	76	SRR1761761;SRR1761703	Paolo_Manghi	26.44	Matses
+SM20	Obregon-TitoAJ_2015	SM20	stool	control	20	adult	female	PER	yes	IlluminaHiSeq	MoBio	25807110	61591442	4304184202	19	76	SRR1761762;SRR1761704	Paolo_Manghi	21.27	Matses
+SM23	Obregon-TitoAJ_2015	SM23	stool	control	7	child	male	PER	yes	IlluminaHiSeq	MoBio	25807110	61805632	4397897435	19	76	SRR1761763;SRR1761705	Paolo_Manghi	15.66	Matses
+SM24	Obregon-TitoAJ_2015	SM24	stool	control	2	child	male	PER	yes	IlluminaHiSeq	MoBio	25807110	67604496	4834291113	17	76	SRR1761764;SRR1761706	Paolo_Manghi	17.85	Matses
+SM25	Obregon-TitoAJ_2015	SM25	stool	control	2	child	female	PER	yes	IlluminaHiSeq	MoBio	25807110	63923420	4588640213	18	76	SRR1761765;SRR1761707	Paolo_Manghi		Matses
+SM28	Obregon-TitoAJ_2015	SM28	stool	control	52	adult	female	PER	yes	IlluminaHiSeq	MoBio	25807110	56122220	4042714365	18	76	SRR1761766;SRR1761708	Paolo_Manghi	19.47	Matses
+SM29	Obregon-TitoAJ_2015	SM29	stool	control	50	adult	female	PER	yes	IlluminaHiSeq	MoBio	25807110	61794728	4457449877	19	76	SRR1761767;SRR1761709	Paolo_Manghi	17.9	Matses
+SM30	Obregon-TitoAJ_2015	SM30	stool	control	4	child	male	PER	yes	IlluminaHiSeq	MoBio	25807110	57286267	4132538370	18	76	SRR1761768;SRR1761710	Paolo_Manghi	18.26	Matses
+SM31	Obregon-TitoAJ_2015	SM31	stool	control	30	adult	male	PER	yes	IlluminaHiSeq	MoBio	25807110	62314360	4433120639	20	76	SRR1761769;SRR1761711	Paolo_Manghi	22.6	Matses
+SM32	Obregon-TitoAJ_2015	SM32	stool	control	21	adult	female	PER	yes	IlluminaHiSeq	MoBio	25807110	72420642	5152840428	1	76	SRR1761770;SRR1761712	Paolo_Manghi	22.14	Matses
+SM33	Obregon-TitoAJ_2015	SM33	stool	control	5	child	female	PER	yes	IlluminaHiSeq	MoBio	25807110	59097684	4182898787	17	76	SRR1761771;SRR1761713	Paolo_Manghi	16.45	Matses
+SM34	Obregon-TitoAJ_2015	SM34	stool	control	4	child	male	PER	yes	IlluminaHiSeq	MoBio	25807110	55828278	3986723647	20	76	SRR1761772;SRR1761714	Paolo_Manghi	15.62	Matses
+SM37	Obregon-TitoAJ_2015	SM37	stool	control	12	schoolage	male	PER	yes	IlluminaHiSeq	MoBio	25807110	56964593	4017877966	18	76	SRR1761773;SRR1761715	Paolo_Manghi	19.84	Matses
+SM39	Obregon-TitoAJ_2015	SM39	stool	control	40	adult	female	PER	yes	IlluminaHiSeq	MoBio	25807110	69866000	4950747811	18	76	SRR1761774;SRR1761716	Paolo_Manghi	28.93	Matses
+SM40	Obregon-TitoAJ_2015	SM40	stool	control	18	schoolage	female	PER	yes	IlluminaHiSeq	MoBio	25807110	68723714	4688283355	18	76	SRR1761775;SRR1761717	Paolo_Manghi	22.72	Matses
+SM41	Obregon-TitoAJ_2015	SM41	stool	control	6	child	male	PER	yes	IlluminaHiSeq	MoBio	25807110	64480479	4379196166	18	76	SRR1761776;SRR1761718	Paolo_Manghi		Matses
+SM42	Obregon-TitoAJ_2015	SM42	stool	control	4	child	male	PER	yes	IlluminaHiSeq	MoBio	25807110	59522890	4089048471	18	76	SRR1761777;SRR1761719	Paolo_Manghi	16.73	Matses
+SM43	Obregon-TitoAJ_2015	SM43	stool	control	2	child	female	PER	yes	IlluminaHiSeq	MoBio	25807110	66151371	4519979643	19	76	SRR1761778;SRR1761720	Paolo_Manghi	15.15	Matses
+SM44	Obregon-TitoAJ_2015	SM44	stool	control	4	child	male	PER	yes	IlluminaHiSeq	MoBio	25807110	66007749	4459270919	18	76	SRR1761779;SRR1761721	Paolo_Manghi	19.83	Matses

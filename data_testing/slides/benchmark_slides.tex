@@ -1,0 +1,68 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+\title{Benchmark Overview}
+\subtitle{Hold-out reconstruction}
+\author{biomevae team}
+\date{\today}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}{Benchmark Overview — rmse}
+  \centering
+  \href{run:\detokenize{benchmark_figure_rmse.pdf}}{\includegraphics[width=\textwidth]{\detokenize{benchmark_figure_rmse.pdf}}}
+  \vspace{1em}
+  \small Download: \href{run:\detokenize{benchmark_figure_rmse.pdf}}{benchmark\_figure\_rmse.pdf}
+\end{frame}
+
+\begin{frame}{rmse summary — rmse}
+  \centering
+  \begin{tabular}{lrr}
+    \toprule
+    Method & Mean & Std \\
+    \midrule
+    base & 0.1087 & 0.006705 \\
+    hyp & 0.1089 & 0.006334 \\
+    hyp\_tax & 0.1127 & 0.005956 \\
+    \textbf{nmf} & 0.09502 & 0.005778 \\
+    tax & 0.1157 & 0.009827 \\
+    vanilla & 0.1119 & 0.007254 \\
+    \bottomrule
+  \end{tabular}
+\end{frame}
+
+\begin{frame}{Benchmark Overview — mae}
+  \centering
+  \href{run:\detokenize{benchmark_figure_mae.pdf}}{\includegraphics[width=\textwidth]{\detokenize{benchmark_figure_mae.pdf}}}
+  \vspace{1em}
+  \small Download: \href{run:\detokenize{benchmark_figure_mae.pdf}}{benchmark\_figure\_mae.pdf}
+\end{frame}
+
+\begin{frame}{mae summary — mae}
+  \centering
+  \begin{tabular}{lrr}
+    \toprule
+    Method & Mean & Std \\
+    \midrule
+    base & 0.02757 & 0.001235 \\
+    hyp & 0.0251 & 0.0023 \\
+    hyp\_tax & 0.02616 & 0.001532 \\
+    \textbf{nmf} & 0.02289 & 0.001999 \\
+    tax & 0.03216 & 0.00326 \\
+    vanilla & 0.025 & 0.001901 \\
+    \bottomrule
+  \end{tabular}
+\end{frame}
+
+\begin{frame}{Benchmark Overview — Ordinations}
+  \centering
+  \href{run:\detokenize{benchmark_ordinations.pdf}}{\includegraphics[width=0.95\textwidth]{\detokenize{benchmark_ordinations.pdf}}}
+  \vspace{1em}
+  \small Download: \href{run:\detokenize{benchmark_ordinations.pdf}}{benchmark\_ordinations.pdf}
+\end{frame}
+
+\end{document}

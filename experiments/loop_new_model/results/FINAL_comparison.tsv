@@ -1,0 +1,8 @@
+model	bacc_mean	bacc_median	f1_macro_mean	n_folds
+CAPDA-VAE multiview (1-seed, optimistic)	0.6243	0.6538	0.5263	11
+CAPDA-VAE OOF-probs+cov+CLR (CHAMPION)	0.6225	0.6731	0.5128	11
+CAPDA-VAE multiview (3-seed)	0.6193	0.6699	0.517	11
+CAPDA-VAE OOF-probs+cov	0.6185	0.6538	0.5186	11
+CAPDA-VAE OOF-probs	0.6167	0.6699	0.5098	11
+XGBoost baseline (in-harness)	0.6164	0.6314	0.5	11
+CAPDA-VAE OOF	0.6151	0.6795	0.5052	11

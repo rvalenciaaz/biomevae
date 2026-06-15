@@ -1,0 +1,82 @@
+{
+  "latent_dim": {
+    "method": "suggest_categorical",
+    "choices": [8, 12, 16, 24]
+  },
+  "hidden": {
+    "method": "suggest_categorical",
+    "choices": [[256, 128, 64], [384, 256, 128], [512, 256, 128]]
+  },
+  "activation": {
+    "method": "suggest_categorical",
+    "choices": ["leakyrelu", "gelu", "relu"]
+  },
+  "dropout": {
+    "method": "suggest_float",
+    "low": 0.0,
+    "high": 0.2
+  },
+  "optimizer": {
+    "method": "suggest_categorical",
+    "choices": ["adam", "adamw"]
+  },
+  "weight_decay": {
+    "method": "suggest_float",
+    "low": 1e-6,
+    "high": 1e-3,
+    "log": true
+  },
+  "lr": {
+    "method": "suggest_float",
+    "low": 0.0005,
+    "high": 0.005,
+    "log": true
+  },
+  "grad_clip": {
+    "method": "suggest_float",
+    "low": 0.5,
+    "high": 2.0
+  },
+  "log1p": {
+    "method": "suggest_categorical",
+    "choices": [false, true]
+  },
+  "standardize": {
+    "method": "suggest_categorical",
+    "choices": [false, true]
+  },
+  "objective": {
+    "method": "suggest_categorical",
+    "choices": ["beta", "vanilla", "capacity"]
+  },
+  "recon": {
+    "method": "suggest_categorical",
+    "choices": ["mse", "huber"]
+  },
+  "beta_max": {
+    "method": "suggest_float",
+    "low": 0.02,
+    "high": 0.3
+  },
+  "kl_warmup": {
+    "method": "suggest_int",
+    "low": 200,
+    "high": 400
+  },
+  "free_bits": {
+    "method": "suggest_float",
+    "low": 0.0,
+    "high": 0.05
+  },
+  "model_kwargs.curvature": {
+    "method": "suggest_float",
+    "low": 0.25,
+    "high": 4.0,
+    "log": true
+  },
+  "tax_loss_weight": {
+    "method": "suggest_float",
+    "low": 0.05,
+    "high": 0.5
+  }
+}

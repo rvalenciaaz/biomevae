@@ -1,0 +1,39 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,mathtools}
+\title{FlowXFormerVAE: Mathematical Formulation}
+\date{}
+\begin{document}
+\maketitle
+
+\section{Flow tokens on a taxonomy tree}
+For each sample and tree edge $e$, compute flow $f_e$ from subtree mass differences to reference.
+Token channels are
+\begin{equation}
+\tau_e=[\operatorname{asinh}(f_e),\operatorname{asinh}(|f_e|),\ell_e,d_e,\log(1+m_e)].
+\end{equation}
+In UOT mode, an extra virtual token encodes root mismatch.
+
+\section{Bias transformer encoder}
+Pairwise edge distances are bucketed into a learned bias matrix $B$.
+Self-attention uses
+\begin{equation}
+\mathrm{Attn}(Q,K,V)=\mathrm{softmax}\!\left(\frac{QK^\top}{\sqrt d}+B\right)V.
+\end{equation}
+A CLS token is prepended; final representation is $h_{\mathrm{cls}}$.
+
+\section{Variational head and decoder}
+\begin{equation}
+(\mu,\log\sigma^2)=W h_{\mathrm{cls}}+b,
+\qquad
+z=\mu+\sigma\odot\varepsilon,\;\varepsilon\sim\mathcal N(0,I),
+\qquad
+\hat x=f_\theta(z).
+\end{equation}
+
+\section{Objective}
+\begin{equation}
+\mathcal J(x)=\mathcal L_{\mathrm{rec}}(x,\hat x)+\beta_t\,\mathrm{KL}(q_\phi(z\mid x)\|\mathcal N(0,I)).
+\end{equation}
+
+\end{document}

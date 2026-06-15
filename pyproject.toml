@@ -1,0 +1,85 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "biomevae"
+version = "0.2.0"
+description = "VAE, taxonomy-aware VAE, and hyperbolic VAE for sparse tabular microbiome data"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+authors = [{ name = "You", email = "you@example.com" }]
+dependencies = [
+  "numpy>=1.23",
+  "pandas>=1.5",
+  "scikit-learn>=1.2",
+  "scipy>=1.7",
+  "torch>=1.12",
+  "xgboost>=1.7",
+  "optuna>=3.2",
+  "geoopt>=0.5.0",
+  "torch-geometric>=2.3",
+  "matplotlib>=3.6",
+  "umap-learn>=0.5",
+  "shap>=0.44",
+]
+
+
+[project.scripts]
+biomevae-train = "biomevae.cli.vae_train:main"
+biomevae-train-vanilla = "biomevae.cli.vae_train_vanilla:main"
+biomevae-train-tax = "biomevae.cli.vae_train_taxaware:main"
+biomevae-train-hyp = "biomevae.cli.vae_train_hyper:main"
+biomevae-train-hyp-tax = "biomevae.cli.vae_train_hyper_tax:main"
+biomevae-train-graph = "biomevae.cli.vae_train_graph:main"
+biomevae-train-treeprior = "biomevae.cli.vae_train_treeprior:main"
+biomevae-train-fuse = "biomevae.cli.vae_train_fuse:main"
+biomevae-embed = "biomevae.cli.vae_embed:main"
+biomevae-train-flowxformer = "biomevae.cli.vae_train_flowxformer:main"
+biomevae-train-hgvae-zi = "biomevae.cli.vae_train_hgvae_zi:main"
+biomevae-train-tree-dtm = "biomevae.cli.vae_train_tree_dtm_vae:main"
+biomevae-train-philrvae = "biomevae.cli.vae_train_philrvae:main"
+biomevae-train-hyp-philrvae = "biomevae.cli.vae_train_hyp_philrvae:main"
+biomevae-train-dsvae = "biomevae.cli.vae_train_dsvae:main"
+biomevae-train-diva-tree-dtm = "biomevae.cli.vae_train_diva_tree_dtm_vae:main"
+biomevae-train-phylodiva-tree-dtm = "biomevae.cli.vae_train_phylodiva_tree_dtm_vae:main"
+biomevae-train-taxi-tree-dtm = "biomevae.cli.vae_train_taxi_tree_dtm_vae:main"
+biomevae-train-diva-hyp-philrvae = "biomevae.cli.vae_train_diva_hyp_philrvae:main"
+biomevae-train-diva-beta-vae = "biomevae.cli.vae_train_diva_betavae:main"
+biomevae-train-phylodiva-hyp-philrvae = "biomevae.cli.vae_train_phylodiva_hyp_philrvae:main"
+biomevae-train-taxi-hyp-philrvae = "biomevae.cli.vae_train_taxi_hyp_philrvae:main"
+biomevae-train-phylodiva-beta-vae = "biomevae.cli.vae_train_phylodiva_betavae:main"
+biomevae-train-xgb-baseline = "biomevae.cli.vae_train_xgb_baseline:main"
+biomevae-train-xgb-coral = "biomevae.cli.vae_train_xgb_coral:main"
+biomevae-train-capda-vae = "biomevae.cli.vae_train_capda_vae:main"
+biomevae-train-capda-vae-ss = "biomevae.cli.vae_train_capda_ss:main"
+biomevae-test = "biomevae.cli.vae_test:main"
+biomevae-nmf = "biomevae.cli.nmf_baseline:main"
+biomevae-comparetonmf = "biomevae.cli.compare_to_nmf:main"
+biomevae-allcomp = "biomevae.cli.all_methods:main"
+biomevae-benchmark-figure = "biomevae.cli.benchmark_figure:main"
+biomevae-benchmark-slides = "biomevae.cli.benchmark_slides:main"
+biomevae-interpret = "biomevae.cli.vae_interpret:main"
+biomevae-benchmark-figures-enterosignatures = "biomevae.cli.benchmark_figures_enterosignatures:main"
+biomevae-plot-training-curves = "biomevae.cli.plot_training_curves:main"
+biomevae-recon-scatter = "biomevae.cli.recon_scatter:main"
+biomevae-recon-violin = "biomevae.cli.recon_violin:main"
+biomevae-hierarchy-figure = "biomevae.cli.hierarchy_figure:main"
+biomevae-interpret-compare = "biomevae.cli.interpret_compare:main"
+biomevae-pairwise-table = "biomevae.cli.pairwise_table:main"
+biomevae-classify = "biomevae.cli.classify:main"
+biomevae-classify-baseline = "biomevae.cli.classify_baseline:main"
+biomevae-single-study-figures = "biomevae.cli.single_study_figures:main"
+biomevae-loso-prepare = "biomevae.cli.loso_prepare:main"
+biomevae-loso-classify = "biomevae.cli.loso_classify:main"
+biomevae-loso-diagnostic = "biomevae.cli.loso_diagnostic:main"
+biomevae-loso-strict-fold = "biomevae.cli.loso_strict_fold:main"
+biomevae-loso-strict-encode = "biomevae.cli.loso_strict_encode:main"
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+biomevae = ["py.typed"]

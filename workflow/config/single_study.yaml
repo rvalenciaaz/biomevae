@@ -1,0 +1,37 @@
+# ─── biomevae single-study Snakemake config ─────────────────────────
+#
+# Example config for ``workflow/Snakefile``.  Copy this file and edit
+# the paths / study name to match your layout, then run:
+#
+#     snakemake -s workflow/Snakefile \
+#               --configfile workflow/config/single_study.yaml \
+#               --cores 8
+#
+# ``data_root`` must contain a sub-directory per study with the three
+# TSVs produced by extract-microbiome-data:
+#     <data_root>/<study>/sgb_table.tsv
+#     <data_root>/<study>/phyla.tsv
+#     <data_root>/<study>/sample_metadata.tsv
+# ────────────────────────────────────────────────────────────────────
+
+data_root:   "/path/to/extracted_studies"
+output_root: "/path/to/biomevae_runs"
+
+# Single-study mode: provide a single study name.
+study: "LiJ_2017"
+
+# Metadata column to classify on.
+label: "disease"
+
+# Extra CLI flags forwarded to every biomevae-train-* command.
+extra_args: "--epochs 100 --optuna --optuna-trials 100"
+
+# Random seeds used for every downstream model evaluation
+# (classification, reconstruction CV, enterosignature refresh). The
+# per-seed fold metrics are pooled for reproducibility. Must stay in
+# sync with biomevae.classify.DEFAULT_EVAL_SEEDS.
+eval_seeds: [42, 43, 44, 45, 46]
+
+# Optional: nice human-readable names used in figure titles.
+study_display_names:
+  LiJ_2017: "LiJ 2017 (hypertension)"

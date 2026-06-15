@@ -1,0 +1,83 @@
+{
+  "latent_dim": {
+    "method": "suggest_categorical",
+    "choices": [16, 24, 32, 48, 64]
+  },
+  "hidden": {
+    "method": "suggest_categorical",
+    "choices": [[256, 128, 64], [384, 256, 128], [512, 256, 128], [512, 384, 256]]
+  },
+  "dropout": {
+    "method": "suggest_float",
+    "low": 0.05,
+    "high": 0.3
+  },
+  "lr": {
+    "method": "suggest_float",
+    "low": 5e-4,
+    "high": 3e-3,
+    "log": true
+  },
+  "weight_decay": {
+    "method": "suggest_float",
+    "low": 1e-6,
+    "high": 1e-4,
+    "log": true
+  },
+  "grad_clip": {
+    "method": "suggest_float",
+    "low": 0.5,
+    "high": 2.0
+  },
+  "beta_max": {
+    "method": "suggest_float",
+    "low": 0.25,
+    "high": 1.0
+  },
+  "beta_cycle_len": {
+    "method": "suggest_int",
+    "low": 20,
+    "high": 80
+  },
+  "beta_n_cycles": {
+    "method": "suggest_int",
+    "low": 2,
+    "high": 6
+  },
+  "beta_ramp_frac": {
+    "method": "suggest_float",
+    "low": 0.3,
+    "high": 0.7
+  },
+  "free_bits": {
+    "method": "suggest_float",
+    "low": 0.0,
+    "high": 0.1
+  },
+  "gamma_cls": {
+    "method": "suggest_float",
+    "low": 0.25,
+    "high": 4.0,
+    "log": true
+  },
+  "gamma_con": {
+    "method": "suggest_float",
+    "low": 0.0,
+    "high": 1.0
+  },
+  "focal_gamma": {
+    "method": "suggest_float",
+    "low": 1.0,
+    "high": 3.0
+  },
+  "supcon_tau": {
+    "method": "suggest_float",
+    "low": 0.05,
+    "high": 0.3
+  },
+  "mixup_alpha": {
+    "method": "suggest_float",
+    "low": 0.0,
+    "high": 0.5
+  }
+}

@@ -1,0 +1,31 @@
+# Pinned reference dependencies for reproducible evaluations.
+#
+# Mirror of ``environment.lock.yml`` for environments where conda is
+# not available.  Every biomevae evaluation result records these
+# versions under ``metadata['provenance']['packages']`` so that figures
+# can be traced back to a known good environment.  Use:
+#
+#     python -m venv .venv
+#     source .venv/bin/activate
+#     pip install -r requirements.lock.txt
+#     pip install -e .
+#
+# Installing ``torch`` on GPU hosts may require a CUDA wheel from the
+# PyTorch index (see https://pytorch.org).
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.0
+scikit-learn==1.4.2
+matplotlib==3.8.4
+seaborn==0.13.2
+statsmodels==0.14.2
+tqdm==4.66.4
+networkx==3.2.1
+xgboost==2.0.3
+torch==2.2.2
+optuna==3.6.1
+umap-learn==0.5.6
+geoopt==0.5.0
+shap==0.45.0
+snakemake==8.10.7
+snakemake-executor-plugin-cluster-generic==1.0.9

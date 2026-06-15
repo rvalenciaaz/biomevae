@@ -1,0 +1,153 @@
+# ══════════════════════════════════════════════════════════════════════
+#  biomevae – meta-pipeline: run the full workflow across every
+#              multi-label study in the extract-microbiome-data registry
+# ══════════════════════════════════════════════════════════════════════
+#
+# This Snakefile is a thin orchestration layer on top of the single-
+# study pipeline in ``workflow/Snakefile``.  It shares every rule via
+# ``include: rules/*.smk`` and only differs in two ways:
+#
+#   1. It forces ``auto_multi_label: true`` – ``resolve_studies()`` in
+#      ``rules/common.smk`` then pulls the full list of multi-label
+#      studies from ``curatedmetagenomicdata.study_registry``.
+#
+#   2. It adds a ``meta_summary`` rule that concatenates every study's
+#      ``figures/results_summary.tsv`` into a single cross-study table
+#      at ``<output_root>/meta_summary.tsv``.
+#
+# Launch it with:
+#
+#     snakemake -s workflow/Snakefile.meta \
+#               --configfile workflow/config/meta_multi_label.yaml \
+#               --cores 16
+#
+# or override config from the CLI:
+#
+#     snakemake -s workflow/Snakefile.meta --cores 16 \
+#         --config data_root=/data output_root=/scratch/meta \
+#                  label=disease
+#
+# Multi-label selection is parameterised by:
+#   min_labels            – minimum len(disease_labels) to qualify
+#                           (default: 2 – i.e. at least two classes)
+#   require_case_control  – keep only studies flagged as case/control
+#                           in the registry (default: true)
+#   body_site             – optional filter (e.g. "stool")
+#   only_studies          – explicit allowlist (overrides the above)
+#   exclude_studies       – explicit blocklist
+#
+# The pipeline silently skips any study whose extracted inputs are
+# missing under ``data_root/<study>/`` so that you can re-run as more
+# studies finish downloading.
+# ══════════════════════════════════════════════════════════════════════
+
+import os
+
+# NOTE: ``snakemake.utils.min_version`` still imports the legacy
+# ``pkg_resources`` module from setuptools, which is no longer bundled
+# with Python >= 3.12 (and is missing from the default ``biomevae``
+# conda environment).  Use ``packaging.version`` – a hard dependency of
+# Snakemake – to perform the same check without pulling in setuptools.
+from packaging.version import Version as _Version
+
+from snakemake import __version__ as _snakemake_version
+
+if _Version(_snakemake_version) < _Version("7.0"):
+    raise RuntimeError(
+        f"Snakemake >= 7.0 is required (found {_snakemake_version})."
+    )
+
+# Force meta-mode selection unless the user explicitly overrode it.
+config.setdefault("auto_multi_label", True)
+
+# The meta pipeline runs the *single-study* workflow once per study (the
+# training rules are keyed on the ``{study}`` wildcard and never merge
+# cohorts the way the LOSO pipelines do).  Flag single-study mode so
+# ``rules/common.smk`` drops the cross-domain DIVA / PhyloDIVA / TAXI
+# wrappers from the model catalogue — they need multiple cohorts to act
+# as ``domain`` labels and produce a degenerate (and failing) encoder
+# when trained on a single study, which otherwise stalls the DAG.
+config.setdefault("single_study_mode", True)
+
+include: "rules/common.smk"
+include: "rules/train.smk"
+include: "rules/postprocess.smk"
+include: "rules/classify.smk"
+include: "rules/figures.smk"
+include: "rules/aggregate.smk"
+
+
+# ── HPC log directories (for the SLURM profile --output/--error) ───
+# ``workflow/profiles/slurm/config.yaml`` writes ``sbatch`` stdout/err
+# to ``logs/slurm/<rule>-<jobid>.out`` *relative to the working
+# directory Snakemake was launched from*.  Pre-create it so ``sbatch``
+# never rejects a job for a missing --output parent directory.
+onstart:
+    os.makedirs("logs/slurm", exist_ok=True)
+
+
+# ── cross-study meta summary ────────────────────────────────────────
+rule meta_summary:
+    """Concatenate every study's ``results_summary.tsv`` into one table."""
+    input:
+        expand(
+            OUTPUT_ROOT + "/{study}/figures/results_summary.tsv",
+            study=STUDIES,
+        ),
+    output:
+        OUTPUT_ROOT + "/meta_summary.tsv",
+    log:
+        OUTPUT_ROOT + "/logs/meta_summary.log",
+    # Lightweight aggregation – runs on the SLURM head-node partition.
+    threads: 1
+    resources:
+        partition   = "ei-medium",
+        runtime     = 1470,
+        mem_mb      = 4 * 1024,
+        slurm_extra = "",
+    run:
+        import pandas as pd
+
+        os.makedirs(os.path.dirname(log[0]), exist_ok=True)
+        with open(log[0], "w") as logf:
+            frames = []
+            for study, path in zip(STUDIES, input):
+                try:
+                    df = pd.read_csv(path, sep="\t")
+                except Exception as exc:
+                    logf.write(f"WARNING: failed to read {path}: {exc}\n")
+                    continue
+                df.insert(0, "study", study)
+                df.insert(1, "display_name", display_name(study))
+                frames.append(df)
+                logf.write(f"OK: {study} ({len(df)} rows)\n")
+
+            if not frames:
+                raise RuntimeError(
+                    "meta_summary: no per-study summaries could be read."
+                )
+
+            merged = pd.concat(frames, ignore_index=True, sort=False)
+            merged.to_csv(output[0], sep="\t", index=False)
+            logf.write(
+                f"Wrote meta summary with {len(merged)} rows from "
+                f"{len(frames)} studies to {output[0]}\n"
+            )
+
+
+# ── top-level target ────────────────────────────────────────────────
+rule all:
+    input:
+        # Every study's figures/summary …
+        expand(
+            OUTPUT_ROOT + "/{study}/figures/results_summary.tsv",
+            study=STUDIES,
+        ),
+        # … its cross-model aggregation …
+        expand(
+            OUTPUT_ROOT + "/{study}/models/aggregate/.aggregate.done",
+            study=STUDIES,
+        ),
+        # … and the cross-study meta summary.
+        OUTPUT_ROOT + "/meta_summary.tsv",
+    default_target: True

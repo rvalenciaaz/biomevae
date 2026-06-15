@@ -1,0 +1,48 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,mathtools}
+\title{HGVAE-ZI: Mathematical Formulation}
+\date{}
+\begin{document}
+\maketitle
+
+\section{Encoder}
+GraphSAGE with rank/type embeddings produces pooled graph representation $h_g$, then
+\begin{equation}
+(\mu,\log\sigma^2)=g_\phi(h_g),\qquad q_\phi(z\mid x)=\mathcal N(\mu,\operatorname{diag}(\sigma^2)).
+\end{equation}
+
+\section{ZI-LogNormal decoder}
+For each node, decoder predicts $(\mu^{\log},\log\sigma^{\log},\operatorname{logit}(\pi))$.
+Conditional model:
+\begin{equation}
+X=0 \text{ with prob. }\pi,\qquad \log X\sim\mathcal N(\mu^{\log},\sigma^{2,\log}) \text{ with prob. }(1-\pi).
+\end{equation}
+Expected abundance:
+\begin{equation}
+\mathbb E[X]=(1-\pi)\exp\!\left(\mu^{\log}+\tfrac12\sigma^{2,\log}\right).
+\end{equation}
+
+\section{Negative log-likelihood}
+\begin{equation}
+\mathcal L_{\mathrm{zi-ln}}(x)=
+\begin{cases}
+-\log\pi, & x=0,\\
+-\log(1-\pi)+\mathcal L_{\mathcal N}(\log(x+\epsilon);\mu^{\log},\sigma^{\log})+\log(x+\epsilon), & x>0.
+\end{cases}
+\end{equation}
+
+\section{Additional regularization}
+\begin{equation}
+\mathcal L_{\mathrm{hier}}=\frac1{|\mathcal I|}\sum_{v\in\mathcal I}\left|\log(\hat x_v+\epsilon)-\log\left(\sum_{u\in\mathrm{ch}(v)}\hat x_u+\epsilon\right)\right|,
+\end{equation}
+\begin{equation}
+\mathcal L_{\mathrm{smooth}}=\frac{1}{n^2}\sum_{i,j}A_{ij}\|\mu_i-\mu_j\|_2^2.
+\end{equation}
+
+\section{Objective}
+\begin{equation}
+\mathcal J=\mathcal L_{\mathrm{zi-ln}}+\beta_t\,\mathrm{KL}(q_\phi\|\mathcal N(0,I))+\lambda_h\mathcal L_{\mathrm{hier}}+\lambda_s\mathcal L_{\mathrm{smooth}}.
+\end{equation}
+
+\end{document}

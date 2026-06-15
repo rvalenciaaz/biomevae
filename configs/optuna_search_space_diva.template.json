@@ -1,0 +1,57 @@
+{
+  "latent_d": {
+    "method": "suggest_categorical",
+    "choices": [2, 4, 6, 8]
+  },
+  "latent_y": {
+    "method": "suggest_categorical",
+    "choices": [4, 8, 12, 16]
+  },
+  "latent_x": {
+    "method": "suggest_categorical",
+    "choices": [4, 8, 12, 16]
+  },
+  "lr": {
+    "method": "suggest_float",
+    "low": 1e-4,
+    "high": 5e-3,
+    "log": true
+  },
+  "dropout": {
+    "method": "suggest_float",
+    "low": 0.0,
+    "high": 0.3
+  },
+  "alpha_y": {
+    "method": "suggest_float",
+    "low": 1.0,
+    "high": 100.0,
+    "log": true
+  },
+  "alpha_d": {
+    "method": "suggest_float",
+    "low": 0.5,
+    "high": 5.0,
+    "log": true
+  },
+  "beta_max": {
+    "method": "suggest_float",
+    "low": 0.02,
+    "high": 1.0,
+    "log": true
+  },
+  "kl_warmup_frac": {
+    "method": "suggest_float",
+    "low": 0.1,
+    "high": 0.5
+  },
+  "free_bits": {
+    "method": "suggest_float",
+    "low": 0.0,
+    "high": 0.05
+  },
+  "batch_size": {
+    "method": "suggest_categorical",
+    "choices": [32, 64, 128]
+  }
+}

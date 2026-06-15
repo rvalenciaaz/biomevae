@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+#SBATCH -p ei-gpu
+#SBATCH --job-name=biomevae
+#SBATCH --output=biomevae_%x_%j.out
+#SBATCH --error=biomevae_%x_%j.err
+#SBATCH --time=96:00:00
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem=128G
+#SBATCH --gres=gpu:1
+
+set -euo pipefail
+
+export THREADS="${SLURM_CPUS_PER_TASK:-16}"
+
+# Resolve the train script next to this .slurm file by default.
+# Use SLURM_SUBMIT_DIR because SLURM copies batch scripts to its spool
+# directory, making BASH_SOURCE[0] point to the wrong location.
+SCRIPT_DIR="${SLURM_SUBMIT_DIR:-$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)}"
+TRAIN_SCRIPT="${TRAIN_SCRIPT:-${SCRIPT_DIR}/train_model.sh}"
+
+if [[ ! -f "${TRAIN_SCRIPT}" ]]; then
+  echo "Error: cannot find train script: ${TRAIN_SCRIPT}" >&2
+  echo "SCRIPT_DIR=${SCRIPT_DIR}" >&2
+  exit 1
+fi
+
+srun --gres=gpu:1 --cpus-per-task=20 --mem=128G \
+  bash "${TRAIN_SCRIPT}" \
+  "${MODEL_CMD}" \
+  "${INPUT}" \
+  "${OUTDIR}" \
+  "${TAXONOMY}"

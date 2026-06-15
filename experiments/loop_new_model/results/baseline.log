@@ -1,0 +1,12 @@
+Loading CRC cohorts ...
+  X=(1650, 935)  classes=['CRC', 'adenoma', 'carcinoma_surgery_history', 'control', 'nan']  studies=11
+
+== xgb-baseline ==
+  FengQ_2015         bacc=0.4994 f1=0.4232
+/home/rvalenciaaz/.local/share/mamba/envs/biomevae/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/rvalenciaaz/.local/share/mamba/envs/biomevae/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/rvalenciaaz/.local/share/mamba/envs/biomevae/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  VogtmannE_2016     bacc=0.4209 f1=0.3182

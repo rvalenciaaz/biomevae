@@ -1,0 +1,21 @@
+sample_id	study_name	subject_id	body_site	disease	age	age_category	sex	country	non_westernized	sequencing_platform	dna_extraction_kit	pmid	number_reads	number_bases	minimum_read_length	median_read_length	curator	bmi	RECIST	ORR	PFS12
+op146_M1	WindTT_2020	op146_M1	stool	melanoma	58	adult	female	NLD	no	IlluminaHiSeq	Qiagen	31990790	25968708	2622839508	101	101	Andrew_Malthez_Thomas;Paolo_Manghi	28.38480216	PD	no	no
+op147_M1	WindTT_2020	op147_M1	stool	melanoma	60	adult	male	NLD	no	IlluminaHiSeq	Qiagen	31990790	29076598	2936736398	101	101	Andrew_Malthez_Thomas;Paolo_Manghi	24.78425752	PR	yes	yes
+op151_M1	WindTT_2020	op151_M1	stool	melanoma	52	adult	female	NLD	no	IlluminaHiSeq	Qiagen	31990790	20882166	2109098766	101	101	Andrew_Malthez_Thomas;Paolo_Manghi	25.81663021	PD	no	no
+op152_M1	WindTT_2020	op152_M1	stool	melanoma	37	adult	female	NLD	no	IlluminaHiSeq	Qiagen	31990790	16216942	1637911142	101	101	Andrew_Malthez_Thomas;Paolo_Manghi	24.09297052	SD	yes	no
+op153_M1	WindTT_2020	op153_M1	stool	melanoma	21	adult	female	NLD	no	IlluminaHiSeq	Qiagen	31990790	20052126	2025264726	101	101	Andrew_Malthez_Thomas;Paolo_Manghi	24.09297052	PD	no	no
+op155_M1	WindTT_2020	op155_M1	stool	melanoma	64	adult	female	NLD	no	IlluminaHiSeq	Qiagen	31990790	18229758	1841205558	101	101	Andrew_Malthez_Thomas;Paolo_Manghi	24.7720967	PD	no	
+op157_M1	WindTT_2020	op157_M1	stool	melanoma	56	adult	female	NLD	no	IlluminaHiSeq	Qiagen	31990790	11603752	1171978952	101	101	Andrew_Malthez_Thomas;Paolo_Manghi	24.38652644	PD	no	no
+op158_M1	WindTT_2020	op158_M1	stool	melanoma	84	senior	female	NLD	no	IlluminaHiSeq	Qiagen	31990790	16525708	1669096508	101	101	Andrew_Malthez_Thomas;Paolo_Manghi	25.71166208	PD	no	no
+op159_M1	WindTT_2020	op159_M1	stool	melanoma	67	senior	female	NLD	no	IlluminaHiSeq	Qiagen	31990790	23900980	2413998980	101	101	Andrew_Malthez_Thomas;Paolo_Manghi	23.87543253	CR	yes	yes
+op160_M1	WindTT_2020	op160_M1	stool	melanoma	41	adult	female	NLD	no	IlluminaHiSeq	Qiagen	31990790	15487154	1564202554	101	101	Andrew_Malthez_Thomas;Paolo_Manghi	26.171875	SD	yes	yes
+op161_M1	WindTT_2020	op161_M1	stool	melanoma	63	adult	female	NLD	no	IlluminaHiSeq	Qiagen	31990790	27027690	2729796690	101	101	Andrew_Malthez_Thomas;Paolo_Manghi	19.23356075	PR	yes	yes
+op162_M1	WindTT_2020	op162_M1	stool	melanoma	41	adult	female	NLD	no	IlluminaHiSeq	Qiagen	31990790	22500244	2272524644	101	101	Andrew_Malthez_Thomas;Paolo_Manghi	33.89721074	PD	no	no
+op163_M1	WindTT_2020	op163_M1	stool	melanoma	59	adult	female	NLD	no	IlluminaHiSeq	Qiagen	31990790	38792284	3918020684	101	101	Andrew_Malthez_Thomas;Paolo_Manghi	26.92743764	PR	yes	yes
+op164_M1	WindTT_2020	op164_M1	stool	melanoma	72	senior	male	NLD	no	IlluminaHiSeq	Qiagen	31990790	18819316	1900750916	101	101	Andrew_Malthez_Thomas;Paolo_Manghi		PR	yes	yes
+op167_M1	WindTT_2020	op167_M1	stool	melanoma	66	senior	female	NLD	no	IlluminaHiSeq	Qiagen	31990790	18067896	1824857496	101	101	Andrew_Malthez_Thomas;Paolo_Manghi	34.42217362	PR	yes	no
+op168_M1	WindTT_2020	op168_M1	stool	melanoma	73	senior	male	NLD	no	IlluminaHiSeq	Qiagen	31990790	27995662	2827561862	101	101	Andrew_Malthez_Thomas;Paolo_Manghi	25.51020408	PD	no	no
+op174_M1	WindTT_2020	op174_M1	stool	melanoma	65	adult	male	NLD	no	IlluminaHiSeq	Qiagen	31990790	20193300	2039523300	101	101	Andrew_Malthez_Thomas;Paolo_Manghi		PD	no	no
+op175_M1	WindTT_2020	op175_M1	stool	melanoma	69	senior	male	NLD	no	IlluminaHiSeq	Qiagen	31990790	15375170	1552892170	101	101	Andrew_Malthez_Thomas;Paolo_Manghi	23.67125363	PR	yes	yes
+op176_M1	WindTT_2020	op176_M1	stool	melanoma	50	adult	female	NLD	no	IlluminaHiSeq	Qiagen	31990790	27177546	2744932146	101	101	Andrew_Malthez_Thomas;Paolo_Manghi	33.80205516	PR	yes	yes
+op177_M1	WindTT_2020	op177_M1	stool	melanoma	74	senior	male	NLD	no	IlluminaHiSeq	Qiagen	31990790	18897766	1908674366	101	101	Andrew_Malthez_Thomas;Paolo_Manghi	23.93898977	PD	no	no

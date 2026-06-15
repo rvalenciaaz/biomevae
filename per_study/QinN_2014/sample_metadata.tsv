@@ -1,0 +1,238 @@
+sample_id	study_name	subject_id	body_site	antibiotics_current_use	disease	age	age_category	sex	country	non_westernized	sequencing_platform	pmid	number_reads	number_bases	minimum_read_length	median_read_length	NCBI_accession	curator	bmi	antibiotics_family	disease_subtype	creatine	albumine	alcohol	bilubirin	prothrombin_time	inr
+HD-1	QinN_2014	HD-1	stool	no	control	40	adult	female	CHN	no	IlluminaHiSeq	25079328	60726168	6072616800	100	100	ERR528329;ERR526291	Paolo_Manghi	20.03			53	49.4	no			
+HD-10	QinN_2014	HD-10	stool	no	control	40	adult	female	CHN	no	IlluminaHiSeq	25079328	41162464	4116246400	100	100	ERR527046	Paolo_Manghi	20.2			65	46.1	no	2.7		
+HD-11	QinN_2014	HD-11	stool	no	control	38	adult	female	CHN	no	IlluminaHiSeq	25079328	47852664	4785266400	100	100	ERR527047	Paolo_Manghi	19.95			57	48.7	no	2.85		
+HD-12	QinN_2014	HD-12	stool	no	control	40	adult	male	CHN	no	IlluminaHiSeq	25079328	42500814	4250081400	100	100	ERR527048	Paolo_Manghi	22.55			72	49.1	no	2.87		
+HD-13	QinN_2014	HD-13	stool	no	control	56	adult	female	CHN	no	IlluminaHiSeq	25079328	41610770	4161077000	100	100	ERR527050;ERR527049	Paolo_Manghi	21.48			47	47	no	2.75		
+HD-14	QinN_2014	HD-14	stool	no	control	51	adult	male	CHN	no	IlluminaHiSeq	25079328	52828938	5282893800	100	100	ERR527051	Paolo_Manghi	22.58			76	51.9	no	3.04		
+HD-15	QinN_2014	HD-15	stool	no	control	56	adult	male	CHN	no	IlluminaHiSeq	25079328	83452056	8345205600	100	100	ERR527052;ERR527053	Paolo_Manghi	19.81			79	54.3	no	3.18		
+HD-16	QinN_2014	HD-16	stool	no	control	41	adult	female	CHN	no	IlluminaHiSeq	25079328	48363024	4836302400	100	100	ERR527055;ERR527054	Paolo_Manghi	24.44			48	47.3	no	2.77		
+HD-17	QinN_2014	HD-17	stool	no	control	46	adult	male	CHN	no	IlluminaHiSeq	25079328	42639042	4263904200	100	100	ERR527057;ERR527056	Paolo_Manghi	23.05			83	48	no	2.81		
+HD-18	QinN_2014	HD-18	stool	no	control	43	adult	male	CHN	no	IlluminaHiSeq	25079328	38306954	3830695400	100	100	ERR527059;ERR527058	Paolo_Manghi	22.31			59	48.6	no	2.84		
+HD-19	QinN_2014	HD-19	stool	no	control	57	adult	male	CHN	no	IlluminaHiSeq	25079328	53123420	5312342000	100	100	ERR527061;ERR527060	Paolo_Manghi	21.88			64	49	no	2.87		
+HD-2	QinN_2014	HD-2	stool	no	control	46	adult	female	CHN	no	IlluminaHiSeq	25079328	29340068	2934006800	100	100	ERR527062	Paolo_Manghi	20.83			60	43.9	no			
+HD-20	QinN_2014	HD-20	stool	no	control	45	adult	male	CHN	no	IlluminaHiSeq	25079328	56486348	5648634800	100	100	ERR527063	Paolo_Manghi	22.79			69	47.2	no	2.76		
+HD-21	QinN_2014	HD-21	stool	no	control	37	adult	male	CHN	no	IlluminaHiSeq	25079328	51623474	5162347400	100	100	ERR527064	Paolo_Manghi	22.66			104	48.5	no	2.84		
+HD-22	QinN_2014	HD-22	stool	no	control	41	adult	female	CHN	no	IlluminaHiSeq	25079328	46862922	4686292200	100	100	ERR527065	Paolo_Manghi	24.44			48	47.3	no	2.77		
+HD-23	QinN_2014	HD-23	stool	no	control	35	adult	female	CHN	no	IlluminaHiSeq	25079328	52184770	5218477000	100	100	ERR527066	Paolo_Manghi	19.22			58	46.1	no	2.7		
+HD-24	QinN_2014	HD-24	stool	no	control	36	adult	male	CHN	no	IlluminaHiSeq	25079328	34499188	3449918800	100	100	ERR527067	Paolo_Manghi	20.7			58	48.2	no	2.82		
+HD-25	QinN_2014	HD-25	stool	no	control	49	adult	female	CHN	no	IlluminaHiSeq	25079328	36928836	3692883600	100	100	ERR527069;ERR527068	Paolo_Manghi	22.89			64	50.5	no	2.95		
+HD-26	QinN_2014	HD-26	stool	no	control	40	adult	female	CHN	no	IlluminaHiSeq	25079328	39296662	3929666200	100	100	ERR527070	Paolo_Manghi	20.32			37	50.3	no	2.94		
+HD-27	QinN_2014	HD-27	stool	no	control	45	adult	male	CHN	no	IlluminaHiSeq	25079328	50308570	5030857000	100	100	ERR527071	Paolo_Manghi	19.94			79	53.4	no	3.12		
+HD-28	QinN_2014	HD-28	stool	no	control	33	adult	male	CHN	no	IlluminaHiSeq	25079328	79290558	7929055800	100	100	ERR527072	Paolo_Manghi	21.29			82	52.3	no	3.06		
+HD-29	QinN_2014	HD-29	stool	no	control	33	adult	female	CHN	no	IlluminaHiSeq	25079328	108865910	10886591000	100	100	ERR527073	Paolo_Manghi	20.31			45	52.1	no	3.05		
+HD-3	QinN_2014	HD-3	stool	no	control	45	adult	male	CHN	no	IlluminaHiSeq	25079328	38246256	3824625600	100	100	ERR527075;ERR527074	Paolo_Manghi	19.58			66	50.9	no	2.98		
+HD-30	QinN_2014	HD-30	stool	no	control	54	adult	female	CHN	no	IlluminaHiSeq	25079328	77274526	7727452600	100	100	ERR527076	Paolo_Manghi	23.44			41	45.6	no	2.67		
+HD-31	QinN_2014	HD-31	stool	no	control	43	adult	male	CHN	no	IlluminaHiSeq	25079328	94726356	9472635600	100	100	ERR527077	Paolo_Manghi	22.49			50	48.9	no	2.86		
+HD-32	QinN_2014	HD-32	stool	no	control	54	adult	female	CHN	no	IlluminaHiSeq	25079328	45079628	4507962800	100	100	ERR527078	Paolo_Manghi	22.72			43	48.2	no	2.82		
+HD-33	QinN_2014	HD-33	stool	no	control	34	adult	female	CHN	no	IlluminaHiSeq	25079328	81142398	8114239800	100	100	ERR527079	Paolo_Manghi	20.57			30	48.3	no	2.82		
+HD-34	QinN_2014	HD-34	stool	no	control	40	adult	female	CHN	no	IlluminaHiSeq	25079328	35924302	3592430200	100	100	ERR527080	Paolo_Manghi	18.59			43	49	no	2.87		
+HD-35	QinN_2014	HD-35	stool	no	control	48	adult	male	CHN	no	IlluminaHiSeq	25079328	52356890	5235689000	100	100	ERR527081	Paolo_Manghi	23.89			64	48.7	no	2.85		
+HD-36	QinN_2014	HD-36	stool	no	control	32	adult	female	CHN	no	IlluminaHiSeq	25079328	30738818	3073881800	100	100	ERR527082	Paolo_Manghi	20.32			32	48.7	no	2.85		
+HD-37	QinN_2014	HD-37	stool	no	control	45	adult	female	CHN	no	IlluminaHiSeq	25079328	55187734	5518773400	100	100	ERR527084;ERR527083	Paolo_Manghi	20.17			60	47.9	no	2.8		
+HD-38	QinN_2014	HD-38	stool	no	control	40	adult	male	CHN	no	IlluminaHiSeq	25079328	25331020	2533102000	100	100	ERR527085	Paolo_Manghi	20.05			72	45.8	no	2.68		
+HD-39	QinN_2014	HD-39	stool	no	control	51	adult	female	CHN	no	IlluminaHiSeq	25079328	39159122	3915912200	100	100	ERR527087;ERR527086	Paolo_Manghi	22.86			51	45.8	no	2.68		
+HD-4	QinN_2014	HD-4	stool	no	control	38	adult	male	CHN	no	IlluminaHiSeq	25079328	51629990	5162999000	100	100	ERR527088	Paolo_Manghi	20.05			53	45.9	no	2.68		
+HD-40	QinN_2014	HD-40	stool	no	control	41	adult	male	CHN	no	IlluminaHiSeq	25079328	71450274	7145027400	100	100	ERR527089	Paolo_Manghi	20.57			63	42.4	no	2.48		
+HD-41	QinN_2014	HD-41	stool	no	control	52	adult	male	CHN	no	IlluminaHiSeq	25079328	43591040	4359104000	100	100	ERR527090	Paolo_Manghi	19.92			70	48.9	no	2.86		
+HD-42	QinN_2014	HD-42	stool	no	control	50	adult	male	CHN	no	IlluminaHiSeq	25079328	41978882	4197888200	100	100	ERR527091	Paolo_Manghi	25.91			71	50.5	no	2.95		
+HD-43	QinN_2014	HD-43	stool	no	control	36	adult	male	CHN	no	IlluminaHiSeq	25079328	50973986	5097398600	100	100	ERR527093;ERR527092	Paolo_Manghi	19.71			61	46.5	no	2.72		
+HD-44	QinN_2014	HD-44	stool	no	control	41	adult	male	CHN	no	IlluminaHiSeq	25079328	33964114	3396411400	100	100	ERR527095;ERR527094	Paolo_Manghi	23.92			57	52	no	3.04		
+HD-45	QinN_2014	HD-45	stool	no	control	37	adult	male	CHN	no	IlluminaHiSeq	25079328	39631926	3963192600	100	100	ERR527097;ERR527096	Paolo_Manghi	22.4			70	52	no	3.04		
+HD-46	QinN_2014	HD-46	stool	no	control	35	adult	male	CHN	no	IlluminaHiSeq	25079328	29660774	2966077400	100	100	ERR527098	Paolo_Manghi	24.06			73	49.1	no	2.87		
+HD-47	QinN_2014	HD-47	stool	no	control	58	adult	male	CHN	no	IlluminaHiSeq	25079328	43056410	4305641000	100	100	ERR527100;ERR527099	Paolo_Manghi	23.62			79	49.3	no	2.88		
+HD-48	QinN_2014	HD-48	stool	no	control	31	adult	male	CHN	no	IlluminaHiSeq	25079328	53411084	5341108400	100	100	ERR527101	Paolo_Manghi	22.76			66	57.6	no	3.37		
+HD-49	QinN_2014	HD-49	stool	no	control	41	adult	female	CHN	no	IlluminaHiSeq	25079328	65160712	6516071200	100	100	ERR527103;ERR527102	Paolo_Manghi	20.83			50	47.5	no	2.78		
+HD-5	QinN_2014	HD-5	stool	no	control	43	adult	female	CHN	no	IlluminaHiSeq	25079328	31658258	3165825800	100	100	ERR527104	Paolo_Manghi	22.38			45	50.3	no	2.94		
+HD-50	QinN_2014	HD-50	stool	no	control	50	adult	female	CHN	no	IlluminaHiSeq	25079328	65034592	6503459200	100	100	ERR527105	Paolo_Manghi	25.2			47	42.7	no	2.5		
+HD-51	QinN_2014	HD-51	stool	no	control	37	adult	male	CHN	no	IlluminaHiSeq	25079328	38551094	3855109400	100	100	ERR527106	Paolo_Manghi	22.86			49	49.2	no	2.88		
+HD-52	QinN_2014	HD-52	stool	no	control	50	adult	female	CHN	no	IlluminaHiSeq	25079328	110871872	11087187200	100	100	ERR527107	Paolo_Manghi	19.53			55	48.2	no	2.82		
+HD-53	QinN_2014	HD-53	stool	no	control	50	adult	female	CHN	no	IlluminaHiSeq	25079328	72734030	7273403000	100	100	ERR527108	Paolo_Manghi	20.55			48	52.8	no	3.09		
+HD-54	QinN_2014	HD-54	stool	no	control	47	adult	male	CHN	no	IlluminaHiSeq	25079328	39344970	3934497000	100	100	ERR527110;ERR527109	Paolo_Manghi	20.76			57	49.7	no	2.91		
+HD-55	QinN_2014	HD-55	stool	no	control	37	adult	male	CHN	no	IlluminaHiSeq	25079328	95203944	9520394400	100	100	ERR527111;ERR527112	Paolo_Manghi	22.04			80	46.7	no	2.73		
+HD-56	QinN_2014	HD-56	stool	no	control	31	adult	male	CHN	no	IlluminaHiSeq	25079328	28146814	2814681400	100	100	ERR527113	Paolo_Manghi	19.03			87	50.2	no	2.94		
+HD-57	QinN_2014	HD-57	stool	no	control	32	adult	male	CHN	no	IlluminaHiSeq	25079328	30187954	3018795400	100	100	ERR527114;ERR527115	Paolo_Manghi	20.9			83	50.4	no	2.95		
+HD-58	QinN_2014	HD-58	stool	no	control	52	adult	male	CHN	no	IlluminaHiSeq	25079328	51419228	5141922800	100	100	ERR527116	Paolo_Manghi	19.03			81	49.4	no	2.89		
+HD-59	QinN_2014	HD-59	stool	no	control	23	adult	female	CHN	no	IlluminaHiSeq	25079328	49695512	4969551200	100	100	ERR527118;ERR527117	Paolo_Manghi	22.91			57	44.1	no	2.58		
+HD-6	QinN_2014	HD-6	stool	no	control	38	adult	female	CHN	no	IlluminaHiSeq	25079328	71449782	7144978200	100	100	ERR527120;ERR527119	Paolo_Manghi	21.48			50	46.3	no	2.71		
+HD-60	QinN_2014	HD-60	stool	no	control	34	adult	male	CHN	no	IlluminaHiSeq	25079328	93865534	9386553400	100	100	ERR527121	Paolo_Manghi	20.52			75	53.8	no	3.15		
+HD-61	QinN_2014	HD-61	stool	no	control	31	adult	male	CHN	no	IlluminaHiSeq	25079328	39525306	3952530600	100	100	ERR527122	Paolo_Manghi	20.18			88	49.7	no	2.91		
+HD-62	QinN_2014	HD-62	stool	no	control	62	adult	male	CHN	no	IlluminaHiSeq	25079328	55613486	5561348600	100	100	ERR527123	Paolo_Manghi	20.58			63	44.3	no	2.59		
+HD-63	QinN_2014	HD-63	stool	no	control	42	adult	female	CHN	no	IlluminaHiSeq	25079328	45238358	4523835800	100	100	ERR527124	Paolo_Manghi	19.92			46	48.2	no	2.82		
+HD-64	QinN_2014	HD-64	stool	no	control	29	adult	female	CHN	no	IlluminaHiSeq	25079328	31361754	3136175400	100	100	ERR527125	Paolo_Manghi	17.85			44	47.9	no	2.8		
+HD-65	QinN_2014	HD-65	stool	no	control	43	adult	female	CHN	no	IlluminaHiSeq	25079328	61195352	6119535200	100	100	ERR527126	Paolo_Manghi	24.98			41	45.4	no	2.65		
+HD-66	QinN_2014	HD-66	stool	no	control	42	adult	male	CHN	no	IlluminaHiSeq	25079328	44515410	4451541000	100	100	ERR527127	Paolo_Manghi	21.75			79	50.1	no	2.93		
+HD-67	QinN_2014	HD-67	stool	no	control	32	adult	male	CHN	no	IlluminaHiSeq	25079328	52399336	5239933600	100	100	ERR527128	Paolo_Manghi	19.24			68	52	no	3.04		
+HD-68	QinN_2014	HD-68	stool	no	control	33	adult	male	CHN	no	IlluminaHiSeq	25079328	52091294	5209129400	100	100	ERR527129	Paolo_Manghi	19.59			62	54.1	no	3.16		
+HD-69	QinN_2014	HD-69	stool	no	control	26	adult	male	CHN	no	IlluminaHiSeq	25079328	49858238	4985823800	100	100	ERR527130	Paolo_Manghi	22.73			83	47.8	no	2.8		
+HD-7	QinN_2014	HD-7	stool	no	control	37	adult	female	CHN	no	IlluminaHiSeq	25079328	54778534	5477853400	100	100	ERR528330	Paolo_Manghi	21.99			48	46.9	no	2.74		
+HD-70	QinN_2014	HD-70	stool	no	control	52	adult	male	CHN	no	IlluminaHiSeq	25079328	36087620	3608762000	100	100	ERR527131	Paolo_Manghi	25.35			87	45.6	no	2.67		
+HD-71	QinN_2014	HD-71	stool	no	control	36	adult	female	CHN	no	IlluminaHiSeq	25079328	49402710	4940271000	100	100	ERR527132	Paolo_Manghi	20.09			57	49.9	no	2.92		
+HD-72	QinN_2014	HD-72	stool	no	control	47	adult	male	CHN	no	IlluminaHiSeq	25079328	46353990	4635399000	100	100	ERR527133	Paolo_Manghi	22.46			82	48.1	no	2.81		
+HD-73	QinN_2014	HD-73	stool	no	control	45	adult	female	CHN	no	IlluminaHiSeq	25079328	35704122	3570412200	100	100	ERR527134	Paolo_Manghi	22.63			72	44.8	no	2.62		
+HD-74	QinN_2014	HD-74	stool	no	control	40	adult	female	CHN	no	IlluminaHiSeq	25079328	52206418	5220641800	100	100	ERR527135	Paolo_Manghi	19.92			67	51.4	no	3.01		
+HD-75	QinN_2014	HD-75	stool	no	control	35	adult	male	CHN	no	IlluminaHiSeq	25079328	79495518	7949551800	100	100	ERR527136	Paolo_Manghi	21.55			83	50.8	no	2.97		
+HD-76	QinN_2014	HD-76	stool	no	control	54	adult	female	CHN	no	IlluminaHiSeq	25079328	32443656	3244365600	100	100	ERR527137	Paolo_Manghi	24.51			58	50.9	no	2.98		
+HD-77	QinN_2014	HD-77	stool	no	control	35	adult	male	CHN	no	IlluminaHiSeq	25079328	43040226	4304022600	100	100	ERR527138	Paolo_Manghi	24.04			73	53.2	no	3.11		
+HD-78	QinN_2014	HD-78	stool	no	control	32	adult	male	CHN	no	IlluminaHiSeq	25079328	34865102	3486510200	100	100	ERR527139	Paolo_Manghi	17.86			89	51.9	no	3.04		
+HD-79	QinN_2014	HD-79	stool	no	control	25	adult	male	CHN	no	IlluminaHiSeq	25079328	62236450	6223645000	100	100	ERR528331	Paolo_Manghi	20.93			86	49	no	2.87		
+HD-8	QinN_2014	HD-8	stool	no	control	60	adult	female	CHN	no	IlluminaHiSeq	25079328	98148348	9814834800	100	100	ERR528332	Paolo_Manghi	26.04			60	45	no	2.63		
+HD-80	QinN_2014	HD-80	stool	no	control	43	adult	male	CHN	no	IlluminaHiSeq	25079328	36589128	3658912800	100	100	ERR528333	Paolo_Manghi	22.95			89	48.5	no	2.84		
+HD-81	QinN_2014	HD-81	stool	no	control	45	adult	male	CHN	no	IlluminaHiSeq	25079328	96383488	9638348800	100	100	ERR532377;ERR532377;ERR528334	Paolo_Manghi	20.05			73	48.2	no	2.82		
+HD-82	QinN_2014	HD-82	stool	no	control	58	adult	male	CHN	no	IlluminaHiSeq	25079328	35655800	3565580000	100	100	ERR528335	Paolo_Manghi	21.97			80	47	no	2.75		
+HD-83	QinN_2014	HD-83	stool	no	control	42	adult	male	CHN	no	IlluminaHiSeq	25079328	47589374	4758937400	100	100	ERR528336	Paolo_Manghi	21.62			64	51.7	no	3.02		
+HD-9	QinN_2014	HD-9	stool	no	control	39	adult	female	CHN	no	IlluminaHiSeq	25079328	70584572	7058457200	100	100	ERR528337	Paolo_Manghi	18.73			46	46.7	no	2.73		
+HV-1	QinN_2014	HV-1	stool	no	control	43	adult	male	CHN	no	IlluminaHiSeq	25079328	16980314	1698031400	100	100	ERR527006	Paolo_Manghi	20.94			68	48.7	no	2.85		
+HV-10	QinN_2014	HV-10	stool	no	control	45	adult	female	CHN	no	IlluminaHiSeq	25079328	18710430	1871043000	100	100	ERR527007	Paolo_Manghi	20.07			42	51.9	no	3.04		
+HV-11	QinN_2014	HV-11	stool	no	control	34	adult	male	CHN	no	IlluminaHiSeq	25079328	20163492	2016349200	100	100	ERR527009;ERR527008	Paolo_Manghi	22.86			62	51.1	no	2.99		
+HV-12	QinN_2014	HV-12	stool	no	control	60	adult	male	CHN	no	IlluminaHiSeq	25079328	27883860	2788386000	100	100	ERR527010	Paolo_Manghi	23.36			84	44.1	no	2.58		
+HV-13	QinN_2014	HV-13	stool	no	control	70	senior	male	CHN	no	IlluminaHiSeq	25079328	22186152	2218615200	100	100	ERR527012;ERR527011	Paolo_Manghi	19.97			85	47.4	no	2.77		
+HV-14	QinN_2014	HV-14	stool	no	control	35	adult	male	CHN	no	IlluminaHiSeq	25079328	19843568	1984356800	100	100	ERR527013;ERR527014	Paolo_Manghi	26.89			87	50	no	2.92		
+HV-15	QinN_2014	HV-15	stool	no	control	52	adult	male	CHN	no	IlluminaHiSeq	25079328	24424112	2442411200	100	100	ERR527016;ERR527015	Paolo_Manghi	23.33			63	49.4	no	2.89		
+HV-16	QinN_2014	HV-16	stool	no	control	34	adult	female	CHN	no	IlluminaHiSeq	25079328	20671956	2067195600	100	100	ERR527017	Paolo_Manghi	20.2			55	50.5	no	2.95		
+HV-17	QinN_2014	HV-17	stool	no	control	45	adult	female	CHN	no	IlluminaHiSeq	25079328	22756254	2275625400	100	100	ERR527018	Paolo_Manghi	19.05			51	44.1	no	2.58		
+HV-18	QinN_2014	HV-18	stool	no	control	56	adult	male	CHN	no	IlluminaHiSeq	25079328	16195430	1619543000	100	100	ERR527020;ERR527019	Paolo_Manghi	20.91			78	48.9	no	2.86		
+HV-19	QinN_2014	HV-19	stool	no	control	49	adult	male	CHN	no	IlluminaHiSeq	25079328	15893410	1589341000	100	100	ERR527022;ERR527021	Paolo_Manghi	23.66			78	48.6	no	2.84		
+HV-2	QinN_2014	HV-2	stool	no	control	58	adult	male	CHN	no	IlluminaHiSeq	25079328	17287966	1728796600	100	100	ERR527023	Paolo_Manghi	19.96			48	46.4	no	2.71		
+HV-20	QinN_2014	HV-20	stool	no	control	30	adult	male	CHN	no	IlluminaHiSeq	25079328	17497650	1749765000	100	100	ERR527025;ERR527024	Paolo_Manghi	20.68			98	53.6	no	3.13		
+HV-21	QinN_2014	HV-21	stool	no	control	27	adult	male	CHN	no	IlluminaHiSeq	25079328	17952094	1795209400	100	100	ERR527026	Paolo_Manghi	20.98			76	47.3	no	2.77		
+HV-22	QinN_2014	HV-22	stool	no	control	32	adult	male	CHN	no	IlluminaHiSeq	25079328	19674292	1967429200	100	100	ERR527027	Paolo_Manghi	23.18			74	49	no	2.87		
+HV-23	QinN_2014	HV-23	stool	no	control	38	adult	male	CHN	no	IlluminaHiSeq	25079328	19510786	1951078600	100	100	ERR527028	Paolo_Manghi	24.16			70	49	no	2.87		
+HV-24	QinN_2014	HV-24	stool	no	control	49	adult	male	CHN	no	IlluminaHiSeq	25079328	15215534	1521553400	100	100	ERR527029	Paolo_Manghi	25.95			78	49.7	no	2.91		
+HV-25	QinN_2014	HV-25	stool	no	control	32	adult	male	CHN	no	IlluminaHiSeq	25079328	23052644	2305264400	100	100	ERR527030	Paolo_Manghi	22.94			58	51.2	no	2.99		
+HV-26	QinN_2014	HV-26	stool	no	control	32	adult	female	CHN	no	IlluminaHiSeq	25079328	27678826	2767882600	100	100	ERR527031	Paolo_Manghi	20.42			60	49.2	no	2.88		
+HV-27	QinN_2014	HV-27	stool	no	control	35	adult	male	CHN	no	IlluminaHiSeq	25079328	20322714	2032271400	100	100	ERR527032	Paolo_Manghi	25.19			79	52.5	no	3.07		
+HV-28	QinN_2014	HV-28	stool	no	control	51	adult	male	CHN	no	IlluminaHiSeq	25079328	18764362	1876436200	100	100	ERR527033	Paolo_Manghi	19.76			68	48.6	no	2.84		
+HV-29	QinN_2014	HV-29	stool	no	control	54	adult	male	CHN	no	IlluminaHiSeq	25079328	27632770	2763277000	100	100	ERR527034	Paolo_Manghi	22.96			69	48	no	2.81		
+HV-3	QinN_2014	HV-3	stool	no	control	46	adult	female	CHN	no	IlluminaHiSeq	25079328	24721126	2472112600	100	100	ERR527035	Paolo_Manghi	21.3			54	42.1	no	2.46		
+HV-30	QinN_2014	HV-30	stool	no	control	39	adult	male	CHN	no	IlluminaHiSeq	25079328	22204002	2220400200	100	100	ERR527036	Paolo_Manghi	24.27			95	49.6	no	2.9		
+HV-31	QinN_2014	HV-31	stool	no	control	47	adult	male	CHN	no	IlluminaHiSeq	25079328	26973734	2697373400	100	100	ERR527037	Paolo_Manghi	20.05			78	54.5	no	3.19		
+HV-4	QinN_2014	HV-4	stool	no	control	42	adult	female	CHN	no	IlluminaHiSeq	25079328	20963184	2096318400	100	100	ERR527039;ERR527038	Paolo_Manghi	22.04			42	46.1	no	2.7		
+HV-5	QinN_2014	HV-5	stool	no	control	53	adult	male	CHN	no	IlluminaHiSeq	25079328	16373096	1637309600	100	100	ERR527040	Paolo_Manghi	23.53			62	49.2	no	2.88		
+HV-6	QinN_2014	HV-6	stool	no	control	45	adult	male	CHN	no	IlluminaHiSeq	25079328	22731358	2273135800	100	100	ERR527041	Paolo_Manghi	23.94			85	53.2	no	3.11		
+HV-7	QinN_2014	HV-7	stool	no	control	69	senior	male	CHN	no	IlluminaHiSeq	25079328	23440476	2344047600	100	100	ERR527042	Paolo_Manghi	22.77			87	45.8	no	2.68		
+HV-8	QinN_2014	HV-8	stool	no	control	34	adult	female	CHN	no	IlluminaHiSeq	25079328	15586518	1558651800	100	100	ERR527043;ERR527044	Paolo_Manghi	19.68			49	52.8	no	3.09		
+HV-9	QinN_2014	HV-9	stool	no	control	37	adult	male	CHN	no	IlluminaHiSeq	25079328	29209746	2920974600	100	100	ERR527045	Paolo_Manghi	21.01			77	47.2	no	2.76		
+LD-1	QinN_2014	LD-1	stool	no	cirrhosis	44	adult	male	CHN	no	IlluminaHiSeq	25079328	33454542	3345454200	100	100	ERR527140	Paolo_Manghi	20.76	anti_retrovirals	HBV;cirrhosis	76	43.7	yes	2.56		1.09
+LD-10	QinN_2014	LD-10	stool	no	cirrhosis	45	adult	female	CHN	no	IlluminaHiSeq	25079328	60282760	6028276000	100	100	ERR527142;ERR527141	Paolo_Manghi	24.03	anti_virals	HBV;ascites;cirrhosis	47	29.8	no	1.74		1.17
+LD-11	QinN_2014	LD-11	stool	no	cirrhosis	51	adult	male	CHN	no	IlluminaHiSeq	25079328	219904756	21990475600	100	100	ERR527143	Paolo_Manghi	23.66	anti_retrovirals;reverse_transcriptase_inhibitors	HBV;cirrhosis	52	40.3	no	2.36		1.09
+LD-12	QinN_2014	LD-12	stool	no	cirrhosis	72	senior	male	CHN	no	IlluminaHiSeq	25079328	44243110	4424311000	100	100	ERR527144	Paolo_Manghi	20.93		ascites;cirrhosis;schistosoma	44	41.5	yes	2.43		1.31
+LD-13	QinN_2014	LD-13	stool	no	cirrhosis	52	adult	male	CHN	no	IlluminaHiSeq	25079328	63748028	6374802800	100	100	ERR527146;ERR527145	Paolo_Manghi	24.06		HBV;cirrhosis	62	43.5	no	2.54		1.13
+LD-14	QinN_2014	LD-14	stool	no	cirrhosis	74	senior	female	CHN	no	IlluminaHiSeq	25079328	46862302	4686230200	100	100	ERR527147	Paolo_Manghi	19.43		HEV;ascites;cirrhosis;schistosoma	54	37.3	no	2.18	12	1.04
+LD-15	QinN_2014	LD-15	stool	no	cirrhosis	49	adult	male	CHN	no	IlluminaHiSeq	25079328	68866970	6886697000	100	100	ERR527148	Paolo_Manghi	24.98		HBV;HEV;cirrhosis	58	43.2	no	2.53		1.15
+LD-16	QinN_2014	LD-16	stool	no	cirrhosis	49	adult	male	CHN	no	IlluminaHiSeq	25079328	102301192	6342673904	62	62	ERR527149	Paolo_Manghi	23.81		cirrhosis	50	40.4	yes	2.36		1.39
+LD-17	QinN_2014	LD-17	stool	no	cirrhosis	18	schoolage	male	CHN	no	IlluminaHiSeq	25079328	99623118	9962311800	100	100	ERR527150	Paolo_Manghi	17.93	anti_retrovirals;reverse_transcriptase_inhibitors	HBV;cirrhosis	52	37.5	no	2.19		1.46
+LD-18	QinN_2014	LD-18	stool	no	cirrhosis	55	adult	female	CHN	no	IlluminaHiSeq	25079328	48605566	4860556600	100	100	ERR527152;ERR527151	Paolo_Manghi	21.88	anti_virals	HBV;ascites;cirrhosis	66	27.6	no	1.61		1.22
+LD-19	QinN_2014	LD-19	stool	no	cirrhosis	44	adult	male	CHN	no	IlluminaHiSeq	25079328	34384976	3438497600	100	100	ERR527153	Paolo_Manghi	28.03		HBV;ascites;cirrhosis	78	31	no	1.81		1.23
+LD-2	QinN_2014	LD-2	stool	no	cirrhosis	51	adult	male	CHN	no	IlluminaHiSeq	25079328	35053782	3505378200	100	100	ERR527155;ERR527154	Paolo_Manghi	24.54	anti_retrovirals;beta_blockers;reverse_transcriptase_inhibitors	HBV;ascites;cirrhosis	72	34.6	no	2.02		1.11
+LD-20	QinN_2014	LD-20	stool	no	cirrhosis	45	adult	male	CHN	no	IlluminaHiSeq	25079328	74766124	7476612400	100	100	ERR527156	Paolo_Manghi	28.65	anti_retrovirals;reverse_transcriptase_inhibitors	HBV;cirrhosis	84	25.8	no	1.51		1.6
+LD-21	QinN_2014	LD-21	stool	no	cirrhosis	53	adult	male	CHN	no	IlluminaHiSeq	25079328	49460790	4946079000	100	100	ERR527157;ERR527158	Paolo_Manghi	20.76	beta_blockers	HBV;HDV;ascites;cirrhosis	66	34.4	yes	2.01		1.19
+LD-22	QinN_2014	LD-22	stool	no	cirrhosis	55	adult	female	CHN	no	IlluminaHiSeq	25079328	95766520	9576652000	100	100	ERR527159	Paolo_Manghi	22.86	anti_retrovirals	HBV;cirrhosis	50	37.3	no	2.18		1.3
+LD-23	QinN_2014	LD-23	stool	no	cirrhosis	36	adult	male	CHN	no	IlluminaHiSeq	25079328	61628134	6162813400	100	100	ERR527160	Paolo_Manghi	21.26	anti_virals	HBV;cirrhosis	61	39.7	no	2.32		1.91
+LD-24	QinN_2014	LD-24	stool	no	cirrhosis	61	adult	female	CHN	no	IlluminaHiSeq	25079328	37332716	3733271600	100	100	ERR527162;ERR527161	Paolo_Manghi	25.63		HBV;ascites;cirrhosis	94	35.2	no	2.06		1.41
+LD-25	QinN_2014	LD-25	stool	no	cirrhosis	59	adult	female	CHN	no	IlluminaHiSeq	25079328	39707636	3970763600	100	100	ERR527163;ERR527164	Paolo_Manghi	24.03	anti_retrovirals;reverse_transcriptase_inhibitors	HBV;cirrhosis	62	42.6	no	2.49		1.19
+LD-26	QinN_2014	LD-26	stool	no	cirrhosis	38	adult	male	CHN	no	IlluminaHiSeq	25079328	107208176	10720817600	100	100	ERR527165	Paolo_Manghi	25.88		HBV;HEV;cirrhosis	62	34.1	no	1.99	19	1.62
+LD-27	QinN_2014	LD-27	stool	no	cirrhosis	55	adult	male	CHN	no	IlluminaHiSeq	25079328	84317412	8431741200	100	100	ERR527168;ERR527167;ERR527166	Paolo_Manghi	20.2		HBV;HDV;ascites;cirrhosis	54	25.5	no	1.49	20	1.7
+LD-28	QinN_2014	LD-28	stool	no	cirrhosis	51	adult	male	CHN	no	IlluminaHiSeq	25079328	40639856	4063985600	100	100	ERR527170;ERR527169	Paolo_Manghi	21.48		ascites;cirrhosis	68	29.4	no	1.72		1.08
+LD-29	QinN_2014	LD-29	stool	no	cirrhosis	44	adult	male	CHN	no	IlluminaHiSeq	25079328	36218552	3621855200	100	100	ERR527171	Paolo_Manghi	25.51		HBV;cirrhosis	63	43.5	no	2.54		1.23
+LD-3	QinN_2014	LD-3	stool	no	cirrhosis	43	adult	male	CHN	no	IlluminaHiSeq	25079328	63060022	6306002200	100	100	ERR527172	Paolo_Manghi	21.28		HBV;ascites;cirrhosis	53	36.2	yes	2.12		0.99
+LD-30	QinN_2014	LD-30	stool	no	cirrhosis	64	adult	male	CHN	no	IlluminaHiSeq	25079328	91888542	9188854200	100	100	ERR527175;ERR527174;ERR527173	Paolo_Manghi	23.88		HBV;cirrhosis	69	20.7	no	1.21		1.49
+LD-31	QinN_2014	LD-31	stool	no	cirrhosis	48	adult	male	CHN	no	IlluminaHiSeq	25079328	29028876	2902887600	100	100	ERR527176;ERR527178;ERR527177	Paolo_Manghi	22.04	anti_retrovirals;reverse_transcriptase_inhibitors	HBV;cirrhosis	61	30.9	no	1.81		1.1
+LD-32	QinN_2014	LD-32	stool	no	cirrhosis	62	adult	female	CHN	no	IlluminaHiSeq	25079328	39166804	3916680400	100	100	ERR527180;ERR527179	Paolo_Manghi	26.71	anti_retrovirals;reverse_transcriptase_inhibitors	HBV;HEV;ascites;cirrhosis	58	15.2	no	0.89		1.65
+LD-33	QinN_2014	LD-33	stool	no	cirrhosis	54	adult	male	CHN	no	IlluminaHiSeq	25079328	70732722	4385428764	62	62	ERR527181	Paolo_Manghi	21.26		ascites;cirrhosis	63	27.5	yes	1.61		1.32
+LD-34	QinN_2014	LD-34	stool	no	cirrhosis	48	adult	female	CHN	no	IlluminaHiSeq	25079328	57325994	5732599400	100	100	ERR527182	Paolo_Manghi	26.67		cirrhosis	70	23.9	no	1.4	17	1.46
+LD-35	QinN_2014	LD-35	stool	no	cirrhosis	60	adult	male	CHN	no	IlluminaHiSeq	25079328	137437450	13743745000	100	100	ERR527183	Paolo_Manghi	24.98		cirrhosis	60	43.8	yes	2.56		1.02
+LD-36	QinN_2014	LD-36	stool	no	cirrhosis	66	senior	male	CHN	no	IlluminaHiSeq	25079328	67430146	6182532156	62	100	ERR527186;ERR527185;ERR527184	Paolo_Manghi	30.86		HBV;cirrhosis	49	25.9	no	1.51		1.42
+LD-37	QinN_2014	LD-37	stool	no	cirrhosis	36	adult	male	CHN	no	IlluminaHiSeq	25079328	37848226	3784822600	100	100	ERR527187	Paolo_Manghi	24.22		HBV;HEV;cirrhosis	72	42.2	no	2.47		1.14
+LD-38	QinN_2014	LD-38	stool	no	cirrhosis	54	adult	male	CHN	no	IlluminaHiSeq	25079328	75395124	7539512400	100	100	ERR527188	Paolo_Manghi	25.46		ascites;cirrhosis	66	36.7	yes	2.15		1.32
+LD-39	QinN_2014	LD-39	stool	no	cirrhosis	73	senior	female	CHN	no	IlluminaHiSeq	25079328	108008746	10800874600	100	100	ERR527189	Paolo_Manghi	21.78		HBV;ascites;cirrhosis;schistosoma	76	31.7	no	1.85		1.49
+LD-4	QinN_2014	LD-4	stool	no	cirrhosis	41	adult	male	CHN	no	IlluminaHiSeq	25079328	42936780	4293678000	100	100	ERR527190	Paolo_Manghi	25.06		HEV;cirrhosis	30	38.1	yes	2.23		1.39
+LD-40	QinN_2014	LD-40	stool	no	cirrhosis	47	adult	female	CHN	no	IlluminaHiSeq	25079328	32304580	3230458000	100	100	ERR527192;ERR527191;ERR527193	Paolo_Manghi	19.53	anti_virals;beta_blockers	HBV;cirrhosis	60	32.3	no	1.89		1.19
+LD-41	QinN_2014	LD-41	stool	no	cirrhosis	47	adult	female	CHN	no	IlluminaHiSeq	25079328	52250886	5225088600	100	100	ERR527194	Paolo_Manghi	24.17		HBV;HDV;cirrhosis	36	34.6	no	2.02		1.4
+LD-42	QinN_2014	LD-42	stool	no	cirrhosis	59	adult	male	CHN	no	IlluminaHiSeq	25079328	71144038	7114403800	100	100	ERR527195	Paolo_Manghi	22.39		HBV;cirrhosis	68	22.9	yes	1.34		1.4
+LD-43	QinN_2014	LD-43	stool	no	cirrhosis	56	adult	female	CHN	no	IlluminaHiSeq	25079328	48356054	4835605400	100	100	ERR527196	Paolo_Manghi	17.58	anti_retrovirals;reverse_transcriptase_inhibitors	HBV;ascites;cirrhosis	57	27.4	no	1.6		2.16
+LD-44	QinN_2014	LD-44	stool	no	cirrhosis	60	adult	female	CHN	no	IlluminaHiSeq	25079328	93054340	9305434000	100	100	ERR527197	Paolo_Manghi	19.98	anti_retrovirals;antiviral	HBV;ascites;cirrhosis	54	29.7	no	1.74	14	1.22
+LD-45	QinN_2014	LD-45	stool	no	cirrhosis	51	adult	female	CHN	no	IlluminaHiSeq	25079328	156472100	9701270200	62	62	ERR527198	Paolo_Manghi	22.43	reverse_transcriptase_inhibitors	HBV;HEV;cirrhosis	58	28.6	no	1.67		1.44
+LD-46	QinN_2014	LD-46	stool	no	cirrhosis	70	senior	male	CHN	no	IlluminaHiSeq	25079328	35496572	3549657200	100	100	ERR527199	Paolo_Manghi	23.18		HBV;HDV;cirrhosis	78	28.6	yes	1.67		1.25
+LD-47	QinN_2014	LD-47	stool	no	cirrhosis	53	adult	female	CHN	no	IlluminaHiSeq	25079328	65469662	6546966200	100	100	ERR527201;ERR527200	Paolo_Manghi	19.23	anti_virals	HBV;ascites;cirrhosis	59	33.6	no	1.96		1.48
+LD-48	QinN_2014	LD-48	stool	no	cirrhosis	41	adult	male	CHN	no	IlluminaHiSeq	25079328	59783810	5978381000	100	100	ERR527203;ERR527202	Paolo_Manghi	19.03		HBV;cirrhosis	64	39.2	no	2.29		1.2
+LD-49	QinN_2014	LD-49	stool	no	cirrhosis	66	senior	female	CHN	no	IlluminaHiSeq	25079328	94745162	9474516200	100	100	ERR527204;ERR527205	Paolo_Manghi	22.38	anti_retrovirals;reverse_transcriptase_inhibitors	HBV;ascites;cirrhosis	39	27.4	no	1.6	12	1.04
+LD-5	QinN_2014	LD-5	stool	no	cirrhosis	49	adult	male	CHN	no	IlluminaHiSeq	25079328	40642762	4064276200	100	100	ERR527206	Paolo_Manghi	21.22	anti_retrovirals;beta_blockers;reverse_transcriptase_inhibitors	HBV;ascites;cirrhosis	81	34.1	no	1.99		1.35
+LD-50	QinN_2014	LD-50	stool	no	cirrhosis	45	adult	female	CHN	no	IlluminaHiSeq	25079328	49082910	4908291000	100	100	ERR527207	Paolo_Manghi	19.2		HBV;ascites;cirrhosis	55	23.4	no	1.37		1.39
+LD-51	QinN_2014	LD-51	stool	no	cirrhosis	46	adult	male	CHN	no	IlluminaHiSeq	25079328	123691142	12369114200	100	100	ERR527208	Paolo_Manghi	25.62	anti_retrovirals;reverse_transcriptase_inhibitors	HBV;cirrhosis	43	33.6	yes	1.96		1.33
+LD-52	QinN_2014	LD-52	stool	no	cirrhosis	37	adult	female	CHN	no	IlluminaHiSeq	25079328	54423012	5442301200	100	100	ERR527209	Paolo_Manghi	19.1		HBV;cirrhosis	46	41.6	no	2.43		1.14
+LD-53	QinN_2014	LD-53	stool	no	cirrhosis	52	adult	male	CHN	no	IlluminaHiSeq	25079328	49496928	4949692800	100	100	ERR527210	Paolo_Manghi	24.49		HBV;ascites;cirrhosis	63	22.3	no	1.3		1.75
+LD-54	QinN_2014	LD-54	stool	no	cirrhosis	62	adult	male	CHN	no	IlluminaHiSeq	25079328	39160008	3916000800	100	100	ERR527211	Paolo_Manghi	25.53	reverse_transcriptase_inhibitors	HBV;HEV;ascites;cirrhosis	67	24.3	no	1.42		1.56
+LD-55	QinN_2014	LD-55	stool	no	cirrhosis	39	adult	female	CHN	no	IlluminaHiSeq	25079328	33477468	3347746800	100	100	ERR527213;ERR527212	Paolo_Manghi	21.63		HBV;cirrhosis	50	34.5	no	2.02		1.35
+LD-56	QinN_2014	LD-56	stool	no	cirrhosis	48	adult	male	CHN	no	IlluminaHiSeq	25079328	30200322	3020032200	100	100	ERR527215;ERR527214	Paolo_Manghi	22.65		HBV;ascites;cirrhosis	163	29.2	yes	1.71	14	1.22
+LD-57	QinN_2014	LD-57	stool	no	cirrhosis	60	adult	male	CHN	no	IlluminaHiSeq	25079328	50153442	5015344200	100	100	ERR527216	Paolo_Manghi	24.22	anti_retrovirals	HBV;ascites;cirrhosis	129	42.6	no	2.49		1.2
+LD-58	QinN_2014	LD-58	stool	no	cirrhosis	32	adult	male	CHN	no	IlluminaHiSeq	25079328	30345628	3034562800	100	100	ERR527217	Paolo_Manghi	25.1	anti_retrovirals;reverse_transcriptase_inhibitors	HBV;cirrhosis	62	42.8	yes	2.5		1.19
+LD-59	QinN_2014	LD-59	stool	no	cirrhosis	58	adult	female	CHN	no	IlluminaHiSeq	25079328	65388306	6538830600	100	100	ERR527218	Paolo_Manghi	19.56		ascites;cirrhosis	38	36.3	no	2.12		1.67
+LD-6	QinN_2014	LD-6	stool	no	cirrhosis	47	adult	female	CHN	no	IlluminaHiSeq	25079328	106332924	10633292400	100	100	ERR528722;ERR528721	Paolo_Manghi	23.73		HBV;cirrhosis	63	39.4	no	2.3		1.14
+LD-60	QinN_2014	LD-60	stool	no	cirrhosis	32	adult	male	CHN	no	IlluminaHiSeq	25079328	66753496	6675349600	100	100	ERR528723	Paolo_Manghi	24.22		cirrhosis	53	33.8	yes	1.98		1.16
+LD-61	QinN_2014	LD-61	stool	no	cirrhosis	49	adult	male	CHN	no	IlluminaHiSeq	25079328	49256794	4925679400	100	100	ERR528724	Paolo_Manghi	21.47		HBV;ascites;cirrhosis	57	43.6	yes	2.55		1.47
+LD-62	QinN_2014	LD-62	stool	no	cirrhosis	42	adult	male	CHN	no	IlluminaHiSeq	25079328	39669464	3966946400	100	100	ERR528725	Paolo_Manghi	25.69		HBV;cirrhosis	47	31.7	yes	1.85	19	1.67
+LD-63	QinN_2014	LD-63	stool	no	cirrhosis	43	adult	male	CHN	no	IlluminaHiSeq	25079328	35835300	3583530000	100	100	ERR528726	Paolo_Manghi	19.72		HCV;cirrhosis	59	30.2	no	1.77	14	1.21
+LD-64	QinN_2014	LD-64	stool	no	cirrhosis	63	adult	female	CHN	no	IlluminaHiSeq	25079328	50317170	5031717000	100	100	ERR528728;ERR528727	Paolo_Manghi	25.39		cirrhosis	58	44.5	no	2.6		1.11
+LD-65	QinN_2014	LD-65	stool	no	cirrhosis	38	adult	male	CHN	no	IlluminaHiSeq	25079328	31937260	3193726000	100	100	ERR528730;ERR528731;ERR528729	Paolo_Manghi	21.55	anti_retrovirals;reverse_transcriptase_inhibitors	HBV;ascites;cirrhosis	75	30.4	no	1.78		1.49
+LD-66	QinN_2014	LD-66	stool	no	cirrhosis	55	adult	male	CHN	no	IlluminaHiSeq	25079328	44884242	4488424200	100	100	ERR528732	Paolo_Manghi	22.65		HBV;cirrhosis	71	43.3	yes	2.53		1.13
+LD-67	QinN_2014	LD-67	stool	no	cirrhosis	71	senior	female	CHN	no	IlluminaHiSeq	25079328	28186006	2818600600	100	100	ERR528734;ERR528733	Paolo_Manghi	24.34	anti_retrovirals	HBV;ascites;cirrhosis	67	36.8	no	2.15		1.44
+LD-68	QinN_2014	LD-68	stool	no	cirrhosis	29	adult	female	CHN	no	IlluminaHiSeq	25079328	77500252	7750025200	100	100	ERR528735	Paolo_Manghi	20.31	anti_retrovirals;reverse_transcriptase_inhibitors	HBV;ascites;cirrhosis	40	34.8	no	2.04		2.1
+LD-69	QinN_2014	LD-69	stool	no	cirrhosis	52	adult	male	CHN	no	IlluminaHiSeq	25079328	88651320	8865132000	100	100	ERR528736	Paolo_Manghi	29.02	anti_retrovirals	HBV;ascites;cirrhosis	75	24.1	no	1.41		1.11
+LD-7	QinN_2014	LD-7	stool	no	cirrhosis	35	adult	female	CHN	no	IlluminaHiSeq	25079328	66765480	6676548000	100	100	ERR528737	Paolo_Manghi	24.22		ascites;cirrhosis	44	44.8	no	2.62		1.18
+LD-70	QinN_2014	LD-70	stool	no	cirrhosis	56	adult	female	CHN	no	IlluminaHiSeq	25079328	31406734	3140673400	100	100	ERR528739;ERR528738	Paolo_Manghi	20.55	anti_retrovirals	HBV;ascites;cirrhosis	61	29.1	no	1.7		1.34
+LD-71	QinN_2014	LD-71	stool	no	cirrhosis	37	adult	male	CHN	no	IlluminaHiSeq	25079328	48797498	4879749800	100	100	ERR528741;ERR528740	Paolo_Manghi	20.28		HBV;ascites;cirrhosis	67	35.1	no	2.05		1.69
+LD-72	QinN_2014	LD-72	stool	no	cirrhosis	50	adult	male	CHN	no	IlluminaHiSeq	25079328	34967772	3496777200	100	100	ERR528742	Paolo_Manghi	24.39		HBV;ascites;cirrhosis	55	29.6	no	1.73		1.26
+LD-73	QinN_2014	LD-73	stool	no	cirrhosis	42	adult	male	CHN	no	IlluminaHiSeq	25079328	94192484	9419248400	100	100	ERR528743	Paolo_Manghi	21.72		HBV;cirrhosis	62	25	no	1.46		1.47
+LD-74	QinN_2014	LD-74	stool	no	cirrhosis	43	adult	female	CHN	no	IlluminaHiSeq	25079328	71905768	7190576800	100	100	ERR528744	Paolo_Manghi	19.54	anti_retrovirals;reverse_transcriptase_inhibitors	HBV;ascites;cirrhosis	48	29.2	no	1.71		1.71
+LD-75	QinN_2014	LD-75	stool	no	cirrhosis	44	adult	female	CHN	no	IlluminaHiSeq	25079328	162386110	16238611000	100	100	ERR528745	Paolo_Manghi	20.13	anti_retrovirals	HBV;ascites;cirrhosis	57	30.9	no	1.81		1.36
+LD-76	QinN_2014	LD-76	stool	no	cirrhosis	37	adult	male	CHN	no	IlluminaHiSeq	25079328	132805776	13280577600	100	100	ERR528746	Paolo_Manghi	21.97	beta_blockers	HBV;cirrhosis	50	29.2	no	1.71		1.18
+LD-77	QinN_2014	LD-77	stool	no	cirrhosis	42	adult	male	CHN	no	IlluminaHiSeq	25079328	100544502	10054450200	100	100	ERR528747	Paolo_Manghi	29.03	anti_virals	HBV;cirrhosis	60	28.3	no	1.65		1.58
+LD-78	QinN_2014	LD-78	stool	no	cirrhosis	47	adult	female	CHN	no	IlluminaHiSeq	25079328	57677624	5767762400	100	100	ERR528748	Paolo_Manghi	19.81	anti_retrovirals;reverse_transcriptase_inhibitors	HBV;HEV;ascites;cirrhosis	44	32.5	no	1.9		1.07
+LD-79	QinN_2014	LD-79	stool	no	cirrhosis	46	adult	male	CHN	no	IlluminaHiSeq	25079328	60845942	6084594200	100	100	ERR528749	Paolo_Manghi	17.93	anti_retrovirals;reverse_transcriptase_inhibitors	HBV;cirrhosis	117	40.7	no	2.38		1.19
+LD-8	QinN_2014	LD-8	stool	no	cirrhosis	47	adult	male	CHN	no	IlluminaHiSeq	25079328	40341058	4034105800	100	100	ERR532378	Paolo_Manghi	22.41	anti_retrovirals;beta_blockers;reverse_transcriptase_inhibitors	HBV;cirrhosis	53	36.8	no	2.15	17	1.44
+LD-80	QinN_2014	LD-80	stool	no	cirrhosis	44	adult	male	CHN	no	IlluminaHiSeq	25079328	40945978	4094597800	100	100	ERR532379	Paolo_Manghi	21.8		cirrhosis	66	30.4	yes	1.78		1.8
+LD-81	QinN_2014	LD-81	stool	no	cirrhosis	42	adult	male	CHN	no	IlluminaHiSeq	25079328	55300860	5530086000	100	100	ERR532380	Paolo_Manghi	19.72	anti_retrovirals;reverse_transcriptase_inhibitors	HBV;cirrhosis	88	39.7	yes	2.32		1.17
+LD-82	QinN_2014	LD-82	stool	no	cirrhosis	52	adult	male	CHN	no	IlluminaHiSeq	25079328	63170770	6317077000	100	100	ERR532381	Paolo_Manghi	20.72	anti_retrovirals	HBV;cirrhosis	62	31.3	no	1.83		1.14
+LD-83	QinN_2014	LD-83	stool	no	cirrhosis	52	adult	male	CHN	no	IlluminaHiSeq	25079328	68880832	6888083200	100	100	ERR532382	Paolo_Manghi	23.12		HBV;ascites;cirrhosis	58	22	yes	1.29		1.22
+LD-84	QinN_2014	LD-84	stool	no	cirrhosis	69	senior	male	CHN	no	IlluminaHiSeq	25079328	89490776	8949077600	100	100	ERR532383	Paolo_Manghi	20.2		ascites;cirrhosis	114	30.3	no	1.77		1.18
+LD-85	QinN_2014	LD-85	stool	no	cirrhosis	46	adult	male	CHN	no	IlluminaHiSeq	25079328	115086618	11508661800	100	100	ERR532384	Paolo_Manghi	21.48		HBV;ascites;cirrhosis	104	40.9	yes	2.39		1.2
+LD-86	QinN_2014	LD-86	stool	no	cirrhosis	58	adult	female	CHN	no	IlluminaHiSeq	25079328	59417948	5941794800	100	100	ERR532385	Paolo_Manghi	20.55		ascites;cirrhosis	55	25.1	no	1.47	17	1.45
+LD-87	QinN_2014	LD-87	stool	no	cirrhosis	36	adult	male	CHN	no	IlluminaHiSeq	25079328	32864500	3286450000	100	100	ERR532387;ERR532386	Paolo_Manghi	21.61		ascites;cirrhosis	39	25.8	yes	1.51	14	1.21
+LD-88	QinN_2014	LD-88	stool	no	cirrhosis	28	adult	female	CHN	no	IlluminaHiSeq	25079328	113250528	11325052800	100	100	ERR532388	Paolo_Manghi	25.56	anti_retrovirals;reverse_transcriptase_inhibitors	HBV;ascites;cirrhosis	60	18.8	no	1.1		1.09
+LD-89	QinN_2014	LD-89	stool	no	cirrhosis	66	senior	male	CHN	no	IlluminaHiSeq	25079328	44176252	4417625200	100	100	ERR532389	Paolo_Manghi	15.94		cirrhosis	106	30.4	yes	1.78		1.32
+LD-9	QinN_2014	LD-9	stool	no	cirrhosis	56	adult	male	CHN	no	IlluminaHiSeq	25079328	82812814	8281281400	100	100	ERR532618	Paolo_Manghi	21.45	beta_blockers	HBV;ascites;cirrhosis	62	35.1	yes	2.05		1.3
+LD-90	QinN_2014	LD-90	stool	no	cirrhosis	55	adult	male	CHN	no	IlluminaHiSeq	25079328	34036976	3403697600	100	100	ERR532390	Paolo_Manghi	21.45	anti_virals	HBV;HEV;cirrhosis	78	38.9	yes	2.27		1.19
+LD-91	QinN_2014	LD-91	stool	no	cirrhosis	58	adult	female	CHN	no	IlluminaHiSeq	25079328	38129288	3812928800	100	100	ERR532391	Paolo_Manghi	24.24	anti_virals	HBV;ascites;cirrhosis	69	18.8	no	1.1		1.77
+LD-92	QinN_2014	LD-92	stool	no	cirrhosis	39	adult	male	CHN	no	IlluminaHiSeq	25079328	37590004	3759000400	100	100	ERR532392	Paolo_Manghi	24.06	anti_retrovirals;beta_blockers;reverse_transcriptase_inhibitors	HBV;ascites;cirrhosis	81	28.9	no	1.69		1.45
+LD-93	QinN_2014	LD-93	stool	no	cirrhosis	57	adult	male	CHN	no	IlluminaHiSeq	25079328	71505746	7150574600	100	100	ERR532393	Paolo_Manghi	21.72	anti_retrovirals;reverse_transcriptase_inhibitors	HBV;cirrhosis	84	35.3	no	2.06		1.34
+LD-94	QinN_2014	LD-94	stool	no	cirrhosis	54	adult	male	CHN	no	IlluminaHiSeq	25079328	61492856	6149285600	100	100	ERR532394	Paolo_Manghi	21.16		HBV;cirrhosis	63	36	no	2.11	14	1.43
+LD-95	QinN_2014	LD-95	stool	no	cirrhosis	78	senior	male	CHN	no	IlluminaHiSeq	25079328	107866604	10786660400	100	100	ERR532619	Paolo_Manghi	22.66		HBV;ascites;cirrhosis	44	37.9	no	2.22		1.14
+LD-96	QinN_2014	LD-96	stool	no	cirrhosis	36	adult	male	CHN	no	IlluminaHiSeq	25079328	44261288	4426128800	100	100	ERR532620	Paolo_Manghi	20.72	anti_virals	HBV;cirrhosis	61	39.7	no	2.32		1.91
+LD-97	QinN_2014	LD-97	stool	no	cirrhosis	41	adult	female	CHN	no	IlluminaHiSeq	25079328	187822526	18782252600	100	100	ERR532621	Paolo_Manghi	20.83	anti_virals	HBV;ascites;cirrhosis	94	18.6	no	1.09	20	1.87
+LD-98	QinN_2014	LD-98	stool	no	cirrhosis	53	adult	male	CHN	no	IlluminaHiSeq	25079328	45479164	4547916400	100	100	ERR532622;ERR532623	Paolo_Manghi	23.03	anti_retrovirals;reverse_transcriptase_inhibitors	HBV;ascites;cirrhosis	81	17.7	no	1.04		1.96
+LV-1	QinN_2014	LV-1	stool	no	cirrhosis	42	adult	male	CHN	no	IlluminaHiSeq	25079328	34522116	3452211600	100	100	ERR528291;ERR528292	Paolo_Manghi	19.03		HBV;cirrhosis	65	31.2	yes	1.82		1.18
+LV-10	QinN_2014	LV-10	stool	no	cirrhosis	62	adult	female	CHN	no	IlluminaHiSeq	25079328	105781978	10578197800	100	100	ERR528293;ERR528294	Paolo_Manghi	24.03		HEV;ascites;cirrhosis;schistosoma	50	34.7	no	2.03		0.99
+LV-11	QinN_2014	LV-11	stool	no	cirrhosis	66	senior	male	CHN	no	IlluminaHiSeq	25079328	26856220	2685622000	100	100	ERR528295	Paolo_Manghi	25.1		HBV;cirrhosis	72	37.1	yes	2.17	12	1.04
+LV-12	QinN_2014	LV-12	stool	no	cirrhosis	47	adult	male	CHN	no	IlluminaHiSeq	25079328	35932000	2227784000	62	62	ERR528296	Paolo_Manghi	27.44		cirrhosis	63	40.2	no	2.35	13	1.13
+LV-13	QinN_2014	LV-13	stool	no	cirrhosis	32	adult	male	CHN	no	IlluminaHiSeq	25079328	28800698	2880069800	100	100	ERR528298;ERR528297	Paolo_Manghi	31.14		HBV;cirrhosis	44	40.7	yes	2.38	15	1.31
+LV-14	QinN_2014	LV-14	stool	no	cirrhosis	45	adult	male	CHN	no	IlluminaHiSeq	25079328	22013032	2201303200	100	100	ERR528300;ERR528299	Paolo_Manghi	21.63	anti_virals	HBV;ascites;cirrhosis	82	23.7	no	1.39	21	1.78
+LV-15	QinN_2014	LV-15	stool	no	cirrhosis	34	adult	female	CHN	no	IlluminaHiSeq	25079328	26312958	2631295800	100	100	ERR528302;ERR528301	Paolo_Manghi	23.31		HBV;ascites;cirrhosis	58	27.3	no	1.6	27	2.35
+LV-16	QinN_2014	LV-16	stool	no	cirrhosis	68	senior	female	CHN	no	IlluminaHiSeq	25079328	30355342	3035534200	100	100	ERR528303	Paolo_Manghi	27.77	anti_retrovirals;reverse_transcriptase_inhibitors	HBV;ascites;cirrhosis	44	25	no	1.46		1.87
+LV-17	QinN_2014	LV-17	stool	no	cirrhosis	61	adult	male	CHN	no	IlluminaHiSeq	25079328	27289254	2728925400	100	100	ERR528304	Paolo_Manghi	18.73		ascites;cirrhosis	47	38.4	yes	2.25		1.02
+LV-18	QinN_2014	LV-18	stool	no	cirrhosis	45	adult	male	CHN	no	IlluminaHiSeq	25079328	18240836	1824083600	100	100	ERR528306;ERR528305	Paolo_Manghi	23.45		HBV;HEV;ascites;cirrhosis	94	32.5	yes	1.9	11	0.96
+LV-19	QinN_2014	LV-19	stool	no	cirrhosis	41	adult	male	CHN	no	IlluminaHiSeq	25079328	19032722	1903272200	100	100	ERR528307	Paolo_Manghi	21.22	anti_retrovirals	HBV;ascites;cirrhosis	82	30.4	no	1.78		1.32
+LV-2	QinN_2014	LV-2	stool	no	cirrhosis	36	adult	female	CHN	no	IlluminaHiSeq	25079328	14705552	1470555200	100	100	ERR528309;ERR528308	Paolo_Manghi	24.24		ascites;cirrhosis;wilson	66	33.5	no	1.96		1.96
+LV-20	QinN_2014	LV-20	stool	no	cirrhosis	76	senior	male	CHN	no	IlluminaHiSeq	25079328	26595206	2659520600	100	100	ERR528310	Paolo_Manghi	20.28		HBV;HDV;cirrhosis	82	31.1	no	1.82		1.28
+LV-21	QinN_2014	LV-21	stool	no	cirrhosis	49	adult	female	CHN	no	IlluminaHiSeq	25079328	26470998	2647099800	100	100	ERR528311	Paolo_Manghi	22.89	anti_retrovirals;reverse_transcriptase_inhibitors	HBV;ascites;cirrhosis	36	27.3	no	1.6		1.16
+LV-22	QinN_2014	LV-22	stool	no	cirrhosis	52	adult	female	CHN	no	IlluminaHiSeq	25079328	34972386	3497238600	100	100	ERR528312	Paolo_Manghi	22.48		HBV;ascites;cirrhosis	97	35.2	no	2.06		1.21
+LV-23	QinN_2014	LV-23	stool	no	cirrhosis	48	adult	male	CHN	no	IlluminaHiSeq	25079328	26963574	2696357400	100	100	ERR528313	Paolo_Manghi	22.84	anti_virals	HBV;cirrhosis	71	36.6	no	2.14		1.05
+LV-24	QinN_2014	LV-24	stool	no	cirrhosis	60	adult	male	CHN	no	IlluminaHiSeq	25079328	31066348	3106634800	100	100	ERR528314	Paolo_Manghi	19.57		HBV;ascites;cirrhosis	74	39.2	yes	2.29		1.01
+LV-25	QinN_2014	LV-25	stool	no	cirrhosis	59	adult	male	CHN	no	IlluminaHiSeq	25079328	14221694	1422169400	100	100	ERR528316;ERR528315;ERR528317	Paolo_Manghi	20.76		HBV;ascites;cirrhosis;wilson	73	35	no	2.05		1.08
+LV-3	QinN_2014	LV-3	stool	no	cirrhosis	44	adult	male	CHN	no	IlluminaHiSeq	25079328	20823508	2082350800	100	100	ERR528319;ERR528318	Paolo_Manghi	25.14	beta_blockers	ascites;cirrhosis	60	36.1	no	2.11		2.05
+LV-4	QinN_2014	LV-4	stool	no	cirrhosis	41	adult	male	CHN	no	IlluminaHiSeq	25079328	27450018	2745001800	100	100	ERR528320;ERR528321	Paolo_Manghi	25.35	anti_retrovirals;reverse_transcriptase_inhibitors	HBV;cirrhosis	49	46.2	no	2.7		1.14
+LV-5	QinN_2014	LV-5	stool	no	cirrhosis	40	adult	male	CHN	no	IlluminaHiSeq	25079328	20138148	2013814800	100	100	ERR528323;ERR528322	Paolo_Manghi	22.58	anti_virals;beta_blockers	HBV;cirrhosis	61	44.2	no	2.58		1.3
+LV-6	QinN_2014	LV-6	stool	no	cirrhosis	42	adult	male	CHN	no	IlluminaHiSeq	25079328	24089372	2408937200	100	100	ERR528324	Paolo_Manghi	21.87		HBV;cirrhosis	51	35.1	yes	2.05		1.11
+LV-7	QinN_2014	LV-7	stool	no	cirrhosis	42	adult	male	CHN	no	IlluminaHiSeq	25079328	31868940	3186894000	100	100	ERR528325;ERR528326	Paolo_Manghi	19.96	anti_retrovirals;reverse_transcriptase_inhibitors	HBV;ascites;cirrhosis	62	22	no	1.29		1.64
+LV-8	QinN_2014	LV-8	stool	no	cirrhosis	65	adult	male	CHN	no	IlluminaHiSeq	25079328	23604550	2360455000	100	100	ERR528327	Paolo_Manghi	35.16	beta_blockers	HBV;ascites;cirrhosis	71	24.6	yes	1.44		0.92
+LV-9	QinN_2014	LV-9	stool	no	cirrhosis	61	adult	male	CHN	no	IlluminaHiSeq	25079328	30271032	1876803984	62	62	ERR528328	Paolo_Manghi	24.82		HBV;ascites;cirrhosis	96	23.5	no	1.37		1.27

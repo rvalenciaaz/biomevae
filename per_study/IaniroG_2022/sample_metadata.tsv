@@ -1,0 +1,166 @@
+sample_id	study_name	subject_id	body_site	antibiotics_current_use	disease	age_category	country	non_westernized	pmid	number_bases	NCBI_accession	curator	location	FMT_role	subcohort	fmt_id
+D_1118_R4_010202	IaniroG_2022	FATHER	stool	no	donor	adult	ITA	no	36109637	9286688342	ERR9707213	Paolo_Manghi;Michal_Puncochar	Rome	donor	IaniroG_2022_IBD	IaniroG_2020_2022_294
+D_2646_R5_290108	IaniroG_2022	UNIVERSAL DONOR	stool	no	donor	adult	ITA	no	36109637	12421677051	ERR9708128	Paolo_Manghi;Michal_Puncochar	Rome	donor	IaniroG_2022_IBD	IaniroG_2020_2022_295
+D_3185_R2_160304	IaniroG_2022	FATHER	stool	no	donor	adult	ITA	no	36109637	3742683652	ERR9707186	Paolo_Manghi;Michal_Puncochar	Rome	donor	IaniroG_2022_IBD	IaniroG_2020_2022_291
+D_3313_R0_230300	IaniroG_2022	UNIVERSAL DONOR	stool	no	donor	adult	ITA	no	36109637	5764861496	ERR9707203	Paolo_Manghi;Michal_Puncochar	Rome	donor	IaniroG_2022_MDRB	IaniroG_2020_2022_289
+D_5120_R1_200409-R4_041017	IaniroG_2022	UNIVERSAL DONOR	stool	no	donor	adult	ITA	no	36109637	6705968006	ERR9707206	Paolo_Manghi;Michal_Puncochar	Rome	donor	IaniroG_2022_MDRB	IaniroG_2020_2022_290;IaniroG_2020_2022_293
+D_6911_R6_271006	IaniroG_2022	UNIVERSAL DONOR	stool	no	donor	adult	ITA	no	36109637	7021676444	ERR9707208	Paolo_Manghi;Michal_Puncochar	Rome	donor	IaniroG_2022_MDRB	IaniroG_2020_2022_292;IaniroG_2020_2022_296
+FMT_01_t0	IaniroG_2022	SBJ_23	stool	yes	CDI	adult	ITA	no	36109637	14144115193	ERR9708133	Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_CDiff	IaniroG_2020_2022_271
+FMT_02_t7	IaniroG_2022	SBJ_23	stool	yes	FMT	adult	ITA	no	36109637	2718778867	ERR9707182	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_271
+FMT_03_t15	IaniroG_2022	SBJ_23	stool	yes	FMT	adult	ITA	no	36109637	2869930206	ERR9707183	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_271
+FMT_04_t30	IaniroG_2022	SBJ_23	stool	yes	FMT	adult	ITA	no	36109637	20831932928	ERR9708953	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_271
+FMT_05_t90	IaniroG_2022	SBJ_37	stool	yes	FMT	adult	ITA	no	36109637	10931765689	ERR9707881	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_286
+FMT_06_t0	IaniroG_2022	SBJ_39	stool	yes	CDI	adult	ITA	no	36109637	6326424358	ERR9707205	Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_CDiff	IaniroG_2020_2022_283
+FMT_06_t7	IaniroG_2022	SBJ_24	stool	yes	FMT	adult	ITA	no	36109637	5022303933	ERR9707210	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_272
+FMT_07_t15	IaniroG_2022	SBJ_24	stool	yes	FMT	adult	ITA	no	36109637	5352854505	ERR9707212	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_272
+FMT_07_t7	IaniroG_2022	SBJ_39	stool	yes	FMT	adult	ITA	no	36109637	4407594363	ERR9707211	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_283
+FMT_08_t30	IaniroG_2022	SBJ_24	stool	yes	FMT	adult	ITA	no	36109637	11890308969	ERR9708184	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_272
+FMT_09_t0	IaniroG_2022	SBJ_25	stool	yes	CDI	adult	ITA	no	36109637	10255784604	ERR9708137	Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_CDiff	IaniroG_2020_2022_274
+FMT_09_t30	IaniroG_2022	SBJ_39	stool	yes	FMT	adult	ITA	no	36109637	8419312562	ERR9707882	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_283
+FMT_10_t7	IaniroG_2022	SBJ_25	stool	yes	FMT	adult	ITA	no	36109637	9328536882	ERR9708135	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_274
+FMT_10_t90	IaniroG_2022	SBJ_39	stool	yes	FMT	adult	ITA	no	36109637	8486222201	ERR9707887	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_283
+FMT_11_t0	IaniroG_2022	SBJ_41	stool	yes	CDI	adult	ITA	no	36109637	7606254972	ERR9707885	Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_CDiff	IaniroG_2020_2022_288
+FMT_11_t15	IaniroG_2022	SBJ_25	stool	yes	FMT	adult	ITA	no	36109637	7189528418	ERR9707883	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_274
+FMT_12_t30	IaniroG_2022	SBJ_25	stool	yes	FMT	adult	ITA	no	36109637	3465814397	ERR9707878	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_274
+FMT_12_t7	IaniroG_2022	SBJ_41	stool	yes	FMT	adult	ITA	no	36109637	7074757553	ERR9708185	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_288
+FMT_13_t0	IaniroG_2022	SBJ_26	stool	yes	CDI	adult	ITA	no	36109637	2833897560	ERR9708129	Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_CDiff	IaniroG_2020_2022_278
+FMT_13_t15	IaniroG_2022	SBJ_41	stool	yes	FMT	adult	ITA	no	36109637	4996578187	ERR9708136	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_288
+FMT_14_t30	IaniroG_2022	SBJ_41	stool	yes	FMT	adult	ITA	no	36109637	5501469715	ERR9708141	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_288
+FMT_14_t7	IaniroG_2022	SBJ_26	stool	yes	FMT	adult	ITA	no	36109637	9737831497	ERR9708958	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_278
+FMT_15_t15	IaniroG_2022	SBJ_26	stool	yes	FMT	adult	ITA	no	36109637	9204566071	ERR9708956	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_278
+FMT_15_t90	IaniroG_2022	SBJ_41	stool	yes	FMT	adult	ITA	no	36109637	4155953027	ERR9708142	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_288
+FMT_16_t0	IaniroG_2022	SBJ_42	stool	yes	CDI	adult	ITA	no	36109637	11460528927	ERR9709065	Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_CDiff	IaniroG_2020_2022_282
+FMT_16_t30	IaniroG_2022	SBJ_26	stool	yes	FMT	adult	ITA	no	36109637	22228221673	ERR9709282	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_278
+FMT_17_t0	IaniroG_2022	SBJ_27	stool	yes	CDI	adult	ITA	no	36109637	4603690012	ERR9708952	Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_CDiff	IaniroG_2020_2022_275
+FMT_17_t7	IaniroG_2022	SBJ_42	stool	yes	FMT	adult	ITA	no	36109637	10741458428	ERR9709066	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_282
+FMT_18_t30	IaniroG_2022	SBJ_42	stool	yes	FMT	adult	ITA	no	36109637	7392474922	ERR9708961	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_282
+FMT_18_t7	IaniroG_2022	SBJ_27	stool	yes	FMT	adult	ITA	no	36109637	2779253552	ERR9708951	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_275
+FMT_19_t15	IaniroG_2022	SBJ_27	stool	yes	FMT	adult	ITA	no	36109637	2206696297	ERR9708187	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_275
+FMT_19_t90	IaniroG_2022	SBJ_42	stool	yes	FMT	adult	ITA	no	36109637	6378302237	ERR9708962	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_282
+FMT_20_t0	IaniroG_2022	SBJ_43	stool	yes	CDI	adult	ITA	no	36109637	6264748737	ERR9708963	Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_CDiff	IaniroG_2020_2022_281
+FMT_20_t30	IaniroG_2022	SBJ_27	stool	yes	FMT	adult	ITA	no	36109637	9883605745	ERR9709074	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_275
+FMT_21_t7	IaniroG_2022	SBJ_43	stool	yes	FMT	adult	ITA	no	36109637	631683492	ERR9708954	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_281
+FMT_22_t15	IaniroG_2022	SBJ_43	stool	yes	FMT	adult	ITA	no	36109637	2698566106	ERR9708959	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_281
+FMT_23_t30	IaniroG_2022	SBJ_43	stool	yes	FMT	adult	ITA	no	36109637	8662911849	ERR9709067	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_281
+FMT_24_t90	IaniroG_2022	SBJ_43	stool	yes	FMT	adult	ITA	no	36109637	6485297598	ERR9709063	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_281
+FMT_25_t0	IaniroG_2022	SBJ_28	stool	yes	CDI	adult	ITA	no	36109637	3454149625	ERR9709032	Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_CDiff	IaniroG_2020_2022_279
+FMT_26_t7	IaniroG_2022	SBJ_28	stool	yes	FMT	adult	ITA	no	36109637	11755694063	ERR9709254	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_279
+FMT_27_t15	IaniroG_2022	SBJ_28	stool	yes	FMT	adult	ITA	no	36109637	15560491149	ERR9709290	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_279
+FMT_28_t30	IaniroG_2022	SBJ_28	stool	yes	FMT	adult	ITA	no	36109637	3501786481	ERR9709062	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_279
+FMT_29_t0	IaniroG_2022	SBJ_29	stool	yes	CDI	adult	ITA	no	36109637	3338773513	ERR9709064	Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_CDiff	IaniroG_2020_2022_273
+FMT_29_t90	IaniroG_2022	SBJ_44	stool	yes	FMT	adult	ITA	no	36109637	8563433733	ERR9709255	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_287
+FMT_30_t0	IaniroG_2022	SBJ_46	stool	yes	CDI	adult	ITA	no	36109637	10246402242	ERR9709279	Paolo_Manghi;Michal_Puncochar	Rome	recipient-before	IaniroG_2022_CDiff	IaniroG_2020_2022_285
+FMT_30_t15	IaniroG_2022	SBJ_29	stool	yes	FMT	adult	ITA	no	36109637	3897105188	ERR9709069	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_273
+FMT_31_t30	IaniroG_2022	SBJ_29	stool	yes	FMT	adult	ITA	no	36109637	4009944274	ERR9709071	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_273
+FMT_31_t7	IaniroG_2022	SBJ_46	stool	yes	FMT	adult	ITA	no	36109637	3428384211	ERR9709070	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_285
+FMT_32_t15	IaniroG_2022	SBJ_46	stool	yes	FMT	adult	ITA	no	36109637	8732958657	ERR9709276	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_285
+FMT_32_t90	IaniroG_2022	SBJ_29	stool	yes	FMT	adult	ITA	no	36109637	10594585749	ERR9709291	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_273
+FMT_33_t30	IaniroG_2022	SBJ_46	stool	yes	FMT	adult	ITA	no	36109637	6118920507	ERR9709079	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_285
+FMT_34_t90	IaniroG_2022	SBJ_46	stool	yes	FMT	adult	ITA	no	36109637	3278175933	ERR9709078	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_285
+FMT_35_t0	IaniroG_2022	SBJ_47	stool	yes	CDI	adult	ITA	no	36109637	16458283978	ERR9709322	Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_CDiff	
+FMT_36_t7	IaniroG_2022	SBJ_47	stool	yes	FMT	adult	ITA	no	36109637	5301321094	ERR9709278	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	
+FMT_37_t15	IaniroG_2022	SBJ_47	stool	yes	FMT	adult	ITA	no	36109637	9083093721	ERR9709307	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	
+FMT_38_t30	IaniroG_2022	SBJ_47	stool	yes	FMT	adult	ITA	no	36109637	6600267525	ERR9709285	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	
+FMT_39_t90	IaniroG_2022	SBJ_47	stool	yes	FMT	adult	ITA	no	36109637	7431168382	ERR9709289	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	
+FMT_40_t0	IaniroG_2022	SBJ_30	stool	yes	CDI	adult	ITA	no	36109637	189477451	ERR9709257	Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_CDiff	IaniroG_2020_2022_277
+FMT_41_t7	IaniroG_2022	SBJ_30	stool	yes	FMT	adult	ITA	no	36109637	8502284981	ERR9709303	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_277
+FMT_42_t15	IaniroG_2022	SBJ_48	stool	yes	FMT	adult	ITA	no	36109637	5859777004	ERR9709287	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_284
+FMT_42_t30	IaniroG_2022	SBJ_30	stool	yes	FMT	adult	ITA	no	36109637	3957818149	ERR9709284	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_277
+FMT_43_t30	IaniroG_2022	SBJ_48	stool	yes	FMT	adult	ITA	no	36109637	9864987227	ERR9709314	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_284
+FMT_43_t90	IaniroG_2022	SBJ_30	stool	yes	FMT	adult	ITA	no	36109637	6761378282	ERR9709302	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_277
+FMT_44_t0	IaniroG_2022	SBJ_31	stool	yes	CDI	adult	ITA	no	36109637	11991345410	ERR9709358	Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_CDiff	IaniroG_2020_2022_270
+FMT_44_t90	IaniroG_2022	SBJ_48	stool	yes	FMT	adult	ITA	no	36109637	9704000633	ERR9709343	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_284
+FMT_45_t7	IaniroG_2022	SBJ_31	stool	yes	FMT	adult	ITA	no	36109637	4238252704	ERR9709308	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_270
+FMT_46_t15	IaniroG_2022	SBJ_31	stool	yes	FMT	adult	ITA	no	36109637	4285539853	ERR9709312	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_270
+FMT_61_t0	IaniroG_2022	SBJ_32	stool	yes	CDI	adult	ITA	no	36109637	1091376941	ERR9709294	Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_CDiff	IaniroG_2020_2022_276
+FMT_62_t15	IaniroG_2022	SBJ_32	stool	yes	FMT	adult	ITA	no	36109637	431954181	ERR9709293	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_276
+FMT_65_t180	IaniroG_2022	SBJ_23	stool	yes	FMT	adult	ITA	no	36109637	6148106533	ERR9709319	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_271
+FMT_66_t180	IaniroG_2022	SBJ_24	stool	yes	FMT	adult	ITA	no	36109637	4800606759	ERR9709317	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_272
+FMT_67_t90	IaniroG_2022	SBJ_25	stool	yes	FMT	adult	ITA	no	36109637	6374064032	ERR9709323	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_274
+FMT_68_t90	IaniroG_2022	SBJ_26	stool	yes	FMT	adult	ITA	no	36109637	7804525474	ERR9709353	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_278
+FMT_69_t180	IaniroG_2022	SBJ_29	stool	yes	FMT	adult	ITA	no	36109637	29806787703	ERR9709504	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_273
+FMT_70_t180	IaniroG_2022	SBJ_30	stool	yes	FMT	adult	ITA	no	36109637	3816950571	ERR9709321	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_277
+FMT_71_t90	IaniroG_2022	SBJ_31	stool	yes	FMT	adult	ITA	no	36109637	10048686955	ERR9709364	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_270
+FMT_73_t7	IaniroG_2022	SBJ_33	stool	yes	FMT	adult	ITA	no	36109637	4698916165	ERR9709352	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	
+FMT_74_t15	IaniroG_2022	SBJ_33	stool	yes	FMT	adult	ITA	no	36109637	24065344889	ERR9709457	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	
+FMT_75_t0	IaniroG_2022	SBJ_34	stool	yes	CDI	adult	ITA	no	36109637	13363439084	ERR9709437	Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_CDiff	
+FMT_76_t7	IaniroG_2022	SBJ_34	stool	yes	FMT	adult	ITA	no	36109637	3409031413	ERR9709354	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	
+FMT_77_t15	IaniroG_2022	SBJ_34	stool	yes	FMT	adult	ITA	no	36109637	4982235732	ERR9709357	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	
+FMT_78_t180	IaniroG_2022	SBJ_34	stool	yes	FMT	adult	ITA	no	36109637	10896358646	ERR9709419	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	
+FMT_79_t0	IaniroG_2022	SBJ_35	stool	yes	CDI	adult	ITA	no	36109637	3363693413	ERR9709355	Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_CDiff	IaniroG_2020_2022_280
+FMT_80_t15	IaniroG_2022	SBJ_35	stool	yes	FMT	adult	ITA	no	36109637	5301193139	ERR9709360	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_280
+FMT_DD_01	IaniroG_2022	SBJ_40	stool	no	donor	adult	ITA	no	36109637	8514771942	ERR9709373	Paolo_Manghi;Michal_Puncochar	Rome	donor	IaniroG_2022_CDiff	IaniroG_2020_2022_283;IaniroG_2020_2022_288
+FMT_DD_02	IaniroG_2022	SBJ_45	stool	no	control	adult	ITA	no	36109637	8246431594	ERR9709393	Paolo_Manghi;Michal_Puncochar	Rome	donor	IaniroG_2022_CDiff	IaniroG_2020_2022_284;IaniroG_2020_2022_285;IaniroG_2020_2022_287
+FMT_DD_19	IaniroG_2022	SBJ_38	stool	no	donor	adult	ITA	no	36109637	13217882804	ERR9709441	Paolo_Manghi;Michal_Puncochar	Rome	donor	IaniroG_2022_CDiff	IaniroG_2020_2022_281;IaniroG_2020_2022_282;IaniroG_2020_2022_286
+FMT_DD_81	IaniroG_2022	SBJ_36	stool	no	donor	adult	ITA	no	36109637	7618304244	ERR9709394	Paolo_Manghi;Michal_Puncochar	Rome	donor	IaniroG_2022_CDiff	IaniroG_2020_2022_270;IaniroG_2020_2022_272
+R0_230300_t0	IaniroG_2022	CAVI230300	stool	yes	MDRB	schoolage	ITA	no	36109637	8453256685	ERR9709417	Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_MDRB	IaniroG_2020_2022_289
+R0_230300_t7	IaniroG_2022	CAVI230300	stool	yes	FMT	schoolage	ITA	no	36109637	17193605764	ERR9709458	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_MDRB	IaniroG_2020_2022_289
+R1_200409_t0	IaniroG_2022	COKO200409	stool	yes	MDRB	child	ITA	no	36109637	13637186071	ERR9709454	Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_MDRB	IaniroG_2020_2022_290
+R1_200409_t30	IaniroG_2022	COKO200409	stool	yes	FMT	child	ITA	no	36109637	15129470638	ERR9709460	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_MDRB	IaniroG_2020_2022_290
+R1_200409_t7	IaniroG_2022	COKO200409	stool	yes	FMT	child	ITA	no	36109637	5718746381	ERR9709435	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_MDRB	IaniroG_2020_2022_290
+R2_160304_t0	IaniroG_2022	GRAN160304	stool	no	IBD	schoolage	ITA	no	36109637	3466356154	ERR9709418	Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_IBD	IaniroG_2020_2022_291
+R2_160304_t30	IaniroG_2022	GRAN160304	stool	no	FMT	schoolage	ITA	no	36109637	8025863725	ERR9709445	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_IBD	IaniroG_2020_2022_291
+R3_200508_t0	IaniroG_2022	MAIO200508	stool	yes	MDRB	child	ITA	no	36109637	6594602676	ERR9709442	Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_MDRB	IaniroG_2020_2022_292
+R3_200508_t30	IaniroG_2022	MAIO200508	stool	yes	FMT	child	ITA	no	36109637	7940057003	ERR9709453	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_MDRB	IaniroG_2020_2022_292
+R4_010202_t0	IaniroG_2022	MELO010202	stool	no	IBD	schoolage	ITA	no	36109637	7882818194	ERR9709450	Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_IBD	IaniroG_2020_2022_293
+R4_010202_t30	IaniroG_2022	MELO010202	stool	no	FMT	schoolage	ITA	no	36109637	8140554986	ERR9709451	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_IBD	IaniroG_2020_2022_293
+R4_041017_t0	IaniroG_2022	MELO041017	stool	yes	MDRB	child	ITA	no	36109637	7592467340	ERR9709452	Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_MDRB	IaniroG_2020_2022_294
+R4_041017_t30	IaniroG_2022	MELO041017	stool	yes	FMT	child	ITA	no	36109637	6257122229	ERR9709455	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_MDRB	IaniroG_2020_2022_294
+R5_290108_t0	IaniroG_2022	RODI290108	stool	no	IBD	child	ITA	no	36109637	188840009	ERR9709443	Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_IBD	IaniroG_2020_2022_295
+R5_290108_t7	IaniroG_2022	RODI290108	stool	no	FMT	child	ITA	no	36109637	1043406871	ERR9709447	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_IBD	IaniroG_2020_2022_295
+R6_271006_t0	IaniroG_2022	SUAL271006	stool	yes	MDRB	schoolage	ITA	no	36109637	9453483684	ERR9709501	Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_MDRB	IaniroG_2020_2022_296
+R6_271006_t30	IaniroG_2022	SUAL271006	stool	yes	FMT	schoolage	ITA	no	36109637	19274302709	ERR9709530	Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_MDRB	IaniroG_2020_2022_296
+S2_FMT_01_t0	IaniroG_2022	SBJ_37	stool	yes	CDI	adult	ITA	no	36109637	13517363386		Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_CDiff	IaniroG_2020_2022_286
+S2_FMT_02_t7	IaniroG_2022	SBJ_37	stool	yes	FMT	adult	ITA	no	36109637	6590372252		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_286
+S2_FMT_03_t15	IaniroG_2022	SBJ_37	stool	yes	FMT	adult	ITA	no	36109637	2561984079		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_286
+S2_FMT_04_t30	IaniroG_2022	SBJ_37	stool	yes	FMT	adult	ITA	no	36109637	5804357418		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_286
+S2_FMT_25_t0	IaniroG_2022	SBJ_44	stool	yes	CDI	adult	ITA	no	36109637	18346678056		Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_CDiff	IaniroG_2020_2022_287
+S2_FMT_26_t7	IaniroG_2022	SBJ_44	stool	yes	FMT	adult	ITA	no	36109637	10324449899		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_287
+S2_FMT_27_t15	IaniroG_2022	SBJ_44	stool	yes	FMT	adult	ITA	no	36109637	5230125779		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_287
+S2_FMT_28_t30	IaniroG_2022	SBJ_44	stool	yes	FMT	adult	ITA	no	36109637	8958075068		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_287
+S2_FMT_40_t0	IaniroG_2022	SBJ_48	stool	yes	CDI	adult	ITA	no	36109637	5426891004		Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2022_CDiff	IaniroG_2020_2022_284
+S2_FMT_41_t7	IaniroG_2022	SBJ_48	stool	yes	FMT	adult	ITA	no	36109637	5660232013		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2022_CDiff	IaniroG_2020_2022_284
+Sample_S25222_FMT_01_t0	IaniroG_2022	SBJ_03	stool	no	TKI_dependent_diarrhoea	adult	ITA	no	36109637	17095246892		Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2020	IaniroG_2020_2022_267
+Sample_S25223_FMT_01_t7	IaniroG_2022	SBJ_03	stool	no	FMT	adult	ITA	no	36109637	3039307052		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_267
+Sample_S25224_FMT_01_t15	IaniroG_2022	SBJ_03	stool	no	FMT	adult	ITA	no	36109637	5366459326		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_267
+Sample_S25225_FMT_01_t30	IaniroG_2022	SBJ_03	stool	no	FMT	adult	ITA	no	36109637	1887170167		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_267
+Sample_S25226_FMT_02_t0	IaniroG_2022	SBJ_04	stool	no	TKI_dependent_diarrhoea	adult	ITA	no	36109637	2746418187		Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2020	IaniroG_2020_2022_268
+Sample_S25227_FMT_02_t15	IaniroG_2022	SBJ_04	stool	no	FMT	adult	ITA	no	36109637	5329875018		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_268
+Sample_S25228_FMT_02_t30	IaniroG_2022	SBJ_04	stool	no	FMT	adult	ITA	no	36109637	10931793324		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_268
+Sample_S25229_FMT_03_t0	IaniroG_2022	SBJ_01	stool	no	TKI_dependent_diarrhoea	adult	ITA	no	36109637	4183364356		Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2020	IaniroG_2020_2022_260
+Sample_S25230_FMT_03_t15	IaniroG_2022	SBJ_01	stool	no	FMT	adult	ITA	no	36109637	5482351379		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_260
+Sample_S25231_FMT_03_t30	IaniroG_2022	SBJ_01	stool	no	FMT	adult	ITA	no	36109637	1497141726		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_260
+Sample_S25232_FMT_04_t7	IaniroG_2022	SBJ_09	stool	no	FMT	senior	ITA	no	36109637	900578167		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_265
+Sample_S25233_FMT_04_t15	IaniroG_2022	SBJ_09	stool	no	FMT	senior	ITA	no	36109637	718053795		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_265
+Sample_S25234_FMT_04_t30	IaniroG_2022	SBJ_09	stool	no	FMT	senior	ITA	no	36109637	749477782		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_265
+Sample_S25235_FMT_09_t7	IaniroG_2022	SBJ_08	stool	no	FMT	senior	ITA	no	36109637	3115713954		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_261
+Sample_S25236_FMT_09_t15	IaniroG_2022	SBJ_08	stool	no	FMT	senior	ITA	no	36109637	2003553462		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_261
+Sample_S25237_FMT_09_t30	IaniroG_2022	SBJ_08	stool	no	FMT	senior	ITA	no	36109637	806614692		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_261
+Sample_S25238_FMT_10_t0	IaniroG_2022	SBJ_06	stool	no	TKI_dependent_diarrhoea	adult	ITA	no	36109637	842138134		Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2020	IaniroG_2020_2022_266
+Sample_S25239_FMT_10_t7	IaniroG_2022	SBJ_06	stool	no	FMT	adult	ITA	no	36109637	4404087839		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_266
+Sample_S25240_FMT_10_t15	IaniroG_2022	SBJ_06	stool	no	FMT	adult	ITA	no	36109637	1851462675		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_266
+Sample_S25241_FMT_05_t0	IaniroG_2022	SBJ_05	stool	no	TKI_dependent_diarrhoea	senior	ITA	no	36109637	1904059699		Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2020	IaniroG_2020_2022_262
+Sample_S25242_FMT_05_t15	IaniroG_2022	SBJ_05	stool	no	FMT	senior	ITA	no	36109637	950224033		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_262
+Sample_S25243_FMT_05_t30	IaniroG_2022	SBJ_05	stool	no	FMT	senior	ITA	no	36109637	1650667750		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_262
+Sample_S25244_FMT_06_t7	IaniroG_2022	SBJ_10	stool	no	FMT	adult	ITA	no	36109637	3439162178		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_263
+Sample_S25245_FMT_06_t15	IaniroG_2022	SBJ_10	stool	no	FMT	adult	ITA	no	36109637	2935209857		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_263
+Sample_S25246_FMT_06_t30	IaniroG_2022	SBJ_10	stool	no	FMT	adult	ITA	no	36109637	1641203127		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_263
+Sample_S25247_FMT_07_t0	IaniroG_2022	SBJ_02	stool	no	TKI_dependent_diarrhoea	adult	ITA	no	36109637	3319132791		Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2020	IaniroG_2020_2022_264
+Sample_S25248_FMT_07_t15	IaniroG_2022	SBJ_02	stool	no	FMT	adult	ITA	no	36109637	4763525191		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_264
+Sample_S25249_FMT_07_t30	IaniroG_2022	SBJ_02	stool	no	FMT	adult	ITA	no	36109637	373123041		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_264
+Sample_S25250_FMT_08_t0	IaniroG_2022	SBJ_07	stool	no	TKI_dependent_diarrhoea	senior	ITA	no	36109637	1136754373		Paolo_Manghi;Michal_Puncochar	Rome	recipient_before	IaniroG_2020	IaniroG_2020_2022_269
+Sample_S25251_FMT_08_t7	IaniroG_2022	SBJ_07	stool	no	FMT	senior	ITA	no	36109637	5527172284		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_269
+Sample_S25252_FMT_08_t15	IaniroG_2022	SBJ_07	stool	no	FMT	senior	ITA	no	36109637	2888328387		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_269
+Sample_S25253_FMT_08_t30	IaniroG_2022	SBJ_07	stool	no	FMT	senior	ITA	no	36109637	1673751540		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_269
+Sample_S25254_FMT_CC_01	IaniroG_2022	SBJ_20	stool	no	TKI_dependent_diarrhoea	senior	ITA	no	36109637	2606639186		Paolo_Manghi;Michal_Puncochar	Rome		IaniroG_2020	
+Sample_S25255_FMT_CC_03	IaniroG_2022	SBJ_17	stool	no	TKI_dependent_diarrhoea	adult	ITA	no	36109637	4540114290		Paolo_Manghi;Michal_Puncochar	Rome		IaniroG_2020	
+Sample_S25256_FMT_CC_04	IaniroG_2022	SBJ_19	stool	no	TKI_dependent_diarrhoea	senior	ITA	no	36109637	5645662561		Paolo_Manghi;Michal_Puncochar	Rome		IaniroG_2020	
+Sample_S25258_FMT_CC_06	IaniroG_2022	SBJ_13	stool	no	TKI_dependent_diarrhoea	senior	ITA	no	36109637	3903781023		Paolo_Manghi;Michal_Puncochar	Rome		IaniroG_2020	
+Sample_S25259_FMT_CC_07	IaniroG_2022	SBJ_15	stool	no	TKI_dependent_diarrhoea	senior	ITA	no	36109637	4523999836		Paolo_Manghi;Michal_Puncochar	Rome		IaniroG_2020	
+Sample_S25260_FMT_CC_08	IaniroG_2022	SBJ_18	stool	no	TKI_dependent_diarrhoea	adult	ITA	no	36109637	9161710401		Paolo_Manghi;Michal_Puncochar	Rome		IaniroG_2020	
+Sample_S25261_FMT_CC_09	IaniroG_2022	SBJ_16	stool	no	TKI_dependent_diarrhoea	adult	ITA	no	36109637	10032920356		Paolo_Manghi;Michal_Puncochar	Rome		IaniroG_2020	
+Sample_S25262_FMT_CC_10	IaniroG_2022	SBJ_11	stool	no	TKI_dependent_diarrhoea	senior	ITA	no	36109637	43359721828		Paolo_Manghi;Michal_Puncochar	Rome		IaniroG_2020	
+Sample_S25263_FMT_CC_11	IaniroG_2022	SBJ_12	stool	no	TKI_dependent_diarrhoea	adult	ITA	no	36109637	1077529105		Paolo_Manghi;Michal_Puncochar	Rome		IaniroG_2020	
+Sample_S25265_FMT_DD_01	IaniroG_2022	SBJ_21	stool	no	control	adult	ITA	no	36109637	1604839558		Paolo_Manghi;Michal_Puncochar	Rome	donor	IaniroG_2020	IaniroG_2020_2022_260;IaniroG_2020_2022_261;IaniroG_2020_2022_262;IaniroG_2020_2022_268;IaniroG_2020_2022_276;IaniroG_2020_2022_280
+Sample_S25266_FMT_DD_02	IaniroG_2022	SBJ_22	stool	no	control	adult	ITA	no	36109637	1936761038		Paolo_Manghi;Michal_Puncochar	Rome	donor	IaniroG_2020	IaniroG_2020_2022_263;IaniroG_2020_2022_264;IaniroG_2020_2022_265;IaniroG_2020_2022_266;IaniroG_2020_2022_267;IaniroG_2020_2022_269;IaniroG_2020_2022_271;IaniroG_2020_2022_273;IaniroG_2020_2022_274;IaniroG_2020_2022_275;IaniroG_2020_2022_277;IaniroG_2020_2022_278;IaniroG_2020_2022_279
+Sample_S25267_FMT_04_t30	IaniroG_2022	SBJ_06	stool	no	FMT	adult	ITA	no	36109637	120273410		Paolo_Manghi;Michal_Puncochar	Rome	recipient_after	IaniroG_2020	IaniroG_2020_2022_266

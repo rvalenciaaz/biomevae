@@ -1,0 +1,42 @@
+Loading CRC cohorts ...
+  X=(1644, 935)  classes=['CRC', 'adenoma', 'carcinoma_surgery_history', 'control']  studies=11
+
+== capda-vae-oof-probs-cov-clr ==
+  FengQ_2015         bacc=0.5135 f1=0.4280
+/home/rvalenciaaz/.local/share/mamba/envs/biomevae/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/rvalenciaaz/.local/share/mamba/envs/biomevae/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/rvalenciaaz/.local/share/mamba/envs/biomevae/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  VogtmannE_2016     bacc=0.6731 f1=0.4595
+  ZellerG_2014       bacc=0.5117 f1=0.4307
+/home/rvalenciaaz/.local/share/mamba/envs/biomevae/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  YuJ_2015           bacc=0.7580 f1=0.6743
+/home/rvalenciaaz/.local/share/mamba/envs/biomevae/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/rvalenciaaz/.local/share/mamba/envs/biomevae/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/rvalenciaaz/.local/share/mamba/envs/biomevae/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  WirbelJ_2018       bacc=0.7628 f1=0.5156
+  YachidaS_2019      bacc=0.3454 f1=0.3118
+  ThomasAM_2018a     bacc=0.4658 f1=0.3711
+/home/rvalenciaaz/.local/share/mamba/envs/biomevae/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  ThomasAM_2018b     bacc=0.7202 f1=0.6191
+  ThomasAM_2019_c    bacc=1.0000 f1=1.0000
+  HanniganGD_2017    bacc=0.3633 f1=0.2602
+/home/rvalenciaaz/.local/share/mamba/envs/biomevae/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+/home/rvalenciaaz/.local/share/mamba/envs/biomevae/lib/python3.11/site-packages/sklearn/metrics/_classification.py:2924: UserWarning: y_pred contains classes not in y_true
+  warnings.warn("y_pred contains classes not in y_true")
+  GuptaA_2019        bacc=0.7333 f1=0.5705
+  capda-vae-oof-probs-cov-clr MEAN bacc=0.6225 f1=0.5128
+
+==== SUMMARY ====
+                            balanced_accuracy                     f1_macro                    
+                                         mean    median       std     mean    median       std
+model                                                                                         
+capda-vae-oof-probs-cov-clr          0.622478  0.673077  0.199402  0.51279  0.459455  0.204729

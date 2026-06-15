@@ -1,0 +1,102 @@
+# ══════════════════════════════════════════════════════════════════════
+#  biomevae – single-study Snakemake pipeline
+# ══════════════════════════════════════════════════════════════════════
+#
+# End-to-end orchestration of the analysis for one pre-extracted study:
+#
+#     TRAIN  →  POSTPROCESS  →  CLASSIFY  +  FIGURES  →  AGGREGATE
+#
+# Launch with (from the repository root):
+#
+#     snakemake -s workflow/Snakefile \
+#               --configfile workflow/config/single_study.yaml \
+#               --cores 8
+#
+# or by overriding config from the CLI:
+#
+#     snakemake -s workflow/Snakefile --cores 8 \
+#         --config data_root=/data output_root=/scratch/runs \
+#                  study=LiJ_2017 label=disease
+#
+# Required config keys:
+#   data_root    – directory containing <study>/{sgb_table.tsv,
+#                  phyla.tsv, sample_metadata.tsv}.  Extract using
+#                  `python -m curatedmetagenomicdata.extract …`.
+#   output_root  – where per-study models/, figures/ and
+#                  models/aggregate/ are written.
+#
+# Either of:
+#   study        – single study name (single-study mode)
+#   studies      – list of study names
+#
+# Optional:
+#   label            – metadata column to classify on (default: disease)
+#   extra_args       – extra flags forwarded to every training CLI
+#                      (default: "--epochs 100 --optuna --optuna-trials 100")
+#   study_display_names – map of <study> → display name used in figure
+#                         titles (defaults to the study key)
+#
+# Every step is a modular Snakemake rule – swap out one stage by
+# calling snakemake with a specific target, e.g.:
+#   snakemake -s workflow/Snakefile …/models/tax-vae/model.pt
+#   snakemake -s workflow/Snakefile …/models/beta-vae/classify/classification_results.json
+#
+# The Snakefile shares all of its rules with ``Snakefile.meta`` via
+# ``rules/*.smk`` – the only difference is that the meta entry point
+# auto-populates the study list from the extract-microbiome-data
+# registry.
+# ══════════════════════════════════════════════════════════════════════
+
+import os
+
+# NOTE: ``snakemake.utils.min_version`` still imports the legacy
+# ``pkg_resources`` module from setuptools, which is no longer bundled
+# with Python >= 3.12 (and is missing from the default ``biomevae``
+# conda environment).  Use ``packaging.version`` – a hard dependency of
+# Snakemake – to perform the same check without pulling in setuptools.
+from packaging.version import Version as _Version
+
+from snakemake import __version__ as _snakemake_version
+
+if _Version(_snakemake_version) < _Version("7.0"):
+    raise RuntimeError(
+        f"Snakemake >= 7.0 is required (found {_snakemake_version})."
+    )
+
+# Flag the single-study entry point so ``rules/common.smk`` drops the
+# cross-domain DIVA / PhyloDIVA / TAXI wrappers from the model catalogue
+# — they need multiple cohorts to act as ``domain`` labels and produce a
+# degenerate single-domain encoder when trained on a single study.
+config.setdefault("single_study_mode", True)
+
+include: "rules/common.smk"
+include: "rules/train.smk"
+include: "rules/postprocess.smk"
+include: "rules/classify.smk"
+include: "rules/figures.smk"
+include: "rules/aggregate.smk"
+
+
+# ── HPC log directories (for the SLURM profile --output/--error) ───
+# ``workflow/profiles/slurm/config.yaml`` writes ``sbatch`` stdout/err
+# to ``logs/slurm/<rule>-<jobid>.out`` *relative to the working
+# directory Snakemake was launched from*.  Pre-create it so ``sbatch``
+# never rejects a job for a missing --output parent directory.
+onstart:
+    os.makedirs("logs/slurm", exist_ok=True)
+
+
+# ── top-level target ────────────────────────────────────────────────
+rule all:
+    input:
+        # Figures + numerical summary for every study …
+        expand(
+            OUTPUT_ROOT + "/{study}/figures/results_summary.tsv",
+            study=STUDIES,
+        ),
+        # … and the cross-model aggregation/benchmarking for every study.
+        expand(
+            OUTPUT_ROOT + "/{study}/models/aggregate/.aggregate.done",
+            study=STUDIES,
+        ),
+    default_target: True

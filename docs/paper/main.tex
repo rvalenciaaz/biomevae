@@ -1,0 +1,248 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{bm}
+\usepackage{enumitem}
+\title{Taxonomy-Aware and Hyperbolic Variational Autoencoders for Microbiome Tables}
+\author{biomevae Project}
+\date{\today}
+\begin{document}
+\maketitle
+\begin{abstract}
+We document the methodology implemented in the \texttt{biomevae} repository for learning
+low-dimensional representations of sparse microbiome abundance tables.
+The system extends classical variational autoencoders (VAEs) in two complementary
+ways: (i) a taxonomy-aware decoder regularized by hierarchical aggregations and graph
+Laplacian smoothing, and (ii) a hyperbolic latent space realized on the Poincar\'e ball.
+We derive the optimization objectives, detail the data processing pipeline, and explain
+the training procedure shared across Euclidean and hyperbolic variants. This report is
+intended as a rigorous companion to the command-line interface provided by the codebase.
+\end{abstract}
+\section{Notation and Data Model}
+Let $\mathcal{F}$ denote the set of microbial features (species-level genome bins) and
+$\mathcal{S}$ the set of samples. The raw input is a tab-separated matrix where rows
+correspond to features and columns to samples, with metadata columns for the feature
+identifier and NCBI taxonomy ID. Parsing is implemented by \texttt{load\_matrix}\footnote{\texttt{src/biomevae/data.py}}:
+for an input matrix $X^{\mathrm{feat}\times \mathrm{sample}}$ the tool transposes to
+\begin{equation}
+    \bm{X} \in \mathbb{R}^{n \times d}, \qquad n = |\mathcal{S}|,~ d = |\mathcal{F}|,
+\end{equation}
+optionally applying the element-wise transform $x \mapsto \log(1+x)$.
+When standardization is requested, feature-wise statistics are computed on the
+training subset only, yielding mean vector $\bm{\mu}$ and standard deviation
+$\bm{\sigma}$; the standardized observations are $(\bm{x}-\bm{\mu})/\bm{\sigma}$ and
+$(\bm{\mu},\bm{\sigma})$ are persisted for downstream reuse.
+\section{Base Variational Autoencoder}
+\subsection{Encoder--Decoder Architecture}
+For an input dimension $d$ and latent dimension $\ell$, the Euclidean VAE uses a
+stacked multi-layer perceptron encoder $f_{\phi} : \mathbb{R}^d \to \mathbb{R}^{2\ell}$
+with hidden widths $h_1,\dots,h_L$ and activation $\sigma$. Implementation details are
+captured by \texttt{VAE}\footnote{\texttt{src/biomevae/models/vae.py}}:
+\begin{align}
+    \bm{h}^{(0)} &= \bm{x},\\
+    \bm{h}^{(\ell)} &= \sigma\bigl(\mathbf{W}^{(\ell)} \bm{h}^{(\ell-1)} + \bm{b}^{(\ell)}\bigr), \qquad \ell=1,\dots,L,
+\end{align}
+optionally followed by layer normalization and dropout. The final hidden state produces
+mean and log-variance parameters $\bm{\mu} = \mathbf{W}_{\mu} \bm{h}^{(L)} + \bm{b}_{\mu}$,
+$\bm{\log\sigma^2} = \mathbf{W}_{\log} \bm{h}^{(L)} + \bm{b}_{\log}$. The decoder
+mirrors the encoder with weights $\{\tilde{\mathbf{W}}^{(\ell)}\}$, terminating in a
+linear reconstruction layer $g_{\theta} : \mathbb{R}^{\ell} \to \mathbb{R}^{d}$.
+\subsection{Stochastic Latent Sampling}
+Given $(\bm{\mu}, \bm{\log\sigma^2})$, the reparameterization trick draws
+\begin{equation}
+    \bm{z} = \bm{\mu} + \exp\bigl(\tfrac{1}{2}\bm{\log\sigma^2}\bigr) \odot \bm{\epsilon},
+    \qquad \bm{\epsilon} \sim \mathcal{N}(\bm{0}, \mathbf{I}).
+\end{equation}
+A forward pass returns the reconstruction $\hat{\bm{x}} = g_{\theta}(\bm{z})$
+accompanied by $(\bm{\mu},\bm{\log\sigma^2})$ for the loss computation.
+\subsection{Objective Functions}
+The reconstruction loss supports mean-squared error (MSE), mean absolute error (MAE),
+and Huber penalties via \texttt{reconstruction\_loss}\footnote{\texttt{src/biomevae/losses.py}}. For
+$N$ observations the default MAE objective reads
+\begin{equation}
+    \mathcal{L}_{\mathrm{rec}} = \frac{1}{N} \sum_{i=1}^N \frac{1}{d} \lVert \hat{\bm{x}}_i - \bm{x}_i \rVert_1.
+\end{equation}
+The KL divergence between the approximate posterior and the isotropic Gaussian prior
+is evaluated per sample as
+\begin{equation}
+    \mathcal{D}_{\mathrm{KL}}(q_{\phi}(\bm{z}|\bm{x}) \Vert p(\bm{z}))
+    = -\tfrac{1}{2} \sum_{j=1}^{\ell} \bigl(1 + \log\sigma^2_{ij} - \mu_{ij}^2 - \exp(\log\sigma^2_{ij})\bigr).
+\end{equation}
+The trainer combines the two terms using either the $\beta$-VAE or the capacity
+objective (\texttt{compute\_losses}); setting $\beta=1$ recovers the
+traditional VAE objective without annealing. A dedicated CLI,
+\texttt{biomevae-train-vanilla}, exposes this configuration alongside the
+existing \texttt{biomevae-train} entry point:
+\begin{align}
+    \mathcal{L}_{\beta\text{-VAE}} &= \mathcal{L}_{\mathrm{rec}} + \beta \cdot \mathcal{D}_{\mathrm{KL}},\\
+    \mathcal{L}_{\mathrm{capacity}} &= \mathcal{L}_{\mathrm{rec}} + \gamma \bigl\lvert \mathcal{D}_{\mathrm{KL}} - C\bigr\rvert,
+\end{align}
+where $\beta$ is annealed according to \texttt{beta\_schedule} and $C$ follows
+\texttt{capacity\_schedule}. Optional ``free bits'' enforce per-dimension lower bounds
+on the KL contribution to mitigate posterior collapse.
+\section{Taxonomy-Aware Regularization}
+Let $\mathcal{T}$ denote the taxonomy graph containing edges between features and their
+coarser ancestors (species, genus, family, etc.). The CLI \texttt{biomevae-train-tax}
+parses a taxonomy table and constructs two structures:
+\begin{enumerate}[label=\roman*), leftmargin=*]
+    \item Aggregation matrices $\mathbf{A}^{(\ell)} \in \{0,1\}^{G_{\ell} \times d}$ mapping features to
+    higher-level groups at taxonomic level $\ell$, implemented in
+    \texttt{build\_taxonomy\_structures}.
+    \item A feature--feature affinity matrix $\mathbf{W}$ whose entries accumulate
+    positive weights when two features share the same species, genus, or family label.
+    The Laplacian is $\mathbf{L} = \mathbf{D} - \mathbf{W}$ with $\mathbf{D}$ the degree
+    matrix.
+\end{enumerate}
+\subsection{Hierarchical Reconstruction Loss}
+For each selected taxonomic level $\ell$, the trainer forms aggregated observations
+\begin{equation}
+    \tilde{\bm{x}}^{(\ell)} = \bm{x} \mathbf{A}^{(\ell)\top}, \qquad
+    \hat{\tilde{\bm{x}}}^{(\ell)} = \hat{\bm{x}} \mathbf{A}^{(\ell)\top}.
+\end{equation}
+The same reconstruction loss is applied to the aggregated counts, yielding
+$\mathcal{L}^{(\ell)}_{\mathrm{rec}}$. The total objective becomes
+\begin{equation}
+    \mathcal{L} = \mathcal{L}_{\beta\text{-VAE}} + \lambda_{\mathrm{tax}} \sum_{\ell \in \mathcal{L}} \mathcal{L}^{(\ell)}_{\mathrm{rec}},
+\end{equation}
+where $\lambda_{\mathrm{tax}}$ is user-controlled via \texttt{--tax-loss-weight}.
+This encourages reconstructions that preserve coarse-scale abundances consistent with
+the provided phylogenetic hierarchy.
+\subsection{Graph Laplacian Smoothing}
+When enabled, the decoder output is further regularized using the quadratic form of
+$\mathbf{L}$. For a minibatch matrix $\hat{\mathbf{X}} \in \mathbb{R}^{B \times d}$,
+\begin{equation}
+    \mathcal{S} = \frac{1}{B} \sum_{i=1}^B \hat{\bm{x}}_i^{\top} \mathbf{L} \hat{\bm{x}}_i
+    = \frac{1}{B} \mathrm{tr}\bigl(\hat{\mathbf{X}} \mathbf{L} \hat{\mathbf{X}}^{\top}\bigr).
+\end{equation}
+The loss $\mathcal{S}$ penalizes large discrepancies between features with strong
+phylogenetic affinity, acting as a smoothness prior. The weight \texttt{--tax-laplacian}
+scales this term.
+\section{Hyperbolic Latent Geometry}
+To capture hierarchical relationships in latent space directly, the hyperbolic variant
+\texttt{HyperbolicVAE}\footnote{\texttt{src/biomevae/models/hyperbolic.py}} models latent
+codes on the Poincar\'e ball of curvature $-c$ with $c>0$. The encoder produces tangent
+vectors $\bm{v} \in T_{\bm{0}}\mathcal{B}^d$, parameterized by $(\bm{\mu},\bm{\log\sigma^2})$ in the
+Euclidean tangent space. Sampling proceeds by
+\begin{equation}
+    \bm{v} = \bm{\mu} + \exp\bigl(\tfrac{1}{2}\bm{\log\sigma^2}\bigr) \odot \bm{\epsilon},
+    \quad \bm{\epsilon} \sim \mathcal{N}(\bm{0}, \mathbf{I}),
+    \qquad \bm{z} = \mathrm{exp}_{\bm{0}}^{\mathcal{B}^d}(\bm{v}),
+\end{equation}
+where the exponential map of the exact Poincar\'e model is implemented via
+\texttt{geoopt}'s \texttt{expmap0} operation. A projection step enforces numerical
+stability near the manifold boundary. Decoder layers remain Euclidean, acting on the
+embedded hyperbolic samples $\bm{z}$. Although the KL divergence is evaluated using the
+Euclidean parameters $(\bm{\mu},\bm{\log\sigma^2})$, the latent codes themselves inhabit
+hyperbolic space, facilitating representations aligned with tree-like taxonomic
+structures.
+\section{Training Loop and Optimization}
+Across all model types, the training pipeline \texttt{train\_once}\footnote{\texttt{src/biomevae/trainers/train\_loop.py}}
+performs the following steps:
+\begin{enumerate}[label=\arabic*., leftmargin=*]
+    \item Split the dataset into train/validation partitions using a reproducible random
+    shuffle (\texttt{train\_val\_split}).
+    \item Optionally standardize features on the training subset and apply the same
+    transform to validation and full data.
+    \item Instantiate the VAE variant specified by \texttt{model\_type}, configure the
+    optimizer (Adam or AdamW), and create data loaders.
+    \item Iterate for the requested number of epochs, updating the KL weighting schedule
+    and computing losses as described above. Gradient clipping is supported to stabilize
+    optimization.
+    \item Track training and validation metrics (loss components, latent statistics,
+    $R^2$) and trigger early stopping after a patience threshold without validation
+    improvement.
+    \item Persist the best-performing model checkpoint alongside latent embeddings and
+    reconstructions exported as TSV tables.
+\end{enumerate}
+The same routine underpins Optuna studies: each trial draws hyperparameters, attaches
+taxonomy tensors, and invokes \texttt{train\_once}. The best trial is retrained using
+its associated seed and serialized for deployment.
+\section{Evaluation Utilities}
+Beyond training, the repository provides CLI tools for extracting embeddings,
+evaluating reconstructions on held-out data, and benchmarking against a
+non-negative matrix factorization baseline. All neural models reuse the same
+preprocessing stack, ensuring that downstream comparisons remain faithful to the
+training configuration. Command-line entry points live under
+\texttt{src/biomevae/cli/} and expose flags for selecting models, loss weights, and
+evaluation splits. The exported reports include the experiment seed, the
+preprocessed data directory, and the path to the checkpoint used for inference so
+that results can be reproduced exactly.
+
+\subsection{Latent Space Diagnostics}
+The script \texttt{biomevae-embed} materializes low-dimensional embeddings for all
+samples in a dataset by loading the serialized configuration and model weights.
+Users may request either the encoder means (\texttt{--emb-space mu}) or the
+Poincar\'e-ball coordinates for hyperbolic models (\texttt{--emb-space ball}).
+The command writes \texttt{embeddings.tsv} to the chosen output directory and,
+when \texttt{--export-recon} is supplied, also emits \texttt{recon.tsv} containing
+the decoder reconstructions. These tables retain the sample identifiers and are
+compatible with downstream ordination or visualization tools.
+
+\subsection{Reconstruction Benchmarks}
+Held-out reconstructions are evaluated by \texttt{biomevae-test}, which reuses the
+stored preprocessing statistics before scoring the model with the same loss
+functions configured during training. The resulting metrics---mean absolute
+error, mean squared error, KL divergence statistics, and objective-specific
+summaries---are collected in \texttt{test\_report.json}. When taxonomy-aware losses
+are active, the routine also aggregates the hierarchical penalties per level to
+facilitate comparisons of coarse-grained fidelity across models.
+
+\subsection{Baselines and Comparative Analysis}
+The \texttt{biomevae-nmf} entry point computes non-negative matrix factorization
+baselines using the identical preprocessing pipeline as the neural models. The
+helpers \texttt{biomevae-comparetonmf} and \texttt{biomevae-allcomp} orchestrate
+side-by-side evaluations by consuming configuration files produced during
+training, yielding JSON summaries that can be appended directly to the LaTeX
+tables documenting experimental results.
+
+\section{Experimental Protocol}
+The repository includes configuration files under \texttt{configs/} that capture
+default hyperparameters for Euclidean, hyperbolic, and taxonomy-regularized VAEs.
+Experiments can be launched via the CLI by pointing to one of these YAML
+configurations, or by composing equivalent command-line arguments. Each
+configuration specifies optimizer settings, learning-rate schedules, KL annealing
+strategies, taxonomy weights, and output directories so that individual runs can
+be reproduced without modifying the Python source files.
+
+\subsection{Datasets}
+We provide example configurations for both synthetic benchmarks and real-world
+microbiome cohorts. The synthetic datasets permit controlled studies where the
+latent structure is known, while the real-world datasets illustrate behavior on
+noisy, sparse counts. Data ingestion scripts normalize feature names, harmonize
+taxonomy identifiers, and filter out low-prevalence species to reduce
+computational load. Configuration files document the provenance of each table and
+its associated taxonomy resource, ensuring that collaborators can reconstruct the
+exact training inputs.
+
+\subsection{Reproducibility}
+Each training run records a unique identifier combining the dataset name, model
+type, and timestamp. Random seeds are set at the level of Python, NumPy, and
+PyTorch to minimize nondeterminism. The resulting artifacts---including learned
+parameters, latent embeddings, evaluation reports, and reconstructed tables---are
+stored in structured directories that can be reloaded by the evaluation
+utilities. Versioning these artifacts alongside the LaTeX report preserves a
+clear provenance trail and allows automated regeneration of tables and figures.
+
+\section{Conclusion}
+The \texttt{biomevae} codebase implements a family of VAEs tailored to microbiome count
+matrices, combining hierarchical supervision and non-Euclidean latent geometry. The
+framework modularizes data handling, model definition, and regularization, enabling
+easy experimentation with taxonomy-aware objectives and hyperbolic representations.
+\begin{thebibliography}{9}
+\bibitem{kingma2014vae}
+D.~P. Kingma and M.~Welling.
+\newblock Auto-encoding variational Bayes.
+\newblock \emph{International Conference on Learning Representations}, 2014.
+\bibitem{higgins2017beta}
+I.~Higgins et~al.
+\newblock beta-{VAE}: Learning basic visual concepts with a constrained variational framework.
+\newblock \emph{International Conference on Learning Representations}, 2017.
+\bibitem{nickel2017poincare}
+M.~Nickel and D.~Kiela.
+\newblock Poincar\'e embeddings for learning hierarchical representations.
+\newblock \emph{Advances in Neural Information Processing Systems}, 2017.
+\end{thebibliography}
+\end{document}

@@ -1,0 +1,786 @@
+sample_id	study_name	subject_id	body_site	antibiotics_current_use	disease	age	infant_age	age_category	sex	country	non_westernized	sequencing_platform	dna_extraction_kit	pmid	number_reads	number_bases	minimum_read_length	median_read_length	NCBI_accession	curator	days_from_first_collection	antibiotics_family	hla_drb12	hla_dqa12	hla_dqa11	hla_drb11
+G69146	VatanenT_2016	P018832	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	17995824	1787741686	66	101	SRR4305031	Paolo_Manghi	686				5	
+G69147	VatanenT_2016	P017743	stool	no	control	0	173	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	13075384	1300429005	66	101	SRR4305032	Paolo_Manghi	0					401
+G69148	VatanenT_2016	P011108	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	10457926	1040734557	67	101	SRR4305143	Paolo_Manghi	531					401
+G69149	VatanenT_2016	P013823	stool	no	control	0	347	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	12947690	1285975533	67	101	SRR4305255	Paolo_Manghi	168				5	
+G69150	VatanenT_2016	P011108	stool	no	control	0	342	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	14753046	1459625137	68	101	SRR4305367	Paolo_Manghi	0					401
+G69152	VatanenT_2016	T022883	stool	no	control	0	292	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	13427076	1339118964	66	101	SRR4305478	Paolo_Manghi	181			5	5	
+G69153	VatanenT_2016	T006288	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	20943368	2101721639	68	101	SRR4305489	Paolo_Manghi	142			201	5	
+G69154	VatanenT_2016	T003950	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	16008286	1597881783	66	101	SRR4305500	Paolo_Manghi	656			5	5	
+G69155	VatanenT_2016	T020231	stool	no	control	0	302	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	12286132	1222043078	67	101	SRR4305511	Paolo_Manghi	92		404	3	201	
+G69156	VatanenT_2016	P014839	stool	no	control	0	326	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	19485252	1930138251	68	101	SRR4305522	Paolo_Manghi	204				5	
+G69157	VatanenT_2016	P000648	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	44181612	4391926841	68	101	SRR4305033	Paolo_Manghi	162			201	5	
+G69158	VatanenT_2016	P015091	stool	no	control	0	278	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	13255210	1319640008	66	101	SRR4305044	Paolo_Manghi	30			5	5	
+G69159	VatanenT_2016	P006862	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	15417752	1542107045	68	101	SRR4305055	Paolo_Manghi	703		402	3	5	
+G69160	VatanenT_2016	P006862	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	17675658	1752941068	68	101	SRR4305066	Paolo_Manghi	0		402	3	5	
+G69161	VatanenT_2016	P003558	stool	no	control	0	213	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	44401004	4408623091	68	101	SRR4305077	Paolo_Manghi	0					401
+G69162	VatanenT_2016	P003558	stool	no	control	0	273	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	13294426	1329210140	68	101	SRR4305088	Paolo_Manghi	60					401
+G69163	VatanenT_2016	P003558	stool	no	control	0	341	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	16436348	1647829916	68	101	SRR4305099	Paolo_Manghi	128					401
+G69164	VatanenT_2016	P013960	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	15921390	1580195951	82	101	SRR4305110	Paolo_Manghi	511			3	5	
+G69166	VatanenT_2016	T000094	stool	no	control	2		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	30200534	3025249471	62	101	SRR4305121	Paolo_Manghi	98		404	3	5	
+G69167	VatanenT_2016	T000094	stool	no	control	3		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	10836376	1086216210	75	101	SRR4305132	Paolo_Manghi	578		404	3	5	
+G69170	VatanenT_2016	T022883	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	70000000	6937213172	60	101	SRR4305144	Paolo_Manghi	485			5	5	
+G69171	VatanenT_2016	T012389	stool	yes	bronchitis	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	45050676	4507714766	62	101	SRR4305155	Paolo_Manghi	682	beta_lactamase_inhibitors;penicillins				401
+G69172	VatanenT_2016	E020808	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	33189972	3302763022	62	101	SRR4305166	Paolo_Manghi	479	penicillins;sulphonamides			5	
+G69173	VatanenT_2016	E009667	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	10712986	1066883681	66	101	SRR4305177	Paolo_Manghi	682	penicillins;sulphonamides		201	5	
+G69174	VatanenT_2016	E009667	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	15147530	1510415797	67	101	SRR4305188	Paolo_Manghi	565	penicillins;sulphonamides		201	5	
+G69175	VatanenT_2016	T011676	stool	yes	otitis	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	15277918	1532310779	68	101	SRR4305199	Paolo_Manghi	680	penicillins				404
+G69176	VatanenT_2016	T016812	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	11812208	1183721017	62	101	SRR4305210	Paolo_Manghi	675					404
+G69177	VatanenT_2016	E023535	stool	yes	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	24279560	2434412703	62	101	SRR4305221	Paolo_Manghi	475	cephalosporins				401
+G69178	VatanenT_2016	E016148	stool	no	control	2		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	14734804	1478758145	62	101	SRR4305232	Paolo_Manghi	0			3	5	
+G69179	VatanenT_2016	E033036	stool	no	control	0	318	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	12109618	1213814605	62	101	SRR4305243	Paolo_Manghi	0					404
+G69180	VatanenT_2016	P017255	stool	no	control	0	345	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	13607562	1354878276	66	101	SRR4305256	Paolo_Manghi	143					408
+G69181	VatanenT_2016	P015163	stool	no	control	0	175	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	52185144	5182255975	68	101	SRR4305267	Paolo_Manghi	31					404
+G69182	VatanenT_2016	P022384	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	18789088	1851291340	60	101	SRR4305278	Paolo_Manghi	702			201	5	
+G69183	VatanenT_2016	T005999	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	9063496	907479478	75	101	SRR4305289	Paolo_Manghi	663			3	3	404
+G69184	VatanenT_2016	T016812	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	32814898	3249556687	62	101	SRR4305300	Paolo_Manghi	0					404
+G69185	VatanenT_2016	T020231	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	38575052	3868072892	62	101	SRR4305311	Paolo_Manghi	683		404	3	201	
+G69186	VatanenT_2016	P015163	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	21047344	2053772904	60	101	SRR4305323	Paolo_Manghi	513					404
+G69187	VatanenT_2016	E012678	stool	no	control	0	130	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	23946302	2313300507	60	101	SRR4305334	Paolo_Manghi	0				5	
+G69188	VatanenT_2016	E018421	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	15252324	1530484956	62	101	SRR4305345	Paolo_Manghi	663			201	5	
+G69189	VatanenT_2016	P015656	stool	no	control	0	144	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	22205336	2198620279	62	101	SRR4305356	Paolo_Manghi	0				5	
+G69190	VatanenT_2016	P009291	stool	no	control	0	139	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	20995842	2063451310	68	101	SRR4305368	Paolo_Manghi	0		401	3	5	
+G69191	VatanenT_2016	E015991	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	13947028	1398449578	62	101	SRR4305380	Paolo_Manghi	669					401
+G69192	VatanenT_2016	E016148	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	16181338	1623562229	62	101	SRR4305391	Paolo_Manghi	838	beta_lactamase_inhibitors;penicillins		3	5	
+G69193	VatanenT_2016	E016148	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	27534592	2735991874	62	101	SRR4305402	Paolo_Manghi	577	beta_lactamase_inhibitors;penicillins		3	5	
+G69194	VatanenT_2016	T016834	stool	yes	bronchitis	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	27039406	2679538268	62	101	SRR4305413	Paolo_Manghi	0	penicillins				402
+G69195	VatanenT_2016	P014839	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	17027468	1684566231	66	101	SRR4305424	Paolo_Manghi	693				5	
+G69196	VatanenT_2016	P015091	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	34732040	3431780676	62	101	SRR4305435	Paolo_Manghi	638			5	5	
+G69197	VatanenT_2016	P020861	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	26517202	2625326436	62	101	SRR4305446	Paolo_Manghi	510			3	3	404
+G69198	VatanenT_2016	P017743	stool	no	control	0	312	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	23113676	2300611673	60	101	SRR4305457	Paolo_Manghi	139					401
+G69199	VatanenT_2016	P022384	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	6747600	671023263	68	101	SRR4305468	Paolo_Manghi	489			201	5	
+G69201	VatanenT_2016	P018832	stool	no	control	0	358	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	12777236	1263897474	83	101	SRR4305479	Paolo_Manghi	189				5	
+G69202	VatanenT_2016	P010096	stool	yes	respiratoryinf	0	304	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	16386014	1606867661	60	101	SRR4305480	Paolo_Manghi	0	macrolides;penicillins				405
+G69203	VatanenT_2016	P008543	stool	no	control	0	276	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	35107964	3496344615	68	101	SRR4305481	Paolo_Manghi	0				5	
+G69204	VatanenT_2016	P000648	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	53623114	5331603977	68	101	SRR4305482	Paolo_Manghi	547			201	5	
+G69205	VatanenT_2016	P009880	stool	no	control	0	162	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	7945246	786888242	68	101	SRR4305483	Paolo_Manghi	0					404
+G69206	VatanenT_2016	E012678	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	36052470	3582982327	62	101	SRR4305484	Paolo_Manghi	481				5	
+G69207	VatanenT_2016	E018421	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	25973462	2539865405	60	101	SRR4305485	Paolo_Manghi	482	macrolides;penicillins		201	5	
+G69208	VatanenT_2016	P010096	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	18001534	1798044983	68	101	SRR4305486	Paolo_Manghi	457					405
+G69209	VatanenT_2016	P005135	stool	yes	bronchitis	0	308	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	26052828	2584119962	68	101	SRR4305487	Paolo_Manghi	177	beta_lactamase_inhibitors;penicillins			5	
+G69210	VatanenT_2016	P005135	stool	no	control	0	131	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	19100290	1890569100	82	101	SRR4305488	Paolo_Manghi	0				5	
+G69211	VatanenT_2016	P008543	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	16965440	1694440569	60	101	SRR4305490	Paolo_Manghi	425				5	
+G69212	VatanenT_2016	P008543	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	11171428	1111557765	68	101	SRR4305491	Paolo_Manghi	450				5	
+G69213	VatanenT_2016	P009746	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	16138324	1602047690	68	101	SRR4305492	Paolo_Manghi	196				5	
+G69214	VatanenT_2016	P018832	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	9210950	902441775	60	101	SRR4305493	Paolo_Manghi	506				5	
+G69215	VatanenT_2016	P013823	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	19876414	1969722000	68	101	SRR4305494	Paolo_Manghi	532				5	
+G69216	VatanenT_2016	P010096	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	10828428	1075091465	68	101	SRR4305495	Paolo_Manghi	518					405
+G69217	VatanenT_2016	P009746	stool	no	control	0	103	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	15142120	1512871489	68	101	SRR4305496	Paolo_Manghi	0				5	
+G69218	VatanenT_2016	T019850	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	20462966	2046459487	68	101	SRR4305497	Paolo_Manghi	482					401
+G69219	VatanenT_2016	T020231	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	17863788	1790154772	68	101	SRR4305498	Paolo_Manghi	481		404	3	201	
+G69221	VatanenT_2016	P009291	stool	no	control	0	359	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	14557232	1458567819	68	101	SRR4305499	Paolo_Manghi	220		401	3	5	
+G69222	VatanenT_2016	P009746	stool	yes	bronchitis	0	299	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	26854438	2674144316	82	101	SRR4305501	Paolo_Manghi	196	macrolides			5	
+G69223	VatanenT_2016	P008579	stool	no	control	0	349	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	17795964	1780378107	68	101	SRR4305502	Paolo_Manghi	191					401
+G69224	VatanenT_2016	P015163	stool	no	control	0	328	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	7234678	717890912	68	101	SRR4305503	Paolo_Manghi	184					404
+G69225	VatanenT_2016	E009667	stool	no	control	2		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	18038498	1792388971	60	101	SRR4305504	Paolo_Manghi	888			201	5	
+G69226	VatanenT_2016	T029687	stool	yes	bronchitis	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	13704086	1374498094	62	101	SRR4305505	Paolo_Manghi	712	penicillins	401	3	5	
+G69227	VatanenT_2016	E012678	stool	no	control	0	314	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	27954792	2797476776	60	101	SRR4305506	Paolo_Manghi	184				5	
+G69228	VatanenT_2016	T029687	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	15802954	1587470743	68	101	SRR4305507	Paolo_Manghi	0		401	3	5	
+G69229	VatanenT_2016	P018832	stool	no	control	0	169	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	21964360	2185903754	68	101	SRR4305508	Paolo_Manghi	0				5	
+G69230	VatanenT_2016	E033036	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	17318746	1731254592	60	101	SRR4305509	Paolo_Manghi	690	penicillins				404
+G69231	VatanenT_2016	E033036	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	22847386	2270694100	62	101	SRR4305510	Paolo_Manghi	475	penicillins				404
+G69232	VatanenT_2016	P014839	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	19957642	1982309191	62	101	SRR4305512	Paolo_Manghi	519				5	
+G69233	VatanenT_2016	T011676	stool	yes	otitis	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	8864968	887637452	62	101	SRR4305513	Paolo_Manghi	0	penicillins				404
+G69234	VatanenT_2016	P009291	stool	yes	tonsillitis	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	29548072	2927713582	62	101	SRR4305514	Paolo_Manghi	494	penicillins	401	3	5	
+G69235	VatanenT_2016	P008579	stool	no	control	0	158	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	21095408	2052920347	60	101	SRR4305515	Paolo_Manghi	0					401
+G69236	VatanenT_2016	P001307	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	20708358	2076419602	68	101	SRR4305516	Paolo_Manghi	692		404	3	5	
+G69238	VatanenT_2016	T019850	stool	no	control	0	312	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	8910256	872890795	60	101	SRR4305517	Paolo_Manghi	277					401
+G78487	VatanenT_2016	T013832	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	11798396	1145935248	60	100	SRR4305518	Paolo_Manghi	0		401	3	5	
+G78488	VatanenT_2016	E012124	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	16437650	1589398205	71	100	SRR4305519	Paolo_Manghi	569	penicillins				401
+G78489	VatanenT_2016	E012124	stool	no	control	2		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	16724316	1606290210	60	101	SRR4305520	Paolo_Manghi	211					401
+G78490	VatanenT_2016	E012124	stool	no	control	2		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	11644934	1129314640	79	100	SRR4305521	Paolo_Manghi	118					401
+G78492	VatanenT_2016	P010096	stool	yes	respiratoryinf	2		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	21452026	2079135765	70	100	SRR4305523	Paolo_Manghi	1007	macrolides				405
+G78493	VatanenT_2016	P022130	stool	yes	respiratoryinf	0	302	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	26087416	2526641343	71	100	SRR4305524	Paolo_Manghi	73	macrolides				
+G78494	VatanenT_2016	E033156	stool	no	control	3		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	8920030	868922034	60	101	SRR4305525	Paolo_Manghi	1105				5	
+G78495	VatanenT_2016	P013960	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	16965346	1655841126	60	101	SRR4305526	Paolo_Manghi	428			3	5	
+G78496	VatanenT_2016	P020604	stool	no	control	2		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	6036948	584108406	60	100	SRR4305527	Paolo_Manghi	809				5	
+G78498	VatanenT_2016	P009219	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	6876880	671863219	79	101	SRR4305528	Paolo_Manghi	439				5	
+G78499	VatanenT_2016	P013823	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	10298168	1007686240	65	101	SRR4305529	Paolo_Manghi	417				5	
+G78500	VatanenT_2016	P005279	stool	no	control	3		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	42042054	4108136880	65	101	SRR4305530	Paolo_Manghi	988					401
+G78502	VatanenT_2016	T014827	stool	no	control	2		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	16321566	1590716871	60	101	SRR4305531	Paolo_Manghi	852				5	
+G78505	VatanenT_2016	P018832	stool	no	control	2		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	20910712	2035620351	71	100	SRR4305532	Paolo_Manghi	748				5	
+G78507	VatanenT_2016	T022883	stool	no	control	0	229	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	19137532	1852800195	70	100	SRR4305034	Paolo_Manghi	118			5	5	
+G78508	VatanenT_2016	T012374	stool	yes	otitis	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	6658226	645231105	60	100	SRR4305035	Paolo_Manghi	502	penicillins		201	5	
+G78509	VatanenT_2016	T016811	stool	yes	stomatitis	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	23243858	2287795543	65	101	SRR4305036	Paolo_Manghi	390	penicillins			5	
+G78510	VatanenT_2016	T017394	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	10326400	1009340978	70	101	SRR4305037	Paolo_Manghi	0					401
+G78511	VatanenT_2016	T007750	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	24920132	2429912704	60	101	SRR4305038	Paolo_Manghi	587		404	3	201	
+G78512	VatanenT_2016	T003950	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	3845450	364796010	60	101	SRR4305039	Paolo_Manghi	598			5	5	
+G78513	VatanenT_2016	T004341	stool	yes	otitis	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	9380286	915664488	80	101	SRR4305040	Paolo_Manghi	594	penicillins		5	5	
+G78514	VatanenT_2016	T012374	stool	yes	otitis	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	5764144	560461844	60	100	SRR4305041	Paolo_Manghi	0	penicillins		201	5	
+G78515	VatanenT_2016	T012977	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	7860426	763561114	60	100	SRR4305042	Paolo_Manghi	0			5	5	
+G78516	VatanenT_2016	T017419	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	6677076	648955985	79	100	SRR4305043	Paolo_Manghi	406				5	
+G78517	VatanenT_2016	T016811	stool	yes	stomatitis	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	14851324	1450059475	79	101	SRR4305045	Paolo_Manghi	483	penicillins			5	
+G78518	VatanenT_2016	T008246	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	22166482	2159928727	71	101	SRR4305046	Paolo_Manghi	500					401
+G78519	VatanenT_2016	T008025	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	13984524	1359615345	70	101	SRR4305047	Paolo_Manghi	183					401
+G78520	VatanenT_2016	T017394	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	16060894	1562838670	60	100	SRR4305048	Paolo_Manghi	479					401
+G78521	VatanenT_2016	E016444	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	14241164	1387186784	70	101	SRR4305049	Paolo_Manghi	0	beta_lactamase_inhibitors;penicillins	404			401
+G78522	VatanenT_2016	E007303	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	10888724	1055935797	60	100	SRR4305050	Paolo_Manghi	506			5	3	
+G78523	VatanenT_2016	E007303	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	13940204	1356723156	70	101	SRR4305051	Paolo_Manghi	186			5	3	
+G78524	VatanenT_2016	E030828	stool	yes	otitis	0	304	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	16241536	1583752643	79	101	SRR4305052	Paolo_Manghi	259	penicillins;sulphonamides				401
+G78525	VatanenT_2016	E030828	stool	yes	otitis	0	212	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	11951376	1168594696	65	101	SRR4305053	Paolo_Manghi	167	penicillins;sulphonamides				401
+G78526	VatanenT_2016	E016870	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	18252778	1776809894	68	101	SRR4305054	Paolo_Manghi	0		404			404
+G78527	VatanenT_2016	E016444	stool	yes	otitis	2		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	31703738	3085856249	60	100	SRR4305056	Paolo_Manghi	1075	macrolides;penicillins	404			401
+G78528	VatanenT_2016	T028183	stool	yes	otitis	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	17396868	1688501105	60	100	SRR4305057	Paolo_Manghi	0	penicillins			5	
+G78529	VatanenT_2016	T019853	stool	no	control	0	217	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	26799900	2599456007	63	100	SRR4305058	Paolo_Manghi	0			3	5	
+G78530	VatanenT_2016	T010532	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	18341054	1779748258	60	100	SRR4305059	Paolo_Manghi	495		404	3	201	
+G78531	VatanenT_2016	T020231	stool	no	control	0	210	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	6725434	655722946	79	101	SRR4305060	Paolo_Manghi	0		404	3	201	
+G78532	VatanenT_2016	E019160	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	18451304	1806531131	60	101	SRR4305061	Paolo_Manghi	0	cephalosporins			5	
+G78533	VatanenT_2016	E008437	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	12183310	1182622393	60	100	SRR4305062	Paolo_Manghi	91			3	5	
+G78534	VatanenT_2016	E008643	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	25453338	2508180176	65	101	SRR4305063	Paolo_Manghi	676				5	
+G78535	VatanenT_2016	E011459	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	16645726	1609888816	60	100	SRR4305064	Paolo_Manghi	670	macrolides				404
+G78536	VatanenT_2016	E011459	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	17770598	1729623684	79	101	SRR4305065	Paolo_Manghi	0	macrolides				404
+G78537	VatanenT_2016	P016497	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	6497386	628913118	60	100	SRR4305067	Paolo_Manghi	541				5	
+G78538	VatanenT_2016	P005558	stool	yes	respiratoryinf	2		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	8277794	804726538	60	100	SRR4305068	Paolo_Manghi	743	penicillins		201	5	
+G78539	VatanenT_2016	P013701	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	9620858	938719595	70	101	SRR4305069	Paolo_Manghi	535					404
+G78540	VatanenT_2016	P017671	stool	yes	infectiousgastroenteritis	0	217	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	19346884	1877166588	64	100	SRR4305070	Paolo_Manghi	0	nitrofurans		201	5	
+G78541	VatanenT_2016	P001307	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	20036964	1973918864	67	101	SRR4305071	Paolo_Manghi	434		404	3	5	
+G78542	VatanenT_2016	P004230	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	35234946	3406758412	68	100	SRR4305072	Paolo_Manghi	400		404	3	201	
+G78543	VatanenT_2016	P004230	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	38493712	3758158678	67	101	SRR4305073	Paolo_Manghi	498		404	3	201	
+G78544	VatanenT_2016	P014839	stool	no	control	0	286	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	13233630	1295347342	65	101	SRR4305074	Paolo_Manghi	164				5	
+G78545	VatanenT_2016	P001307	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	19247424	1883041551	65	101	SRR4305075	Paolo_Manghi	0		404	3	5	
+G78546	VatanenT_2016	P015091	stool	no	control	0	248	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	15902084	1564811442	65	101	SRR4305076	Paolo_Manghi	0			5	5	
+G78548	VatanenT_2016	P021772	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	18964754	1859275994	60	101	SRR4305078	Paolo_Manghi	519		404	3	3	
+G78550	VatanenT_2016	P013960	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	8662460	843179731	60	100	SRR4305079	Paolo_Manghi	596			3	5	
+G78551	VatanenT_2016	P004113	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	25163684	2481313817	60	101	SRR4305080	Paolo_Manghi	586					404
+G78552	VatanenT_2016	P004113	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	20365816	1980006404	60	100	SRR4305081	Paolo_Manghi	625					404
+G78553	VatanenT_2016	P022384	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	20414488	1995799799	60	101	SRR4305082	Paolo_Manghi	427			201	5	
+G78554	VatanenT_2016	T019853	stool	yes	salmonellosis	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	9038286	880726644	60	101	SRR4305083	Paolo_Manghi	499	penicillins		3	5	
+G78555	VatanenT_2016	T009280	stool	yes	otitis	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	5854602	567985356	60	100	SRR4305084	Paolo_Manghi	684	penicillins				404
+G78556	VatanenT_2016	T021076	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	11818470	1151071996	60	101	SRR4305085	Paolo_Manghi	0		404	3	5	
+G78557	VatanenT_2016	T012121	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	10108840	987329522	70	101	SRR4305086	Paolo_Manghi	0					401
+G78558	VatanenT_2016	P014713	stool	no	control	0	192	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	11402804	1115566801	65	101	SRR4305087	Paolo_Manghi	0					401
+G78559	VatanenT_2016	P009219	stool	no	control	0	243	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	12824610	1233556034	66	98	SRR4305089	Paolo_Manghi	0				5	
+G78561	VatanenT_2016	P013701	stool	no	control	0	207	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	14025286	1378249663	69	101	SRR4305090	Paolo_Manghi	0					404
+G78562	VatanenT_2016	P003435	stool	no	control	0	343	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	24281174	2376737347	66	101	SRR4305091	Paolo_Manghi	148				5	
+G78563	VatanenT_2016	P004230	stool	no	control	0	285	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	15928426	1538411903	65	100	SRR4305092	Paolo_Manghi	70		404	3	201	
+G78564	VatanenT_2016	P001363	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	21540930	2131804888	61	101	SRR4305093	Paolo_Manghi	404					401
+G78565	VatanenT_2016	P016803	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	19108090	1865664651	60	101	SRR4305094	Paolo_Manghi	499					401
+G78566	VatanenT_2016	P018832	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	26285650	2592304919	60	101	SRR4305095	Paolo_Manghi	416				5	
+G78568	VatanenT_2016	P020604	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	6413528	620394915	60	100	SRR4305096	Paolo_Manghi	381				5	
+G78570	VatanenT_2016	P021343	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	32135850	3115901196	72	100	SRR4305097	Paolo_Manghi	0					404
+G78571	VatanenT_2016	P021343	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	10681512	1022028956	60	101	SRR4305098	Paolo_Manghi	434					404
+G78572	VatanenT_2016	P022384	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	18704388	1814689204	60	100	SRR4305100	Paolo_Manghi	0			201	5	
+G78573	VatanenT_2016	E024240	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	9608896	936011352	70	101	SRR4305101	Paolo_Manghi	0	penicillins			5	
+G78574	VatanenT_2016	E024240	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	19055766	1859257913	79	101	SRR4305102	Paolo_Manghi	667	penicillins			5	
+G78575	VatanenT_2016	E025912	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	14386016	1400436093	60	100	SRR4305103	Paolo_Manghi	547			201	5	
+G78576	VatanenT_2016	T014801	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	7400072	720614907	60	100	SRR4305104	Paolo_Manghi	0					404
+G78577	VatanenT_2016	T005999	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	24556512	2389497002	60	100	SRR4305105	Paolo_Manghi	588			3	3	404
+G78578	VatanenT_2016	T013431	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	29657134	2886129782	60	100	SRR4305106	Paolo_Manghi	0					404
+G78579	VatanenT_2016	E002473	stool	yes	otitis	2		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	15412622	1499336665	60	100	SRR4305107	Paolo_Manghi	848	cephalosporins			5	
+G78580	VatanenT_2016	E004934	stool	yes	otitis	2		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	26177094	2572521089	60	101	SRR4305108	Paolo_Manghi	855	cephalosporins		5	5	
+G78581	VatanenT_2016	E025921	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	11096438	1081615750	79	101	SRR4305109	Paolo_Manghi	0				5	
+G78582	VatanenT_2016	E017049	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	10639664	1034389013	60	100	SRR4305111	Paolo_Manghi	481	penicillins	401	3	5	
+G78583	VatanenT_2016	E017049	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	11260776	1094551045	60	100	SRR4305112	Paolo_Manghi	390	penicillins	401	3	5	
+G78585	VatanenT_2016	E032745	stool	no	control	0	213	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	19106934	1845786247	60	100	SRR4305113	Paolo_Manghi	0					404
+G78586	VatanenT_2016	E007743	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	13635388	1325911320	60	101	SRR4305114	Paolo_Manghi	668				5	
+G78587	VatanenT_2016	E007743	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	21798826	2119968488	60	101	SRR4305115	Paolo_Manghi	583				5	
+G78588	VatanenT_2016	E018574	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	8635356	837710676	60	100	SRR4305116	Paolo_Manghi	403	penicillins			5	
+G78589	VatanenT_2016	E031941	stool	no	control	0	214	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	23478614	2311415581	65	101	SRR4305117	Paolo_Manghi	0				5	
+G78590	VatanenT_2016	E019160	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	7471218	729429785	79	101	SRR4305118	Paolo_Manghi	482	cephalosporins			5	
+G78591	VatanenT_2016	T028029	stool	no	control	0	320	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	6866744	665170405	60	100	SRR4305119	Paolo_Manghi	0		401	3	3	
+G78592	VatanenT_2016	T023909	stool	no	control	0	203	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	7062172	685145955	60	100	SRR4305120	Paolo_Manghi	0			201	5	
+G78593	VatanenT_2016	T023909	stool	no	control	0	311	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	8116960	789227600	60	100	SRR4305122	Paolo_Manghi	108			201	5	
+G78594	VatanenT_2016	T022883	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	43997622	4301701434	65	101	SRR4305123	Paolo_Manghi	402			5	5	
+G78595	VatanenT_2016	T012374	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	7273642	704700350	60	100	SRR4305124	Paolo_Manghi	0			201	5	
+G78596	VatanenT_2016	T019031	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	17284764	1704936038	65	101	SRR4305125	Paolo_Manghi	162					401
+G78597	VatanenT_2016	T019031	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	9320772	912014480	79	101	SRR4305126	Paolo_Manghi	438					401
+G78598	VatanenT_2016	E022083	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	11062254	1077383639	60	101	SRR4305127	Paolo_Manghi	507			3	3	401
+G78599	VatanenT_2016	E019187	stool	no	control	3		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	9804282	949009239	60	100	SRR4305128	Paolo_Manghi	1096			5	5	
+G78600	VatanenT_2016	E019160	stool	no	control	2		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	5493506	534818032	60	100	SRR4305129	Paolo_Manghi	0				5	
+G78601	VatanenT_2016	E018421	stool	yes	otitis	2		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	26456852	2605362933	65	101	SRR4305130	Paolo_Manghi	845	beta_lactamase_inhibitors;penicillins		201	5	
+G78602	VatanenT_2016	T012312	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	19415588	1890069448	60	101	SRR4305131	Paolo_Manghi	680		401	3	5	
+G78603	VatanenT_2016	T011676	stool	yes	otitis	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	11794620	1141739868	60	100	SRR4305133	Paolo_Manghi	592	penicillins				404
+G78604	VatanenT_2016	E017049	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	5975806	582251870	60	101	SRR4305134	Paolo_Manghi	580		401	3	5	
+G78605	VatanenT_2016	E017049	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	13023314	1269159702	61	101	SRR4305135	Paolo_Manghi	153		401	3	5	
+G78606	VatanenT_2016	E030933	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	16513752	1609588465	60	101	SRR4305136	Paolo_Manghi	0				5	
+G78607	VatanenT_2016	E029310	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	10385916	1011998350	60	101	SRR4305137	Paolo_Manghi	384	penicillins		3	5	
+G78608	VatanenT_2016	E030933	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	15103086	1486359141	60	101	SRR4305138	Paolo_Manghi	488				5	
+G78609	VatanenT_2016	E025921	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	15747084	1527099508	60	100	SRR4305139	Paolo_Manghi	493	macrolides;penicillins			5	
+G78610	VatanenT_2016	E025921	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	11792920	1138444099	60	100	SRR4305140	Paolo_Manghi	0	macrolides;penicillins			5	
+G78611	VatanenT_2016	E029796	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	11703876	1137286217	60	100	SRR4305141	Paolo_Manghi	667				5	
+G78612	VatanenT_2016	E017715	stool	yes	otitis	2		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	10064070	981979362	70	101	SRR4305142	Paolo_Manghi	883	penicillins		5	5	
+G78613	VatanenT_2016	E017049	stool	yes	otitis	2		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	15002334	1451937192	60	100	SRR4305145	Paolo_Manghi	1077	penicillins	401	3	5	
+G78614	VatanenT_2016	T009909	stool	no	control	3		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	9048902	876287526	60	100	SRR4305146	Paolo_Manghi	1108				5	
+G78615	VatanenT_2016	E012393	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	10858110	1052009242	60	100	SRR4305147	Paolo_Manghi	569				5	
+G78616	VatanenT_2016	E023535	stool	yes	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	17005332	1653178546	60	100	SRR4305148	Paolo_Manghi	410	cephalosporins				401
+G78617	VatanenT_2016	E024646	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	18943184	1842292396	60	101	SRR4305149	Paolo_Manghi	525	cephalosporins;macrolides		3	3	401
+G78618	VatanenT_2016	T010532	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	16409630	1590403438	60	100	SRR4305150	Paolo_Manghi	657		404	3	201	
+G78619	VatanenT_2016	E025671	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	15654740	1514865099	60	100	SRR4305151	Paolo_Manghi	474	cephalosporins;penicillins		3	3	404
+G78620	VatanenT_2016	E025912	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	11435330	1113542972	60	101	SRR4305152	Paolo_Manghi	518			201	5	
+G78621	VatanenT_2016	E025912	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	7721288	749403799	60	100	SRR4305153	Paolo_Manghi	80			201	5	
+G78622	VatanenT_2016	E026343	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	15304020	1494411895	70	101	SRR4305154	Paolo_Manghi	0			5	5	
+G78623	VatanenT_2016	E014953	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	22147966	2159023156	68	101	SRR4305156	Paolo_Manghi	0	penicillins				404
+G78624	VatanenT_2016	E015208	stool	no	control	2		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	10659436	1030986393	60	100	SRR4305157	Paolo_Manghi	1087			201	5	
+G78625	VatanenT_2016	T025415	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	22268304	2176721653	71	101	SRR4305158	Paolo_Manghi	393		401	3	5	
+G78626	VatanenT_2016	E032745	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	9099872	884787773	60	100	SRR4305159	Paolo_Manghi	427	penicillins				404
+G78627	VatanenT_2016	E018574	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	10228632	993749188	60	100	SRR4305160	Paolo_Manghi	588				5	
+G78628	VatanenT_2016	E018574	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	70000000	6980632943	60	101	SRR4305161	Paolo_Manghi	680				5	
+G78629	VatanenT_2016	E019160	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	12437930	1208369000	60	100	SRR4305162	Paolo_Manghi	584	penicillins			5	
+G78630	VatanenT_2016	T026211	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	10036520	970392686	60	100	SRR4305163	Paolo_Manghi	664			201	5	
+G78631	VatanenT_2016	T005507	stool	no	control	2		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	13377976	1302938539	60	101	SRR4305164	Paolo_Manghi	1083				5	
+G78633	VatanenT_2016	E034885	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	23303784	2270392865	60	101	SRR4305165	Paolo_Manghi	396	penicillins;sulphonamides		5	5	
+G78634	VatanenT_2016	P005558	stool	yes	respiratoryinf	2		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	23380122	2266611896	60	100	SRR4305167	Paolo_Manghi	794	penicillins		201	5	
+G78636	VatanenT_2016	P005279	stool	no	control	2		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	6066008	590217892	60	100	SRR4305168	Paolo_Manghi	663					401
+G78637	VatanenT_2016	P023918	stool	no	control	0	289	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	14814216	1453944702	70	101	SRR4305169	Paolo_Manghi	0		401	3	5	
+G78638	VatanenT_2016	P023918	stool	no	control	0	341	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	13984280	1325928071	60	101	SRR4305170	Paolo_Manghi	52		401	3	5	
+G78640	VatanenT_2016	P022222	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	13958086	1348865624	60	100	SRR4305171	Paolo_Manghi	566				5	
+G78642	VatanenT_2016	P026562	stool	no	control	0	340	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	10544164	1024199104	60	100	SRR4305172	Paolo_Manghi	154		404	3	201	
+G78644	VatanenT_2016	P017255	stool	no	control	0	202	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	8171204	790244542	60	100	SRR4305173	Paolo_Manghi	0					408
+G78645	VatanenT_2016	P017255	stool	no	control	0	299	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	8580382	831797889	60	100	SRR4305174	Paolo_Manghi	97					408
+G78646	VatanenT_2016	P010313	stool	no	control	0	184	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	13091924	1274433484	72	100	SRR4305175	Paolo_Manghi	0					402
+G78647	VatanenT_2016	P015163	stool	no	control	0	205	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	32568468	3204340098	60	101	SRR4305176	Paolo_Manghi	61					404
+G78648	VatanenT_2016	P020604	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	8637456	832749484	60	99	SRR4305178	Paolo_Manghi	499				5	
+G78649	VatanenT_2016	P020604	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	12202078	1183630250	60	100	SRR4305179	Paolo_Manghi	534				5	
+G78650	VatanenT_2016	P009291	stool	yes	tonsillitis	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	10781860	1058299752	61	101	SRR4305180	Paolo_Manghi	476	penicillins	401	3	5	
+G78651	VatanenT_2016	E030933	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	5760536	558182071	60	100	SRR4305181	Paolo_Manghi	668	beta_lactamase_inhibitors;macrolides;penicillins			5	
+G78652	VatanenT_2016	E032745	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	16733760	1634816803	60	101	SRR4305182	Paolo_Manghi	680					404
+G78653	VatanenT_2016	E007303	stool	no	control	2		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	8229090	800497251	60	100	SRR4305183	Paolo_Manghi	588			5	3	
+G78654	VatanenT_2016	E007743	stool	no	control	3		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	5318722	519488007	79	101	SRR4305184	Paolo_Manghi	1098				5	
+G78655	VatanenT_2016	E007743	stool	no	control	2		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	16582132	1620550937	60	101	SRR4305185	Paolo_Manghi	854				5	
+G78656	VatanenT_2016	E030828	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	39151138	3795568523	61	100	SRR4305186	Paolo_Manghi	167					401
+G78658	VatanenT_2016	P000756	stool	no	control	0	199	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	58008948	5657533230	61	101	SRR4305187	Paolo_Manghi	56					404
+G78660	VatanenT_2016	P005342	stool	yes	bronchitis	0	214	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	27630040	2696116106	65	101	SRR4305189	Paolo_Manghi	0	cephalosporins				404
+G78661	VatanenT_2016	P026562	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	37790998	3723862045	60	101	SRR4305190	Paolo_Manghi	400		404	3	201	
+G78662	VatanenT_2016	P026562	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	18918338	1852451749	60	101	SRR4305191	Paolo_Manghi	552		404	3	201	
+G78663	VatanenT_2016	T014827	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	24036204	2351184446	60	101	SRR4305192	Paolo_Manghi	0				5	
+G78664	VatanenT_2016	T014800	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	16530238	1615775332	79	101	SRR4305193	Paolo_Manghi	0		404	3	201	
+G78665	VatanenT_2016	T014575	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	19179972	1875423615	60	101	SRR4305194	Paolo_Manghi	516			5	5	
+G78666	VatanenT_2016	T011454	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	20161136	1979358075	60	101	SRR4305195	Paolo_Manghi	0			5	5	
+G78667	VatanenT_2016	T012138	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	19824270	1946267039	60	101	SRR4305196	Paolo_Manghi	0			201	5	
+G78668	VatanenT_2016	T012138	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	35320744	3456107221	65	101	SRR4305197	Paolo_Manghi	501			201	5	
+G78669	VatanenT_2016	T020231	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	27387346	2666460097	60	100	SRR4305198	Paolo_Manghi	591		404	3	201	
+G78670	VatanenT_2016	P015163	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	6834440	659959085	60	100	SRR4305200	Paolo_Manghi	419					404
+G78672	VatanenT_2016	P015163	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	16274132	1582773694	60	100	SRR4305201	Paolo_Manghi	542					404
+G78673	VatanenT_2016	E011183	stool	no	control	0	96	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	42749240	4213987628	61	101	SRR4305202	Paolo_Manghi	0		401	3	3	
+G78674	VatanenT_2016	E011183	stool	no	control	0	191	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	11245768	1091655951	60	100	SRR4305203	Paolo_Manghi	95		401	3	3	
+G78675	VatanenT_2016	E012115	stool	no	control	0	122	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	38665068	3798149756	60	101	SRR4305204	Paolo_Manghi	0				5	
+G78676	VatanenT_2016	E013394	stool	no	control	0	103	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	11163312	1085270789	60	100	SRR4305205	Paolo_Manghi	37		404	3	3	
+G78677	VatanenT_2016	E022960	stool	no	control	0	43	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	4463500	425391239	60	101	SRR4305206	Paolo_Manghi	0				5	
+G78679	VatanenT_2016	E020682	stool	no	control	0	113	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	11628616	1132245691	60	101	SRR4305207	Paolo_Manghi	0				5	
+G78680	VatanenT_2016	E011183	stool	no	control	0	279	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	27554232	2702839895	60	101	SRR4305208	Paolo_Manghi	183		401	3	3	
+G78681	VatanenT_2016	E016444	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	9103774	890262663	70	101	SRR4305209	Paolo_Manghi	0		404			401
+G78682	VatanenT_2016	E015378	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	45246588	4469159051	60	101	SRR4305211	Paolo_Manghi	662	penicillins	404			404
+G78683	VatanenT_2016	E029796	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	14611036	1416853138	60	100	SRR4305212	Paolo_Manghi	396				5	
+G78684	VatanenT_2016	E016681	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	30366054	2981901990	60	101	SRR4305213	Paolo_Manghi	0					401
+G78685	VatanenT_2016	E017715	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	16952648	1652139921	79	101	SRR4305214	Paolo_Manghi	578			5	5	
+G78686	VatanenT_2016	E031941	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	7095102	693288215	70	101	SRR4305215	Paolo_Manghi	398	beta_lactamase_inhibitors;macrolides;penicillins			5	
+G78687	VatanenT_2016	E011459	stool	no	control	2		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	13689542	1335731512	60	101	SRR4305216	Paolo_Manghi	0					404
+G78688	VatanenT_2016	T025415	stool	no	control	0	243	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	21536446	2122957498	65	101	SRR4305217	Paolo_Manghi	0		401	3	5	
+G78690	VatanenT_2016	T026211	stool	no	control	0	299	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	10544298	1020972390	65	100	SRR4305218	Paolo_Manghi	0			201	5	
+G78692	VatanenT_2016	E012393	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	10304050	1005507736	70	101	SRR4305219	Paolo_Manghi	661				5	
+G78693	VatanenT_2016	P010096	stool	yes	respiratoryinf	2		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	19451032	1893742240	71	100	SRR4305220	Paolo_Manghi	732	macrolides				405
+G78694	VatanenT_2016	P010322	stool	no	control	0	308	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	54192890	5324811213	61	101	SRR4305222	Paolo_Manghi	0					402
+G78696	VatanenT_2016	P004946	stool	no	control	0	296	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	17782886	1729282837	65	100	SRR4305223	Paolo_Manghi	0			5	5	
+G78697	VatanenT_2016	P004946	stool	no	control	0	334	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	10751030	1060507440	65	101	SRR4305224	Paolo_Manghi	38			5	5	
+G78699	VatanenT_2016	P009291	stool	no	control	0	190	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	9213364	888644138	72	100	SRR4305225	Paolo_Manghi	51		401	3	5	
+G78701	VatanenT_2016	P006035	stool	no	control	0	214	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	20868722	2050543345	65	101	SRR4305226	Paolo_Manghi	0				5	
+G78706	VatanenT_2016	P007857	stool	no	control	0	303	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	48598466	4777425596	61	101	SRR4305227	Paolo_Manghi	95				5	
+G78707	VatanenT_2016	P008579	stool	no	control	0	262	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	7478600	720829662	71	99	SRR4305228	Paolo_Manghi	104					401
+G78708	VatanenT_2016	T019850	stool	no	control	2		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	37517576	3701148419	60	101	SRR4305229	Paolo_Manghi	865					401
+G78710	VatanenT_2016	E023681	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	10944096	1065875902	60	101	SRR4305230	Paolo_Manghi	0			3	5	
+G78712	VatanenT_2016	T021076	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	7159242	692905958	60	100	SRR4305231	Paolo_Manghi	678		404	3	5	
+G78713	VatanenT_2016	T002534	stool	no	control	2		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	15851572	1543873555	68	101	SRR4305233	Paolo_Manghi	853			201	5	
+G78714	VatanenT_2016	T003353	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	25698444	2501911404	68	101	SRR4305234	Paolo_Manghi	499		405	3	5	
+G78715	VatanenT_2016	E019793	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	15077504	1469942044	70	101	SRR4305235	Paolo_Manghi	670			201	5	
+G78716	VatanenT_2016	E034324	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	19820972	1944853695	67	101	SRR4305236	Paolo_Manghi	477					404
+G78717	VatanenT_2016	E022083	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	13125974	1276639406	60	101	SRR4305237	Paolo_Manghi	613	penicillins		3	3	401
+G78718	VatanenT_2016	E022083	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	25083708	2466932646	66	101	SRR4305238	Paolo_Manghi	654	penicillins		3	3	401
+G78719	VatanenT_2016	E019187	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	14847796	1444834097	79	101	SRR4305239	Paolo_Manghi	668	penicillins		5	5	
+G78720	VatanenT_2016	E019187	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	13524054	1314974087	60	100	SRR4305240	Paolo_Manghi	575	penicillins		5	5	
+G78721	VatanenT_2016	E015991	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	39766440	3929392156	60	101	SRR4305241	Paolo_Manghi	0					401
+G78722	VatanenT_2016	T029922	stool	yes	bronchitis	0	311	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	22449244	2189616438	60	101	SRR4305242	Paolo_Manghi	0	cephalosporins		3	5	
+G78727	VatanenT_2016	P005558	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	19983478	1938044438	60	100	SRR4305244	Paolo_Manghi	434			201	5	
+G78728	VatanenT_2016	P019980	stool	yes	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	15131606	1469582388	65	100	SRR4305245	Paolo_Manghi	706	cephalosporins			5	
+G78730	VatanenT_2016	P014839	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	6059704	590866844	79	101	SRR4305246	Paolo_Manghi	618				5	
+G78732	VatanenT_2016	P019854	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	15499000	1513522462	60	101	SRR4305247	Paolo_Manghi	0					404
+G78733	VatanenT_2016	P016574	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	7394518	711354650	60	99	SRR4305248	Paolo_Manghi	498			3	3	404
+G78734	VatanenT_2016	P015091	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	8379390	818566431	79	101	SRR4305249	Paolo_Manghi	561			5	5	
+G78735	VatanenT_2016	P020861	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	16932352	1667103078	60	101	SRR4305250	Paolo_Manghi	0			3	3	404
+G78737	VatanenT_2016	T014827	stool	no	control	2		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	15908320	1550617494	68	101	SRR4305251	Paolo_Manghi	1062				5	
+G78738	VatanenT_2016	P022130	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	17802200	1718928707	60	100	SRR4305252	Paolo_Manghi	0					
+G78739	VatanenT_2016	P022130	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	39191466	3840495086	60	101	SRR4305254	Paolo_Manghi	31					
+G78740	VatanenT_2016	P022384	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	29228820	2858783923	60	101	SRR4305257	Paolo_Manghi	517			201	5	
+G78741	VatanenT_2016	P022384	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	26250370	2546792076	71	100	SRR4305258	Paolo_Manghi	549			201	5	
+G78742	VatanenT_2016	P016803	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	8162224	792809650	60	100	SRR4305259	Paolo_Manghi	554					401
+G78743	VatanenT_2016	P016803	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	7406590	721954147	60	101	SRR4305260	Paolo_Manghi	647					401
+G78744	VatanenT_2016	P019980	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	17992256	1771114346	60	101	SRR4305261	Paolo_Manghi	0				5	
+G78746	VatanenT_2016	P020604	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	27252664	2655468286	60	100	SRR4305262	Paolo_Manghi	696				5	
+G78747	VatanenT_2016	P016574	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	27698462	2729400939	60	101	SRR4305263	Paolo_Manghi	637			3	3	404
+G78748	VatanenT_2016	P022130	stool	yes	respiratoryinf	0	229	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	15139032	1459973578	71	99	SRR4305264	Paolo_Manghi	0	macrolides				
+G78749	VatanenT_2016	P022130	stool	yes	respiratoryinf	0	260	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	7382784	714794095	70	100	SRR4305265	Paolo_Manghi	31	macrolides				
+G78750	VatanenT_2016	P006035	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	42445502	4184728950	60	101	SRR4305266	Paolo_Manghi	371				5	
+G78751	VatanenT_2016	P018832	stool	no	control	0	292	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	26104040	2585429313	61	101	SRR4305268	Paolo_Manghi	123				5	
+G78757	VatanenT_2016	P000756	stool	no	control	0	241	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	12987984	1271372188	66	101	SRR4305269	Paolo_Manghi	98					404
+G78758	VatanenT_2016	P011207	stool	no	control	0	289	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	45758390	4529577796	63	101	SRR4305270	Paolo_Manghi	0			201	5	
+G78762	VatanenT_2016	P007857	stool	no	control	0	208	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	12008626	1169255087	70	100	SRR4305271	Paolo_Manghi	0				5	
+G78766	VatanenT_2016	P004113	stool	no	control	0	91	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	40928954	4003297987	62	101	SRR4305272	Paolo_Manghi	0					404
+G78768	VatanenT_2016	E022960	stool	yes	skininf	0	310	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	10044292	982929810	65	101	SRR4305273	Paolo_Manghi	267	cephalosporins			5	
+G78769	VatanenT_2016	E022960	stool	yes	skininf	0	209	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	11889926	1154814506	60	100	SRR4305274	Paolo_Manghi	166	cephalosporins			5	
+G78770	VatanenT_2016	E023705	stool	no	control	0	212	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	11072538	1080807013	65	101	SRR4305275	Paolo_Manghi	76				5	
+G78772	VatanenT_2016	E023705	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	13201252	1289275018	67	101	SRR4305276	Paolo_Manghi	396	penicillins			5	
+G78773	VatanenT_2016	E011183	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	7674062	744215257	60	100	SRR4305277	Paolo_Manghi	676	macrolides;penicillins	401	3	3	
+G78774	VatanenT_2016	E012115	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	9995002	967300944	72	100	SRR4305279	Paolo_Manghi	239				5	
+G78775	VatanenT_2016	E018421	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	32065210	3117301877	60	101	SRR4305280	Paolo_Manghi	391	macrolides;penicillins		201	5	
+G78776	VatanenT_2016	E034885	stool	no	control	0	206	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	12717024	1234220357	60	100	SRR4305281	Paolo_Manghi	0			5	5	
+G78777	VatanenT_2016	P010096	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	5141830	499494793	60	100	SRR4305282	Paolo_Manghi	489					405
+G78778	VatanenT_2016	P005135	stool	yes	bronchitis	0	249	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	11701830	1146312332	69	101	SRR4305283	Paolo_Manghi	118	beta_lactamase_inhibitors;penicillins			5	
+G78780	VatanenT_2016	P003435	stool	no	control	0	218	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	15410950	1515208831	61	101	SRR4305284	Paolo_Manghi	23				5	
+G78782	VatanenT_2016	P001363	stool	no	control	0	184	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	34510480	3376444987	60	101	SRR4305285	Paolo_Manghi	0					401
+G78783	VatanenT_2016	P000648	stool	no	control	0	154	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	39175488	3793353760	62	100	SRR4305286	Paolo_Manghi	0			201	5	
+G78784	VatanenT_2016	P000648	stool	yes	infectiousgastroenteritis	0	219	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	42912724	4236411203	60	101	SRR4305287	Paolo_Manghi	65	nitrofurans		201	5	
+G78787	VatanenT_2016	P013454	stool	no	control	0	265	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	13711518	1332606939	60	100	SRR4305288	Paolo_Manghi	0		401	3	5	
+G78788	VatanenT_2016	P022222	stool	no	control	0	217	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	13984482	1357109546	65	100	SRR4305290	Paolo_Manghi	0				5	
+G78789	VatanenT_2016	P022222	stool	no	control	0	276	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	5564646	537299358	60	100	SRR4305291	Paolo_Manghi	59				5	
+G78790	VatanenT_2016	P016803	stool	no	control	0	349	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	8724734	848266264	60	100	SRR4305292	Paolo_Manghi	74					401
+G78791	VatanenT_2016	P014713	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	14389010	1402082955	60	101	SRR4305293	Paolo_Manghi	372					401
+G78792	VatanenT_2016	P008723	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	10220166	1001806092	67	101	SRR4305294	Paolo_Manghi	0					404
+G78793	VatanenT_2016	P014605	stool	no	control	0	242	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	18795936	1831707831	60	101	SRR4305295	Paolo_Manghi	0				5	
+G78794	VatanenT_2016	P020604	stool	no	control	0	284	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	11668710	1131542648	60	100	SRR4305296	Paolo_Manghi	0				5	
+G78795	VatanenT_2016	P020604	stool	no	control	0	341	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	8619886	835340248	60	100	SRR4305297	Paolo_Manghi	57				5	
+G78796	VatanenT_2016	P019222	stool	no	control	0	296	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	13104990	1267758427	60	100	SRR4305298	Paolo_Manghi	55		404	3	201	
+G78797	VatanenT_2016	P016574	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	6933894	670795813	60	100	SRR4305299	Paolo_Manghi	0			3	3	404
+G78798	VatanenT_2016	P017671	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	6868390	666807666	60	100	SRR4305301	Paolo_Manghi	87			201	5	
+G78799	VatanenT_2016	P017671	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	18004976	1750448812	65	101	SRR4305302	Paolo_Manghi	0			201	5	
+G78801	VatanenT_2016	P014839	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	31480306	3018755634	68	97	SRR4305303	Paolo_Manghi	405				5	
+G78802	VatanenT_2016	P022222	stool	no	control	0	339	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	8448428	819155291	60	100	SRR4305304	Paolo_Manghi	122				5	
+G78803	VatanenT_2016	E023535	stool	no	control	2		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	25008444	2468999256	60	101	SRR4305305	Paolo_Manghi	821					401
+G78804	VatanenT_2016	E012971	stool	no	control	3		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	6644514	644963077	60	100	SRR4305306	Paolo_Manghi	1096					404
+G78805	VatanenT_2016	E019793	stool	no	control	3		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	11732326	1144058494	60	101	SRR4305307	Paolo_Manghi	1097			201	5	
+G78806	VatanenT_2016	E024240	stool	no	control	2		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	18777916	1829125944	70	100	SRR4305308	Paolo_Manghi	0				5	
+G78807	VatanenT_2016	E020781	stool	yes	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	9819108	957262003	60	101	SRR4305309	Paolo_Manghi	589	penicillins	401	3	201	
+G78808	VatanenT_2016	P018832	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	14094974	1379299719	60	101	SRR4305310	Paolo_Manghi	533				5	
+G78809	VatanenT_2016	P018832	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	30688356	3019625892	60	101	SRR4305312	Paolo_Manghi	473				5	
+G78810	VatanenT_2016	P017671	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	10113698	980037797	71	100	SRR4305313	Paolo_Manghi	120			201	5	
+G78815	VatanenT_2016	P009291	stool	no	control	0	299	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	9886342	969960125	67	101	SRR4305314	Paolo_Manghi	160		401	3	5	
+G78817	VatanenT_2016	P005558	stool	no	control	0	227	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	9770100	948235575	61	101	SRR4305315	Paolo_Manghi	135			201	5	
+G78819	VatanenT_2016	E012124	stool	yes	otitis	0	297	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	12148462	1189444787	65	101	SRR4305316	Paolo_Manghi	211	penicillins				401
+G78820	VatanenT_2016	E012124	stool	yes	otitis	0	204	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	14366064	1388155366	60	101	SRR4305317	Paolo_Manghi	118	penicillins				401
+G78821	VatanenT_2016	E012124	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	18178304	1739032073	60	101	SRR4305318	Paolo_Manghi	1084	macrolides;penicillins				401
+G78822	VatanenT_2016	E012124	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	11255852	1090963935	60	100	SRR4305319	Paolo_Manghi	665	penicillins				401
+G78823	VatanenT_2016	E002338	stool	no	control	2		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	33671378	3284299448	71	101	SRR4305321	Paolo_Manghi	1089				5	
+G78824	VatanenT_2016	T010532	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	7855184	758944115	60	100	SRR4305322	Paolo_Manghi	621		404	3	201	
+G78825	VatanenT_2016	T016548	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	21986522	2143555983	71	101	SRR4305324	Paolo_Manghi	569				5	
+G78826	VatanenT_2016	E004781	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	8446126	820459360	60	100	SRR4305325	Paolo_Manghi	583		404	3	5	
+G78827	VatanenT_2016	E005804	stool	yes	pneumonia	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	8994946	876657222	79	101	SRR4305326	Paolo_Manghi	609	sulphonamides	401	3	5	
+G78828	VatanenT_2016	T019021	stool	yes	bronchitis	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	5205598	505325983	60	100	SRR4305327	Paolo_Manghi	406	penicillins	401	3	5	
+G78829	VatanenT_2016	T023909	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	14668066	1433049236	79	101	SRR4305328	Paolo_Manghi	484			201	5	
+G78830	VatanenT_2016	T023390	stool	no	control	0	310	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	9325400	904488183	60	100	SRR4305329	Paolo_Manghi	269		404	3	5	
+G78831	VatanenT_2016	T014806	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	8621562	830944594	60	100	SRR4305330	Paolo_Manghi	0		404	3	201	
+G78832	VatanenT_2016	E019187	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	9671276	933125531	60	100	SRR4305331	Paolo_Manghi	489			5	5	
+G78833	VatanenT_2016	E009020	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	12911194	1285493901	69	101	SRR4305332	Paolo_Manghi	579	penicillins		3	5	
+G78834	VatanenT_2016	E019793	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	7728078	753181757	70	101	SRR4305333	Paolo_Manghi	523	penicillins		201	5	
+G78835	VatanenT_2016	E009676	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	21588158	2105517774	60	101	SRR4305335	Paolo_Manghi	691	macrolides				401
+G78836	VatanenT_2016	E033156	stool	no	control	0	320	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	10563486	1029331670	68	101	SRR4305336	Paolo_Manghi	269				5	
+G78837	VatanenT_2016	E033156	stool	no	control	0	259	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	11511778	1129813354	65	101	SRR4305337	Paolo_Manghi	208				5	
+G78838	VatanenT_2016	E020781	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	8477744	822744199	60	100	SRR4305338	Paolo_Manghi	402		401	3	201	
+G78839	VatanenT_2016	T028183	stool	yes	pneumonia	2		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	10812088	1049036051	60	100	SRR4305339	Paolo_Manghi	866	penicillins			5	
+G78840	VatanenT_2016	E012124	stool	no	control	0	86	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	23792928	2342000665	65	101	SRR4305340	Paolo_Manghi	0					401
+G78841	VatanenT_2016	P000648	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	12175832	1200825694	61	101	SRR4305341	Paolo_Manghi	372			201	5	
+G78842	VatanenT_2016	P020604	stool	no	control	2		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	6163532	598545559	79	100	SRR4305342	Paolo_Manghi	971				5	
+G78843	VatanenT_2016	P007649	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	22819690	2247868959	61	101	SRR4305343	Paolo_Manghi	455			201	5	
+G78844	VatanenT_2016	P013701	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	5814620	565156994	79	100	SRR4305344	Paolo_Manghi	447					404
+G78845	VatanenT_2016	P014713	stool	no	control	0	235	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	35371750	3451327496	63	101	SRR4305346	Paolo_Manghi	43					401
+G78847	VatanenT_2016	P013823	stool	no	control	0	264	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	12118766	1168591635	72	100	SRR4305347	Paolo_Manghi	85				5	
+G78849	VatanenT_2016	P014839	stool	no	control	0	206	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	30023198	2936360296	60	101	SRR4305348	Paolo_Manghi	84				5	
+G78850	VatanenT_2016	P009291	stool	no	control	2		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	9010886	871355691	60	100	SRR4305349	Paolo_Manghi	1015		401	3	5	
+G78851	VatanenT_2016	P009291	stool	no	control	2		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	5338790	516889270	60	100	SRR4305350	Paolo_Manghi	1087		401	3	5	
+G78852	VatanenT_2016	P019222	stool	no	control	0	241	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	26148166	2583267472	61	101	SRR4305351	Paolo_Manghi	0		404	3	201	
+G78854	VatanenT_2016	E032745	stool	no	control	3		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	19764132	1925885758	61	101	SRR4305352	Paolo_Manghi	1101					404
+G78855	VatanenT_2016	T019852	stool	no	control	3		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	13532516	1319796852	70	101	SRR4305353	Paolo_Manghi	1099				5	
+G78856	VatanenT_2016	E018574	stool	no	control	2		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	18087860	1754934799	60	100	SRR4305354	Paolo_Manghi	1076				5	
+G78857	VatanenT_2016	E016870	stool	no	control	3		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	18096466	1765165097	68	101	SRR4305355	Paolo_Manghi	829		404			404
+G78858	VatanenT_2016	E022083	stool	no	control	2		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	15032502	1463736917	79	101	SRR4305357	Paolo_Manghi	1094			3	3	401
+G78859	VatanenT_2016	E020808	stool	yes	otitis	2		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	18786356	1825981406	60	100	SRR4305358	Paolo_Manghi	844	beta_lactamase_inhibitors;macrolides;penicillins			5	
+G78860	VatanenT_2016	P019475	stool	yes	respiratoryinf	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	20218388	1953520106	68	100	SRR4305359	Paolo_Manghi	400	cephalosporins;penicillins		201	5	
+G78861	VatanenT_2016	P019475	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	32094648	3145293201	60	101	SRR4305360	Paolo_Manghi	548			201	5	
+G78862	VatanenT_2016	P013823	stool	no	control	0	179	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	21392368	2088843203	60	100	SRR4305361	Paolo_Manghi	0				5	
+G78863	VatanenT_2016	P013823	stool	no	control	0	196	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	6320286	610375235	60	100	SRR4305362	Paolo_Manghi	17				5	
+G78864	VatanenT_2016	P013823	stool	no	control	0	224	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	17653090	1731727889	65	101	SRR4305363	Paolo_Manghi	45				5	
+G78865	VatanenT_2016	P000756	stool	no	control	0	348	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	12087764	1183127940	61	101	SRR4305364	Paolo_Manghi	205					404
+G78866	VatanenT_2016	P000756	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	20007830	1964510240	65	101	SRR4305365	Paolo_Manghi	381					404
+G78867	VatanenT_2016	P000756	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	12841086	1258902790	65	101	SRR4305366	Paolo_Manghi	408					404
+G78868	VatanenT_2016	P009219	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	11187516	1087292419	65	100	SRR4305369	Paolo_Manghi	373				5	
+G78869	VatanenT_2016	E015378	stool	yes	bronchitis	2		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	19929554	1936023619	68	100	SRR4305370	Paolo_Manghi	1075	penicillins	404			404
+G78870	VatanenT_2016	E015991	stool	no	control	2		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	21791642	2126049646	70	101	SRR4305371	Paolo_Manghi	1052					401
+G78871	VatanenT_2016	E015991	stool	no	control	2		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	25280268	2485209765	60	101	SRR4305372	Paolo_Manghi	890					401
+G78872	VatanenT_2016	E022960	stool	no	control	0	124	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	7563340	704612807	60	101	SRR4305373	Paolo_Manghi	81				5	
+G78873	VatanenT_2016	E012115	stool	no	control	0	217	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	14805312	1439049848	60	100	SRR4305374	Paolo_Manghi	95				5	
+G78874	VatanenT_2016	E012115	stool	yes	otitis	0	361	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	10799140	1049742489	60	100	SRR4305375	Paolo_Manghi	239	penicillins			5	
+G78875	VatanenT_2016	E023705	stool	no	control	0	136	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	14048118	1362229282	70	100	SRR4305376	Paolo_Manghi	0				5	
+G78876	VatanenT_2016	E013394	stool	yes	sepsis	0	295	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	14617878	1438490332	65	101	SRR4305377	Paolo_Manghi	229	penicillins	404	3	3	
+G78877	VatanenT_2016	E020682	stool	no	control	0	206	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	7422832	719863636	60	100	SRR4305379	Paolo_Manghi	93				5	
+G78878	VatanenT_2016	E011183	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	14341998	1394397510	60	100	SRR4305381	Paolo_Manghi	404		401	3	3	
+G78879	VatanenT_2016	E011183	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	10606022	1030958855	60	101	SRR4305382	Paolo_Manghi	496		401	3	3	
+G78880	VatanenT_2016	P010936	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	14333514	1411482683	65	101	SRR4305383	Paolo_Manghi	443				5	
+G78881	VatanenT_2016	P004113	stool	no	control	0	276	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	21621118	2121179911	65	101	SRR4305384	Paolo_Manghi	185					404
+G78882	VatanenT_2016	P004113	stool	no	control	0	316	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	16572924	1623019418	65	101	SRR4305385	Paolo_Manghi	225					404
+G78883	VatanenT_2016	P004113	stool	no	control	0	348	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	25689812	2510263936	60	101	SRR4305386	Paolo_Manghi	257					404
+G78884	VatanenT_2016	E033036	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	19965284	1935275658	60	100	SRR4305387	Paolo_Manghi	576	penicillins				404
+G78885	VatanenT_2016	T003353	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	10669560	1036872596	60	100	SRR4305388	Paolo_Manghi	0		405	3	5	
+G78886	VatanenT_2016	T012983	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	12634544	1223576016	60	100	SRR4305389	Paolo_Manghi	664		404	3	5	
+G78887	VatanenT_2016	T024121	stool	yes	otitis	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	4438356	416595311	60	101	SRR4305390	Paolo_Manghi	410	penicillins			5	
+G78889	VatanenT_2016	T026211	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	42750902	4155065299	70	100	SRR4305392	Paolo_Manghi	494			201	5	
+G78890	VatanenT_2016	P005558	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	25314258	2485516433	65	101	SRR4305393	Paolo_Manghi	502			201	5	
+G78891	VatanenT_2016	P005558	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	23932686	2354209460	66	101	SRR4305394	Paolo_Manghi	551			201	5	
+G78892	VatanenT_2016	P007649	stool	no	control	2		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	14513992	1406092834	60	100	SRR4305395	Paolo_Manghi	883			201	5	
+G78893	VatanenT_2016	P026562	stool	no	control	0	186	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	9879576	952779216	70	100	SRR4305396	Paolo_Manghi	0		404	3	201	
+G78894	VatanenT_2016	P026562	stool	no	control	0	245	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	8276188	800030183	70	100	SRR4305397	Paolo_Manghi	59		404	3	201	
+G78895	VatanenT_2016	P010936	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	18999548	1874886767	66	101	SRR4305398	Paolo_Manghi	434				5	
+G78896	VatanenT_2016	T019031	stool	yes	otitis	0	224	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	20009226	1929140982	60	101	SRR4305399	Paolo_Manghi	162	penicillins				401
+G78897	VatanenT_2016	P000675	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	20873446	2058459432	65	101	SRR4305400	Paolo_Manghi	0					404
+G78898	VatanenT_2016	E012678	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	11099968	1074368224	60	100	SRR4305401	Paolo_Manghi	536				5	
+G78899	VatanenT_2016	P005558	stool	no	control	0	92	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	16432564	1615161942	65	101	SRR4305403	Paolo_Manghi	0			201	5	
+G78900	VatanenT_2016	P008119	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	13958034	1371774206	65	101	SRR4305404	Paolo_Manghi	432			5	5	
+G78901	VatanenT_2016	P005558	stool	no	control	0	158	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	71175562	6981280833	61	101	SRR4305405	Paolo_Manghi	66			201	5	
+G78902	VatanenT_2016	P014839	stool	no	control	0	122	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	17506520	1700283393	61	100	SRR4305406	Paolo_Manghi	0				5	
+G78903	VatanenT_2016	P000756	stool	no	control	0	143	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	21447300	2094894009	65	101	SRR4305407	Paolo_Manghi	0					404
+G78904	VatanenT_2016	P008633	stool	no	control	0	182	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	18568064	1825923705	65	101	SRR4305408	Paolo_Manghi	0				5	
+G78905	VatanenT_2016	P015163	stool	no	control	0	144	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	19952724	1947336300	60	100	SRR4305409	Paolo_Manghi	0					404
+G78906	VatanenT_2016	P008633	stool	no	control	0	211	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	19686224	1932035260	65	101	SRR4305410	Paolo_Manghi	29				5	
+G78907	VatanenT_2016	P014839	stool	no	control	2		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	17943244	1761562235	67	101	SRR4305411	Paolo_Manghi	811				5	
+G78908	VatanenT_2016	P014839	stool	no	control	2		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	14549690	1419271842	67	101	SRR4305412	Paolo_Manghi	775				5	
+G78909	VatanenT_2016	P019475	stool	no	control	0	162	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	26205742	2553435104	60	101	SRR4305414	Paolo_Manghi	0			201	5	
+G78910	VatanenT_2016	E034324	stool	no	control	0	295	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	18647700	1800260332	60	101	SRR4305415	Paolo_Manghi	0					404
+G78911	VatanenT_2016	T028029	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	12926234	1261631188	79	101	SRR4305416	Paolo_Manghi	391		401	3	3	
+G78912	VatanenT_2016	E029310	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	26695668	2627412010	65	101	SRR4305417	Paolo_Manghi	579	penicillins		3	5	
+G78913	VatanenT_2016	E029310	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	15294548	1501326422	60	101	SRR4305418	Paolo_Manghi	673	penicillins		3	5	
+G78914	VatanenT_2016	E017049	stool	yes	otitis	2		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	22629636	2223116271	60	101	SRR4305419	Paolo_Manghi	846	penicillins	401	3	5	
+G80150	VatanenT_2016	P017671	stool	yes	infectiousgastroenteritis	0	304	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	20298762	1994283890	88	101	SRR4305420	Paolo_Manghi	87	nitrofurans		201	5	
+G80158	VatanenT_2016	P005342	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	48144024	4726657510	81	101	SRR4305421	Paolo_Manghi	0					404
+G80264	VatanenT_2016	P021772	stool	no	control	2		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	18916224	1836132731	60	100	SRR4305422	Paolo_Manghi	730		404	3	3	
+G80265	VatanenT_2016	P016803	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	15830342	1553568946	60	101	SRR4305423	Paolo_Manghi	726					401
+G80266	VatanenT_2016	E031941	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	36448332	3542551332	60	101	SRR4305425	Paolo_Manghi	712				5	
+G80267	VatanenT_2016	T013828	stool	yes	fever	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	21119572	2050764903	60	100	SRR4305426	Paolo_Manghi	0	penicillins	404	3	5	
+G80268	VatanenT_2016	E018574	stool	no	control	2		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	6014596	566710607	60	101	SRR4305427	Paolo_Manghi	864				5	
+G80269	VatanenT_2016	E017715	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	31008534	3015693523	60	101	SRR4305428	Paolo_Manghi	396			5	5	
+G80271	VatanenT_2016	P022384	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	14668284	1415153900	60	100	SRR4305429	Paolo_Manghi	610			201	5	
+G80272	VatanenT_2016	P010096	stool	yes	respiratoryinf	2		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	34486158	3356959123	60	101	SRR4305430	Paolo_Manghi	858	macrolides				405
+G80273	VatanenT_2016	E025671	stool	yes	otitis	2		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	31015462	3001834573	60	100	SRR4305431	Paolo_Manghi	840	beta_lactamase_inhibitors;macrolides;penicillins;sulphonamides		3	3	404
+G80274	VatanenT_2016	E030828	stool	no	control	2		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	32590934	3170449552	60	101	SRR4305432	Paolo_Manghi	577					401
+G80275	VatanenT_2016	T014806	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	39347572	3824643801	60	101	SRR4305433	Paolo_Manghi	489		404	3	201	
+G80276	VatanenT_2016	E019187	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	18684260	1812524613	60	100	SRR4305434	Paolo_Manghi	401			5	5	
+G80277	VatanenT_2016	T010532	stool	no	control	0	227	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	19429784	1844974297	60	101	SRR4305436	Paolo_Manghi	0		404	3	201	
+G80278	VatanenT_2016	T006266	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	36097868	3507372227	60	101	SRR4305437	Paolo_Manghi	501					404
+G80279	VatanenT_2016	P015163	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	30986796	3005874546	60	100	SRR4305438	Paolo_Manghi	598					404
+G80280	VatanenT_2016	P014605	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	20376112	1976403851	60	100	SRR4305439	Paolo_Manghi	448				5	
+G80281	VatanenT_2016	T028183	stool	no	control	3		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	23431146	2270512974	60	100	SRR4305440	Paolo_Manghi	0				5	
+G80282	VatanenT_2016	P020631	stool	no	control	2		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	20907530	2018001921	60	100	SRR4305441	Paolo_Manghi	857					404
+G80283	VatanenT_2016	E020781	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	35975968	3496839786	60	101	SRR4305442	Paolo_Manghi	502		401	3	201	
+G80284	VatanenT_2016	E020808	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	28113758	2731318005	60	100	SRR4305443	Paolo_Manghi	382	penicillins;sulphonamides			5	
+G80285	VatanenT_2016	E007980	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	37529138	3645489490	60	101	SRR4305444	Paolo_Manghi	682		404	3	5	
+G80286	VatanenT_2016	T005507	stool	yes	otitis	2		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	34803668	3378574140	60	100	SRR4305445	Paolo_Manghi	801	penicillins			5	
+G80287	VatanenT_2016	P016803	stool	no	control	2		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	19709032	1913820676	60	101	SRR4305447	Paolo_Manghi	843					401
+G80288	VatanenT_2016	E022960	stool	no	control	2		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	29132784	2832231939	60	101	SRR4305448	Paolo_Manghi	267				5	
+G80290	VatanenT_2016	P022384	stool	no	control	2		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	19550220	1898977181	60	101	SRR4305449	Paolo_Manghi	757			201	5	
+G80291	VatanenT_2016	T029687	stool	no	control	3		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	27348062	2656589570	60	101	SRR4305450	Paolo_Manghi	1110		401	3	5	
+G80292	VatanenT_2016	P007649	stool	no	control	0	334	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	38032044	3735705829	60	101	SRR4305451	Paolo_Manghi	0			201	5	
+G80293	VatanenT_2016	P000648	stool	no	control	2		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	32520718	3158074105	60	101	SRR4305452	Paolo_Manghi	614			201	5	
+G80294	VatanenT_2016	E018574	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	42664268	4151288020	60	101	SRR4305453	Paolo_Manghi	487	penicillins			5	
+G80295	VatanenT_2016	P015163	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	41808480	4068717704	60	101	SRR4305454	Paolo_Manghi	723					404
+G80296	VatanenT_2016	E022960	stool	no	control	3		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	31671746	3079684978	60	101	SRR4305455	Paolo_Manghi	578				5	
+G80297	VatanenT_2016	E020781	stool	no	control	2		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	31824852	3096610980	60	101	SRR4305456	Paolo_Manghi	856		401	3	201	
+G80298	VatanenT_2016	E013394	stool	yes	respiratoryinf	2		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	17136588	1653603047	60	100	SRR4305458	Paolo_Manghi	229	beta_lactamase_inhibitors;penicillins;sulphonamides	404	3	3	
+G80299	VatanenT_2016	P003173	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	29951550	2914352475	60	101	SRR4305459	Paolo_Manghi	0				5	
+G80300	VatanenT_2016	P005279	stool	yes	bronchitis	0	358	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	44257876	4347279600	60	101	SRR4305460	Paolo_Manghi	0	penicillins				401
+G80301	VatanenT_2016	T004341	stool	no	control	3		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	31160840	3028447501	60	101	SRR4305461	Paolo_Manghi	1102			5	5	
+G80302	VatanenT_2016	E007303	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	42330932	4120210558	60	101	SRR4305462	Paolo_Manghi	92			5	3	
+G80303	VatanenT_2016	P019854	stool	no	control	2		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	31592754	3070980167	60	101	SRR4305463	Paolo_Manghi	730					404
+G80304	VatanenT_2016	P003173	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	25369560	2465903589	60	101	SRR4305464	Paolo_Manghi	528				5	
+G80305	VatanenT_2016	P017671	stool	yes	bronchitis	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	38161002	3682457584	60	100	SRR4305465	Paolo_Manghi	396	cephalosporins;macrolides;penicillins		201	5	
+G80306	VatanenT_2016	P014839	stool	no	control	2		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	30677502	2984442081	60	101	SRR4305466	Paolo_Manghi	879				5	
+G80307	VatanenT_2016	P008119	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	28455834	2766188593	60	101	SRR4305467	Paolo_Manghi	366			5	5	
+G80308	VatanenT_2016	P006035	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	21252606	2051349959	60	100	SRR4305469	Paolo_Manghi	488				5	
+G80309	VatanenT_2016	E018421	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	32790040	3183692170	60	101	SRR4305470	Paolo_Manghi	571			201	5	
+G80310	VatanenT_2016	P015091	stool	yes	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	24487776	2356990498	60	99	SRR4305471	Paolo_Manghi	381	nitrofurans		5	5	
+G80312	VatanenT_2016	E016870	stool	no	control	2		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	18214216	1751345844	60	98	SRR4305472	Paolo_Manghi	431		404			404
+G80313	VatanenT_2016	P008579	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	33671028	3276594481	60	101	SRR4305473	Paolo_Manghi	523					401
+G80314	VatanenT_2016	E022960	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	34848726	3389312507	60	101	SRR4305474	Paolo_Manghi	1101	cephalosporins;macrolides;penicillins;sulphonamides			5	
+G80315	VatanenT_2016	P016803	stool	no	control	0	275	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	18584898	1805808186	60	101	SRR4305475	Paolo_Manghi	0					401
+G80316	VatanenT_2016	E019349	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	26197244	2544548061	60	101	SRR4305476	Paolo_Manghi	405					404
+G80317	VatanenT_2016	P017743	stool	no	control	0	335	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	27580676	2679220038	60	101	SRR4305477	Paolo_Manghi	162					401
+G80318	VatanenT_2016	E007303	stool	no	control	3		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	42917732	4177226888	60	101	SRR4408001	Paolo_Manghi	649			5	3	
+G80320	VatanenT_2016	E020808	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	21947882	2132292370	60	101	SRR4408002	Paolo_Manghi	563	cephalosporins;penicillins			5	
+G80321	VatanenT_2016	P008579	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	38679952	3765007529	60	101	SRR4408120	Paolo_Manghi	550					401
+G80322	VatanenT_2016	E002338	stool	no	control	2		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	30347908	2928475220	60	100	SRR4408217	Paolo_Manghi	852				5	
+G80323	VatanenT_2016	P017671	stool	yes	infectiousgastroenteritis	0	337	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	29524708	2872317262	60	101	SRR4408228	Paolo_Manghi	120	nitrofurans		201	5	
+G80324	VatanenT_2016	P008119	stool	no	control	0	232	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	12763254	1229104323	60	99	SRR4408239	Paolo_Manghi	0			5	5	
+G80325	VatanenT_2016	P019854	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	28685762	2767930821	60	100	SRR4408250	Paolo_Manghi	608					404
+G80326	VatanenT_2016	P017743	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	17991648	1709250358	60	101	SRR4408261	Paolo_Manghi	367					401
+G80327	VatanenT_2016	P010936	stool	no	control	2		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	33766330	3281801086	60	101	SRR4408272	Paolo_Manghi	833				5	
+G80328	VatanenT_2016	E012124	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	20907308	2029846524	60	101	SRR4408283	Paolo_Manghi	858	macrolides;penicillins				401
+G80329	VatanenT_2016	P005558	stool	no	control	3		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	12044144	1162289565	60	100	SRR4408003	Paolo_Manghi	1111			201	5	
+G80330	VatanenT_2016	T012389	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	27803272	2700503539	60	101	SRR4408014	Paolo_Manghi	0					401
+G80331	VatanenT_2016	E004781	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	17697298	1710626279	60	100	SRR4408025	Paolo_Manghi	157		404	3	5	
+G80333	VatanenT_2016	P018832	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	25268414	2433578849	60	100	SRR4408036	Paolo_Manghi	597				5	
+G80334	VatanenT_2016	P016803	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	21939684	2129897779	60	101	SRR4408047	Paolo_Manghi	404					401
+G80335	VatanenT_2016	E022960	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	17527798	1691554136	60	100	SRR4408058	Paolo_Manghi	848	cephalosporins;macrolides;penicillins;sulphonamides			5	
+G80336	VatanenT_2016	P013823	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	16728516	1610790044	60	99	SRR4408069	Paolo_Manghi	584				5	
+G80337	VatanenT_2016	P019475	stool	yes	respiratoryinf	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	26445848	2557487912	60	100	SRR4408080	Paolo_Manghi	460	cephalosporins;penicillins		201	5	
+G80338	VatanenT_2016	T014827	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	32109514	3121367573	60	101	SRR4408091	Paolo_Manghi	666				5	
+G80339	VatanenT_2016	T026211	stool	no	control	2		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	26143180	2540787818	60	101	SRR4408102	Paolo_Manghi	1094			201	5	
+G80340	VatanenT_2016	T016812	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	40865336	3977799778	60	101	SRR4408121	Paolo_Manghi	589					404
+G80341	VatanenT_2016	E019349	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	23670336	2294604353	60	100	SRR4408132	Paolo_Manghi	151					404
+G80342	VatanenT_2016	P020799	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	19914468	1932292183	60	100	SRR4408143	Paolo_Manghi	0					401
+G80343	VatanenT_2016	T012312	stool	no	control	2		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	34027498	3306263122	60	101	SRR4408154	Paolo_Manghi	861		401	3	5	
+G80344	VatanenT_2016	P007649	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	24533084	2361637309	60	99	SRR4408165	Paolo_Manghi	610			201	5	
+G80345	VatanenT_2016	P015163	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	21128224	2050842180	60	100	SRR4408176	Paolo_Manghi	660					404
+G80346	VatanenT_2016	E023535	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	28917780	2788070924	60	100	SRR4408187	Paolo_Manghi	578					401
+G80347	VatanenT_2016	E020781	stool	no	control	2		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	19987594	1934534803	60	100	SRR4408198	Paolo_Manghi	1090		401	3	201	
+G80348	VatanenT_2016	P009880	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	22543798	2187628107	60	100	SRR4408209	Paolo_Manghi	433					404
+G80350	VatanenT_2016	P010936	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	31637414	3078160258	60	101	SRR4408216	Paolo_Manghi	477				5	
+G80351	VatanenT_2016	P021772	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	38068792	3705212431	60	101	SRR4408218	Paolo_Manghi	699		404	3	3	
+G80352	VatanenT_2016	E022960	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	32086956	3114449752	60	100	SRR4408219	Paolo_Manghi	166				5	
+G80353	VatanenT_2016	T012138	stool	no	control	2		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	34080130	3314663772	60	101	SRR4408220	Paolo_Manghi	863			201	5	
+G80354	VatanenT_2016	T013828	stool	yes	fever	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	18686088	1803389691	60	100	SRR4408221	Paolo_Manghi	478	penicillins	404	3	5	
+G80355	VatanenT_2016	P021772	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	29179130	2871384331	60	101	SRR4408222	Paolo_Manghi	0		404	3	3	
+G80356	VatanenT_2016	E017715	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	43521772	4233999573	60	101	SRR4408223	Paolo_Manghi	498			5	5	
+G80357	VatanenT_2016	P003173	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	25643488	2485309486	60	100	SRR4408224	Paolo_Manghi	702				5	
+G80358	VatanenT_2016	P005279	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	23525958	2282280158	60	100	SRR4408225	Paolo_Manghi	423					401
+G80359	VatanenT_2016	P010936	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	20452734	1999638380	60	101	SRR4408226	Paolo_Manghi	534				5	
+G80360	VatanenT_2016	E014953	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	22511870	2208639596	60	101	SRR4408227	Paolo_Manghi	659	penicillins				404
+G80361	VatanenT_2016	T014806	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	23326226	2269136473	60	101	SRR4408229	Paolo_Manghi	713		404	3	201	
+G80362	VatanenT_2016	P014839	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	22760640	2230307523	60	101	SRR4408230	Paolo_Manghi	553				5	
+G80363	VatanenT_2016	P000648	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	22080204	2162818029	60	101	SRR4408231	Paolo_Manghi	493			201	5	
+G80364	VatanenT_2016	P008543	stool	no	control	0	319	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	34848970	3407351691	60	101	SRR4408232	Paolo_Manghi	43				5	
+G80365	VatanenT_2016	P016497	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	32759662	3215029457	60	101	SRR4408233	Paolo_Manghi	0				5	
+G80366	VatanenT_2016	T019852	stool	no	control	0	305	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	28158036	2756713953	60	101	SRR4408234	Paolo_Manghi	261				5	
+G80367	VatanenT_2016	T012389	stool	yes	bronchitis	0	130	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	7571096	732530072	50	101	SRR4408235	Paolo_Manghi	0	beta_lactamase_inhibitors;penicillins				401
+G80368	VatanenT_2016	P007649	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	19581664	1915386318	60	101	SRR4408236	Paolo_Manghi	699			201	5	
+G80369	VatanenT_2016	E007980	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	27123842	2661513122	60	101	SRR4408237	Paolo_Manghi	0		404	3	5	
+G80370	VatanenT_2016	P004113	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	19942324	1950181662	60	101	SRR4408238	Paolo_Manghi	697					404
+G80371	VatanenT_2016	T003355	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	31638498	3104054495	60	101	SRR4408240	Paolo_Manghi	456		404	3	5	
+G80372	VatanenT_2016	P010936	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	21881566	2140346886	60	101	SRR4408241	Paolo_Manghi	514				5	
+G80373	VatanenT_2016	T012983	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	25387120	2481985628	60	101	SRR4408242	Paolo_Manghi	393		404	3	5	
+G80374	VatanenT_2016	E016681	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	44002994	4319493646	60	101	SRR4408243	Paolo_Manghi	0	penicillins				401
+G80375	VatanenT_2016	T025415	stool	yes	tonsillitis	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	22309352	2185666895	60	101	SRR4408244	Paolo_Manghi	674	cephalosporins;penicillins	401	3	5	
+G80376	VatanenT_2016	T009717	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	20900332	2045439766	60	101	SRR4408245	Paolo_Manghi	0				5	
+G80377	VatanenT_2016	T007404	stool	yes	cystitis	2		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	39987582	3917162559	60	101	SRR4408246	Paolo_Manghi	0	nitrofurans;penicillins		5	5	
+G80378	VatanenT_2016	T005643	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	9232062	847608313	60	101	SRR4408247	Paolo_Manghi	534				5	
+G80379	VatanenT_2016	T014197	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	30128762	2949692648	60	101	SRR4408248	Paolo_Manghi	0		405	3	201	
+G80380	VatanenT_2016	T012121	stool	no	control	3		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	20946414	2048078759	60	101	SRR4408249	Paolo_Manghi	1106					401
+G80381	VatanenT_2016	T019850	stool	no	control	3		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	20575634	2006620065	60	101	SRR4408251	Paolo_Manghi	1102					401
+G80382	VatanenT_2016	T010520	stool	yes	otitis	0	212	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	25441594	2483734838	60	101	SRR4408252	Paolo_Manghi	0	penicillins	401	3	5	
+G80383	VatanenT_2016	P021772	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	37809598	3699149844	60	101	SRR4408253	Paolo_Manghi	550		404	3	3	
+G80384	VatanenT_2016	T003353	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	36540028	3592965830	60	101	SRR4408254	Paolo_Manghi	590		405	3	5	
+G80385	VatanenT_2016	P007649	stool	no	control	2		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	28701866	2813532534	60	101	SRR4408255	Paolo_Manghi	791			201	5	
+G80386	VatanenT_2016	T010520	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	28741406	2816097027	60	101	SRR4408256	Paolo_Manghi	0		401	3	5	
+G80387	VatanenT_2016	E002473	stool	no	control	3		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	34136926	3348336054	60	101	SRR4408257	Paolo_Manghi	1109				5	
+G80388	VatanenT_2016	P005558	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	26839976	2629793286	60	101	SRR4408258	Paolo_Manghi	677			201	5	
+G80389	VatanenT_2016	P022222	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	21462920	2092761498	60	101	SRR4408259	Paolo_Manghi	683				5	
+G80390	VatanenT_2016	T010520	stool	yes	otitis	0	313	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	35915348	3524319281	60	101	SRR4408260	Paolo_Manghi	101	penicillins	401	3	5	
+G80391	VatanenT_2016	P019222	stool	no	control	0	352	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	21175090	2073540635	60	101	SRR4408262	Paolo_Manghi	111		404	3	201	
+G80392	VatanenT_2016	P010322	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	23111128	2266526895	60	101	SRR4408263	Paolo_Manghi	573					402
+G80393	VatanenT_2016	T017394	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	19018926	1828015495	60	101	SRR4408264	Paolo_Manghi	661					401
+G80394	VatanenT_2016	P007550	stool	no	control	0	344	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	17047404	1654757579	60	100	SRR4408265	Paolo_Manghi	0		401	3	201	
+G80395	VatanenT_2016	T024121	stool	yes	fever	0	316	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	21997618	2152131809	60	101	SRR4408266	Paolo_Manghi	0	penicillins			5	
+G80396	VatanenT_2016	P010096	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	23887032	2338559701	60	101	SRR4408267	Paolo_Manghi	0					405
+G80397	VatanenT_2016	P020604	stool	no	control	2		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	40307542	3948492900	60	101	SRR4408268	Paolo_Manghi	747				5	
+G80398	VatanenT_2016	E017715	stool	no	control	0	216	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	22641746	2184641555	60	101	SRR4408269	Paolo_Manghi	0			5	5	
+G80399	VatanenT_2016	E023681	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	25410556	2491792665	60	101	SRR4408270	Paolo_Manghi	580			3	5	
+G80400	VatanenT_2016	T019031	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	28751316	2821976515	60	101	SRR4408271	Paolo_Manghi	495					401
+G80401	VatanenT_2016	T024121	stool	yes	otitis	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	32231658	3162322096	60	101	SRR4408273	Paolo_Manghi	493	penicillins			5	
+G80402	VatanenT_2016	E023839	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	30286428	2968936156	60	101	SRR4408274	Paolo_Manghi	0				5	
+G80403	VatanenT_2016	T012389	stool	yes	bronchitis	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	26512558	2597438219	60	101	SRR4408275	Paolo_Manghi	593	beta_lactamase_inhibitors;penicillins				401
+G80404	VatanenT_2016	P019980	stool	yes	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	31970362	3129854461	60	101	SRR4408276	Paolo_Manghi	615	cephalosporins			5	
+G80405	VatanenT_2016	P003173	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	28490796	2788216558	60	101	SRR4408277	Paolo_Manghi	638				5	
+G80406	VatanenT_2016	E016870	stool	yes	otitis	0	226	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	29305582	2870588095	60	101	SRR4408278	Paolo_Manghi	0	macrolides;penicillins	404			404
+G80407	VatanenT_2016	P014839	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	43487388	4263281522	60	101	SRR4408279	Paolo_Manghi	481				5	
+G80408	VatanenT_2016	T014801	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	27451772	2693270360	60	101	SRR4408280	Paolo_Manghi	678					404
+G80409	VatanenT_2016	T000272	stool	no	control	3		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	25635082	2514545789	60	101	SRR4408281	Paolo_Manghi	0				5	
+G80410	VatanenT_2016	P003173	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	24138840	2362792026	60	101	SRR4408282	Paolo_Manghi	676				5	
+G80411	VatanenT_2016	T019021	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	19834440	1939444249	60	101	SRR4408284	Paolo_Manghi	582		401	3	5	
+G80412	VatanenT_2016	T017394	stool	no	control	2		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	29504936	2895231394	60	101	SRR4408285	Paolo_Manghi	849					401
+G80413	VatanenT_2016	P007649	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	40231498	3934219258	60	101	SRR4408286	Paolo_Manghi	518			201	5	
+G80414	VatanenT_2016	E008357	stool	yes	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	37171310	3647428208	60	101	SRR4408287	Paolo_Manghi	0	cephalosporins				401
+G80415	VatanenT_2016	P004230	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	37616616	3691042045	60	101	SRR4408288	Paolo_Manghi	561		404	3	201	
+G80416	VatanenT_2016	T012983	stool	no	control	2		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	23071510	2259426689	60	101	SRR4408289	Paolo_Manghi	836		404	3	5	
+G80417	VatanenT_2016	P005135	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	7174556	697893602	60	100	SRR4408290	Paolo_Manghi	118				5	
+G80418	VatanenT_2016	P005279	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	30938114	3025341659	60	101	SRR4408291	Paolo_Manghi	566					401
+G80419	VatanenT_2016	T018343	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	33574082	3294818959	60	101	SRR4408292	Paolo_Manghi	673				5	
+G80420	VatanenT_2016	E018421	stool	no	control	2		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	32742710	3209182639	60	101	SRR4408293	Paolo_Manghi	1093			201	5	
+G80421	VatanenT_2016	P008543	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	26389294	2576397949	60	101	SRR4408004	Paolo_Manghi	481				5	
+G80422	VatanenT_2016	E007743	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	32891934	3224670630	60	101	SRR4408005	Paolo_Manghi	395				5	
+G80423	VatanenT_2016	P020631	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	20502386	2004461769	60	101	SRR4408006	Paolo_Manghi	0					404
+G80424	VatanenT_2016	E012971	stool	no	control	2		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	31539782	3094488130	60	101	SRR4408007	Paolo_Manghi	0					404
+G80425	VatanenT_2016	T021613	stool	yes	cough	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	27483764	2694308375	60	101	SRR4408008	Paolo_Manghi	678	sulphonamides			5	
+G80426	VatanenT_2016	P011108	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	27511964	2682800195	60	101	SRR4408009	Paolo_Manghi	401					401
+G80427	VatanenT_2016	E030828	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	24223640	2370063407	60	101	SRR4408010	Paolo_Manghi	259					401
+G80428	VatanenT_2016	P010322	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	27827410	2725440404	60	101	SRR4408011	Paolo_Manghi	365					402
+G80429	VatanenT_2016	T000094	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	30164882	2897236491	50	101	SRR4408012	Paolo_Manghi	0		404	3	5	
+G80430	VatanenT_2016	E024646	stool	yes	otitis	0	293	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	26197522	2565031918	60	101	SRR4408013	Paolo_Manghi	246	beta_lactamase_inhibitors;penicillins		3	3	401
+G80431	VatanenT_2016	T019853	stool	no	control	3		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	29088276	2847967344	60	101	SRR4408015	Paolo_Manghi	1095			3	5	
+G80432	VatanenT_2016	T014197	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	27801994	2721944395	60	101	SRR4408016	Paolo_Manghi	686		405	3	201	
+G80433	VatanenT_2016	T003950	stool	no	control	3		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	30683100	3004263887	60	101	SRR4408017	Paolo_Manghi	1099			5	5	
+G80434	VatanenT_2016	P005558	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	30132228	2928848248	60	100	SRR4408018	Paolo_Manghi	368			201	5	
+G80435	VatanenT_2016	T006266	stool	yes	otitis	2		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	25111320	2458232489	60	101	SRR4408019	Paolo_Manghi	892	penicillins				404
+G80436	VatanenT_2016	P016497	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	7387046	722490633	60	101	SRR4408020	Paolo_Manghi	572				5	
+G80437	VatanenT_2016	E009676	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	26891222	2640048941	60	101	SRR4408021	Paolo_Manghi	559	macrolides				401
+G80438	VatanenT_2016	E017049	stool	no	control	0	117	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	15604068	1489596710	60	101	SRR4408022	Paolo_Manghi	62		401	3	5	
+G80439	VatanenT_2016	P011108	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	34317552	3367093070	60	101	SRR4408023	Paolo_Manghi	506					401
+G80440	VatanenT_2016	T017419	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	26129450	2563691971	60	101	SRR4408024	Paolo_Manghi	589				5	
+G80441	VatanenT_2016	P004230	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	27067704	2609508233	60	101	SRR4408026	Paolo_Manghi	614		404	3	201	
+G80444	VatanenT_2016	E030828	stool	yes	otitis	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	20374160	1998900941	60	101	SRR4408027	Paolo_Manghi	669	cephalosporins				401
+G80445	VatanenT_2016	T000461	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	31237262	3013709228	50	101	SRR4408028	Paolo_Manghi	682			201	5	
+G80446	VatanenT_2016	E006871	stool	yes	otitis	0	296	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	28299546	2777949491	60	101	SRR4408029	Paolo_Manghi	244	penicillins;sulphonamides				404
+G80447	VatanenT_2016	E012115	stool	no	control	0	321	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	34744586	3409368847	60	101	SRR4408030	Paolo_Manghi	199				5	
+G80448	VatanenT_2016	E034885	stool	yes	cough	2		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	35259264	3462107913	60	101	SRR4408031	Paolo_Manghi	855	macrolides		5	5	
+G80449	VatanenT_2016	P004230	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	25391708	2486045061	60	101	SRR4408032	Paolo_Manghi	725		404	3	201	
+G80450	VatanenT_2016	E007743	stool	no	control	1		child	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	29996228	2941954960	60	101	SRR4408033	Paolo_Manghi	518				5	
+G80451	VatanenT_2016	P008939	stool	no	control	0	285	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	25481796	2493205062	60	101	SRR4408034	Paolo_Manghi	0		404	3	201	
+G80452	VatanenT_2016	T006266	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	25482080	2494161665	60	101	SRR4408035	Paolo_Manghi	685					404
+G80453	VatanenT_2016	T022883	stool	no	control	0	111	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	20589692	1971788665	50	101	SRR4408037	Paolo_Manghi	0			5	5	
+G80454	VatanenT_2016	E007303	stool	yes	bronchitis	0	291	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	26079756	2558105984	60	101	SRR4408038	Paolo_Manghi	186	penicillins		5	3	
+G80455	VatanenT_2016	E002473	stool	no	control	0	213	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	18327734	1763274747	60	99	SRR4408039	Paolo_Manghi	171				5	
+G80456	VatanenT_2016	T008246	stool	no	control	0	44	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	21235240	2041495741	60	98	SRR4408040	Paolo_Manghi	0					401
+G80457	VatanenT_2016	T016811	stool	no	control	0	122	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	15552292	1449641378	60	101	SRR4408041	Paolo_Manghi	0				5	
+G80458	VatanenT_2016	T000094	stool	yes	pyelonephritis	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	28150172	2651832329	50	96	SRR4408042	Paolo_Manghi	407	penicillins	404	3	5	
+G80459	VatanenT_2016	T002534	stool	no	control	0	118	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	6980140	649447167	60	101	SRR4408043	Paolo_Manghi	0			201	5	
+G80460	VatanenT_2016	E015378	stool	no	control	0	221	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	29558908	2852168317	60	100	SRR4408044	Paolo_Manghi	98		404			404
+G80461	VatanenT_2016	E002681	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	19661748	1853318036	50	96	SRR4408045	Paolo_Manghi	0			3	5	
+G80462	VatanenT_2016	P005279	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	20967426	1961301879	60	101	SRR4408046	Paolo_Manghi	0					401
+G80464	VatanenT_2016	T003355	stool	no	control	0	150	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	14160540	1325668442	60	101	SRR4408048	Paolo_Manghi	0		404	3	5	
+G80465	VatanenT_2016	E022083	stool	no	control	0	119	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	20171236	1948373479	60	100	SRR4408049	Paolo_Manghi	0			3	3	401
+G80466	VatanenT_2016	T000094	stool	yes	pyelonephritis	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	44989888	4234907817	50	100	SRR4408050	Paolo_Manghi	485	penicillins	404	3	5	
+G80467	VatanenT_2016	T000461	stool	no	control	0	136	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	29786988	2816148528	50	98	SRR4408051	Paolo_Manghi	0			201	5	
+G80468	VatanenT_2016	E030828	stool	no	control	0	45	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	36746614	3625661578	60	101	SRR4408052	Paolo_Manghi	0					401
+G80469	VatanenT_2016	E004781	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	29965618	2885954179	60	99	SRR4408053	Paolo_Manghi	492	penicillins;sulphonamides	404	3	5	
+G80470	VatanenT_2016	P003435	stool	no	control	0	195	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	29881464	2901344163	60	100	SRR4408054	Paolo_Manghi	0				5	
+G80471	VatanenT_2016	T000094	stool	yes	pyelonephritis	0	314	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	26681138	2528418546	50	99	SRR4408055	Paolo_Manghi	98	penicillins	404	3	5	
+G80472	VatanenT_2016	T007748	stool	yes	pyelonephritis	0	44	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	7951736	727535388	60	101	SRR4408056	Paolo_Manghi	0	cephalosporins;penicillins;sulphonamides				401
+G80474	VatanenT_2016	E023535	stool	no	control	0	132	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	15407080	1475147857	60	94	SRR4408057	Paolo_Manghi	80					401
+G80475	VatanenT_2016	E004080	stool	no	control	0	159	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	41330676	3995431603	60	100	SRR4408059	Paolo_Manghi	0				5	
+G80476	VatanenT_2016	T002534	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	34085324	3288944918	60	100	SRR4408060	Paolo_Manghi	399			201	5	
+G80477	VatanenT_2016	E004781	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	29729344	2857572659	60	98	SRR4408061	Paolo_Manghi	371	penicillins;sulphonamides	404	3	5	
+G80478	VatanenT_2016	P001363	stool	no	control	0	228	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	16231894	1550468289	60	94	SRR4408062	Paolo_Manghi	44					401
+G80479	VatanenT_2016	T000461	stool	no	control	0	315	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	42844654	4161074215	60	100	SRR4408063	Paolo_Manghi	179			201	5	
+G80480	VatanenT_2016	T003950	stool	no	control	0	109	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	15590902	1441635784	50	94	SRR4408064	Paolo_Manghi	0			5	5	
+G80481	VatanenT_2016	T021613	stool	no	control	0	40	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	22588814	2173460950	60	98	SRR4408065	Paolo_Manghi	0				5	
+G80482	VatanenT_2016	E002473	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	44263486	4275582694	60	100	SRR4408066	Paolo_Manghi	396				5	
+G80483	VatanenT_2016	E004781	stool	no	control	0	121	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	28938644	2789144461	60	99	SRR4408067	Paolo_Manghi	70		404	3	5	
+G80484	VatanenT_2016	T009280	stool	no	control	0	306	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	24764834	2387397814	60	99	SRR4408068	Paolo_Manghi	0					404
+G80485	VatanenT_2016	E004934	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	24136538	2318137184	60	98	SRR4408070	Paolo_Manghi	492			5	5	
+G80486	VatanenT_2016	P005279	stool	no	control	2		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	29803560	2891747304	60	100	SRR4408071	Paolo_Manghi	826					401
+G80487	VatanenT_2016	T005999	stool	no	control	0	108	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	33635208	3236057133	62	99	SRR4408072	Paolo_Manghi	63			3	3	404
+G80488	VatanenT_2016	T005999	stool	no	control	0	45	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	25323990	2429075688	60	97	SRR4408073	Paolo_Manghi	0			3	3	404
+G80489	VatanenT_2016	T019852	stool	no	control	0	44	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	50206866	4877021073	62	100	SRR4408074	Paolo_Manghi	0				5	
+G80490	VatanenT_2016	E002338	stool	no	control	0	58	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	17957622	1725116456	60	97	SRR4408075	Paolo_Manghi	0				5	
+G80491	VatanenT_2016	E016148	stool	yes	bronchitis	0	220	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	14462618	1338512026	60	101	SRR4408076	Paolo_Manghi	0	penicillins		3	5	
+G80492	VatanenT_2016	T023390	stool	no	control	0	41	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	33852778	3270882026	60	100	SRR4408077	Paolo_Manghi	0		404	3	5	
+G80493	VatanenT_2016	E015208	stool	no	control	0	226	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	31457264	3043201659	60	100	SRR4408078	Paolo_Manghi	0			201	5	
+G80494	VatanenT_2016	P004230	stool	no	control	0	215	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	22317052	2141440374	60	97	SRR4408079	Paolo_Manghi	0		404	3	201	
+G80495	VatanenT_2016	T006288	stool	no	control	0	177	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	30376452	2867880557	50	98	SRR4408081	Paolo_Manghi	0			201	5	
+G80496	VatanenT_2016	E008437	stool	yes	otitis	0	118	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	7206492	667144425	60	101	SRR4408082	Paolo_Manghi	0	macrolides		3	5	
+G80497	VatanenT_2016	T007748	stool	no	control	0	226	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	7108878	651479852	60	100	SRR4408083	Paolo_Manghi	182					401
+G80498	VatanenT_2016	E002473	stool	no	control	0	42	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	30978000	2982103014	60	99	SRR4408084	Paolo_Manghi	0				5	
+G80499	VatanenT_2016	E025671	stool	no	control	0	119	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	41022386	3960143285	60	100	SRR4408085	Paolo_Manghi	0			3	3	404
+G80500	VatanenT_2016	T016548	stool	no	control	0	135	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	19074696	1837836284	60	99	SRR4408086	Paolo_Manghi	0				5	
+G80501	VatanenT_2016	E029796	stool	no	control	0	114	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	15575328	1448076747	60	101	SRR4408087	Paolo_Manghi	0				5	
+G80502	VatanenT_2016	P015163	stool	no	control	0	296	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	18661482	1789222148	62	97	SRR4408088	Paolo_Manghi	152					404
+G80503	VatanenT_2016	T000272	stool	yes	otitis	0	204	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	26749852	2577749289	60	99	SRR4408089	Paolo_Manghi	0	penicillins			5	
+G80505	VatanenT_2016	E022083	stool	no	control	0	216	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	36406346	3604812505	60	101	SRR4408090	Paolo_Manghi	97			3	3	401
+G80506	VatanenT_2016	E003393	stool	no	control	0	74	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	11504552	1062220702	60	101	SRR4408092	Paolo_Manghi	0			3	5	
+G80507	VatanenT_2016	T008025	stool	yes	otitis	0	228	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	24011016	2317232375	60	100	SRR4408093	Paolo_Manghi	183	penicillins				401
+G80508	VatanenT_2016	T005643	stool	no	control	0	209	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	27763030	2666256910	60	97	SRR4408094	Paolo_Manghi	160				5	
+G80509	VatanenT_2016	T012312	stool	no	control	0	120	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	32789058	3163309509	60	100	SRR4408095	Paolo_Manghi	0		401	3	5	
+G80510	VatanenT_2016	T016811	stool	no	control	1		child	male	EST	no	IlluminaHiSeq	Qiagen	27133167	30051772	2899925418	60	100	SRR4408096	Paolo_Manghi	678				5	
+G80511	VatanenT_2016	T000094	stool	yes	pyelonephritis	0	216	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	35161950	3306455160	50	99	SRR4408097	Paolo_Manghi	0	penicillins	404	3	5	
+G80512	VatanenT_2016	E007303	stool	yes	bronchitis	0	197	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	38029380	3674231244	60	100	SRR4408098	Paolo_Manghi	92	penicillins		5	3	
+G80513	VatanenT_2016	E002338	stool	yes	pyelonefritis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	28329568	2729012573	60	99	SRR4408099	Paolo_Manghi	399	cephalosporins;penicillins;sulphonamides			5	
+G80514	VatanenT_2016	E004934	stool	no	control	0	70	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	17175582	1623475838	60	101	SRR4408100	Paolo_Manghi	0			5	5	
+G80515	VatanenT_2016	T009909	stool	no	control	0	215	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	10949402	1031888778	60	101	SRR4408101	Paolo_Manghi	0				5	
+G80516	VatanenT_2016	T019021	stool	no	control	0	44	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	25434616	2443280317	62	98	SRR4408103	Paolo_Manghi	0		401	3	5	
+G80517	VatanenT_2016	T007750	stool	no	control	0	134	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	27949994	2690735034	60	99	SRR4408104	Paolo_Manghi	0		404	3	201	
+G80518	VatanenT_2016	E020808	stool	yes	otitis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	23403874	2256432609	60	99	SRR4408105	Paolo_Manghi	689	cephalosporins;penicillins			5	
+G80520	VatanenT_2016	E007303	stool	no	control	0	105	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	31288092	3019869265	60	100	SRR4408106	Paolo_Manghi	0			5	3	
+G80521	VatanenT_2016	T006288	stool	yes	pneumonia	0	319	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	31714400	2993745537	50	96	SRR4408107	Paolo_Manghi	142	penicillins		201	5	
+G80522	VatanenT_2016	E004781	stool	no	control	0	51	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	9920382	920905585	60	101	SRR4408108	Paolo_Manghi	0		404	3	5	
+G80523	VatanenT_2016	T009909	stool	no	control	0	306	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	12066928	1121558884	60	101	SRR4408109	Paolo_Manghi	91				5	
+G80524	VatanenT_2016	T019031	stool	no	control	0	62	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	36158948	3486263449	60	99	SRR4408117	Paolo_Manghi	0					401
+G80525	VatanenT_2016	T003950	stool	no	control	0	294	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	26071792	2441224565	50	95	SRR4408118	Paolo_Manghi	185			5	5	
+G80526	VatanenT_2016	P020631	stool	no	control	2		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	41574650	4034559058	60	100	SRR4408119	Paolo_Manghi	902					404
+G80527	VatanenT_2016	E002681	stool	yes	otitis	0	319	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	38432530	3709862137	60	100	SRR4408122	Paolo_Manghi	104	beta_lactamase_inhibitors;penicillins		3	5	
+G80528	VatanenT_2016	E008241	stool	no	control	0	125	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	14781072	1428590169	62	100	SRR4408123	Paolo_Manghi	0			201	5	
+G80529	VatanenT_2016	T007748	stool	no	control	0	309	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	28456168	2743957756	60	100	SRR4408124	Paolo_Manghi	265					401
+G80530	VatanenT_2016	E006871	stool	no	control	0	52	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	35302212	3410006731	60	100	SRR4408125	Paolo_Manghi	0					404
+G80531	VatanenT_2016	T009275	stool	yes	bronchitis	0	301	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	28410714	2737645942	60	99	SRR4408126	Paolo_Manghi	268	penicillins			5	
+G80532	VatanenT_2016	T018343	stool	no	control	0	121	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	44053718	4255101399	60	100	SRR4408127	Paolo_Manghi	0				5	
+G80533	VatanenT_2016	E002825	stool	yes	otitis	0	312	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	32920882	3172253031	60	99	SRR4408128	Paolo_Manghi	0	sulphonamides	401	3	5	
+G80534	VatanenT_2016	P009291	stool	no	control	2		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	21520178	2072990862	60	99	SRR4408129	Paolo_Manghi	784		401	3	5	
+G80535	VatanenT_2016	E006871	stool	no	control	0	113	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	17268872	1612955925	60	101	SRR4408130	Paolo_Manghi	61					404
+G80536	VatanenT_2016	T009275	stool	no	control	0	33	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	18805890	1819727335	62	100	SRR4408131	Paolo_Manghi	0				5	
+G80537	VatanenT_2016	E002338	stool	yes	pyelonefritis	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	29507946	2847987575	60	100	SRR4408133	Paolo_Manghi	493	cephalosporins;penicillins;sulphonamides			5	
+G80538	VatanenT_2016	E002338	stool	no	control	0	122	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	38925796	3760339672	60	100	SRR4408134	Paolo_Manghi	64				5	
+G80539	VatanenT_2016	E017049	stool	yes	otitis	0	208	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	34008884	3290486595	60	100	SRR4408135	Paolo_Manghi	153	beta_lactamase_inhibitors;penicillins	401	3	5	
+G80540	VatanenT_2016	T014575	stool	no	control	0	201	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	20244942	1947411132	60	99	SRR4408136	Paolo_Manghi	0			5	5	
+G80541	VatanenT_2016	E002338	stool	no	control	0	304	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	11486852	1060825575	60	101	SRR4408137	Paolo_Manghi	246				5	
+G80542	VatanenT_2016	T003745	stool	no	control	1		child	female	EST	no	IlluminaHiSeq	Qiagen	27133167	22638294	2184305479	60	100	SRR4408138	Paolo_Manghi	0			5	5	
+G80543	VatanenT_2016	T008025	stool	no	control	0	45	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	13633106	1284372443	60	101	SRR4408139	Paolo_Manghi	0					401
+G80545	VatanenT_2016	E009676	stool	no	control	0	303	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	18554946	1788545452	60	99	SRR4408140	Paolo_Manghi	0					401
+G80547	VatanenT_2016	E015378	stool	no	control	0	343	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	40867440	3942983537	60	100	SRR4408141	Paolo_Manghi	220		404			404
+G80548	VatanenT_2016	E004071	stool	no	control	1		child	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	41535388	4011958345	60	100	SRR4408142	Paolo_Manghi	0					404
+G80550	VatanenT_2016	P019475	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	17732540	1714707630	60	100	SRR4408144	Paolo_Manghi	652			201	5	
+G80552	VatanenT_2016	E008437	stool	no	control	0	209	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	28450054	2763904551	61	101	SRR4408145	Paolo_Manghi	91			3	5	
+G80553	VatanenT_2016	E018574	stool	no	control	0	118	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	6886760	651740041	60	101	SRR4408146	Paolo_Manghi	40				5	
+G80554	VatanenT_2016	E004080	stool	no	control	0	198	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	9309584	900547807	60	100	SRR4408147	Paolo_Manghi	39				5	
+G80555	VatanenT_2016	E020808	stool	no	control	0	40	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	18166820	1761795111	61	100	SRR4408148	Paolo_Manghi	0				5	
+G80556	VatanenT_2016	E025830	stool	no	control	0	136	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	46985956	4586893026	63	101	SRR4408149	Paolo_Manghi	0		401			401
+G80557	VatanenT_2016	P004230	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	57342704	5621608326	60	101	SRR4408150	Paolo_Manghi	367		404	3	201	
+G80558	VatanenT_2016	P008579	stool	no	control	1		child	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	36551312	3577559506	63	101	SRR4408151	Paolo_Manghi	366					401
+G80560	VatanenT_2016	E019187	stool	no	control	0	121	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	51893108	5161987545	63	101	SRR4408152	Paolo_Manghi	0			5	5	
+G80561	VatanenT_2016	E004080	stool	no	control	0	303	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	9101480	881709815	60	100	SRR4408153	Paolo_Manghi	144				5	
+G80562	VatanenT_2016	E005804	stool	yes	otitis	0	291	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	5750356	557577942	63	100	SRR4408155	Paolo_Manghi	0	penicillins	401	3	5	
+G80563	VatanenT_2016	E033156	stool	no	control	0	51	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	9095376	878922687	62	100	SRR4408156	Paolo_Manghi	0				5	
+G80564	VatanenT_2016	P010322	stool	no	control	0	329	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	26325380	2581385776	64	101	SRR4408157	Paolo_Manghi	21					402
+G80565	VatanenT_2016	P013701	stool	no	control	0	253	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	24456668	2389433190	61	101	SRR4408158	Paolo_Manghi	46					404
+G80566	VatanenT_2016	E024646	stool	no	control	0	47	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	42259984	4154731398	62	101	SRR4408159	Paolo_Manghi	0			3	3	401
+G80567	VatanenT_2016	E009667	stool	no	control	0	213	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	16105314	1559457190	60	100	SRR4408160	Paolo_Manghi	0			201	5	
+G80568	VatanenT_2016	E019349	stool	no	control	0	55	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	5567354	524429852	60	101	SRR4408161	Paolo_Manghi	0					404
+G80569	VatanenT_2016	E019793	stool	no	control	0	43	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	9381994	903539006	63	99	SRR4408162	Paolo_Manghi	0			201	5	
+G80570	VatanenT_2016	E023535	stool	no	control	0	52	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	7727194	747664174	60	100	SRR4408163	Paolo_Manghi	0					401
+G80571	VatanenT_2016	P013960	stool	no	control	0	259	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	28025578	2799107249	69	101	SRR4408164	Paolo_Manghi	0			3	5	
+G80572	VatanenT_2016	E025912	stool	no	control	0	42	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	13399348	1296971370	60	100	SRR4408166	Paolo_Manghi	0			201	5	
+G80573	VatanenT_2016	E019349	stool	yes	otitis	0	206	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	17862228	1691470043	60	101	SRR4408167	Paolo_Manghi	151	penicillins				404
+G80574	VatanenT_2016	E004781	stool	yes	otitis	0	208	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	22722228	2182725722	60	101	SRR4408168	Paolo_Manghi	157	penicillins	404	3	5	
+G80575	VatanenT_2016	E020781	stool	no	control	0	57	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	7266118	702860595	60	100	SRR4408169	Paolo_Manghi	0		401	3	201	
+G80576	VatanenT_2016	T016234	stool	no	control	0	43	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	5000034	478030406	63	96	SRR4408170	Paolo_Manghi	0			5	5	
+G80577	VatanenT_2016	P000648	stool	yes	infectiousgastroenteritis	0	316	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	8146840	784986672	62	99	SRR4408171	Paolo_Manghi	162	nitrofurans		201	5	
+G80578	VatanenT_2016	E007743	stool	no	control	0	309	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	13896462	1347869253	60	100	SRR4408172	Paolo_Manghi	0				5	
+G80579	VatanenT_2016	T004341	stool	no	control	0	211	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	8663468	840259481	60	100	SRR4408173	Paolo_Manghi	0			5	5	
+G80580	VatanenT_2016	E003393	stool	no	control	0	288	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	14859482	1437169039	60	100	SRR4408174	Paolo_Manghi	214			3	5	
+G80581	VatanenT_2016	E023839	stool	yes	otitis	0	46	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	9011856	867351841	60	99	SRR4408175	Paolo_Manghi	0	beta_lactamase_inhibitors;penicillins			5	
+G80582	VatanenT_2016	T013832	stool	yes	suspinf	0	44	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	9927148	955225733	60	99	SRR4408177	Paolo_Manghi	0	aminoneglycosides;penicillins	401	3	5	
+G80583	VatanenT_2016	P004847	stool	yes	respiratoryinf	0	254	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	8008708	768680367	60	98	SRR4408178	Paolo_Manghi	0	penicillins			5	
+G80584	VatanenT_2016	E009020	stool	yes	otitis	0	304	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	17295434	1676524214	60	100	SRR4408179	Paolo_Manghi	0	penicillins		3	5	
+G80585	VatanenT_2016	T004341	stool	no	control	0	321	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	10327994	1001924514	61	100	SRR4408180	Paolo_Manghi	110			5	5	
+G80587	VatanenT_2016	E017049	stool	no	control	0	55	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	18149772	1754372137	60	101	SRR4408181	Paolo_Manghi	0		401	3	5	
+G80588	VatanenT_2016	T012983	stool	no	control	0	39	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	12768084	1234381787	60	100	SRR4408182	Paolo_Manghi	0		404	3	5	
+G80589	VatanenT_2016	P008633	stool	no	control	0	242	newborn	female	RUS	no	IlluminaHiSeq	Qiagen	27133167	9145934	887152680	60	100	SRR4408183	Paolo_Manghi	60				5	
+G80590	VatanenT_2016	E008241	stool	yes	otitis	0	358	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	19293362	1868382455	61	100	SRR4408184	Paolo_Manghi	233	penicillins		201	5	
+G80591	VatanenT_2016	T014825	stool	no	control	0	127	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	13635700	1321781121	60	100	SRR4408185	Paolo_Manghi	0			201	5	
+G80592	VatanenT_2016	T008247	stool	yes	pyelonephritis	0	120	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	8575128	830953346	60	100	SRR4408186	Paolo_Manghi	78	aminoglycosides				401
+G80593	VatanenT_2016	E012393	stool	no	control	0	121	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	13726050	1331822288	60	100	SRR4408188	Paolo_Manghi	0				5	
+G80594	VatanenT_2016	T005643	stool	no	control	0	49	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	3696426	341274339	60	101	SRR4408189	Paolo_Manghi	0				5	
+G80595	VatanenT_2016	P003825	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	8046164	776915683	63	100	SRR4408190	Paolo_Manghi	0					404
+G80596	VatanenT_2016	E008241	stool	yes	otitis	0	318	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	8697758	840245631	61	100	SRR4408191	Paolo_Manghi	193	penicillins		201	5	
+G80598	VatanenT_2016	T002534	stool	no	control	0	204	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	16166836	1555743125	60	99	SRR4408192	Paolo_Manghi	86			201	5	
+G80599	VatanenT_2016	T006266	stool	no	control	0	122	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	6230310	600680089	61	100	SRR4408193	Paolo_Manghi	0					404
+G80601	VatanenT_2016	T019852	stool	no	control	0	205	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	7423350	715966459	62	100	SRR4408194	Paolo_Manghi	161				5	
+G80602	VatanenT_2016	E008241	stool	yes	otitis	0	237	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	12335308	1193321126	60	100	SRR4408195	Paolo_Manghi	112	penicillins		201	5	
+G80603	VatanenT_2016	T017419	stool	no	control	0	60	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	6336168	612312113	60	100	SRR4408196	Paolo_Manghi	0				5	
+G80604	VatanenT_2016	T008246	stool	no	control	0	108	newborn	female	EST	no	IlluminaHiSeq	Qiagen	27133167	9068736	866911724	61	96	SRR4408197	Paolo_Manghi	64					401
+G80605	VatanenT_2016	T008247	stool	no	control	0	42	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	13387838	1290560072	60	99	SRR4408199	Paolo_Manghi	0					401
+G80606	VatanenT_2016	P009880	stool	no	control	0	287	newborn	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	36254106	3522778143	62	101	SRR4408200	Paolo_Manghi	125					404
+G80608	VatanenT_2016	E018421	stool	no	control	0	115	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	14733686	1427774798	60	100	SRR4408201	Paolo_Manghi	0			201	5	
+G80609	VatanenT_2016	T019850	stool	no	control	0	35	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	4721690	442630040	60	101	SRR4408202	Paolo_Manghi	0					401
+G80610	VatanenT_2016	E015378	stool	no	control	0	123	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	11865636	1144023248	61	99	SRR4408203	Paolo_Manghi	0		404			404
+G80611	VatanenT_2016	E029310	stool	no	control	0	66	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	8572374	830928803	60	100	SRR4408204	Paolo_Manghi	0			3	5	
+G80612	VatanenT_2016	E013394	stool	no	control	0	66	newborn	male	FIN	no	IlluminaHiSeq	Qiagen	27133167	16821480	1631825318	60	100	SRR4408205	Paolo_Manghi	0		404	3	3	
+G80613	VatanenT_2016	P020604	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	21125006	2013276553	60	101	SRR4408206	Paolo_Manghi	629				5	
+G80614	VatanenT_2016	E008643	stool	no	control	0	213	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	43843806	4214082627	60	101	SRR4408207	Paolo_Manghi	0				5	
+G80615	VatanenT_2016	T005507	stool	no	control	0	326	newborn	male	EST	no	IlluminaHiSeq	Qiagen	27133167	35113962	3438772317	63	101	SRR4408208	Paolo_Manghi	0				5	
+G80616	VatanenT_2016	E018574	stool	no	control	0	78	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	5390488	506375360	60	101	SRR4408210	Paolo_Manghi	0				5	
+G80619	VatanenT_2016	P010936	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	62482038	6229095019	60	101	SRR4408211	Paolo_Manghi	0				5	
+G80620	VatanenT_2016	E008643	stool	no	control	0	314	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	9868550	961029390	60	101	SRR4408212	Paolo_Manghi	101				5	
+G80621	VatanenT_2016	E002681	stool	yes	otitis	0	215	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	8975840	871164864	62	100	SRR4408213	Paolo_Manghi	0	beta_lactamase_inhibitors;penicillins		3	5	
+G80623	VatanenT_2016	E025912	stool	yes	otitis	0	122	newborn	female	FIN	no	IlluminaHiSeq	Qiagen	27133167	11442954	1110254093	60	100	SRR4408214	Paolo_Manghi	80	penicillins		201	5	
+G80624	VatanenT_2016	P000648	stool	no	control	1		child	male	RUS	no	IlluminaHiSeq	Qiagen	27133167	27167074	2644661860	63	101	SRR4408215	Paolo_Manghi	65			201	5	

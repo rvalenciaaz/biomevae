@@ -1,0 +1,75 @@
+# ══════════════════════════════════════════════════════════════════════
+#  biomevae – Leave-One-Study-Out (LOSO) pipeline
+# ══════════════════════════════════════════════════════════════════════
+#
+# Strict cross-cohort generalisation evaluation: train on N-1 studies,
+# test on the held-out study, repeat for every study in the disease
+# group.  Built primarily for the CRC group (11 cMD studies of the same
+# disease, large between-cohort spread observed in
+# ``results/meta_summary.tsv``), but generalises to any disease group
+# by editing ``workflow/config/loso_<group>.yaml``.
+#
+# This Snakefile is a thin orchestration layer over the existing
+# rules/*.smk plus the new ``rules/loso.smk``.  It does not duplicate
+# the per-study aggregator: cross-study test reports / SHAP / NMF
+# benchmarking are out of scope for LOSO and are produced by the
+# original meta pipeline.
+#
+# Launch with:
+#
+#     snakemake -s workflow/Snakefile.loso \
+#               --configfile workflow/config/loso_crc.yaml \
+#               --cores 16
+#
+# or in HPC mode:
+#
+#     sbatch hpc/run_snakemake_loso.slurm
+#
+# Required config keys (see ``loso_crc.yaml``):
+#     data_root      – dir containing per-study extracts.
+#     output_root    – dir for merged data, training, classification.
+#     disease_group  – short name used in output paths (e.g. "crc").
+#     loso_studies   – explicit list of studies in the group.
+#     loso_models    – list of models to train/evaluate.
+# ══════════════════════════════════════════════════════════════════════
+
+import os
+
+from packaging.version import Version as _Version
+from snakemake import __version__ as _snakemake_version
+
+if _Version(_snakemake_version) < _Version("7.0"):
+    raise RuntimeError(
+        f"Snakemake >= 7.0 is required (found {_snakemake_version})."
+    )
+
+# LOSO operates on its own merged dataset; ``auto_multi_label`` is
+# irrelevant here.  We force ``loso_studies`` to be the source of truth.
+config["auto_multi_label"] = False
+# common.smk's ``resolve_studies()`` requires either ``study``,
+# ``studies`` or ``auto_multi_label``.  Pass the LOSO study list so it
+# can verify the per-study extracts exist on disk before any rule
+# fires; the LOSO rules ignore STUDIES and dispatch off ``loso_studies``
+# directly.
+if "loso_studies" not in config:
+    raise ValueError(
+        "Snakefile.loso requires 'loso_studies' in the config — see "
+        "workflow/config/loso_crc.yaml for an example."
+    )
+config["studies"] = list(config["loso_studies"])
+
+include: "rules/common.smk"
+include: "rules/train.smk"
+include: "rules/classify.smk"
+include: "rules/aggregate.smk"
+include: "rules/loso.smk"
+
+
+onstart:
+    os.makedirs("logs/slurm", exist_ok=True)
+
+
+rule all:
+    input:
+        OUTPUT_ROOT + "/loso/" + DISEASE_GROUP + "/loso_summary.tsv",
+    default_target: True

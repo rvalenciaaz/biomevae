@@ -1,0 +1,68 @@
+# ══════════════════════════════════════════════════════════════════════
+#  biomevae – STRICT Leave-One-Study-Out (LOSO) pipeline
+# ══════════════════════════════════════════════════════════════════════
+#
+# Strict cross-cohort evaluation: for each held-out study, an encoder is
+# trained from scratch on the remaining N-1 cohorts (Optuna's val pool
+# also excludes the held-out cohort), then applied to the held-out
+# cohort post-training.  This eliminates the model-side leakage of the
+# non-strict pipeline (``Snakefile.loso``), which trains a single
+# encoder on all N studies and only holds the cohort out at
+# classification time.
+#
+# Output lives under ``<output_root>/loso_strict/<disease_group>/``,
+# parallel to the non-strict ``<output_root>/loso/<disease_group>/``,
+# so the two pipelines can coexist on the same output_root and the
+# user can compare strict vs. shared-encoder numbers directly.
+#
+# Launch with::
+#
+#     snakemake -s workflow/Snakefile.loso_strict \
+#               --configfile workflow/config/loso_strict_crc.yaml \
+#               --cores 16
+#
+# or in HPC mode::
+#
+#     sbatch hpc/run_snakemake_loso_strict.slurm
+#
+# Required config keys (see ``loso_strict_crc.yaml``):
+#     data_root      – dir containing per-study extracts.
+#     output_root    – dir for merged data, training, classification.
+#     disease_group  – short name used in output paths (e.g. "crc").
+#     loso_studies   – explicit list of studies in the group.
+#     loso_models    – list of models to train/evaluate.
+# ══════════════════════════════════════════════════════════════════════
+
+import os
+
+from packaging.version import Version as _Version
+from snakemake import __version__ as _snakemake_version
+
+if _Version(_snakemake_version) < _Version("7.0"):
+    raise RuntimeError(
+        f"Snakemake >= 7.0 is required (found {_snakemake_version})."
+    )
+
+config["auto_multi_label"] = False
+if "loso_studies" not in config:
+    raise ValueError(
+        "Snakefile.loso_strict requires 'loso_studies' in the config — "
+        "see workflow/config/loso_strict_crc.yaml for an example."
+    )
+config["studies"] = list(config["loso_studies"])
+
+include: "rules/common.smk"
+include: "rules/train.smk"
+include: "rules/classify.smk"
+include: "rules/aggregate.smk"
+include: "rules/loso_strict.smk"
+
+
+onstart:
+    os.makedirs("logs/slurm", exist_ok=True)
+
+
+rule all:
+    input:
+        STRICT_ROOT + "/loso_summary.tsv",
+    default_target: True

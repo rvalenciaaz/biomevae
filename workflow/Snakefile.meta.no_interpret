@@ -1,0 +1,150 @@
+# ══════════════════════════════════════════════════════════════════════
+#  biomevae – meta-pipeline variant that skips the interpret steps
+# ══════════════════════════════════════════════════════════════════════
+#
+# Same cross-study orchestration as ``workflow/Snakefile.meta``, but with
+# the SHAP-based interpretation stage disabled:
+#
+#   * ``postprocess_interpret``       (<model>/interpret/)         SKIPPED
+#   * ``postprocess_interpret_genus`` (<model>/interpret_genus/)   SKIPPED
+#   * ``biomevae-interpret-compare``    (aggregate step 8)           SKIPPED
+#
+# This is useful for meta-scale runs where the per-model SHAP passes
+# dominate wall-clock time and are not required for the downstream
+# classification / figures / benchmarking outputs.
+#
+# Mechanism: setting ``skip_interpret: true`` in config makes the
+# ``aggregate`` rule drop its dependency on the two interpret TSVs, so
+# Snakemake never pulls the corresponding rules into the DAG.  The
+# ``aggregate_results.sh`` script already no-ops its ``interpret-compare``
+# step when fewer than two interpret directories exist on disk.
+#
+# Launch with:
+#
+#     snakemake -s workflow/Snakefile.meta.no_interpret \
+#               --configfile workflow/config/meta_multi_label_no_interpret.yaml \
+#               --cores 16
+#
+# or override config from the CLI:
+#
+#     snakemake -s workflow/Snakefile.meta.no_interpret --cores 16 \
+#         --config data_root=/data output_root=/scratch/meta \
+#                  label=disease skip_interpret=true
+#
+# Every other configuration knob (min_labels, require_case_control,
+# only_studies, exclude_studies, body_site, eval_seeds, extra_args, …)
+# behaves identically to the base meta pipeline.
+# ══════════════════════════════════════════════════════════════════════
+
+import os
+
+# NOTE: ``snakemake.utils.min_version`` still imports the legacy
+# ``pkg_resources`` module from setuptools, which is no longer bundled
+# with Python >= 3.12 (and is missing from the default ``biomevae``
+# conda environment).  Use ``packaging.version`` – a hard dependency of
+# Snakemake – to perform the same check without pulling in setuptools.
+from packaging.version import Version as _Version
+
+from snakemake import __version__ as _snakemake_version
+
+if _Version(_snakemake_version) < _Version("7.0"):
+    raise RuntimeError(
+        f"Snakemake >= 7.0 is required (found {_snakemake_version})."
+    )
+
+# Force meta-mode selection and interpret-skipping unless the user
+# explicitly overrode either one.
+config.setdefault("auto_multi_label", True)
+config.setdefault("skip_interpret", True)
+
+# The meta pipeline runs the *single-study* workflow once per study (the
+# training rules are keyed on the ``{study}`` wildcard and never merge
+# cohorts the way the LOSO pipelines do).  Flag single-study mode so
+# ``rules/common.smk`` drops the cross-domain DIVA / PhyloDIVA / TAXI
+# wrappers from the model catalogue — they need multiple cohorts to act
+# as ``domain`` labels and produce a degenerate (and failing) encoder
+# when trained on a single study, which otherwise stalls the DAG.
+config.setdefault("single_study_mode", True)
+
+include: "rules/common.smk"
+include: "rules/train.smk"
+include: "rules/postprocess.smk"
+include: "rules/classify.smk"
+include: "rules/figures.smk"
+include: "rules/aggregate.smk"
+
+
+# ── HPC log directories (for the SLURM profile --output/--error) ───
+# ``workflow/profiles/slurm/config.yaml`` writes ``sbatch`` stdout/err
+# to ``logs/slurm/<rule>-<jobid>.out`` *relative to the working
+# directory Snakemake was launched from*.  Pre-create it so ``sbatch``
+# never rejects a job for a missing --output parent directory.
+onstart:
+    os.makedirs("logs/slurm", exist_ok=True)
+
+
+# ── cross-study meta summary ────────────────────────────────────────
+rule meta_summary:
+    """Concatenate every study's ``results_summary.tsv`` into one table."""
+    input:
+        expand(
+            OUTPUT_ROOT + "/{study}/figures/results_summary.tsv",
+            study=STUDIES,
+        ),
+    output:
+        OUTPUT_ROOT + "/meta_summary.tsv",
+    log:
+        OUTPUT_ROOT + "/logs/meta_summary.log",
+    # Lightweight aggregation – runs on the SLURM head-node partition.
+    threads: 1
+    resources:
+        partition   = "ei-medium",
+        runtime     = 1470,
+        mem_mb      = 4 * 1024,
+        slurm_extra = "",
+    run:
+        import pandas as pd
+
+        os.makedirs(os.path.dirname(log[0]), exist_ok=True)
+        with open(log[0], "w") as logf:
+            frames = []
+            for study, path in zip(STUDIES, input):
+                try:
+                    df = pd.read_csv(path, sep="\t")
+                except Exception as exc:
+                    logf.write(f"WARNING: failed to read {path}: {exc}\n")
+                    continue
+                df.insert(0, "study", study)
+                df.insert(1, "display_name", display_name(study))
+                frames.append(df)
+                logf.write(f"OK: {study} ({len(df)} rows)\n")
+
+            if not frames:
+                raise RuntimeError(
+                    "meta_summary: no per-study summaries could be read."
+                )
+
+            merged = pd.concat(frames, ignore_index=True, sort=False)
+            merged.to_csv(output[0], sep="\t", index=False)
+            logf.write(
+                f"Wrote meta summary with {len(merged)} rows from "
+                f"{len(frames)} studies to {output[0]}\n"
+            )
+
+
+# ── top-level target ────────────────────────────────────────────────
+rule all:
+    input:
+        # Every study's figures/summary …
+        expand(
+            OUTPUT_ROOT + "/{study}/figures/results_summary.tsv",
+            study=STUDIES,
+        ),
+        # … its cross-model aggregation …
+        expand(
+            OUTPUT_ROOT + "/{study}/models/aggregate/.aggregate.done",
+            study=STUDIES,
+        ),
+        # … and the cross-study meta summary.
+        OUTPUT_ROOT + "/meta_summary.tsv",
+    default_target: True

@@ -1,0 +1,4 @@
+	balanced_accuracy	balanced_accuracy	balanced_accuracy	f1_macro	f1_macro	f1_macro
+	mean	median	std	mean	median	std
+model						
+capda-vae-multiview	0.6192651033051658	0.6698717948717948	0.20145149892858283	0.5170195316724493	0.45360400967409725	0.2129384105526825

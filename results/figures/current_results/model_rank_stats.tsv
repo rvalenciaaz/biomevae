@@ -1,0 +1,17 @@
+model_key	avg_rank	model_label
+capda-vae	3.9285714285714284	CAPDA-VAE
+xgboost-baseline	3.9523809523809526	XGBoost SGB
+dsvae-sup	5.380952380952381	DSVAE supervised
+hyp-philrvae	6.5	Hyp-PhILR-NB
+philrvae	6.988095238095238	PhILR-NB VAE
+dsvae-unsup	7.845238095238095	DSVAE unsupervised
+fuse-vae	8.273809523809524	PhyloFusion VAE
+tree-dtm-vae	9.238095238095237	TreeDTM-VAE
+nmf	9.285714285714286	NMF
+beta-vae	9.523809523809524	Beta-VAE
+hyp-vae	9.654761904761905	Hyperbolic VAE
+tax-vae	9.666666666666666	Tax-aware VAE
+hyp-tax-vae	9.833333333333334	Hyp+Tax VAE
+graph-vae	11.119047619047619	Graph VAE
+treeprior-vae	12.119047619047619	TreePrior VAE
+vanilla-vae	12.69047619047619	Vanilla VAE

@@ -1,0 +1,185 @@
+{
+  "essential_columns": {
+    "sample_id": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "study_name": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "body_site": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "disease": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    }
+  },
+  "recommended_columns": {
+    "sample_id": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "study_name": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "body_site": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "disease": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "individual_id": {
+      "present": false,
+      "n_missing": 1627,
+      "pct_complete": 0.0
+    },
+    "age": {
+      "present": true,
+      "n_missing": 19,
+      "pct_complete": 98.83
+    },
+    "sex": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "bmi": {
+      "present": true,
+      "n_missing": 353,
+      "pct_complete": 78.3
+    },
+    "country": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "antibiotics_current_use": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "sequencing_platform": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "dna_extraction_kit": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    }
+  },
+  "unique_samples": {
+    "n_total": 1627,
+    "n_unique": 1627,
+    "has_duplicates": false,
+    "n_duplicate_ids": 0,
+    "duplicate_ids": []
+  },
+  "batch_variables": {
+    "study_name": {
+      "n_levels": 1,
+      "n_present": 1627,
+      "pct_present": 100.0,
+      "top_levels": {
+        "HMP_2019_ibdmdb": 1627
+      },
+      "min_group_size": 1627,
+      "max_group_size": 1627
+    },
+    "sequencing_platform": {
+      "n_levels": 1,
+      "n_present": 1627,
+      "pct_present": 100.0,
+      "top_levels": {
+        "IlluminaHiSeq": 1627
+      },
+      "min_group_size": 1627,
+      "max_group_size": 1627
+    },
+    "dna_extraction_kit": {
+      "n_levels": 1,
+      "n_present": 1627,
+      "pct_present": 100.0,
+      "top_levels": {
+        "Chemagen": 1627
+      },
+      "min_group_size": 1627,
+      "max_group_size": 1627
+    },
+    "country": {
+      "n_levels": 1,
+      "n_present": 1627,
+      "pct_present": 100.0,
+      "top_levels": {
+        "USA": 1627
+      },
+      "min_group_size": 1627,
+      "max_group_size": 1627
+    }
+  },
+  "confounding_checks": [
+    {
+      "target_col": "disease",
+      "batch_col": "study_name",
+      "computable": true,
+      "n_studies": 1,
+      "n_target_levels": 2,
+      "single_label_studies": 0,
+      "pct_single_label": 0.0,
+      "perfectly_confounded": false,
+      "crosstab_head": {
+        "IBD": {
+          "HMP_2019_ibdmdb": 1201
+        },
+        "control": {
+          "HMP_2019_ibdmdb": 426
+        }
+      }
+    }
+  ],
+  "study_balance": {
+    "computable": true,
+    "n_studies": 1,
+    "total_samples": 1627,
+    "mean_samples_per_study": 1627.0,
+    "median_samples_per_study": 1627.0,
+    "min_samples": 1627,
+    "max_samples": 1627,
+    "per_study": {
+      "HMP_2019_ibdmdb": 1627
+    }
+  },
+  "single_study_candidates": [
+    {
+      "study_name": "HMP_2019_ibdmdb",
+      "n_samples": 1627,
+      "diseases": [
+        "IBD",
+        "control"
+      ],
+      "n_disease_levels": 2,
+      "body_sites": [
+        "stool"
+      ],
+      "study_name_pct_complete": 100.0,
+      "sequencing_platform_pct_complete": 100.0,
+      "dna_extraction_kit_pct_complete": 100.0,
+      "country_pct_complete": 100.0
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+sample_id	study_name	subject_id	body_site	antibiotics_current_use	disease	age	age_category	sex	country	non_westernized	sequencing_platform	pmid	number_reads	number_bases	minimum_read_length	median_read_length	NCBI_accession	curator	family	treatment	days_from_first_collection	family_role	disease_subtype	disease_location	calprotectin	remission
+S1_a_WGS	IjazUZ_2017	subIJ_1	stool	no	IBD	8	child		GBR	no	IlluminaHiSeq	28222161	2751935	745676263	72	302	ERR1776143	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_1	no	0	child	CD	L3L4	11304	yes
+S101_a_WGS	IjazUZ_2017	subIJ_21	stool	no	IBD	13	schoolage		GBR	no	IlluminaHiSeq	28222161	3304314	917998110	72	302	ERR1776102	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_21	no	0	child	CD	L3	24740	no
+S102_a_WGS	IjazUZ_2017	subIJ_21	stool	no	IBD	13	schoolage		GBR	no	IlluminaHiSeq	28222161	7841860	2236550045	72	302	ERR1776103	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_21	EEN	15	child	CD	L3	23470	no
+S103_a_WGS	IjazUZ_2017	subIJ_21	stool	yes	IBD	14	schoolage		GBR	no	IlluminaHiSeq	28222161	8252935	2370722405	72	302	ERR1776197	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_21	EEN	30	child	CD	L3	18649	no
+S117_a_WGS	IjazUZ_2017	subIJ_28	stool	no	control	7	child		GBR	no	IlluminaHiSeq	28222161	3839459	1058536294	72	302	ERR1776105	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_28	no					1013	
+S119_a_WGS	IjazUZ_2017	subIJ_56	stool	no	control		child		GBR	no	IlluminaHiSeq	28222161	4965592	1400440198	72	302	ERR1776106	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_56	no					1152	
+S128_a_WGS	IjazUZ_2017	subIJ_50	stool	no	control	10	child		GBR	no	IlluminaHiSeq	28222161	2798649	779505868	72	302	ERR1776107	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_50	no					576	
+S13_a_WGS	IjazUZ_2017	subIJ_3	stool	no	IBD	12	schoolage		GBR	no	IlluminaHiSeq	28222161	6470505	1787694611	72	302	ERR1776113	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_3	5-ASA	0	child	CD	L3L4	20763	yes
+S130_a_WGS	IjazUZ_2017	subIJ_51	stool	no	control	7	child		GBR	no	IlluminaHiSeq	28222161	3757735	1028562543	72	302	ERR1776108	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_51	no					37	
+S132_a_WGS	IjazUZ_2017	subIJ_52	stool	no	control	8	child		GBR	no	IlluminaHiSeq	28222161	5028567	1388261839	72	302	ERR1776109	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_52	no					70	
+S134_a_WGS	IjazUZ_2017	subIJ_53	stool	no	control	10	child		GBR	no	IlluminaHiSeq	28222161	5432398	1518780193	72	302	ERR1776110	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_53	no					20	
+S138_a_WGS	IjazUZ_2017	subIJ_61	stool	no	control	13	schoolage		GBR	no	IlluminaHiSeq	28222161	6275532	1761039985	72	302	ERR1776111	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_61	no					796	
+S139_a_WGS	IjazUZ_2017	subIJ_25	stool	no	control	12	schoolage		GBR	no	IlluminaHiSeq	28222161	7358644	2054575194	72	302	ERR1776112	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_25	no					85	
+S14_a_WGS	IjazUZ_2017	subIJ_3	stool	no	IBD	12	schoolage		GBR	no	IlluminaHiSeq	28222161	9989121	2733820115	72	302	ERR1776120	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_3	EEN;5-ASA	15	child	CD	L3L4	17048	yes
+S140_a_WGS	IjazUZ_2017	subIJ_29	stool	no	control	16	schoolage		GBR	no	IlluminaHiSeq	28222161	2836052	783396019	72	302	ERR1776114	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_29	no					4387	
+S142_a_WGS	IjazUZ_2017	subIJ_30	stool	no	control	9	child		GBR	no	IlluminaHiSeq	28222161	3957303	1094513646	72	302	ERR1776115	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_30	no					70	
+S144_a_WGS	IjazUZ_2017	subIJ_31	stool	no	control	11	child		GBR	no	IlluminaHiSeq	28222161	5096369	1416097085	72	302	ERR1776116	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_31	no					57	
+S146_a_WGS	IjazUZ_2017	subIJ_32	stool	no	control	13	schoolage		GBR	no	IlluminaHiSeq	28222161	4600515	1256613122	72	302	ERR1776117	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_32	no					83	
+S148_a_WGS	IjazUZ_2017	subIJ_33	stool	no	IBD	9	child		GBR	no	IlluminaHiSeq	28222161	378016	106569905	72	302	ERR1776118	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_33	no	0	child	CD	L3L4	31142	yes
+S149_a_WGS	IjazUZ_2017	subIJ_33	stool	no	IBD	9	child		GBR	no	IlluminaHiSeq	28222161	3347875	921852116	72	302	ERR1776119	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_33	EEN	15	child	CD	L3L4	22163	yes
+S15_a_WGS	IjazUZ_2017	subIJ_3	stool	no	IBD	12	schoolage		GBR	no	IlluminaHiSeq	28222161	1906436	511616835	72	302	ERR1776131	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_3	EEN;5-ASA	30	child	CD	L3L4	14595	yes
+S150_a_WGS	IjazUZ_2017	subIJ_33	stool	no	IBD	9	child		GBR	no	IlluminaHiSeq	28222161	5268146	1469088712	72	302	ERR1776121	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_33	EEN;iron	30	child	CD	L3L4	18038	yes
+S151_a_WGS	IjazUZ_2017	subIJ_33	stool	no	IBD	9	child		GBR	no	IlluminaHiSeq	28222161	7153691	1998676366	72	302	ERR1776122	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_33	iron		child	CD	L3L4	1061	yes
+S152_a_WGS	IjazUZ_2017	subIJ_33	stool	no	IBD	9	child		GBR	no	IlluminaHiSeq	28222161	3851920	1076463999	72	302	ERR1776123	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_33	5-ASA		child	CD	L3L4	23552	
+S153_a_WGS	IjazUZ_2017	subIJ_33R	stool	no	control	40	adult	female	GBR	no	IlluminaHiSeq	28222161	5519747	1535302232	72	302	ERR1776124	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_33	no		mother			662	
+S154_a_WGS	IjazUZ_2017	subIJ_34	stool	no	control	42	adult		GBR	no	IlluminaHiSeq	28222161	5013232	1384014666	72	302	ERR1776125	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_34	no					0	
+S155_a_WGS	IjazUZ_2017	subIJ_35	stool	no	control	40	adult		GBR	no	IlluminaHiSeq	28222161	3136021	841822294	72	302	ERR1776126	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_35	no					0	
+S156_a_WGS	IjazUZ_2017	subIJ_36	stool	no	control	34	adult		GBR	no	IlluminaHiSeq	28222161	1663593	443604177	72	302	ERR1776127	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_36	no					0	
+S157_a_WGS	IjazUZ_2017	subIJ_37	stool	no	control	39	adult		GBR	no	IlluminaHiSeq	28222161	3504580	988638665	72	302	ERR1776128	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_37	no					0	
+S158_a_WGS	IjazUZ_2017	subIJ_38	stool	no	control	36	adult		GBR	no	IlluminaHiSeq	28222161	3878327	1069184941	72	302	ERR1776129	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_38	no					278	
+S159_a_WGS	IjazUZ_2017	subIJ_39	stool	no	control	55	adult		GBR	no	IlluminaHiSeq	28222161	8357728	2332416654	72	302	ERR1776130	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_39	no					0	
+S16_a_WGS	IjazUZ_2017	subIJ_3	stool	no	IBD	12	schoolage		GBR	no	IlluminaHiSeq	28222161	4738216	1322597250	72	302	ERR1776140	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_3	5-ASA		child	CD	L3L4	391	yes
+S160_a_WGS	IjazUZ_2017	subIJ_40	stool	no	control	52	adult		GBR	no	IlluminaHiSeq	28222161	4484887	1258543303	72	302	ERR1776132	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_40	no					0	
+S161_a_WGS	IjazUZ_2017	subIJ_41	stool	no	control	61	adult		GBR	no	IlluminaHiSeq	28222161	2369790	662844802	72	302	ERR1776133	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_41	no					522	
+S162_a_WGS	IjazUZ_2017	subIJ_42	stool	no	control	39	adult		GBR	no	IlluminaHiSeq	28222161	5570550	1566536923	72	302	ERR1776134	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_42	no					0	
+S163_a_WGS	IjazUZ_2017	subIJ_43	stool	no	control	40	adult		GBR	no	IlluminaHiSeq	28222161	5952905	1650912136	72	302	ERR1776135	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_43	no					0	
+S164_a_WGS	IjazUZ_2017	subIJ_44	stool	no	control	33	adult		GBR	no	IlluminaHiSeq	28222161	5968995	1668010747	72	302	ERR1776136	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_44	no					0	
+S165_a_WGS	IjazUZ_2017	subIJ_45	stool	no	control	39	adult		GBR	no	IlluminaHiSeq	28222161	3228354	895343613	72	302	ERR1776137	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_45	no					330	
+S166_a_WGS	IjazUZ_2017	subIJ_46	stool	no	control	36	adult		GBR	no	IlluminaHiSeq	28222161	4936539	1386707008	72	302	ERR1776138	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_46	no					200	
+S167_a_WGS	IjazUZ_2017	subIJ_47	stool	no	control	49	adult		GBR	no	IlluminaHiSeq	28222161	9039229	2510561209	72	302	ERR1776139	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_47	no					278	
+S17_a_WGS	IjazUZ_2017	subIJ_3	stool	no	IBD	13	schoolage		GBR	no	IlluminaHiSeq	28222161	3028308	828820738	72	302	ERR1776141	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_3	5-ASA		child	CD	L3L4	17121	
+S18_a_WGS	IjazUZ_2017	subIJ_3R	stool	no	control	40	adult	male	GBR	no	IlluminaHiSeq	28222161	2716070	737850150	72	302	ERR1776142	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_3	no		father			360	
+S2_a_WGS	IjazUZ_2017	subIJ_1	stool	no	IBD	8	child		GBR	no	IlluminaHiSeq	28222161	7219169	2022458461	72	302	ERR1776148	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_1	EEN	15	child	CD	L3L4	477	yes
+S26_a_WGS	IjazUZ_2017	subIJ_4R	stool	no	control	37	adult	female	GBR	no	IlluminaHiSeq	28222161	1477688	413535310	72	302	ERR1776144	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_4	no		mother			663	
+S27_a_WGS	IjazUZ_2017	subIJ_5	stool	no	IBD	12	schoolage		GBR	no	IlluminaHiSeq	28222161	4032308	1122635383	72	302	ERR1776145	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_5	aza	0	child	CD	L3L4	22623	no
+S28_a_WGS	IjazUZ_2017	subIJ_5	stool	no	IBD	12	schoolage		GBR	no	IlluminaHiSeq	28222161	4733996	1332779176	72	302	ERR1776146	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_5	EEN;aza	15	child	CD	L3L4	18080	no
+S29_a_WGS	IjazUZ_2017	subIJ_5	stool	no	IBD	12	schoolage		GBR	no	IlluminaHiSeq	28222161	2835447	775388196	72	302	ERR1776147	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_5	EEN;aza	30	child	CD	L3L4	17976	no
+S3_a_WGS	IjazUZ_2017	subIJ_1	stool	no	IBD	8	child		GBR	no	IlluminaHiSeq	28222161	5269973	1488299379	72	302	ERR1776156	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_1	EEN	30	child	CD	L3L4	58	yes
+S30_a_WGS	IjazUZ_2017	subIJ_5	stool	no	IBD	12	schoolage		GBR	no	IlluminaHiSeq	28222161	5264879	1489268567	72	302	ERR1776149	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_5	aza		child	CD	L3L4	20558	no
+S31_a_WGS	IjazUZ_2017	subIJ_5	stool	no	IBD	12	schoolage		GBR	no	IlluminaHiSeq	28222161	3613408	939506222	72	302	ERR1776150	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_5	aza;nutritions		child	CD	L3L4	24702	
+S32_a_WGS	IjazUZ_2017	subIJ_6	stool	no	IBD	7	child		GBR	no	IlluminaHiSeq	28222161	2071894	546377088	72	302	ERR1776151	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_6	aza	0	child	CD	L2	21022	yes
+S33_a_WGS	IjazUZ_2017	subIJ_6	stool	no	IBD	7	child		GBR	no	IlluminaHiSeq	28222161	3152304	816741005	72	302	ERR1776152	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_6	EEN;aza	15	child	CD	L2	19999	yes
+S34_a_WGS	IjazUZ_2017	subIJ_6	stool	no	IBD	7	child		GBR	no	IlluminaHiSeq	28222161	3171801	812703804	72	302	ERR1776153	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_6	EEN;aza	30	child	CD	L2	15358	yes
+S35_a_WGS	IjazUZ_2017	subIJ_6	stool	no	IBD	7	child		GBR	no	IlluminaHiSeq	28222161	6171506	1713581537	72	302	ERR1776154	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_6	aza		child	CD	L2	7181	yes
+S36_a_WGS	IjazUZ_2017	subIJ_6	stool	no	IBD	7	child		GBR	no	IlluminaHiSeq	28222161	3469906	943853093	72	302	ERR1776155	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_6	5-ASA;overnight_feeds		child	CD	L2	16322	
+S4_a_WGS	IjazUZ_2017	subIJ_1	stool	no	IBD	8	child		GBR	no	IlluminaHiSeq	28222161	7537833	2111497535	72	302	ERR1776163	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_1	no		child	CD	L3L4	884	yes
+S43_a_WGS	IjazUZ_2017	subIJ_7R	stool	no	control	39	adult	female	GBR	no	IlluminaHiSeq	28222161	4338764	1177657742	72	302	ERR1776157	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_7	no		mother			5948	
+S45_a_WGS	IjazUZ_2017	subIJ_8	stool	no	IBD	14	schoolage		GBR	no	IlluminaHiSeq	28222161	2492282	689490392	72	302	ERR1776158	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_8	no	0	child	CD	L3	22723	yes
+S46_a_WGS	IjazUZ_2017	subIJ_8	stool	no	IBD	14	schoolage		GBR	no	IlluminaHiSeq	28222161	2578200	700299588	72	302	ERR1776159	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_8	EEN	15	child	CD	L3	18416	yes
+S47_a_WGS	IjazUZ_2017	subIJ_8	stool	no	IBD	14	schoolage		GBR	no	IlluminaHiSeq	28222161	3615959	1013774781	72	302	ERR1776160	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_8	EEN	30	child	CD	L3	16737	yes
+S48_a_WGS	IjazUZ_2017	subIJ_8	stool	no	IBD	14	schoolage		GBR	no	IlluminaHiSeq	28222161	2698906	746771525	72	302	ERR1776161	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_8	no		child	CD	L3	16858	yes
+S49_a_WGS	IjazUZ_2017	subIJ_8	stool	no	IBD	14	schoolage		GBR	no	IlluminaHiSeq	28222161	1640907	431508026	72	302	ERR1776162	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_8	probiotic		child	CD	L3	20853	
+S5_a_WGS	IjazUZ_2017	subIJ_1	stool	no	IBD	8	child		GBR	no	IlluminaHiSeq	28222161	4030164	1149250529	72	302	ERR1776174	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_1	Lactulose		child	CD		20546	
+S50_a_WGS	IjazUZ_2017	subIJ_8R	stool	no	control	36	adult	female	GBR	no	IlluminaHiSeq	28222161	3034746	849902892	72	302	ERR1776164	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_8	no		mother			484	
+S51_a_WGS	IjazUZ_2017	subIJ_9	stool	no	IBD	12	schoolage		GBR	no	IlluminaHiSeq	28222161	1363261	368015633	72	302	ERR1776165	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_9	aza;5-ASA	0	child	CD	L3L4	25817	no
+S52_a_WGS	IjazUZ_2017	subIJ_9	stool	no	IBD	12	schoolage		GBR	no	IlluminaHiSeq	28222161	4173393	1178313971	72	302	ERR1776166	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_9	aza;5-ASA;EEN	15	child	CD	L3L4	23411	no
+S53_a_WGS	IjazUZ_2017	subIJ_9	stool	no	IBD	12	schoolage		GBR	no	IlluminaHiSeq	28222161	2608836	725042735	72	302	ERR1776167	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_9	aza;5-ASA;EEN	30	child	CD	L3L4	23943	no
+S54_a_WGS	IjazUZ_2017	subIJ_9	stool	no	IBD	12	schoolage		GBR	no	IlluminaHiSeq	28222161	4226179	1185762916	72	302	ERR1776168	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_9	aza;5-ASA		child	CD	L3L4	24609	no
+S55_a_WGS	IjazUZ_2017	subIJ_9	stool	no	IBD	12	schoolage		GBR	no	IlluminaHiSeq	28222161	4504620	1233151325	72	302	ERR1776169	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_9	aza;5-ASA;modulen_suppl		child	CD	L3L4	24950	
+S56_a_WGS	IjazUZ_2017	subIJ_10	stool	no	IBD	14	schoolage		GBR	no	IlluminaHiSeq	28222161	5751417	1576699043	72	302	ERR1776170	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_10	no	0	child	CD	L3L4	21879	no
+S57_a_WGS	IjazUZ_2017	subIJ_10	stool	no	IBD	14	schoolage		GBR	no	IlluminaHiSeq	28222161	2869360	796025260	72	302	ERR1776171	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_10	EEN;5-ASA;folate;forceval;methotrexate	15	child	CD	L3L4	20562	no
+S58_a_WGS	IjazUZ_2017	subIJ_10	stool	no	IBD	14	schoolage		GBR	no	IlluminaHiSeq	28222161	8101969	2269686423	72	302	ERR1776172	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_10	EEN;5-ASA;folate;forceval;methotrexate	30	child	CD	L3L4	20767	no
+S59_a_WGS	IjazUZ_2017	subIJ_10	stool	no	IBD	14	schoolage		GBR	no	IlluminaHiSeq	28222161	3025428	837056671	72	302	ERR1776173	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_10	5-ASA;folate;forceval;methotrexate		child	CD	L3L4	22983	no
+S6_a_WGS	IjazUZ_2017	subIJ_1R	stool	no	control	45	adult	female	GBR	no	IlluminaHiSeq	28222161	10443417	2879015607	72	302	ERR1776185	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_1	no		mother			362	
+S60_a_WGS	IjazUZ_2017	subIJ_10	stool	no	IBD	14	schoolage		GBR	no	IlluminaHiSeq	28222161	6269227	1731639391	72	302	ERR1776175	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_10	5-ASA;folate;forceval;methotrexate		child	CD	L3L4	21695	
+S62_a_WGS	IjazUZ_2017	subIJ_11	stool	no	IBD	12	schoolage		GBR	no	IlluminaHiSeq	28222161	3581667	982055866	72	302	ERR1776177	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_1	aza;iron	0	child	CD	L2L4	24387	yes
+S63_a_WGS	IjazUZ_2017	subIJ_11	stool	no	IBD	12	schoolage		GBR	no	IlluminaHiSeq	28222161	1411175	318036556	72	245	ERR1776178	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_11	aza;iron;EEN	15	child	CD	L2L4	22216	yes
+S64_a_WGS	IjazUZ_2017	subIJ_11	stool	no	IBD	13	schoolage		GBR	no	IlluminaHiSeq	28222161	5006780	1397307113	72	302	ERR1776179	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_11	aza;iron;EEN	30	child	CD	L2L4	20005	yes
+S65_a_WGS	IjazUZ_2017	subIJ_11	stool	no	IBD	13	schoolage		GBR	no	IlluminaHiSeq	28222161	1868922	520118652	72	302	ERR1776180	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_11	aza;iron		child	CD	L2L4	17235	yes
+S66_a_WGS	IjazUZ_2017	subIJ_11	stool	no	IBD	13	schoolage		GBR	no	IlluminaHiSeq	28222161	5961266	1651282454	72	302	ERR1776181	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_11	5-ASA;aza		child	CD	L2L4	23277	
+S67_a_WGS	IjazUZ_2017	subIJ_11R	stool	no	control	43	adult	male	GBR	no	IlluminaHiSeq	28222161	3531316	989123101	72	302	ERR1776182	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_11	no		father			950	
+S68_a_WGS	IjazUZ_2017	subIJ_12	stool	no	IBD	13	schoolage		GBR	no	IlluminaHiSeq	28222161	1227785	343202790	72	302	ERR1776183	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_12	no	0	child	CD	L2L4	2389689	no
+S69_a_WGS	IjazUZ_2017	subIJ_12	stool	no	IBD	13	schoolage		GBR	no	IlluminaHiSeq	28222161	191602	53153953	72	302	ERR1776184	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_12	EEN	15	child	CD	L2L4	314869	no
+S70_a_WGS	IjazUZ_2017	subIJ_12	stool	no	IBD	13	schoolage		GBR	no	IlluminaHiSeq	28222161	143112	37299793	72	302	ERR1776186	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_12	EEN	30	child	CD	L2L4	2716992	no
+S71_a_WGS	IjazUZ_2017	subIJ_12	stool	no	IBD	13	schoolage		GBR	no	IlluminaHiSeq	28222161	8248360	2289355218	72	302	ERR1776187	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_12	aza		child	CD	L2L4	1681517	
+S72_a_WGS	IjazUZ_2017	subIJ_12R	stool	no	control	45	adult	male	GBR	no	IlluminaHiSeq	28222161	4285750	1206869602	72	302	ERR1776188	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_12	no		father			202622	
+S73_a_WGS	IjazUZ_2017	subIJ_13	stool	no	control	10	child		GBR	no	IlluminaHiSeq	28222161	6064725	1704268178	72	302	ERR1776189	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_13	no					50	
+S79_a_WGS	IjazUZ_2017	subIJ_14R	stool	no	control	51	adult	male	GBR	no	IlluminaHiSeq	28222161	5393460	1497789398	72	302	ERR1776190	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_14	no		father			224085	
+S80_a_WGS	IjazUZ_2017	subIJ_15	stool	no	IBD	11	child		GBR	no	IlluminaHiSeq	28222161	6168464	1731815490	72	302	ERR1776191	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_15	no	0	child	CD	L2L4	2088509	yes
+S81_a_WGS	IjazUZ_2017	subIJ_15	stool	no	IBD	11	child		GBR	no	IlluminaHiSeq	28222161	1707964	473294242	72	302	ERR1776192	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_15	EEN	30	child	CD	L2L4	296393	yes
+S82_a_WGS	IjazUZ_2017	subIJ_15	stool	no	IBD	11	child		GBR	no	IlluminaHiSeq	28222161	1718379	479825834	72	302	ERR1776193	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_15	no		child	CD	L2L4	77121	yes
+S83_a_WGS	IjazUZ_2017	subIJ_15	stool	no	IBD	11	child		GBR	no	IlluminaHiSeq	28222161	8206387	2275394483	72	302	ERR1776194	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_15	no		child	CD	L2L4	241817	
+S84_a_WGS	IjazUZ_2017	subIJ_15R	stool	no	control	42	adult	female	GBR	no	IlluminaHiSeq	28222161	882620	244360465	72	302	ERR1776195	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_15	no		mother		L2L4	79391	
+S87_a_WGS	IjazUZ_2017	subIJ_16R	stool	no	control	45	adult	male	GBR	no	IlluminaHiSeq	28222161	3999646	1107378881	72	302	ERR1776196	Paolo_Manghi,Marisa_Metzger	IjazUZ_2017_6	no		father			52338	

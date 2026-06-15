@@ -1,0 +1,9 @@
+baseline	da_variant	da_family	label	n_studies	delta_mean	delta_ci95	wins	losses	wilcoxon_p
+beta-vae	diva-beta-vae	DIVA	DIVA Beta-VAE  vs  Beta-VAE	11	0.012549683769349411	0.03108788005246966	5	5	0.556640625
+tree-dtm-vae	diva-tree-dtm-vae	DIVA	DIVA TreeDTM-VAE  vs  TreeDTM-VAE	11	-0.006473392049907161	0.05089910736411663	6	5	0.7001953125
+tree-dtm-vae	phylodiva-tree-dtm-vae	PhyloDIVA	PhyloDIVA TreeDTM-VAE  vs  TreeDTM-VAE	11	-0.019315271915709295	0.04562894278162968	6	5	0.7001953125
+tree-dtm-vae	taxi-tree-dtm-vae	TAXI	TAXI TreeDTM-VAE  vs  TreeDTM-VAE	11	-0.02552333815358866	0.07773517287514646	6	5	0.8984375
+hyp-philrvae	diva-hyp-philr-nb	DIVA	DIVA Hyp-PhILR-NB  vs  Hyp-PhILR-NB	11	-0.016197279456940872	0.04038049108835422	4	7	0.7646484375
+hyp-philrvae	phylodiva-hyp-philr-nb	PhyloDIVA	PhyloDIVA Hyp-PhILR-NB  vs  Hyp-PhILR-NB	11	-0.01749540889693646	0.023760593551340383	1	10	0.0537109375
+hyp-philrvae	taxi-hyp-philrvae	TAXI	TAXI Hyp-PhILR-NB  vs  Hyp-PhILR-NB	11	-0.029669733840331735	0.038446336802033625	3	8	0.2060546875
+xgb-baseline	xgb-coral	CORAL	XGBoost SGB + CORAL  vs  XGBoost SGB	11	-0.07375906581681613	0.050201672447060135	1	10	0.009765625

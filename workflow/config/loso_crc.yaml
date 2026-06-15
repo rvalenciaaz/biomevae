@@ -1,0 +1,164 @@
+# ─── biomevae LOSO pipeline – CRC group config ──────────────────────
+#
+# Strict leave-one-study-out cross-cohort generalisation evaluation
+# restricted to colorectal-cancer cohorts in the cMD registry.  The
+# group is the cleanest natural experiment for cross-study generalisation
+# in the meta_summary: 11 cohorts of the same disease, large between-
+# cohort spread (within-study AUROC ranges 0.56 – 0.95 in the existing
+# 5-fold CV table).
+#
+# Launch with:
+#
+#     snakemake -s workflow/Snakefile.loso \
+#               --configfile workflow/config/loso_crc.yaml \
+#               --cores 16
+#
+# or in HPC mode:
+#
+#     sbatch hpc/run_snakemake_loso.slurm
+# ────────────────────────────────────────────────────────────────────
+
+# Where per-study extracts produced by extract-microbiome-data live.
+data_root:   "/path/to/extracted_studies"
+# Where merged datasets, models, classification results, diagnostics,
+# and the final loso_summary.tsv are written.
+output_root: "/path/to/biomevae_loso_runs"
+
+# Short identifier used in the output folder layout
+# (``<output_root>/loso/<disease_group>/...``).
+disease_group: "crc"
+
+# CRC cohorts in the cMD registry (see
+# ``extract-microbiome-data/curatedmetagenomicdata/study_registry.py``).
+loso_studies:
+  - FengQ_2015
+  - VogtmannE_2016
+  - ZellerG_2014
+  - YuJ_2015
+  - WirbelJ_2018
+  - YachidaS_2019
+  - ThomasAM_2018a
+  - ThomasAM_2018b
+  - ThomasAM_2019_c
+  - HanniganGD_2017
+  - GuptaA_2019
+
+# Which model variants to train on the merged dataset and evaluate
+# across folds.  Defaults match the plan in ``workflow/README_loso.md``:
+# the most LOSO-stable compositional / NB backbones, plus their DIVA
+# variants for direct attribution of the gain, plus DIVA-β-VAE as a
+# non-taxonomy baseline that isolates the domain-invariance term from
+# the phylogenetic prior.
+loso_models:
+  - hyp-philrvae         # baseline NB-on-PhILR with hyperbolic latent (no DA)
+  - tree-dtm-vae         # baseline Tree-DTM (Dirichlet-Tree Multinomial) (no DA)
+  - diva-tree-dtm-vae    # DIVA-Tree-DTM (target backbone, taxonomy-aware)
+  - diva-hyp-philr-nb    # DIVA-Hyp-PhILR-ZINB (target, taxonomy-aware)
+  - diva-beta-vae        # DIVA on plain MLP β-VAE (no taxonomy, no tree)
+  - beta-vae             # plain β-VAE (no DA) — the missing comparison point
+                         # for diva-beta-vae; without it, DIVA's gain over
+                         # a plain MLP encoder cannot be quantified
+  - phylodiva-tree-dtm-vae   # PhyloDIVA-Tree-DTM: hierarchical critic + BM
+                             # smoothness + CORAL on z_x.  Designed to rescue
+                             # the +0.02 LOSO lift vanilla DIVA gives this
+                             # backbone (results/loso_summary_after.tsv).
+  - phylodiva-hyp-philr-nb   # PhyloDIVA on Hyp-PhILR-ZINB (default)
+  - phylodiva-beta-vae       # PhyloDIVA reference upper bound (no BM, since
+                             # the β-VAE has no tree-structured decoder).
+  - taxi-tree-dtm-vae        # TAXI: taxonomy-protected conditional invariance.
+                             # z_tau (== z_y) is NEVER GRL-scrubbed; only the
+                             # residual z_rho is. Class-conditional CORAL on
+                             # z_rho replaces marginal CORAL.
+  - taxi-hyp-philrvae        # TAXI on the Hyperbolic-PhILR backbone — same
+                             # conditional-invariance mechanics on the
+                             # PhILR / Poincaré encoder.
+  - xgb-baseline         # XGBoost on raw log1p(SGB) — the community
+                         # baseline (Wirbel 2019, Thomas 2019); shows
+                         # whether a tree on raw counts already matches
+                         # any of the VAEs
+  - xgb-coral            # XGBoost on per-study CORAL-aligned features —
+                         # the DIVA-spirit tree DA row; attributes DIVA
+                         # gains to domain-invariance vs. the VAE framework
+  - capda-vae            # CAPDA-VAE (this work): conditional-alignment +
+                         # CLR-taxonomy VAE; its domain-aware OOF invariant
+                         # prediction is stacked with the raw log1p features
+                         # and classified by the same XGBoost — the VAE that
+                         # matches xgb-baseline while resolving the taxonomy-
+                         # vs-domain-invariance tension
+
+# Per-model latent-slice override for classification.  DIVA models
+# default to ``z_y`` (the class-anchored factor); non-DIVA models
+# default to the full latent.  Override here to run additional
+# sensitivity studies (e.g. evaluate DIVA-TreeNB on z_x to confirm
+# it is *less* class-predictive than z_y).
+loso_latent_slice: {}
+# Example:
+# loso_latent_slice:
+#   diva-tree-dtm-vae: z_y
+#   diva-hyp-philr-nb: z_y
+
+# Classification label column on sample_metadata.tsv.  cMD CRC studies
+# encode this as one of {"CRC", "adenoma", "healthy"} — the LOSO
+# classifier reduces to a multi-class problem with whatever labels
+# are present; binarise upstream if you want pure CRC-vs-control.
+label: "disease"
+
+# Reference class for the control-anchor diagnostic.  All cMD CRC
+# studies tag their controls with the literal "healthy".
+control_value: "healthy"
+
+# Training args forwarded to every train CLI.  Mirrors the single-study
+# pipeline rigour: 100 Optuna trials per model with collapse-aware
+# scoring + retrain-with-best, so every LOSO model is hyperparameter-
+# tuned rather than trained on hand-picked defaults.  The training-time
+# seed varies as ``args.seed + trial.number`` (default base 42), which
+# protects against single-run noise during the search.  To skip Optuna
+# (e.g. for a quick smoke run), drop the ``--optuna`` / ``--optuna-trials``
+# flags.
+extra_args: "--epochs 200 --optuna --optuna-trials 100"
+
+# Optional: path to a JSON Optuna search-space override applied to every
+# DIVA model (forwarded as ``--optuna-config``).  Non-DIVA models in the
+# sweep (hyp-philr-zinb, tree-dtm-vae) accept the same flag but expect a
+# backbone-specific search space — leave this unset to use each CLI's
+# built-in defaults.  Templates ship under ``configs/``:
+#   - configs/optuna_search_space_diva.template.json   (DIVA backbones)
+#   - configs/optuna_search_space.template.json        (Euclidean β-VAE)
+# diva_optuna_config: "configs/optuna_search_space_diva.template.json"
+
+# Optional: per-model extra args appended to ``extra_args`` above.
+# Useful for narrowing the trial budget on expensive backbones, or for
+# pointing the DIVA models at the DIVA-specific search space without
+# changing the global default.  Example::
+#
+# loso_extra_args:
+#   diva-tree-dtm-vae: "--optuna-config configs/optuna_search_space_diva.template.json"
+#   diva-hyp-philr-nb: "--optuna-config configs/optuna_search_space_diva.template.json"
+#   diva-beta-vae:     "--optuna-config configs/optuna_search_space_diva.template.json"
+loso_extra_args:
+  # Match diva-beta-vae's preprocessing exactly (vae_train_diva_betavae.py
+  # log1p's by default).  Without this, the plain β-VAE would train on raw
+  # counts and the comparison with diva-beta-vae would not isolate DIVA.
+  beta-vae: "--log1p"
+  # PhyloDIVA backbones: leave empty so each trainer uses its built-in
+  # Optuna search space (which already covers lambda_critic / lambda_coral
+  # alongside the standard DIVA knobs, plus backbone-specific knobs such
+  # as lambda_tree_smooth / lambda_philr_smooth / init_concentration).
+  phylodiva-tree-dtm-vae: ""
+  phylodiva-hyp-philr-nb: ""
+  phylodiva-beta-vae:     "--log1p"
+  # TAXI shares the DIVA Optuna search space (latent dims, lr, alpha_y,
+  # beta_max).  Leave empty here so the trainer falls back to its own
+  # defaults for the TAXI-specific λ knobs.
+  taxi-tree-dtm-vae:      ""
+  taxi-hyp-philrvae:      ""
+
+# 5-seed reproducibility protocol for the LOSO XGBoost classifier
+# (matches biomevae.classify.DEFAULT_EVAL_SEEDS).  Identical to the
+# single-study pipeline: every fold's metrics are pooled across these
+# seeds and the across-seed std is reported alongside the mean.
+eval_seeds: [42, 43, 44, 45, 46]
+
+# Optional: path to an extract-microbiome-data checkout (only needed
+# if the registry is not a sibling directory of biomevae/).
+# extract_microbiome_data_path: "/path/to/extract-microbiome-data"

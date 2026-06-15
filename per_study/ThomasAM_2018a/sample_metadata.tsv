@@ -1,0 +1,81 @@
+sample_id	study_name	subject_id	body_site	antibiotics_current_use	disease	age	age_category	sex	country	non_westernized	sequencing_platform	dna_extraction_kit	pmid	number_reads	number_bases	minimum_read_length	median_read_length	curator	bmi	disease_subtype	alcohol	smoker	ever_smoker
+LILT_GF06_16	ThomasAM_2018a	GF06	stool	no	control	77	senior	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	168171670	16627043626	75	100	Paolo_Manghi;Marisa_Metzger	25		no	no	no
+LILT_GF12_16	ThomasAM_2018a	GF12	stool	no	adenoma	68	senior	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	129054410	12772253934	75	100	Paolo_Manghi;Marisa_Metzger	30	adenoma	no	no	no
+LILT_GF15_16	ThomasAM_2018a	GF15	stool	no	CRC	75	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	132351728	13091772784	75	100	Paolo_Manghi;Marisa_Metzger		adenocarcinoma	no	no	no
+LILT_GF16_T017	ThomasAM_2018a	GF16	stool	no	adenoma	77	senior	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	86578300	8612958984	75	100	Paolo_Manghi;Marisa_Metzger	20	adenoma	no	no	no
+LILT_GF17_16	ThomasAM_2018a	GF17	stool	no	adenoma	62	adult	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	67202998	6647242890	75	100	Paolo_Manghi;Marisa_Metzger	29	adenoma	no	no	no
+LILT_GF18_T016	ThomasAM_2018a	GF18	stool	no	adenoma	55	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	60734114	6033609356	75	100	Paolo_Manghi;Marisa_Metzger	19	adenoma	no	no	no
+LILT_VF00TL_16	ThomasAM_2018a	VF00TL	stool	no	control	71	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	208138088	20599056332	75	100	Paolo_Manghi;Marisa_Metzger	25		no	no	no
+LILT_VF02_T016	ThomasAM_2018a	VF02	stool	no	adenoma	73	senior	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	58176306	5781837652	75	100	Paolo_Manghi;Marisa_Metzger	31	adenoma	no	no	no
+LILT_VF04_16	ThomasAM_2018a	VF04	stool	no	adenoma	70	senior	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	130011006	12879282556	75	100	Paolo_Manghi;Marisa_Metzger	21	adenoma	no	no	no
+LILT_VF06_16	ThomasAM_2018a	VF06	stool	no	control	70	senior	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	133302610	13191878458	75	100	Paolo_Manghi;Marisa_Metzger	20		no	no	no
+LILT_VF07_16	ThomasAM_2018a	VF07	stool	no	adenoma	64	adult	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	56710086	5607203870	75	100	Paolo_Manghi;Marisa_Metzger	25	adenoma	no	no	no
+LILT_VF10_T016	ThomasAM_2018a	VF10	stool	no	control	60	adult	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	60515600	6006120776	75	100	Paolo_Manghi;Marisa_Metzger	20		no	no	no
+LILT_VF100_T016	ThomasAM_2018a	VF100	stool	no	CRC	64	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	133912406	13276646416	75	100	Paolo_Manghi;Marisa_Metzger	30	adenocarcinoma	no	no	no
+LILT_VF102_T017	ThomasAM_2018a	VF102	stool	no	adenoma	50	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	67149250	6672306720	75	100	Paolo_Manghi;Marisa_Metzger	26	adenoma	no	no	no
+LILT_VF107_16	ThomasAM_2018a	VF107	stool	no	CRC	78	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	87100526	8617506418	75	100	Paolo_Manghi;Marisa_Metzger	30	adenocarcinoma	no	no	no
+LILT_VF114_T017	ThomasAM_2018a	VF114	stool	no	CRC	77	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	68802460	6818636578	75	100	Paolo_Manghi;Marisa_Metzger	23	adenocarcinoma	no	no	no
+LILT_VF120_16	ThomasAM_2018a	VF120	stool	no	CRC	63	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	69511276	6857565286	75	100	Paolo_Manghi;Marisa_Metzger	37	adenocarcinoma	no	no	no
+LILT_VF140_T016	ThomasAM_2018a	VF140	stool	no	control	67	senior	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	45553940	4516925822	75	100	Paolo_Manghi;Marisa_Metzger	24		no	no	no
+LILT_VF145_T017	ThomasAM_2018a	VF145	stool	no	CRC	67	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	83426964	8282373224	75	100	Paolo_Manghi;Marisa_Metzger	35	adenocarcinoma	no	no	no
+LILT_VF154_T017	ThomasAM_2018a	VF154	stool	no	CRC	77	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	91215084	9035509454	75	100	Paolo_Manghi;Marisa_Metzger	22	adenocarcinoma	no	no	no
+LILT_VF166_T017	ThomasAM_2018a	VF166	stool	no	CRC	83	senior	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	59541712	5906211662	75	100	Paolo_Manghi;Marisa_Metzger	19	adenocarcinoma	no	no	no
+LILT_VF170_T016	ThomasAM_2018a	VF170	stool	no	control	70	senior	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	83281818	8243012850	75	100	Paolo_Manghi;Marisa_Metzger	25		no	no	no
+LILT_VF171_T016	ThomasAM_2018a	VF171	stool	no	control	77	senior	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	268665478	26692365132	75	100	Paolo_Manghi;Marisa_Metzger					
+LILT_VF172_T017	ThomasAM_2018a	VF172	stool	no	adenoma	67	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	101961964	10135254452	75	100	Paolo_Manghi;Marisa_Metzger	26	adenoma	no	no	no
+LILT_VF174_T017	ThomasAM_2018a	VF174	stool	no	CRC	66	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	88876004	8808726504	75	100	Paolo_Manghi;Marisa_Metzger	24	adenocarcinoma	no	no	no
+LILT_VF176_T017	ThomasAM_2018a	VF176	stool	no	CRC	64	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	51961332	5159137714	75	100	Paolo_Manghi;Marisa_Metzger	23	adenocarcinoma	no	no	no
+LILT_VF18_T016	ThomasAM_2018a	VF18	stool	no	control	64	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	375721418	37358543174	75	100	Paolo_Manghi;Marisa_Metzger	26		no	no	no
+LILT_VF189_T016	ThomasAM_2018a	VF189	stool	no	control	66	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	159674438	15838227946	75	100	Paolo_Manghi;Marisa_Metzger	34		no	no	no
+LILT_VF192_T017	ThomasAM_2018a	VF192	stool	no	CRC	78	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	50190940	4974888498	75	100	Paolo_Manghi;Marisa_Metzger	26	adenocarcinoma	no	no	no
+LILT_VF197_T017	ThomasAM_2018a	VF197	stool	no	adenoma	77	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	64218978	6373570704	75	100	Paolo_Manghi;Marisa_Metzger	36	adenoma	no	no	no
+LILT_VF206_T016	ThomasAM_2018a	VF206	stool	no	control	80	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	168825354	16782484254	75	100	Paolo_Manghi;Marisa_Metzger	24		no	no	no
+LILT_VF207_T017	ThomasAM_2018a	VF207	stool	no	CRC	63	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	79900864	7936914746	75	100	Paolo_Manghi;Marisa_Metzger	25	adenocarcinoma	no	no	no
+LILT_VF208_T017	ThomasAM_2018a	VF208	stool	no	CRC	74	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	197907940	19642180890	75	100	Paolo_Manghi;Marisa_Metzger	23	adenocarcinoma	no	no	no
+LILT_VF212_T016	ThomasAM_2018a	VF212	stool	no	control	80	senior	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	70760642	7016890308	75	100	Paolo_Manghi;Marisa_Metzger	32		no	no	no
+LILT_VF214_T016	ThomasAM_2018a	VF214	stool	no	adenoma	60	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	29113632	2891054416	75	100	Paolo_Manghi;Marisa_Metzger	24	adenoma	no	no	no
+LILT_VF216_T017	ThomasAM_2018a	VF216	stool	no	CRC	84	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	140195504	13926989396	75	100	Paolo_Manghi;Marisa_Metzger	22	adenocarcinoma	no	no	no
+LILT_VF217_T017	ThomasAM_2018a	VF217	stool	no	CRC	82	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	102992638	10222753176	75	100	Paolo_Manghi;Marisa_Metzger	28	adenocarcinoma	no	no	no
+LILT_VF232_T017	ThomasAM_2018a	VF232	stool	no	CRC	69	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	47791816	4745232212	75	100	Paolo_Manghi;Marisa_Metzger	27	adenocarcinoma	no	no	no
+LILT_VF234_T017	ThomasAM_2018a	VF234	stool	no	CRC	61	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	63130715	6264323571	75	100	Paolo_Manghi;Marisa_Metzger	23	adenocarcinoma	no	no	no
+LILT_VF251_T017	ThomasAM_2018a	VF251	stool	no	CRC	84	senior	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	97021922	9638732712	75	100	Paolo_Manghi;Marisa_Metzger	23	adenocarcinoma	no	no	no
+LILT_VF255_T016	ThomasAM_2018a	VF255	stool	no	control	69	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	51786786	5141254888	75	100	Paolo_Manghi;Marisa_Metzger	30		no	no	no
+LILT_VF259_T016	ThomasAM_2018a	VF259	stool	no	control	71	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	54199996	5376905682	75	100	Paolo_Manghi;Marisa_Metzger	24		no	no	no
+LILT_VF261_T016	ThomasAM_2018a	VF261	stool	no	control	69	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	46788848	4644638366	75	100	Paolo_Manghi;Marisa_Metzger	24		no	no	no
+LILT_VF262_T016	ThomasAM_2018a	VF262	stool	no	control	64	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	119440344	11861266938	75	100	Paolo_Manghi;Marisa_Metzger	27		no	no	no
+LILT_VF263_T016	ThomasAM_2018a	VF263	stool	no	control	81	senior	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	157270336	15626665916	75	100	Paolo_Manghi;Marisa_Metzger	28		no	no	no
+LILT_VF264_T017	ThomasAM_2018a	VF264	stool	no	CRC	78	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	190490540	18935403182	75	100	Paolo_Manghi;Marisa_Metzger	24	adenocarcinoma	no	no	no
+LILT_VF265_T016	ThomasAM_2018a	VF265	stool	no	control	64	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	36753696	3644716602	75	100	Paolo_Manghi;Marisa_Metzger	25		no	no	no
+LILT_VF270_T017	ThomasAM_2018a	VF270	stool	no	CRC	60	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	74406936	7397852902	75	100	Paolo_Manghi;Marisa_Metzger	22	adenocarcinoma	no	no	no
+LILT_VF273_T017	ThomasAM_2018a	VF273	stool	no	CRC	83	senior	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	59049460	5862755402	75	100	Paolo_Manghi;Marisa_Metzger	24	adenocarcinoma	no	no	no
+LILT_VF279_T016	ThomasAM_2018a	VF279	stool	no	control	61	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	159113906	15817515118	75	100	Paolo_Manghi;Marisa_Metzger	22		no	no	no
+LILT_VF28_T016	ThomasAM_2018a	VF28	stool	no	control	63	adult	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	219493156	21819100572	75	100	Paolo_Manghi;Marisa_Metzger	28		no	no	no
+LILT_VF281_T017	ThomasAM_2018a	VF281	stool	no	CRC	76	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	136972528	13612629160	75	100	Paolo_Manghi;Marisa_Metzger	26	adenocarcinoma			
+LILT_VF29_16	ThomasAM_2018a	VF29	stool	no	CRC	74	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	122954238	12203647560	75	100	Paolo_Manghi;Marisa_Metzger	25	adenocarcinoma	no	no	no
+LILT_VF30_16	ThomasAM_2018a	VF30	stool	no	adenoma	53	adult	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	119338584	11832438294	75	100	Paolo_Manghi;Marisa_Metzger	21	adenoma	no	no	no
+LILT_VF300_T016	ThomasAM_2018a	VF300	stool	no	CRC	57	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	170791788	16969685870	75	100	Paolo_Manghi;Marisa_Metzger	30	adenocarcinoma	no	no	no
+LILT_VF301_T016	ThomasAM_2018a	VF301	stool	no	adenoma	67	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	47891658	4755821364	75	100	Paolo_Manghi;Marisa_Metzger		adenoma			
+LILT_VF31_16	ThomasAM_2018a	VF31	stool	no	control	59	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	77957436	7733156120	75	100	Paolo_Manghi;Marisa_Metzger	26		no	no	no
+LILT_VF32_T016	ThomasAM_2018a	VF32	stool	no	adenoma	56	adult	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	57754576	5739702184	75	100	Paolo_Manghi;Marisa_Metzger	30	adenoma	no	no	no
+LILT_VF35_16	ThomasAM_2018a	VF35	stool	no	adenoma	59	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	54306182	5388346712	75	100	Paolo_Manghi;Marisa_Metzger	22	adenoma	no	no	no
+LILT_VF37_16	ThomasAM_2018a	VF37	stool	no	adenoma	57	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	192637536	19110973670	75	100	Paolo_Manghi;Marisa_Metzger	29	adenoma	no	no	no
+LILT_VF38_16	ThomasAM_2018a	VF38	stool	no	adenoma	79	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	62447528	6199839066	75	100	Paolo_Manghi;Marisa_Metzger	22	adenoma	no	no	no
+LILT_VF40_16	ThomasAM_2018a	VF40	stool	no	control	68	senior	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	114077394	11318266372	75	100	Paolo_Manghi;Marisa_Metzger	22		no	no	no
+LILT_VF43_16	ThomasAM_2018a	VF43	stool	no	control	60	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	69754922	6932812452	75	100	Paolo_Manghi;Marisa_Metzger	22		no	no	no
+LILT_VF47_16	ThomasAM_2018a	VF47	stool	no	adenoma	53	adult	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	150355184	14951737602	75	100	Paolo_Manghi;Marisa_Metzger	23	adenoma	no	no	no
+LILT_VF50_16	ThomasAM_2018a	VF50	stool	no	adenoma	58	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	80721806	8013368722	75	100	Paolo_Manghi;Marisa_Metzger	23	adenoma	no	no	no
+LILT_VF55_T017	ThomasAM_2018a	VF55	stool	no	adenoma	77	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	87057802	8654388646	75	100	Paolo_Manghi;Marisa_Metzger	24	adenoma	no	no	no
+LILT_VF56_16	ThomasAM_2018a	VF56	stool	no	adenoma	58	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	111092954	11012728796	75	100	Paolo_Manghi;Marisa_Metzger	26	adenoma	no	no	no
+LILT_VF60_T016	ThomasAM_2018a	VF60	stool	no	adenoma	63	adult	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	75609304	7518977822	75	100	Paolo_Manghi;Marisa_Metzger	21	adenoma	no	no	no
+LILT_VF65_16	ThomasAM_2018a	VF65	stool	no	CRC	69	senior	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	55363092	5476270020	75	100	Paolo_Manghi;Marisa_Metzger	29	adenocarcinoma	no	no	no
+LILT_VF66_T017	ThomasAM_2018a	VF66	stool	no	adenoma	58	adult	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	69659116	6925474708	75	100	Paolo_Manghi;Marisa_Metzger	25	adenoma	no	no	no
+LILT_VF69_16	ThomasAM_2018a	VF69	stool	no	adenoma	49	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	118580530	11770496546	75	100	Paolo_Manghi;Marisa_Metzger	21	adenoma	no	no	no
+LILT_VF70_16	ThomasAM_2018a	VF70	stool	no	adenoma	61	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	79349706	7874777528	75	100	Paolo_Manghi;Marisa_Metzger	29	adenoma	no	no	no
+LILT_VF71_16	ThomasAM_2018a	VF71	stool	no	CRC	67	senior	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	79793550	7902317024	75	100	Paolo_Manghi;Marisa_Metzger	21	adenocarcinoma	no	no	no
+LILT_VF73_16	ThomasAM_2018a	VF73	stool	no	CRC	58	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	92904026	9208805594	75	100	Paolo_Manghi;Marisa_Metzger	25	adenocarcinoma	no	no	no
+LILT_VF77_16	ThomasAM_2018a	VF77	stool	no	CRC	70	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	153585374	15258226958	75	100	Paolo_Manghi;Marisa_Metzger	24	adenocarcinoma	no	no	no
+LILT_VF82_T016	ThomasAM_2018a	VF82	stool	no	control	61	adult	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	46305044	4602808946	75	100	Paolo_Manghi;Marisa_Metzger					
+LILT_VF84_16	ThomasAM_2018a	VF84	stool	no	control	58	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	76085886	7555848636	75	100	Paolo_Manghi;Marisa_Metzger	24		no	no	no
+LILT_VF90_16	ThomasAM_2018a	VF90	stool	no	adenoma	57	adult	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	98668680	9812179942	75	100	Paolo_Manghi;Marisa_Metzger	29	adenoma	no	no	no
+LILT_VF95_16	ThomasAM_2018a	VF95	stool	no	CRC	71	senior	female	ITA	no	IlluminaHiSeq	Qiagen	30936548	78354990	7785120980	75	100	Paolo_Manghi;Marisa_Metzger	30	adenocarcinoma	no	no	no
+LILT_VF97_16	ThomasAM_2018a	VF97	stool	no	adenoma	70	senior	male	ITA	no	IlluminaHiSeq	Qiagen	30936548	99984042	9942430726	75	100	Paolo_Manghi;Marisa_Metzger	28	adenoma	no	no	no

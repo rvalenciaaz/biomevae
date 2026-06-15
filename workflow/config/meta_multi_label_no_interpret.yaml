@@ -1,0 +1,59 @@
+# ─── biomevae meta-pipeline (no-interpret) Snakemake config ─────────
+#
+# Example config for ``workflow/Snakefile.meta.no_interpret``.  Runs the
+# full single-study workflow (train → postprocess → classify + figures →
+# aggregate) across every multi-label study in the
+# extract-microbiome-data registry, but skips the SHAP-based
+# interpretation stage (``postprocess_interpret``,
+# ``postprocess_interpret_genus``, ``biomevae-interpret-compare``).
+#
+# Launch with:
+#
+#     snakemake -s workflow/Snakefile.meta.no_interpret \
+#               --configfile workflow/config/meta_multi_label_no_interpret.yaml \
+#               --cores 16
+#
+# ``data_root`` should contain a sub-directory per study, populated by
+# e.g.
+#
+#     python -m curatedmetagenomicdata.extract \
+#         --all-studies --case-control-only --separate \
+#         -o /data/extracted_studies
+#
+# Any study whose three TSVs are missing is silently skipped.
+# ────────────────────────────────────────────────────────────────────
+
+data_root:   "/path/to/extracted_studies"
+output_root: "/path/to/biomevae_meta_runs"
+
+# Auto-select multi-label studies from the cMD registry.
+auto_multi_label: true
+min_labels:           2       # len(disease_labels) >= 2 (at least two classes)
+require_case_control: true    # keep only studies flagged has_case_control=True
+# body_site:          "stool" # optional filter
+# only_studies:               # explicit allowlist (overrides the above)
+#   - LiJ_2017
+#   - HMP_2019_ibdmdb
+# exclude_studies:            # explicit blocklist
+#   - SomeStudy
+
+# Skip the SHAP-based interpretation stage.  The aggregate rule drops
+# its dependency on ``<model>/interpret*/otu_latent_summary.tsv`` so
+# Snakemake never pulls the ``postprocess_interpret`` /
+# ``postprocess_interpret_genus`` rules into the DAG, and
+# ``aggregate_results.sh`` no-ops its ``interpret-compare`` step.
+skip_interpret: true
+
+# Classification label and training args shared across all studies.
+label: "disease"
+extra_args: "--epochs 100 --optuna --optuna-trials 100"
+
+# Random seeds used for every downstream model evaluation
+# (classification, reconstruction CV, enterosignature refresh). The
+# per-seed fold metrics are pooled for reproducibility. Must stay in
+# sync with biomevae.classify.DEFAULT_EVAL_SEEDS.
+eval_seeds: [42, 43, 44, 45, 46]
+
+# Optional: path to an extract-microbiome-data checkout if it is not a
+# sibling directory of biomevae/.
+# extract_microbiome_data_path: "/path/to/extract-microbiome-data"

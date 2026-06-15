@@ -1,0 +1,189 @@
+{
+  "essential_columns": {
+    "sample_id": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "study_name": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "body_site": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "disease": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    }
+  },
+  "recommended_columns": {
+    "sample_id": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "study_name": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "body_site": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "disease": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "individual_id": {
+      "present": false,
+      "n_missing": 296,
+      "pct_complete": 0.0
+    },
+    "age": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "sex": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "bmi": {
+      "present": false,
+      "n_missing": 296,
+      "pct_complete": 0.0
+    },
+    "country": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "antibiotics_current_use": {
+      "present": true,
+      "n_missing": 294,
+      "pct_complete": 0.68
+    },
+    "sequencing_platform": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "dna_extraction_kit": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    }
+  },
+  "unique_samples": {
+    "n_total": 296,
+    "n_unique": 296,
+    "has_duplicates": false,
+    "n_duplicate_ids": 0,
+    "duplicate_ids": []
+  },
+  "batch_variables": {
+    "study_name": {
+      "n_levels": 1,
+      "n_present": 296,
+      "pct_present": 100.0,
+      "top_levels": {
+        "HMP_2019_t2d": 296
+      },
+      "min_group_size": 296,
+      "max_group_size": 296
+    },
+    "sequencing_platform": {
+      "n_levels": 1,
+      "n_present": 296,
+      "pct_present": 100.0,
+      "top_levels": {
+        "IlluminaHiSeq": 296
+      },
+      "min_group_size": 296,
+      "max_group_size": 296
+    },
+    "dna_extraction_kit": {
+      "n_levels": 1,
+      "n_present": 296,
+      "pct_present": 100.0,
+      "top_levels": {
+        "PowerSoil": 296
+      },
+      "min_group_size": 296,
+      "max_group_size": 296
+    },
+    "country": {
+      "n_levels": 1,
+      "n_present": 296,
+      "pct_present": 100.0,
+      "top_levels": {
+        "USA": 296
+      },
+      "min_group_size": 296,
+      "max_group_size": 296
+    }
+  },
+  "confounding_checks": [
+    {
+      "target_col": "disease",
+      "batch_col": "study_name",
+      "computable": true,
+      "n_studies": 1,
+      "n_target_levels": 3,
+      "single_label_studies": 0,
+      "pct_single_label": 0.0,
+      "perfectly_confounded": false,
+      "crosstab_head": {
+        "IGT": {
+          "HMP_2019_t2d": 239
+        },
+        "T2D": {
+          "HMP_2019_t2d": 11
+        },
+        "control": {
+          "HMP_2019_t2d": 46
+        }
+      }
+    }
+  ],
+  "study_balance": {
+    "computable": true,
+    "n_studies": 1,
+    "total_samples": 296,
+    "mean_samples_per_study": 296.0,
+    "median_samples_per_study": 296.0,
+    "min_samples": 296,
+    "max_samples": 296,
+    "per_study": {
+      "HMP_2019_t2d": 296
+    }
+  },
+  "single_study_candidates": [
+    {
+      "study_name": "HMP_2019_t2d",
+      "n_samples": 296,
+      "diseases": [
+        "IGT",
+        "control",
+        "T2D"
+      ],
+      "n_disease_levels": 3,
+      "body_sites": [
+        "stool"
+      ],
+      "study_name_pct_complete": 100.0,
+      "sequencing_platform_pct_complete": 100.0,
+      "dna_extraction_kit_pct_complete": 100.0,
+      "country_pct_complete": 100.0
+    }
+  ]
+}

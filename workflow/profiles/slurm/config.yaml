@@ -1,0 +1,84 @@
+# ─── biomevae Snakemake SLURM profile ───────────────────────────────
+#
+# A Snakemake 8.x cluster profile for the HPC the biomevae shell
+# pipelines already run on.  Every rule declares its own ``resources:``
+# (partition, runtime, mem_mb, slurm_extra) so this profile just has to
+# forward them to ``sbatch``.  The resource values come straight from
+# ``hpc/*.slurm``:
+#
+#     train_model            – ei-gpu,   96h, 20c, 128G, --gres=gpu:1
+#     postprocess_*          – ei-gpu,   24h, 20c, 128G, --gres=gpu:1
+#     classify               – ei-short,  2h,  4c,  16G
+#     classify_xgboost_...   – ei-short,  2h,  4c,  16G
+#     single_study_figures   – ei-short,  2h,  4c,  16G
+#     aggregate              – ei-short,  2h,  4c,  16G
+#     meta_summary           – ei-short, 30m,  1c,   4G
+#
+# Snakemake 8 removed the legacy ``--cluster`` CLI flag; cluster
+# submission is now delegated to executor plugins.  This profile uses
+# ``snakemake-executor-plugin-cluster-generic`` (installed alongside
+# ``snakemake-minimal=8.10.7`` in ``environment.lock.yml``) and wires
+# the same ``sbatch`` command through its
+# ``--cluster-generic-submit-cmd`` option.
+#
+# Launch from the repo root, from inside an interactive shell that has
+# already activated the ``biomevae`` conda/mamba environment (or via
+# ``hpc/run_snakemake.slurm``, which does the activation for you):
+#
+#     snakemake -s workflow/Snakefile \
+#               --configfile workflow/config/single_study.yaml \
+#               --profile workflow/profiles/slurm
+#
+# or for the meta pipeline:
+#
+#     snakemake -s workflow/Snakefile.meta \
+#               --configfile workflow/config/meta_multi_label.yaml \
+#               --profile workflow/profiles/slurm
+#
+# Re-run any single step by asking Snakemake for its output – the
+# profile routes it to the correct partition automatically:
+#
+#     snakemake -s workflow/Snakefile --profile workflow/profiles/slurm \
+#         /scratch/runs/LiJ_2017/models/tax-vae/model.pt
+# ────────────────────────────────────────────────────────────────────
+
+# ── executor + sbatch submission command ───────────────────────────
+# Resources are read from each rule's ``resources:`` block.  The
+# ``{resources.slurm_extra}`` placeholder carries ``--gres=gpu:1`` for
+# GPU rules and is an empty string for CPU rules.
+executor: cluster-generic
+cluster-generic-submit-cmd: >-
+  sbatch
+  --parsable
+  --partition={resources.partition}
+  --cpus-per-task={threads}
+  --mem={resources.mem_mb}M
+  --time={resources.runtime}
+  --job-name=smk-{rule}
+  --output=logs/slurm/{rule}-%j.out
+  --error=logs/slurm/{rule}-%j.err
+  {resources.slurm_extra}
+
+# ``scancel`` on a whitespace-separated list of SLURM job IDs is all the
+# cluster-generic executor needs to propagate a Ctrl-C / SIGTERM on the
+# Snakemake driver to every child job it has in flight.  Without this
+# the orphaned ``smk-*`` jobs have to be cleaned up manually.
+cluster-generic-cancel-cmd: "scancel"
+
+# ── global execution settings ───────────────────────────────────────
+jobs: 200                # maximum concurrent SLURM jobs
+latency-wait: 60         # let NFS catch up before declaring a rule failed
+keep-going: True         # keep scheduling siblings after a job fails
+rerun-incomplete: True   # re-submit partial outputs on resume
+printshellcmds: True
+use-envmodules: False
+use-conda: False
+
+# ── default resources (applied to any rule without explicit values) ─
+# These match ``hpc/*.slurm`` defaults for short CPU jobs; GPU rules
+# override them in their own resources: block.
+default-resources:
+  - partition="ei-short"
+  - runtime=120
+  - mem_mb=16000
+  - slurm_extra=""

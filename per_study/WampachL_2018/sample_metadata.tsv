@@ -1,0 +1,64 @@
+sample_id	study_name	subject_id	body_site	antibiotics_current_use	disease	age	infant_age	age_category	sex	country	non_westernized	sequencing_platform	dna_extraction_kit	pmid	number_reads	number_bases	minimum_read_length	median_read_length	NCBI_accession	curator	family	days_from_first_collection	born_method
+M_C100	WampachL_2018	M_C100	stool	no	control	40		adult	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	6263704	924465152	40	151	SRR5575606	Mireia_VallesColomer	WampachL_2018_C100	0	
+M_C101	WampachL_2018	M_C101	stool	no	control	32		adult	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	26188048	3928988855	40	151	SRR5575408	Mireia_VallesColomer	WampachL_2018_C101	0	
+M_C105	WampachL_2018	M_C105	stool	no	control	34		adult	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	53627086	7103372285	41	150	SRR7716244	Mireia_VallesColomer	WampachL_2018_C105	0	
+M_C106	WampachL_2018	M_C106	stool	no	control	34		adult	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	20759072	3107665658	40	151	SRR5575605	Mireia_VallesColomer	WampachL_2018_C106	0	
+M_C109	WampachL_2018	M_C109	stool	no	control	31		adult	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	69082594	9169798717	43	150	SRR7716245	Mireia_VallesColomer	WampachL_2018_C109	0	
+M_C110	WampachL_2018	M_C110	stool	no	control	34		adult	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	59918478	7918047253	44	150	SRR7716246	Mireia_VallesColomer	WampachL_2018_C110	0	
+M_C111	WampachL_2018	M_C111	stool	no	control	31		adult	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	18968604	2814241177	40	151	SRR5575599	Mireia_VallesColomer	WampachL_2018_C111	0	
+M_C114	WampachL_2018	M_C114	stool	no	control	24		adult	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	23617832	3541498944	40	151	SRR5575413	Mireia_VallesColomer	WampachL_2018_C114	0	
+M_C115	WampachL_2018	M_C115	stool	no	control	35		adult	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	52054450	7770220631	40	151	SRR5575407	Mireia_VallesColomer	WampachL_2018_C115	0	
+M_C117	WampachL_2018	M_C117	stool	no	control	42		adult	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	45544254	6786600537	40	151	SRR5575598	Mireia_VallesColomer	WampachL_2018_C117	0	
+M_C118	WampachL_2018	M_C118	stool	no	control	29		adult	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	41021136	6121585727	40	151	SRR5575409	Mireia_VallesColomer	WampachL_2018_C118	0	
+M_C119	WampachL_2018	M_C119	stool	no	control	39		adult	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	58496924	7883941414	41	151	SRR7716247	Mireia_VallesColomer	WampachL_2018_C119	0	
+M_C120	WampachL_2018	M_C120	stool	no	control	35		adult	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	45947118	6858109594	40	151	SRR5575410	Mireia_VallesColomer	WampachL_2018_C120	0	
+M_C123	WampachL_2018	M_C123	stool	no	control	37		adult	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	59734266	7903635374	43	150	SRR7716235	Mireia_VallesColomer	WampachL_2018_C123	0	
+MV_C101	WampachL_2018	M_C101	vagina	no	control	32		adult	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	1905252	280509816	40	151	SRR5575601	Mireia_VallesColomer	WampachL_2018_C101	0	
+MV_C106	WampachL_2018	M_C106	vagina	no	control	34		adult	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	320252	45676926	40	151	SRR5575401	Mireia_VallesColomer	WampachL_2018_C106	0	
+MV_C111	WampachL_2018	M_C111	vagina	no	control	31		adult	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	399792	57667346	40	151	SRR5575397	Mireia_VallesColomer	WampachL_2018_C111	0	
+MV_C112	WampachL_2018	M_C112	vagina	no	control	28		adult	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	1910032	281185705	40	151	SRR5575603	Mireia_VallesColomer	WampachL_2018_C112	0	
+MV_C113	WampachL_2018	M_C113	vagina	no	control	37		adult	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	457032	65342801	40	151	SRR5575608	Mireia_VallesColomer	WampachL_2018_C113	0	
+MV_C114	WampachL_2018	M_C114	vagina	no	control	24		adult	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	750760	109477530	40	151	SRR5575607	Mireia_VallesColomer	WampachL_2018_C114	0	
+MV_C115	WampachL_2018	M_C115	vagina	no	control	35		adult	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	280808	36876639	40	151	SRR5575602	Mireia_VallesColomer	WampachL_2018_C115	0	
+MV_C117	WampachL_2018	M_C117	vagina	no	control	42		adult	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	849122	124775683	40	151	SRR5575485	Mireia_VallesColomer	WampachL_2018_C117	0	
+MV_C118	WampachL_2018	M_C118	vagina	no	control	29		adult	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	191648	27006669	40	151	SRR5575487	Mireia_VallesColomer	WampachL_2018_C118	0	
+MV_C120	WampachL_2018	M_C120	vagina	no	control	35		adult	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	935438	136772799	40	151	SRR5575604	Mireia_VallesColomer	WampachL_2018_C120	0	
+V1_C101	WampachL_2018	I_C101	stool	no	control	0	1	newborn	male	LUX	no	IlluminaHiSeq	PowerSoil	30504906	285158	41113959	40	151	SRR5575359	Mireia_VallesColomer	WampachL_2018_C101	0	c_section
+V1_C106	WampachL_2018	I_C106	stool	no	control	0	1	newborn	male	LUX	no	IlluminaHiSeq	PowerSoil	30504906	27030464	4038955265	40	151	SRR5575414	Mireia_VallesColomer	WampachL_2018_C106	0	vaginal
+V1_C109	WampachL_2018	I_C109	stool	no	control	0	1	newborn	male	LUX	no	IlluminaNextSeq	PowerSoil	30504906	4355040	582420052	40	149	SRR7716238	Mireia_VallesColomer	WampachL_2018_C109	0	vaginal
+V1_C110	WampachL_2018	I_C110	stool	no	control	0	1	newborn	male	LUX	no	IlluminaNextSeq	PowerSoil	30504906	41524732	5825874148	40	149	SRR7716237	Mireia_VallesColomer	WampachL_2018_C110	0	vaginal
+V1_C111	WampachL_2018	I_C111	stool	no	control	0	1	newborn	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	40410630	6030368390	40	151	SRR5575411	Mireia_VallesColomer	WampachL_2018_C111	0	vaginal
+V1_C113	WampachL_2018	I_C113	stool	no	control	0	1	newborn	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	123188	16049324	40	151	SRR5575358	Mireia_VallesColomer	WampachL_2018_C113	0	c_section
+V1_C115	WampachL_2018	I_C115	stool	no	control	0	1	newborn	male	LUX	no	IlluminaHiSeq	PowerSoil	30504906	87128	9661438	40	126	SRR5575419	Mireia_VallesColomer	WampachL_2018_C115	0	c_section
+V1_C118	WampachL_2018	I_C118	stool	no	control	0	1	newborn	male	LUX	no	IlluminaHiSeq	PowerSoil	30504906	293898	42596526	40	151	SRR5575412	Mireia_VallesColomer	WampachL_2018_C118	0	c_section
+V1_C120	WampachL_2018	I_C120	stool	no	control	0	1	newborn	male	LUX	no	IlluminaHiSeq	PowerSoil	30504906	68724	9350897	40	151	SRR5575415	Mireia_VallesColomer	WampachL_2018_C120	0	c_section
+V2_C100	WampachL_2018	I_C100	stool	no	control	0	3	newborn	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	26469814	3949873506	40	151	SRR5575361	Mireia_VallesColomer	WampachL_2018_C100	0	vaginal
+V2_C101	WampachL_2018	I_C101	stool	no	control	0	3	newborn	male	LUX	no	IlluminaHiSeq	PowerSoil	30504906	37830514	5684251739	40	151	SRR5575418	Mireia_VallesColomer	WampachL_2018_C101	2	c_section
+V2_C105	WampachL_2018	I_C105	stool	no	control	0	3	newborn	male	LUX	no	IlluminaNextSeq	PowerSoil	30504906	44180198	6215258188	40	149	SRR7716236	Mireia_VallesColomer	WampachL_2018_C105	0	vaginal
+V2_C106	WampachL_2018	I_C106	stool	no	control	0	3	newborn	male	LUX	no	IlluminaHiSeq	PowerSoil	30504906	34285898	5136229500	40	151	SRR5575360	Mireia_VallesColomer	WampachL_2018_C106	2	vaginal
+V2_C109	WampachL_2018	I_C109	stool	no	control	0	3	newborn	male	LUX	no	IlluminaNextSeq	PowerSoil	30504906	51542376	7249224115	40	149	SRR7716239	Mireia_VallesColomer	WampachL_2018_C109	2	vaginal
+V2_C110	WampachL_2018	I_C110	stool	no	control	0	3	newborn	male	LUX	no	IlluminaNextSeq	PowerSoil	30504906	39915360	5643665586	40	149	SRR7716249	Mireia_VallesColomer	WampachL_2018_C110	2	vaginal
+V2_C111	WampachL_2018	I_C111	stool	no	control	0	3	newborn	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	40491304	6054881929	40	151	SRR5575363	Mireia_VallesColomer	WampachL_2018_C111	2	vaginal
+V2_C112	WampachL_2018	I_C112	stool	no	control	0	3	newborn	male	LUX	no	IlluminaHiSeq	PowerSoil	30504906	33654106	5049834693	40	151	SRR5575367	Mireia_VallesColomer	WampachL_2018_C112	0	c_section
+V2_C114	WampachL_2018	I_C114	stool	no	control	0	3	newborn	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	23370638	3492952396	40	151	SRR5575420	Mireia_VallesColomer	WampachL_2018_C114	0	c_section
+V2_C115	WampachL_2018	I_C115	stool	no	control	0	3	newborn	male	LUX	no	IlluminaHiSeq	PowerSoil	30504906	33854414	5085928380	40	151	SRR5575366	Mireia_VallesColomer	WampachL_2018_C115	2	c_section
+V2_C116	WampachL_2018	I_C116	stool	no	control	0	3	newborn	male	LUX	no	IlluminaHiSeq	PowerSoil	30504906	33242584	4987274978	40	151	SRR5575417	Mireia_VallesColomer	WampachL_2018_C115	0	c_section
+V2_C117	WampachL_2018	I_C117	stool	no	control	0	3	newborn	male	LUX	no	IlluminaHiSeq	PowerSoil	30504906	35582060	5326307721	40	151	SRR5575362	Mireia_VallesColomer	WampachL_2018_C117	0	vaginal
+V2_C118	WampachL_2018	I_C118	stool	no	control	0	3	newborn	male	LUX	no	IlluminaHiSeq	PowerSoil	30504906	34025092	5092325096	40	151	SRR5575365	Mireia_VallesColomer	WampachL_2018_C118	2	c_section
+V2_C119	WampachL_2018	I_C119	stool	no	control	0	3	newborn	female	LUX	no	IlluminaNextSeq	PowerSoil	30504906	23961126	3381871442	40	149	SRR7716240	Mireia_VallesColomer	WampachL_2018_C119	0	c_section
+V2_C120	WampachL_2018	I_C120	stool	no	control	0	3	newborn	male	LUX	no	IlluminaHiSeq	PowerSoil	30504906	23080374	3459585923	40	151	SRR5575364	Mireia_VallesColomer	WampachL_2018_C120	2	c_section
+V3_C100	WampachL_2018	I_C100	stool	no	control	0	5	newborn	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	29077142	4345754181	40	151	SRR5575421	Mireia_VallesColomer	WampachL_2018_C100	2	vaginal
+V3_C101	WampachL_2018	I_C101	stool	no	control	0	5	newborn	male	LUX	no	IlluminaHiSeq	PowerSoil	30504906	25420112	3808226668	40	151	SRR5575354	Mireia_VallesColomer	WampachL_2018_C101	4	c_section
+V3_C105	WampachL_2018	I_C105	stool	no	control	0	5	newborn	male	LUX	no	IlluminaNextSeq	PowerSoil	30504906	64146966	8984607161	40	149	SRR7716241	Mireia_VallesColomer	WampachL_2018_C105	2	vaginal
+V3_C106	WampachL_2018	I_C106	stool	no	control	0	5	newborn	male	LUX	no	IlluminaHiSeq	PowerSoil	30504906	24164620	3622256055	40	151	SRR5575565	Mireia_VallesColomer	WampachL_2018_C106	4	vaginal
+V3_C110	WampachL_2018	I_C110	stool	no	control	0	5	newborn	male	LUX	no	IlluminaNextSeq	PowerSoil	30504906	51028910	7046402251	40	149	SRR7716242	Mireia_VallesColomer	WampachL_2018_C110	4	vaginal
+V3_C111	WampachL_2018	I_C111	stool	no	control	0	5	newborn	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	57079238	8539124339	40	151	SRR5575423	Mireia_VallesColomer	WampachL_2018_C111	4	vaginal
+V3_C112	WampachL_2018	I_C112	stool	no	control	0	5	newborn	male	LUX	no	IlluminaHiSeq	PowerSoil	30504906	12193038	1822996747	40	151	SRR5575426	Mireia_VallesColomer	WampachL_2018_C112	2	c_section
+V3_C113	WampachL_2018	I_C113	stool	no	control	0	5	newborn	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	25956520	3897153872	40	151	SRR5575620	Mireia_VallesColomer	WampachL_2018_C113	4	c_section
+V3_C114	WampachL_2018	I_C114	stool	no	control	0	5	newborn	female	LUX	no	IlluminaHiSeq	PowerSoil	30504906	21368370	3193729726	40	151	SRR5575656	Mireia_VallesColomer	WampachL_2018_C114	2	c_section
+V3_C115	WampachL_2018	I_C115	stool	no	control	0	5	newborn	male	LUX	no	IlluminaHiSeq	PowerSoil	30504906	28895134	4338518827	40	151	SRR5575357	Mireia_VallesColomer	WampachL_2018_C115	4	c_section
+V3_C116	WampachL_2018	I_C116	stool	no	control	0	5	newborn	male	LUX	no	IlluminaHiSeq	PowerSoil	30504906	25468432	3822744177	40	151	SRR5575355	Mireia_VallesColomer	WampachL_2018_C115	2	c_section
+V3_C117	WampachL_2018	I_C117	stool	no	control	0	5	newborn	male	LUX	no	IlluminaHiSeq	PowerSoil	30504906	25141742	3769234292	40	151	SRR5575424	Mireia_VallesColomer	WampachL_2018_C117	2	vaginal
+V3_C118	WampachL_2018	I_C118	stool	no	control	0	5	newborn	male	LUX	no	IlluminaHiSeq	PowerSoil	30504906	27675056	4148326266	40	151	SRR5575425	Mireia_VallesColomer	WampachL_2018_C118	4	c_section
+V3_C119	WampachL_2018	I_C119	stool	no	control	0	5	newborn	female	LUX	no	IlluminaNextSeq	PowerSoil	30504906	32618172	4580083703	40	149	SRR7716243	Mireia_VallesColomer	WampachL_2018_C119	2	c_section
+V3_C120	WampachL_2018	I_C120	stool	no	control	0	5	newborn	male	LUX	no	IlluminaHiSeq	PowerSoil	30504906	27284882	4099547027	40	151	SRR5575429	Mireia_VallesColomer	WampachL_2018_C120	4	c_section

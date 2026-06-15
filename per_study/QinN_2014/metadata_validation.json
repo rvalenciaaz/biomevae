@@ -1,0 +1,174 @@
+{
+  "essential_columns": {
+    "sample_id": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "study_name": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "body_site": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "disease": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    }
+  },
+  "recommended_columns": {
+    "sample_id": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "study_name": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "body_site": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "disease": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "individual_id": {
+      "present": false,
+      "n_missing": 237,
+      "pct_complete": 0.0
+    },
+    "age": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "sex": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "bmi": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "country": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "antibiotics_current_use": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "sequencing_platform": {
+      "present": true,
+      "n_missing": 0,
+      "pct_complete": 100.0
+    },
+    "dna_extraction_kit": {
+      "present": false,
+      "n_missing": 237,
+      "pct_complete": 0.0
+    }
+  },
+  "unique_samples": {
+    "n_total": 237,
+    "n_unique": 237,
+    "has_duplicates": false,
+    "n_duplicate_ids": 0,
+    "duplicate_ids": []
+  },
+  "batch_variables": {
+    "study_name": {
+      "n_levels": 1,
+      "n_present": 237,
+      "pct_present": 100.0,
+      "top_levels": {
+        "QinN_2014": 237
+      },
+      "min_group_size": 237,
+      "max_group_size": 237
+    },
+    "sequencing_platform": {
+      "n_levels": 1,
+      "n_present": 237,
+      "pct_present": 100.0,
+      "top_levels": {
+        "IlluminaHiSeq": 237
+      },
+      "min_group_size": 237,
+      "max_group_size": 237
+    },
+    "country": {
+      "n_levels": 1,
+      "n_present": 237,
+      "pct_present": 100.0,
+      "top_levels": {
+        "CHN": 237
+      },
+      "min_group_size": 237,
+      "max_group_size": 237
+    }
+  },
+  "confounding_checks": [
+    {
+      "target_col": "disease",
+      "batch_col": "study_name",
+      "computable": true,
+      "n_studies": 1,
+      "n_target_levels": 2,
+      "single_label_studies": 0,
+      "pct_single_label": 0.0,
+      "perfectly_confounded": false,
+      "crosstab_head": {
+        "cirrhosis": {
+          "QinN_2014": 123
+        },
+        "control": {
+          "QinN_2014": 114
+        }
+      }
+    }
+  ],
+  "study_balance": {
+    "computable": true,
+    "n_studies": 1,
+    "total_samples": 237,
+    "mean_samples_per_study": 237.0,
+    "median_samples_per_study": 237.0,
+    "min_samples": 237,
+    "max_samples": 237,
+    "per_study": {
+      "QinN_2014": 237
+    }
+  },
+  "single_study_candidates": [
+    {
+      "study_name": "QinN_2014",
+      "n_samples": 237,
+      "diseases": [
+        "control",
+        "cirrhosis"
+      ],
+      "n_disease_levels": 2,
+      "body_sites": [
+        "stool"
+      ],
+      "study_name_pct_complete": 100.0,
+      "sequencing_platform_pct_complete": 100.0,
+      "country_pct_complete": 100.0
+    }
+  ]
+}

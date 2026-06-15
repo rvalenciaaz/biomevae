@@ -1,0 +1,16 @@
+name: biomevae
+channels:
+  - pytorch
+  - conda-forge
+dependencies:
+  - python>=3.9
+  - numpy>=1.23
+  - pandas>=1.5
+  - pytorch>=1.12
+  - scikit-learn>=1.2
+  - scipy>=1.7
+  - pip
+  - pip:
+      - optuna>=3.2
+      - geoopt>=0.5.0
+      - biomevae @ file:.

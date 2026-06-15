@@ -1,0 +1,42 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,mathtools}
+\title{TreeStructuredPriorVAE: Mathematical Formulation}
+\date{}
+\begin{document}
+\maketitle
+
+\section{Model}
+Posterior and decoder follow a standard VAE:
+\begin{equation}
+(\mu_q,\log\sigma_q^2)=g_\phi(x),\quad q_\phi(z\mid x)=\mathcal N(\mu_q,\operatorname{diag}(\sigma_q^2)),\quad \hat x=f_\theta(z).
+\end{equation}
+
+\section{Conditional tree prior}
+Learn node-level prior parameters $(\mu_v^{(p)},\log\sigma_v^{2,(p)})$. Using normalized sample weights $w$ and feature-selector indices $S$:
+\begin{equation}
+\mu_p(x)=\sum_{i=1}^p w_i\mu_{S_i}^{(p)},\qquad
+\sigma_p^2(x)=\sum_{i=1}^p w_i\sigma_{S_i}^{2,(p)}.
+\end{equation}
+Hence
+\begin{equation}
+p(z\mid x)=\mathcal N\big(\mu_p(x),\operatorname{diag}(\sigma_p^2(x))\big).
+\end{equation}
+
+\section{Branch regularizer}
+\begin{equation}
+\mathcal R_{\mathrm{branch}}
+=\lambda_b\frac{1}{|E|}\sum_{(u,v)\in E}a_{uv}\left(\|\mu_u^{(p)}-\mu_v^{(p)}\|_2^2+\|\log\sigma_u^{2,(p)}-\log\sigma_v^{2,(p)}\|_2^2\right).
+\end{equation}
+
+\section{KL to conditional prior}
+\begin{equation}
+\mathrm{KL}(q\|p)=\frac12\sum_j\left[\log\frac{\sigma_{p,j}^2}{\sigma_{q,j}^2}+\frac{\sigma_{q,j}^2+(\mu_{q,j}-\mu_{p,j})^2}{\sigma_{p,j}^2}-1\right].
+\end{equation}
+
+\section{Objective}
+\begin{equation}
+\mathcal J(x)=\mathcal L_{\mathrm{rec}}(x,\hat x)+\beta_t\,\mathrm{KL}(q_\phi(z\mid x)\|p(z\mid x))+\mathcal R_{\mathrm{branch}}.
+\end{equation}
+
+\end{document}

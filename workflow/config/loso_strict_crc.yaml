@@ -1,0 +1,122 @@
+# ─── biomevae STRICT LOSO pipeline – CRC group config ────────────────
+#
+# Strict leave-one-study-out: one encoder per (model, held_out) fold,
+# trained on N-1 studies only.  See ``workflow/Snakefile.loso_strict``
+# and ``workflow/rules/loso_strict.smk`` for the rule graph.
+#
+# Compute cost vs. the non-strict pipeline:
+#     non-strict: 1 training × 100 Optuna trials per model
+#     strict:     N trainings × 100 Optuna trials per model  (N = #studies)
+# For the CRC group with 11 cohorts and 6 VAE models that is ~6,600
+# encoder fits, so the SLURM submission script reserves more nodes
+# than the non-strict run.
+#
+# Launch with::
+#
+#     snakemake -s workflow/Snakefile.loso_strict \
+#               --configfile workflow/config/loso_strict_crc.yaml \
+#               --cores 16
+#
+# or, on HPC::
+#
+#     sbatch hpc/run_snakemake_loso_strict.slurm
+# ────────────────────────────────────────────────────────────────────
+
+# Where per-study extracts produced by extract-microbiome-data live.
+data_root:   "/path/to/extracted_studies"
+# Where merged datasets, models, classification results, diagnostics,
+# and the final loso_summary.tsv are written.  The strict pipeline
+# writes under ``<output_root>/loso_strict/<disease_group>/``, parallel
+# to the non-strict pipeline's ``<output_root>/loso/<disease_group>/``.
+output_root: "/path/to/biomevae_loso_runs"
+
+# Short identifier used in the output folder layout
+# (``<output_root>/loso_strict/<disease_group>/...``).
+disease_group: "crc"
+
+# CRC cohorts in the cMD registry.
+loso_studies:
+  - FengQ_2015
+  - VogtmannE_2016
+  - ZellerG_2014
+  - YuJ_2015
+  - WirbelJ_2018
+  - YachidaS_2019
+  - ThomasAM_2018a
+  - ThomasAM_2018b
+  - ThomasAM_2019_c
+  - HanniganGD_2017
+  - GuptaA_2019
+
+# Same model sweep as the non-strict pipeline so the two output tables
+# (strict ``loso_summary.tsv`` vs. non-strict ``loso_summary.tsv``) line
+# up row-for-row and the strict-vs-shared gap can be read directly per
+# (model, held_out) cell.
+loso_models:
+  - hyp-philrvae       # replaces the legacy hyp-philr-zinb alias (no separate ZINB likelihood exists)
+  - tree-dtm-vae
+  - diva-tree-dtm-vae
+  - diva-hyp-philr-nb
+  - diva-beta-vae
+  - beta-vae
+  - phylodiva-tree-dtm-vae
+  - phylodiva-hyp-philr-nb
+  - phylodiva-beta-vae
+  # TAXI – taxonomy-protected conditional invariance on top of the
+  # Tree-DTM DIVA backbone (see src/biomevae/models/taxi_treedtmvae.py).
+  - taxi-tree-dtm-vae
+  # TAXI on the Hyperbolic-PhILR backbone (see
+  # src/biomevae/models/taxi_hyp_philrvae.py).
+  - taxi-hyp-philrvae
+  - xgb-baseline
+  - xgb-coral
+  # CAPDA-VAE — conditional-alignment + CLR-taxonomy VAE whose domain-aware
+  # OOF invariant prediction is stacked with the raw features (this work).
+  - capda-vae
+
+# Per-model latent-slice override for classification.  DIVA models
+# default to ``z_y``; non-DIVA models default to the full latent.
+loso_latent_slice: {}
+
+# Classification label column on sample_metadata.tsv.
+label: "disease"
+
+# Reference class for the control-anchor diagnostic.
+control_value: "healthy"
+
+# Training args forwarded to every train CLI.  Same Optuna budget as
+# the non-strict pipeline — every fold runs an independent N-trial
+# search so each fold's encoder is hyperparameter-tuned on the
+# train-only val pool.  The strict pipeline therefore performs N×
+# more total Optuna trials than the non-strict pipeline.
+extra_args: "--epochs 200 --optuna --optuna-trials 100"
+
+# Optional: path to a JSON Optuna search-space override applied to
+# every DIVA model (forwarded as ``--optuna-config``).
+# diva_optuna_config: "configs/optuna_search_space_diva.template.json"
+
+# Per-model extra args appended to ``extra_args`` above.
+loso_extra_args:
+  # Match diva-beta-vae's preprocessing exactly so the
+  # diva-beta-vae − beta-vae gap isolates DIVA's contribution.
+  beta-vae: "--log1p"
+  # PhyloDIVA: leave empty so each trainer uses its built-in Optuna
+  # search space (which already covers lambda_critic / lambda_coral
+  # alongside the standard DIVA knobs, plus backbone-specific knobs such
+  # as lambda_tree_smooth / lambda_philr_smooth / init_concentration).
+  phylodiva-tree-dtm-vae: ""
+  phylodiva-hyp-philr-nb: ""
+  phylodiva-beta-vae:     "--log1p"
+  # TAXI uses the same Optuna search space as DIVA (latent dims, lr,
+  # alpha_y, beta_max, etc.) plus its own λ knobs that default to sane
+  # values; no per-model Optuna config is needed unless the user wants
+  # to sweep the conditional-invariance λs explicitly.
+  taxi-tree-dtm-vae:      ""
+  taxi-hyp-philrvae:      ""
+
+# 5-seed reproducibility protocol for the LOSO XGBoost classifier
+# (matches biomevae.classify.DEFAULT_EVAL_SEEDS).
+eval_seeds: [42, 43, 44, 45, 46]
+
+# Optional: path to an extract-microbiome-data checkout.
+# extract_microbiome_data_path: "/path/to/extract-microbiome-data"

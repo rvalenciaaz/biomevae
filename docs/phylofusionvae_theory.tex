@@ -1,0 +1,36 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\title{DeepPhyloFusionVAE: Mathematical Formulation}
+\date{}
+\begin{document}
+\maketitle
+
+\section{Phylogenetic side channel}
+Given embedding matrix $E_{\mathrm{phy}}\in\mathbb R^{p\times d_p}$ and nonnegative normalized weights $\tilde w$ from sample features:
+\begin{equation}
+\bar e(x)=\sum_{i=1}^p \tilde w_i E_{\mathrm{phy},i}.
+\end{equation}
+
+\section{Fusion encoder and decoder}
+Concatenate
+\begin{equation}
+h_0=[x;\bar e(x)]\in\mathbb R^{p+d_p},
+\end{equation}
+then
+\begin{equation}
+(\mu,\log\sigma^2)=g_\phi(h_0),
+\qquad
+q_\phi(z\mid x)=\mathcal N(\mu,\operatorname{diag}(\sigma^2)).
+\end{equation}
+Sample $z=\mu+\sigma\odot\varepsilon$, $\varepsilon\sim\mathcal N(0,I)$ and decode
+\begin{equation}
+\hat x=f_\theta(z).
+\end{equation}
+
+\section{Objective}
+\begin{equation}
+\mathcal J(x)=\mathcal L_{\mathrm{rec}}(x,\hat x)+\beta_t\,\mathrm{KL}(q_\phi(z\mid x)\|\mathcal N(0,I)).
+\end{equation}
+
+\end{document}
