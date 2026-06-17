@@ -1,4 +1,4 @@
-mi# biomevae
+# biomevae
 
 A family of variational autoencoders for sparse [samples × features] microbiome
 abundance tables, including compositional, taxonomy-aware, hyperbolic, and
