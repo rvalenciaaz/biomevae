@@ -1,4 +1,4 @@
-# biomevae
+mi# biomevae
 
 A family of variational autoencoders for sparse [samples × features] microbiome
 abundance tables, including compositional, taxonomy-aware, hyperbolic, and
@@ -528,147 +528,13 @@ variable for the `.slurm` wrapper) is used in SLURM job labels and in the
 titles of every generated figure and LaTeX table, so the same pipeline can
 be reused unchanged for any single-study dataset.
 
-## HPC submission (SLURM)
-
-The `hpc/` directory implements a **3-stage pipeline** for general-purpose
-model training, plus the end-to-end single-study pipeline described above:
-1. parallel model training,
-2. parallel per-model post-processing,
-3. global aggregation + figure/report generation.
-
-### Prerequisites
-
-- A SLURM-managed HPC cluster (GPU partition for training/post-processing).
-- A conda/mamba environment with this package installed.
-- Optional taxonomy table (`phyla.tsv`) for taxonomy-aware models.
-
-Environment variables used by the scripts (with defaults):
-
-- `MAMBA_ROOT_PREFIX=/hpc-home/her24bip/.local/share/mamba`
-- `MAMBA_EXEC=/hpc-home/her24bip/miniconda3/condabin/mamba`
-- `CONDA_ENV=biomevae`
-
-These defaults are defined in:
-- `hpc/train_model.sh`
-- `hpc/postprocess_model.sh`
-- `hpc/aggregate_results.sh`
-
----
-
-### Stage 1 — Submit all training jobs
-
-```bash
-./hpc/submit_all.sh \
-  --input /path/to/sgb_table.tsv \
-  --taxonomy /path/to/phyla.tsv \
-  --outdir /path/to/results
-```
-
-Notes:
-- `--taxonomy` is optional globally. If omitted, taxonomy-dependent models are skipped.
-- One SLURM job is submitted per model; each model writes to `<outdir>/<model-name>/`.
-- Extra training flags can be forwarded to every model CLI with `--extra-args`.
-
-Example:
-
-```bash
-./hpc/submit_all.sh \
-  --input sgb_table.tsv \
-  --taxonomy phyla.tsv \
-  --outdir runs/hpc \
-  --extra-args "--epochs 500 --optuna --optuna-trials 50"
-```
-
-Dry run:
-
-```bash
-./hpc/submit_all.sh --input sgb_table.tsv --outdir runs/hpc --dry-run
-```
-
-Models currently handled by the pipeline:
-- `beta-vae`
-- `vanilla-vae`
-- `hyp-vae`
-- `tax-vae` *(requires taxonomy)*
-- `hyp-tax-vae` *(requires taxonomy)*
-- `graph-vae` *(requires taxonomy)*
-- `treeprior-vae` *(requires taxonomy)*
-- `fuse-vae` *(requires taxonomy)*
-- `tree-dtm-vae` *(requires taxonomy)*
-- `philrvae` *(requires taxonomy)*
-- `hyp-philrvae` *(requires taxonomy)*
-- `diva-betavae` / `diva-hyp-philrvae` / `diva-tree-dtm-vae` *(requires `--domain-col`; taxonomy for the PhILR / tree backbones)*
-- `phylodiva-betavae` / `phylodiva-hyp-philrvae` / `phylodiva-tree-dtm-vae` *(requires `--domain-col`; PhILR and tree variants also require taxonomy)*
-- `capda-vae` *(single-study; requires taxonomy + metadata label — multi-resolution CLR taxonomy bias + leak-free stratified-K-fold OOF stacking)*
-
----
-
-### Stage 2 — Submit all post-processing jobs
-
-After training, run:
-
-```bash
-./hpc/submit_all_postprocess.sh \
-  --input /path/to/sgb_table.tsv \
-  --taxonomy /path/to/phyla.tsv \
-  --outdir /path/to/results
-```
-
-Per model, post-processing executes:
-1. `biomevae-test --export`
-2. `biomevae-embed --export-recon`
-3. `biomevae-interpret`
-4. `biomevae-interpret --taxonomy-level genus` *(only if taxonomy was provided)*
-
-Important behavior:
-- `flowxformer` is skipped for `biomevae-test` and `biomevae-interpret` in the helper script.
-- `hgvae_zi` and `flowxformer` are skipped for `biomevae-interpret`.
-- If you pass `--train-jobids`, post-processing jobs are dependency-chained using `--dependency=afterok:<jobid>`.
-
-Example with dependencies:
-
-```bash
-./hpc/submit_all_postprocess.sh \
-  --input sgb_table.tsv \
-  --taxonomy phyla.tsv \
-  --outdir runs/hpc \
-  --train-jobids 12345,12346,12347,12348,12349,12350,12351,12352,12353,12354
-```
-
----
-
-### Stage 3 — Aggregate all results
-
-Submit aggregation with exported variables (recommended pattern):
-
-```bash
-OUTDIR=/path/to/results \
-INPUT=/path/to/sgb_table.tsv \
-TAXONOMY=/path/to/phyla.tsv \
-sbatch hpc/aggregate_results.slurm
-```
-
-If no taxonomy is available, set `TAXONOMY=none`.
-
-The aggregation script produces `<outdir>/aggregate/` and runs:
-1. test metric collection (`aggregate/test_summary.tsv`),
-2. multi-model training-curve plotting,
-3. embedding discovery,
-4. `biomevae-allcomp`,
-5. figure generation (`benchmark`, `violin`, `pairwise`, `hierarchy`, `recon-scatter`),
-6. enterosignature figures,
-7. benchmark slide deck,
-8. cross-model interpretation comparison.
-
----
-
 ### SLURM defaults
 
 Training/post-processing defaults (`hpc/train_model.slurm`, `hpc/postprocess_model.slurm`):
 
 | Resource | Value |
 |----------|-------|
-| Partition | `ei-gpu` |
+| Partition | `*-gpu` |
 | Wall time | 96h (train), 24h (postprocess) |
 | CPUs | 20 |
 | Memory | 128G |
@@ -678,7 +544,7 @@ Classification/figures/aggregation defaults (`hpc/classify_model.slurm`, `hpc/ge
 
 | Resource | Value |
 |----------|-------|
-| Partition | `ei-short` |
+| Partition | *-short` |
 | Wall time | 2h |
 | CPUs | 4 |
 | Memory | 16G |
